@@ -1,8 +1,8 @@
 {
-  "name": "cookie",
-  "version": "1.0.0",
-  "description": "Landing website with blog using Jekyll and TailwindCSS",
-  "homepage": "https://cookie-demo.netlify.app",
+  "name": "glitchsecure-website",
+  "version": "0.0.1",
+  "description": "Company website built using Jekyll and TailwindCSS",
+  "homepage": "https://glitchsecure.com",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.4.0",
@@ -12,7 +12,6 @@
     "postcss-import": "14.0.0",
     "tailwindcss": "^3.0.15"
   },
-  "author": "Abhinav Saxena",
-  "license": "MIT",
+  "author": "Glitch Secure Labs",
   "dependencies": {}
 }
