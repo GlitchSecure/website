@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Cookie
+title: About Page
 permalink: /about/
 ---
 Lorem Ipsum
