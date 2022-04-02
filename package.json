@@ -1,8 +1,13 @@
 {
   "name": "glitchsecure-website",
-  "version": "0.0.1",
+  "author": "Glitch Secure Labs",
   "description": "Company website built using Jekyll and TailwindCSS",
   "homepage": "https://glitchsecure.com",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npx esbuild vendor/*.js --outfile=assets/js/bundle.js --bundle && bundle exec jekyll serve --livereload --drafts --future --port 4061 --livereload_port 35729",
+    "build": "npx esbuild vendor/*.js --outfile=assets/js/bundle.js --bundle && JEKYLL_ENV=production bundle exec jekyll build"
+  },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.4.0",
@@ -12,6 +17,8 @@
     "postcss-import": "14.0.0",
     "tailwindcss": "^3.0.15"
   },
-  "author": "Glitch Secure Labs",
-  "dependencies": {}
+  "dependencies": {
+    "alpinejs": "^3.9.5",
+    "esbuild": "^0.14.29"
+  }
 }
