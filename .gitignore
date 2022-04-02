@@ -1,9 +1,8 @@
 *.gem
 .bundle
 .jekyll-cache
-.sass-cache
+.jekyll-image-optim-cache
+assets/js/bundle.js
+node_modules
 _site
 Gemfile.lock
-node_modules
-assets/js/bundle.js
-.jekyll-image-optim-cache

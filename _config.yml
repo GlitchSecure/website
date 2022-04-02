@@ -44,15 +44,12 @@ jekyll_image_optim:
     svgo: false
 
 exclude:
+  - node_modules
+  - vendor
   - Gemfile
   - Gemfile.lock
-  - node_modules
   - package.json
   - package-lock.json
-  - README.md
   - postcss.config.js
-  - purgecss.config.js
+  - README.md
   - tailwind.config.js
-  - .gitignore
-  - vendor
-  -
