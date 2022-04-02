@@ -7,5 +7,6 @@ gem "jekyll-postcss"
 gem "jekyll-minifier"
 gem 'jekyll-sitemap'
 gem "rouge"
-
 gem "webrick", "~> 1.7"
+gem "image_optim"
+gem "image_optim_pack"

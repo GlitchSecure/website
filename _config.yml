@@ -15,6 +15,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
+jekyll_image_optim:
+  image_optim:
+    allow_lossy: true
+    advpng:
+      level: 2
+    optipng:
+      level: 2
+# Enable these if you want extra optimization:
+    pngout: true
+    svgo: false
+
+
 css_dir: "assets/css" # defaults to "css"
 
 highlighter: rouge
