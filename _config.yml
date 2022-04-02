@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/"
-url: https://cookie-demo.netlify.app # change this URL, this is needed for generating right sitemap
+url: https://dev.glitchsecure.net # change this URL, this is needed for generating right sitemap
 companyname: Demo LTD.
 
 permalink: "/blog/:title/"
@@ -15,16 +15,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
-jekyll_image_optim:
-  image_optim:
-    allow_lossy: true
-    advpng:
-      level: 2
-    optipng:
-      level: 2
-# Enable these if you want extra optimization:
-    pngout: true
-    svgo: false
 
 
 css_dir: "assets/css" # defaults to "css"
@@ -43,8 +33,16 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
 
-twitter:
-  card: summary_large_image
+jekyll_image_optim:
+  image_optim:
+    allow_lossy: true
+    advpng:
+      level: 2
+    optipng:
+      level: 2
+# Enable these if you want extra optimization:
+    pngout: false
+    svgo: false
 
 exclude:
   - Gemfile
@@ -58,3 +56,4 @@ exclude:
   - tailwind.config.js
   - .gitignore
   - vendor
+  -
