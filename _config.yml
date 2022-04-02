@@ -31,6 +31,8 @@ collections:
 jekyll-minifier:
   uglifier_args:
     harmony: true
+  exclude: ".well-known/security.txt"
+  exclude: "publickey.asc"
 
 jekyll_image_optim:
   image_optim:
