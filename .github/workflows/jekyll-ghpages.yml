@@ -39,4 +39,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+          GITHUB_REPOSITORY_PUBLIC: "GlitchSecure/public-website"
+          GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}          
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
