@@ -1,6 +1,9 @@
 ---
 layout: blog
-title: About Cookie
+title: "Blog"
+tagline: "A sporadic archive of things learned, discovered, and shared."
 permalink: /blog/
-intro: You can write your blog intro here.
+image:
+  feature:
+  hero:
 ---
