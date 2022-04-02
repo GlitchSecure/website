@@ -12,7 +12,8 @@ Start a localy hosted development preview.
 Build a local copy of the production site.
 `npm run build`
 
-To make changes to the main site, push to the `dev` branch and create a PR for the `main` branch. Or just push commits directly to main if you want to live dangerously.
+Publish any committed changes to github pages. This pushes the code to `main` and triggers the build scripts.
+`npm run publish`
 
 
 ## Publishing to Github Pages
