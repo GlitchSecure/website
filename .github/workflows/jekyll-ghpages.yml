@@ -12,6 +12,14 @@ jobs:
      steps:
       - name: GitHub Checkout
         uses: actions/checkout@v3
+        # checkout the private repo containing the action to run
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v3
+        with:
+          repository: GlitchSecure/jekyll4-deploy-gh-pages
+          ref: refs/heads/main
+          token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
+          path: .github/actions/jekyll4-deploy-gh-pages
       - name: Bundler Cache
         uses: actions/cache@v3
         with:
@@ -27,7 +35,7 @@ jobs:
         run: npm run esbuild
 
       - name: Build & Deploy to GitHub Pages
-        uses: glitchsecure/jekyll4-deploy-gh-pages@main
+        uses: ./.github/actions/jekyll4-deploy-gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
