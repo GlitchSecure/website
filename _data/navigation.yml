@@ -1,8 +1,16 @@
+- title: Platform
+  url: /platform/
+
+- title: Services
+  url: #
+  dropdown: true
+
+- title: Articles
+  url: /articles/
+
 - title: About
   url: /about/
 
-- title: Blog
-  url: /blog/
 
 - title: Contact
   url: /contact/
