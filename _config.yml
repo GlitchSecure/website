@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 url: https://glitchsecure.com # where is the production site located?
-companyname: Demo LTD.
+companyname: GlitchSecure
 
 permalink: "/blog/:title/"
 
@@ -29,10 +29,13 @@ collections:
     permalink: "/:title"
 
 jekyll-minifier:
+  exclude: "*.txt"
+  exclude: "publickey.asc"
+  exclude: "feed.xml"
+  exclude: "security.md"
   uglifier_args:
     harmony: true
-  exclude: ".well-known/security.txt"
-  exclude: "publickey.asc"
+
 
 jekyll_image_optim:
   image_optim:
