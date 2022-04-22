@@ -1,8 +1,13 @@
   <div class="antialiased bg-white">
   <div class="w-full text-gray-700 bg-white">
     <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 h-16">
-      <div class="flex flex-row items-center justify-between p-4 h-16">
-        <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">GlitchSecure</a>
+      <div class="flex flex-shrink-0 items-center justify-between p-4 h-16">
+        <a href="{{ site.url }}">
+          <img class="block lg:hidden h-8 w-auto" src="{{ site.url }}/assets/img/logo-icon.png">
+          <img class="hidden lg:block h-8 w-auto" src="{{ site.url }}/assets/img/logo-wordmark.svg">
+
+        </a>
+        <!-- mobile menu button -->
         <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
           <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
             <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -15,6 +20,7 @@
 
           {% if page.url == item.url %}
             <a href="{{ item.url }}" class="border-indigo-500 text-sm font-semibold text-gray-900 inline-flex items-center px-6 py-5 border-b-2 text-sm font-medium">{{ item.title }}</a>
+
           {% elsif item.dropdown %}
           <div @click.away="open = false" class="relative" x-data="{ open: false }">
             <button @click="open = !open" class="border-transparent text-sm font-semibold text-gray-700 hover:border-gray-300 hover:text-gray-900 inline-flex items-center px-6 py-5 border-b-2 text-sm font-medium {% if page.is_service %}border-indigo-500 {% endif %}">
@@ -25,7 +31,7 @@
               <div class="px-2 pt-2 pb-4 bg-white rounded-md shadow-lg dark-mode:bg-gray-700">
                 <div class="grid grid-cols-1 gap-4">
                   {% for item in site.data.navigation-dropdown-services %}
-                  <a class="flex flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{ item.url }}">
+                  <a class="flex row items-start rounded-lg bg-transparent p-2 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{ item.url }}">
                     <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg p-3">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="md:h-6 md:w-6 h-4 w-4"><path d="{{ item.icon }}"></path></svg>
                     </div>
@@ -47,9 +53,9 @@
 
 
         </nav>
-        <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-        <a class="px-4 py-2 mt-2 mr-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline bg-white" href="#">Login</a>
-        <button class="relative inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500">
+        <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row bg-white">
+        <a class="px-4 py-2 mt-2 mr-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline bg-white" href="https://platform.glitchsecure.com/">Login</a>
+        <button class="flex-shrink-0 block relative items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500">
           <span>Book a Demo</span>
           <svg class="inline w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
