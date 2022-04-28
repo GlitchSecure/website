@@ -2,7 +2,7 @@
 layout: blog
 title: "Articles"
 tagline: "A sporadic archive of things learned, discovered, and shared."
-permalink: /articles/
+permalink: /blog/
 image:
   feature:
   hero:
