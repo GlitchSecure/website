@@ -14,7 +14,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
-
+postcss:
+  cache: false
 
 css_dir: "assets/css" # defaults to "css"
 
