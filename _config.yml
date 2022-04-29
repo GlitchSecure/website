@@ -49,6 +49,11 @@ jekyll_image_optim:
     pngout: false
     svgo: false
 
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
+
 exclude:
   - node_modules
   - vendor
