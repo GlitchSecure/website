@@ -6,7 +6,7 @@ Includes NPM scripts for running locally with livereload, JS bundling using esbu
 ## Usage
 Clone repo and install dependencies
 ```
-git clone git@github.com:GlitchSecure/jekyll4-deploy-gh-pages.git
+git clone git@github.com:GlitchSecure/website.git
 bundle install && npm install
 ```
 
