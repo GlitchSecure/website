@@ -6,6 +6,12 @@ description: > # this means to ignore newlines until "show_excerpts:"
 url: https://glitchsecure.com # where is the production site located?
 companyname: GlitchSecure
 
+# Social media links
+social:
+  twitter: glitchsecure
+  linkedin: glitchsecure
+  github: glitchsecure
+
 permalink: "/blog/:title/"
 
 plugins:
