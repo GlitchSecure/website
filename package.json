@@ -6,7 +6,7 @@
   "version": "0.0.2",
   "scripts": {
     "esbuild": "npx esbuild vendor/*.js --outfile=assets/js/bundle.js --bundle",
-    "start": "npm run esbuild && bundle exec jekyll serve --livereload --drafts --future --port 4061 --livereload_port 35729",
+    "start": "npm run esbuild && bundle exec jekyll serve --livereload --drafts --future --host localhost --port 4061 --livereload_port 35729",
     "build": "npm run esbuild && JEKYLL_ENV=production bundle exec jekyll build",
     "publish": "npm run build && echo '\nEverything looks good! Pushing to main...\n' && git push origin main"
   },
