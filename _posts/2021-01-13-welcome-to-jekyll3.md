@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Blog Title 1"
+title:  "Blog Title 3"
 tagline: "A catchy tagline"
 description: "A description"
 tags: [notes, hardware]
-date:   2021-08-30
+date:   2022-01-04
 author: GlitchWitch
 category: category
 comments: true
