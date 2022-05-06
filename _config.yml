@@ -40,6 +40,7 @@ jekyll-minifier:
   exclude: "publickey.asc"
   exclude: "feed.xml"
   exclude: "security.md"
+  compress_css: false
   uglifier_args:
     harmony: true
 
