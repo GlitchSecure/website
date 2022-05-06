@@ -28,11 +28,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Run esbuild JS bundler
-        run: npm run esbuild
 
       - name: Build & Deploy to GitHub Pages
         uses: ./.github/actions/jekyll4-deploy-gh-pages
@@ -40,5 +35,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_REPOSITORY_PUBLIC: "GlitchSecure/public-website"
-          GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}          
+          GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
