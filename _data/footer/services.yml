@@ -1,8 +1,5 @@
-- title: "Security Assesments"
-  url:
+- title: "Platform"
+  url: /platform/
 
-- title: "Automated Pentests"
-  url:
-
-- title: "Expert Advice"
-  url:
+- title: "Automation"
+  url: /automation/
