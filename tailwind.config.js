@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const withAnimations = require('animated-tailwindcss');
 
-module.exports = {
+module.exports = withAnimations({
   content: ['*.html', '_site/*.html','_site/**/*.html', '_pages/**/*.md', '_posts/**/*.md', '_layouts/**/*.html', '_includes/**/*.html'],
   theme: {
     extend: {
@@ -33,6 +34,6 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
-    require("tailgrids/plugin")
+    require("tailgrids/plugin"),
   ]
-}
+})
