@@ -2,11 +2,12 @@
 layout: home
 # Hero
 hero-text-1: "Coming Soon"
-hero-title: "Real-time security assessments"
+hero-title: "Real-time Security Assessments & Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
 hero-title-3: "Enhanced by automation & collaboration"
-hero-subtitle: "We're on a mission to secure organisations and products through a unique blend of expert insights, collaborative security assessments, and pentest automation."
-hero-button: "Request a Demo"
+hero-subtitle: "Assess your security posture instantly and collaborate with our expert security researchers to find and remediate vulnerabilities in your product."
+hero-button: "Get started"
+hero-button2: "Book a demo"
 
 # client list
 client-list-title: "Companies we've helped secure"

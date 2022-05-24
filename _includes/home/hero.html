@@ -7,9 +7,14 @@
       videoOpen: false
     }
   "
-  class="relative pt-[120px] md:pt-[150px] lg:pt-[180px] pb-[110px] bg-gradient-to-br from-[#1d162b] via-[#240f4c] to-[#221243]"
+  class="relative pb-[110px] bg-gradient-to-br from-[#1d162b] via-[#240f4c] to-[#221243]"
 >
-  <div class="container">
+
+
+<img class="opacity-[0.02]" style="position: fixed;" src="/assets/img/home/herobg.png">
+  {%- include nav2.html -%}
+
+  <div class="container pt-20">
     <div class="flex flex-wrap items-center">
       <div class="w-full lg:w-1/2 px-4">
         <div class="hero-content animate-fadeIn">
@@ -53,48 +58,47 @@
                         md:text-left">
             {{ page.hero-subtitle }}
           </p>
-          <form class="hidden md:flex flex-wrap mb-7">
-                  <input
-                     type="email"
-                     class="
-                     sm:max-w-[220px]
-                     md:max-w-[315px]
-                     lg:max-w-[250px]
-                     xl:max-w-[315px]
-                     w-full
-                     mr-3
-                     mb-3
-                     bg-zinc-900
-                     rounded
-                     border border-form-stroke
-                     text-white
-                     px-5
-                     h-[50px]
-                     text-sm
-                     outline-none
-                     focus:outline-indigo-500
-                     focus-visible:shadow-none
-                     focus:border-indigo-500
-                     "
-                     placeholder="Your work mail"
-                     />
-                  <button
-                     class="
-                     bg-gradient-to-br from-violet-500 to-violet-700
-                     hover:bg-opacity-90
-                     text-white text-sm
-                     rounded
-                     px-6
-                     mb-3
-                     h-[50px]
-                     transition
+          <div class="hidden md:flex flex-wrap mb-7">
+            <button
+               class="
+               text-base
+               font-medium
+               text-black
+               bg-neutral-300
+               rounded-lg
+               hover:bg-opacity-90
+               px-6
+               mb-3
+               mr-1
+               h-[50px]
+               transition
 
 
-                     "
-                     >
-                  {{ page.hero-button }}
-                  </button>
-               </form>
+               "
+               >
+            {{ page.hero-button }}
+            </button>
+
+            <button
+               class="
+               text-base
+               font-medium
+               text-white
+               bg-dark-purple
+               rounded-lg
+               hover:bg-opacity-90
+               px-6
+               mb-3
+               mr-1
+               h-[50px]
+               transition
+
+
+               "
+               >
+            {{ page.hero-button2 }}
+            </button>
+               </div>
         </div>
       </div>
       <div class="w-full lg:w-6/12 px-4">
@@ -1365,7 +1369,7 @@
       </svg>
     </button>
   </div>
-  <div class="w-full h-72 -mt-16 -mb-28 bg-medium-purple z-10" style="clip-path: polygon(0 99%, 100% 0%, 100% 100%, 0% 100%);">
+  <div class="w-full h-72 -mt-16 -mb-28 bg-medium-purple" style="clip-path: polygon(0 99%, 100% 0%, 100% 100%, 0% 100%);">
   </div>
 </div>
 

@@ -1,7 +1,18 @@
----
-layout: default
----
-{% include home/hero.html %}
-{% include home/features.html %}
-{% include home/platform-feature.html %}
-{% include home/cta.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="h-full">
+
+{%- include head.html -%}
+<style> [x-cloak] { display: none }</style>
+
+<body class="h-full bg-medium-purple">
+
+  {% include home/hero.html %}
+  {% include home/client-list.html %}
+  {% include home/features.html %}
+  {% include home/platform-feature.html %}
+  {% include home/cta.html %}
+
+
+</body>
+
+</html>
