@@ -23,7 +23,6 @@
               text-gray-200
               font-extrabold
               text-2xl
-              text-center
               md:text-left
               md:text-4xl
               leading-snug
@@ -37,7 +36,6 @@
             font-medium
             md:font-bold
             text-xl
-            text-center
             md:text-left
             md:text-3xl
             leading-snug
@@ -47,18 +45,16 @@
             text-violet-500
             md:font-medium
             text-lg
-            text-center
             md:text-left
             md:text-2xl
             leading-tight
             tracking-tight
             mb-5
           ">{{ page.hero-title-3 }}</h3>
-          <p class="text-sm md:text-xl mb-8 text-gray-100 max-w-xl               text-center
-                        md:text-left">
+          <p class="text-sm md:text-xl mb-8 text-gray-100 max-w-xl md:text-left">
             {{ page.hero-subtitle }}
           </p>
-          <div class="hidden md:flex flex-wrap mb-7">
+          <div class="md:flex flex-wrap mb-7">
             <a href="#"
                class="
                inline-flex
@@ -73,8 +69,6 @@
                transition
                mb-3
                mr-1
-
-
                "
                >
             {{ page.hero-button }}
@@ -82,7 +76,8 @@
 
             <a href="#"
                class="
-               inline-flex
+               hidden
+               sm:inline-flex
                text-base
                font-medium
                text-white
@@ -94,8 +89,6 @@
                transition
                mb-3
                ml-2
-
-
                "
                >
             {{ page.hero-button2 }}
@@ -103,7 +96,7 @@
                </div>
         </div>
       </div>
-      <div class="w-full lg:w-6/12 px-4">
+      <div class="hidden lg:block w-full lg:w-1/2  px-4">
         <div class="text-right mx-auto">
           <div class="relative inline-block z-10 mt-16 lg:mt-0 animate-fadeIn">
             <img
@@ -1371,7 +1364,7 @@
       </svg>
     </button>
   </div>
-  <div class="w-full h-72 -mt-16 -mb-28 bg-medium-purple" style="clip-path: polygon(0 99%, 100% 0%, 100% 100%, 0% 100%);">
+  <div class="w-full h-32 md:h-72 md:-mt-16 -mt-8 -mb-28 bg-medium-purple" style="clip-path: polygon(0 99%, 100% 0%, 100% 100%, 0% 100%);">
   </div>
 </div>
 
