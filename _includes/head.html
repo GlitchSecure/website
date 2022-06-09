@@ -4,7 +4,7 @@
 {% elsif page.tagline %}
   {% capture description %}{{ page.tagline | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
 {% else %}
-  {% capture description %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
+  {% capture description %}{{ site.description }}{% endcapture %}
 {% endif %}
 
 {% if page.title %}
