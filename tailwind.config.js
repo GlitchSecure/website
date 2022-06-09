@@ -23,7 +23,32 @@ module.exports = withAnimations({
 },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans]
-      }
+      },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.gray.200'),
+            h1: {
+              color: theme('colors.gray.200'),
+            },
+            h2: {
+              color: theme('colors.gray.300'),
+            },
+            h3: {
+              color: theme('colors.gray.300'),
+            },
+            strong: {
+              color: theme('colors.gray.300'),
+            },
+            a: {
+              color: theme('colors.violet.600'),
+              '&:hover': {
+                color: theme('colors.violet.500')
+              },
+            },
+          },
+        },
+      })
     }
   },
   variants: {
