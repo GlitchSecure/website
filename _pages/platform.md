@@ -2,6 +2,7 @@
 layout: platform
 title: Platform
 permalink: /platform/
+published: false
 
 
 # Platform Feature

@@ -1,13 +1,13 @@
-- title: Services
-  url: 
-  dropdown: true
+#- title: Services
+#  url: "/#features"
+#  dropdown: false
 
-- title: About
-  url: /about/
+#- title: About
+#  url: /about/
 
-- title: Blog
-  url: /blog/
+#- title: Blog
+#  url: /blog/
 
 
-- title: Contact
-  url: /contact/
+#- title: Contact
+#  url: mailto:contact@glitchsecure.com

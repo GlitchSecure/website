@@ -6,4 +6,5 @@ permalink: /blog/
 image:
   feature:
   hero:
+published: false
 ---
