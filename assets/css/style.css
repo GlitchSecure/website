@@ -155,3 +155,7 @@
   src: url("/assets/fonts/inter/Inter-BlackItalic.woff2?v=3.19") format("woff2"),
        url("/assets/fonts/inter/Inter-BlackItalic.woff?v=3.19") format("woff");
 }
+
+html{
+   scroll-behavior: smooth
+}
