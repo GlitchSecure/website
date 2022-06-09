@@ -55,7 +55,7 @@
             {{ page.hero-subtitle }}
           </p>
           <div class="md:flex flex-wrap mb-7">
-            <a href="#"
+            <a href="{{ page.hero-button-link }}"
                class="
                inline-flex
                text-base
@@ -74,7 +74,7 @@
             {{ page.hero-button }}
             </a>
 
-            <a href="#"
+            <a href="{{ page.hero-button2-link }}"
                class="
                hidden
                sm:inline-flex
@@ -100,11 +100,11 @@
         <div class="text-right mx-auto">
           <div class="relative inline-block z-10 mt-16 lg:mt-0 animate-fadeIn">
             <img
-              src="{{ site.url }}/assets/img/home/hero-preview.png"
+              src="{{ site.url }}/assets/img/home/hero-preview.svg"
               alt="hero"
-              class="max-w-full mx-auto self-start rounded-lg drop-shadow-2xl"
+              class="max-w-full mx-auto self-start rounded-lg"
             />
-            <div
+            <!--<div
               class="
                 absolute
                 inset-0
@@ -1283,7 +1283,7 @@
                   fill="#8B5CF6"
                 />
               </svg>
-            </span>
+            </span> -->
           </div>
         </div>
       </div>
