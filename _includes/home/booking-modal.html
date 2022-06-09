@@ -1,5 +1,5 @@
 <div
-  x-show="videoOpen"
+  x-show="bookingOpen"
   x-transition
   class="
     fixed
@@ -14,43 +14,16 @@
     bg-black bg-opacity-70
   "
 >
-  <div id="video"
-    @click.outside="videoOpen = false;player.pauseVideo()"
+  <div id="booking"
+    @click.outside="bookingOpen = false"
     class="max-w-5xl w-[85%] mx-auto bg-white h-[50%]"
   >
-  <div id="videohere" class="h-full w-full"></div>
+  <div id="bookinghere" class="h-full w-full"><iframe class="h-full w-full" src="https://cal.com/glitchsecure/jade"type=text/html></iframe></div>
 
-
-   <script type="text/javascript">
-     var youtube_loaded = false;
-     function youtube() {
-         if (!youtube_loaded)  {
-             youtube_loaded = true;
-             var e = document.createElement("script");
-             e.type = "text/javascript";
-             e.async = true;
-             e.src = "//youtube.com/player_api";
-             (document.getElementsByTagName("head")[0] ||
-             document.getElementsByTagName("body")[0])
-             .appendChild(e);
-             //Hide the button after opening
-             document.getElementById("videohere").innerHTML = "<iframe class=\"h-full w-full\"id=player src=\"https://www.youtube.com/embed/9y927xiDtJo?rel=0&autoplay=1&enablejsapi=1\"type=text/html></iframe>";
-             const sleep = (duration) => {
- return new Promise(resolve => setTimeout(resolve, duration));
-}
-             sleep(1400).then(() => {
-             player.unMute();player.playVideo();
-             })
-         }
-     }
-     var player;
-     function onYouTubePlayerAPIReady() {player = new YT.Player('player');}
-
-</script>
   </div>
 
   <button
-    @click="videoOpen = false"
+    @click="bookingOpen = false"
     class="
       absolute
       top-0

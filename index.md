@@ -21,18 +21,18 @@ stats-subtitle: "Lorem ipsum dolor sit amet consect adipisicing elit. Possimus m
 # Features
 features-title-small: "Our Process"
 features-title: "How does it work?"
-features-subtitle: "We use a hybrid approach that combines manual penetration testing performed by experts, a real-time reporting dashboard, and testing automation to deliver incredibly thorough security assessments. "
+features-subtitle: "We use a hybrid approach that combines manual testing performed by experts, a real-time reporting dashboard, and automation to deliver high quality results. "
 ## See _date/home/feature.yml
 
 # Platform Feature
 platform-feature-title1: "Get actionable results. Instantly."
-platform-feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you instantly using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and collaborate with our security team using our platform."
+platform-feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you instantly using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and collaborate with our security team using the GlitchSecure platform."
 platform-feature-button1: "Get Started"
 platform-feature-quote: "&ldquo;Ethically minded security vulnerability sleuth with high attention to detail, professionalism and a creative flair for seeing angles many miss.&rdquo;"
 platform-feature-quote-who: "SVP of Technology at a Financial Services Provider"
 platform-feature-quote-pic: "/assets/img/default-avatar.jpg"
 platform-feature-title2: "Expert advice in real-time."
-platform-feature-subtitle2: "Our dedicated experts are available throughout the assessment period to provide advice and help you along the way."
+platform-feature-subtitle2: "Our dedicated secuirty experts are available throughout the assessment period to provide advice and help you along the way. We'll help you triage findings, understand technical details, and ensure vulnerabilities are patched correctly."
 platform-feature-button2: "Get Started"
 
 # Call-to-action
