@@ -37,6 +37,7 @@ collections:
 
 jekyll-minifier:
   exclude: "*.txt"
+  exclude: ".well-known/security.txt"
   exclude: "publickey.asc"
   exclude: "feed.xml"
   exclude: "security.md"
