@@ -1,5 +1,5 @@
 #- title: Services
-#  url: "/#features"
+#  url: "/services/"
 #  dropdown: false
 
 #- title: About
@@ -10,4 +10,4 @@
 
 
 #- title: Contact
-#  url: mailto:contact@glitchsecure.com
+#  url: /contact/
