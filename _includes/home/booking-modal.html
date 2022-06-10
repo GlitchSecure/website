@@ -18,7 +18,18 @@
     @click.outside="bookingOpen = false"
     class="max-w-7xl w-[100%] mx-auto bg-white h-[85%]"
   >
-  <div id="bookinghere" class="h-full w-full"><iframe class="h-full w-full" src="https://cal.com/glitchsecure/jade"type=text/html></iframe></div>
+  <div id="bookinghere" class="h-full w-full"></div>
+
+  <script type="text/javascript">
+    var booking_loaded = false;
+    function booking() {
+        if (!booking_loaded)  {
+            bookinge_loaded = true;
+            document.getElementById("bookinghere").innerHTML = "<iframe class=\"h-full w-full\"id=player src=\"https://cal.com/glitchsecure/jade\"type=text/html></iframe>";
+          }
+        }
+
+</script>
 
   </div>
 
