@@ -5,7 +5,7 @@ hero-text-1: "Coming Soon"
 hero-title: "Real-time Security Assessments & Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
 hero-title-3: "Enhanced by automation & collaboration"
-hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your product and networks today."
+hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your applications and networks today."
 hero-button: "Get started"
 hero-button-link: "/#demo"
 hero-button2: "Book a demo"
@@ -19,21 +19,21 @@ stats-title: "Next generation security assessments"
 stats-subtitle: "Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam."
 
 # Features
-features-title-small: "Our Process"
-features-title: "How does it work?"
-features-subtitle: "We use a hybrid approach that combines manual testing performed by experts, a real-time reporting dashboard, and automation to deliver high quality results. "
+process-title-small: "Our Process"
+process-title: "How we're different"
+process-subtitle: "We use a hybrid approach that combines manual testing performed by experts, a real-time reporting dashboard, and automation to deliver high quality results. "
 ## See _date/home/feature.yml
 
 # Platform Feature
-platform-feature-title1: "Get actionable results. Instantly."
-platform-feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you instantly using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and collaborate with our security team using the GlitchSecure platform."
-platform-feature-button1: "Get Started"
-platform-feature-quote: "&ldquo;Ethically minded security vulnerability sleuth with high attention to detail, professionalism and a creative flair for seeing angles many miss.&rdquo;"
-platform-feature-quote-who: "SVP of Technology at a Financial Services Provider"
-platform-feature-quote-pic: "/assets/img/default-avatar.jpg"
-platform-feature-title2: "Expert advice in real-time."
-platform-feature-subtitle2: "Our dedicated secuirty experts are available throughout the assessment period to provide advice and help you along the way. We'll help you triage findings, understand technical details, and ensure vulnerabilities are patched correctly."
-platform-feature-button2: "Get Started"
+feature-title1: "Get actionable results. Instantly."
+feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you instantly using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and collaborate with our security team using the GlitchSecure platform."
+feature-button1: "Get Started"
+feature-button1-link: "#demo"
+
+feature-title2: "Expert advice in real-time."
+feature-subtitle2: "Our dedicated security experts are available throughout the assessment period to provide advice and help you along the way. We'll work with you to triaging findings, understand technical details, and ensure vulnerabilities are correctly mitigated."
+feature-button2: "Learn More"
+feature-button2-link: "/services/"
 
 # Call-to-action
 cta-title: "Schedule a free demo today"
