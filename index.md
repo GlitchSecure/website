@@ -9,7 +9,7 @@ hero-subtitle: "Assess your security posture instantly. Collaborate with our exp
 hero-button: "Get started"
 hero-button-link: "/#demo"
 hero-button2: "Book a demo"
-hero-button2-link: "https://cal.com/glitchsecure/jade"
+hero-button2-link: "javascript:void(0)"
 
 # client list
 client-list-title: "Companies our researchers have helped secure"
