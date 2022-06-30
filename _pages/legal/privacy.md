@@ -6,7 +6,7 @@ tagline: "Last Updated: 10 June 2022"
 published: true
 ---
 
-Glitch Secure Labs ("GlitchSecure") endeavours to protect and respect your privacy. If you have any questions or feedback about our privacy policy, please reach out to us using the contact form. Please note that this policy may change at anytime without prior warning.
+GlitchSecure Inc ("GlitchSecure") endeavours to protect and respect your privacy. If you have any questions or feedback about our privacy policy, please reach out to us using the contact form. Please note that this policy may change at anytime without prior warning.
 
 ---
 
