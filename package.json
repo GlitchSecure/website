@@ -1,6 +1,6 @@
 {
   "name": "glitchsecure-website",
-  "author": "Glitch Secure Labs",
+  "author": "GlitchSecure Inc",
   "description": "Company website built using Jekyll, TailwindCSS, and Alpine.js",
   "homepage": "https://glitchsecure.com",
   "version": "0.0.2",
