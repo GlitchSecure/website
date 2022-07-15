@@ -22,7 +22,7 @@
   "dependencies": {
     "alpinejs": "^3.9.5",
     "animated-tailwindcss": "^3.3.0",
-    "esbuild": "^0.14.45",
+    "esbuild": "^0.14.47",
     "tailgrids": "^1.1.7"
   }
 }
