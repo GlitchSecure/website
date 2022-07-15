@@ -2,12 +2,12 @@
 layout: page
 title: Master Services Agreement
 permalink: /legal/msa/
-tagline: "Last Updated: 24 March 2022"
+tagline: "Last Updated: 11 July 2022"
 published: true
 pdf-link: "https://docs.google.com/document/d/e/2PACX-1vTyr5SDDYcDhYCmUjw7JjMb6sFcSg3zR5aXWFOoMfnwina7aiJj- 2b6awJFJYVjCo2QYezvi84ObMo6p/pub?embedded=true"
 ---
 
-Glitch Secure Labs (“GlitchSecure”) is willing to provide certain services to you as the individual, the company, or the legal entity (referenced as “You” or “Your” or “Client”) that enters into a written quotation, work order, statement of work or similar document with GlitchSecure that references these terms and conditions (hereinafter, this “Agreement” or “Master Services Agreement” or  “MSA”) only on the condition that you accept all of the terms of this Agreement.
+GlitchSecure Inc. (“GlitchSecure”) is willing to provide certain services to you as the individual, the company, or the legal entity (referenced as “You” or “Your” or “Client”) that enters into a written quotation, work order, statement of work or similar document with GlitchSecure that references these terms and conditions (hereinafter, this “Agreement” or “Master Services Agreement” or  “MSA”) only on the condition that you accept all of the terms of this Agreement.
 
 Read the terms and conditions of this Agreement carefully before purchasing any services from GlitchSecure. This is a legal and enforceable contract between You and GlitchSecure. By entering into a written quotation, statement of work, or similar document with GlitchSecure that references the agreement below, you agree to the terms and conditions of this Agreement. If you enter into a separate written Master Services Agreement with GlitchSecure for the services, then the terms of that separate written agreement shall apply and this Agreement shall have no effect.
 
