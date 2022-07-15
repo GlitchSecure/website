@@ -2,7 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /legal/privacy/
-tagline: "Last Updated: 10 June 2022"
+tagline: "Last Updated: 15 July 2022"
 published: true
 ---
 
@@ -33,8 +33,7 @@ We retain usage and access logs as well as analytics data indefinitely. These lo
 
 We use a variety of third party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties including but not limited to:
 - Plausible Analytics (Website Analytics)
-- Pipedrive (CRM, Analytics)
-- Mailjet (Email Provider)
+- Amazon SES (Email Provider)
 - Google (Email and Calendar Provider)
 - Cal.com (Calendar Provider)
 - DigitalOcean (Hosting Provider)
