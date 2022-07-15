@@ -2,7 +2,7 @@
 layout: page
 title: Master Services Agreement
 permalink: /legal/msa/
-tagline: "Last Updated: 24 March 2022"
+tagline: "Last Updated: 11 July 2022"
 published: true
 pdf-link: "https://docs.google.com/document/d/e/2PACX-1vTyr5SDDYcDhYCmUjw7JjMb6sFcSg3zR5aXWFOoMfnwina7aiJj- 2b6awJFJYVjCo2QYezvi84ObMo6p/pub?embedded=true"
 ---

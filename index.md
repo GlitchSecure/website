@@ -31,7 +31,7 @@ feature-button1: "Get Started"
 feature-button1-link: "#demo"
 
 feature-title2: "Expert advice in real-time."
-feature-subtitle2: "Our dedicated security experts are available throughout the assessment period to provide advice and help you along the way. We'll work with you to triaging findings, understand technical details, and ensure vulnerabilities are correctly mitigated."
+feature-subtitle2: "Our dedicated security experts are available throughout the assessment period to provide advice and help you along the way. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly mitigated."
 feature-button2: "Learn More"
 feature-button2-link: "#demo"
 
