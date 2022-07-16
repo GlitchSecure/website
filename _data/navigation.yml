@@ -2,6 +2,9 @@
 #  url: "/services/"
 #  dropdown: false
 
+- title: Pricing
+  url: /pricing/
+
 #- title: About
 #  url: /about/
 
