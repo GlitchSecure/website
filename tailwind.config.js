@@ -28,18 +28,18 @@ module.exports = withAnimations({
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.200'),
+            color: theme('colors.neutral.700'),
             h1: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.neutral.700'),
             },
             h2: {
-              color: theme('colors.gray.300'),
+              color: theme('colors.neutral.600'),
             },
             h3: {
-              color: theme('colors.gray.300'),
+              color: theme('colors.neutral.600'),
             },
             strong: {
-              color: theme('colors.gray.300'),
+              color: theme('colors.neutral.600'),
             },
             a: {
               color: theme('colors.violet.600'),
