@@ -1,53 +1,98 @@
-    <figure class="w-full h-32 -mt-32 bg-glitchsecure-purple dark:bg-glitchsecure-purple-dark" style="clip-path: polygon(0% 100%, 100% 40%, 101% 101%, 0% 100%);">
-</figure>
+<figure
+  class="-mt-32 h-32 w-full bg-glitchsecure-purple dark:bg-glitchsecure-purple-dark"
+  style="clip-path: polygon(0% 100%, 100% 40%, 101% 101%, 0% 100%)"
+></figure>
 <!-- Alternating Feature Sections -->
-   <div class="relative pb-32 overflow-hidden bg-glitchsecure-purple dark:bg-glitchsecure-purple-dark">
-     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
+<div
+  class="relative overflow-hidden bg-glitchsecure-purple pb-32 dark:bg-glitchsecure-purple-dark"
+>
+  <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
 
-     <div class="mt-24">
-       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-2">
-           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-             <img class="hidden lg:block w-full rounded-xl ring-1 ring-glitchsecure-purple ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/assets/img/home/platform-preview1b.svg" alt="">
-           </div>
-         </div>
-         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-1">
-           <div>
-             <div class="mt-6">
-               <h2 class="text-3xl inline-block font-extrabold tracking-tight text-neutral-200 border-b border-gray-200 pb-4">{{ page.feature-title1 }}</h2>
-               <p class="mt-4 text-lg text-gray-300">{{ page.feature-subtitle1 }}</p>
-               <a href="{{ page.feature-button1-link }}" class="inline-flex text-base font-medium text-black bg-neutral-100 rounded-lg hover:bg-opacity-90 py-3 px-6 transition mt-6 mb-3 mr-1">
-               {{ page.feature-button1 }}
-               </a>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
+  <div class="mt-24">
+    <div
+      class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+    >
+      <div class="mt-12 sm:mt-16 lg:col-start-2 lg:mt-0">
+        <div
+          class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+        >
+          <img
+            class="hidden w-full lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+            src="/assets/img/home/feature1.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-1 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+      >
+        <div>
+          <div class="mt-6">
+            <h2
+              class="inline-block border-b border-neutral-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-200"
+            >
+              {{ page.feature-title1 }}
+            </h2>
+            <p class="mt-4 text-lg text-neutral-300">
+              {{ page.feature-subtitle1 }}
+            </p>
+            <a
+              href="{{ page.feature-button1-link }}"
+              class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-black transition hover:bg-opacity-90"
+            >
+              {{ page.feature-button1 }}
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 
-
-    <figure class="w-full h-32 -mt-32 bg-white dark:bg-glitchsecure-purple-medium" style="clip-path: polygon(0% 100%, 100% 40%, 101% 101%, 0% 100%);">
-    </figure>
-    <div class="relative pb-32 overflow-hidden bg-white dark:bg-glitchsecure-purple-medium">
-     <div class="mt-24">
-       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-           <div>
-             <div class="mt-6">
-               <h2 class="text-3xl inline-block font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200 border-b border-gray-200 pb-4">{{ page.feature-title2 }}</h2>
-               <p class="mt-4 text-lg text-neutral-600">{{ page.feature-subtitle2 }}</p>
-               <a href="{{ page.feature-button2-link }}" class="inline-flex text-base font-medium text-neutral-200 dark:text-neutral-700 bg-neutral-800 dark:bg-neutral-200 rounded-lg  dark:hover:bg-neutral-300 hover:bg-neutral-900 py-3 px-6 transition mt-6 mb-3 mr-1">
-               {{ page.feature-button2 }}
-               </a>
-             </div>
-           </div>
-         </div>
-         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-             <img class="hidden lg:block w-full rounded-xl ring-1 ring-white ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/assets/img/home/platform-preview2.svg" alt="">
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
+<figure
+  class="-mt-32 h-32 w-full bg-white dark:bg-glitchsecure-purple-medium"
+  style="clip-path: polygon(0% 100%, 100% 40%, 101% 101%, 0% 100%)"
+></figure>
+<div
+  class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
+>
+  <div class="mt-24">
+    <div
+      class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+    >
+      <div
+        class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+      >
+        <div>
+          <div class="mt-6">
+            <h2
+              class="inline-block border-b border-gray-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200"
+            >
+              {{ page.feature-title2 }}
+            </h2>
+            <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
+              {{ page.feature-subtitle2 }}
+            </p>
+            <a
+              href="{{ page.feature-button2-link }}"
+              class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
+            >
+              {{ page.feature-button2 }}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+        <div
+          class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+        >
+          <img
+            class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+            src="/assets/img/home/feature2.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

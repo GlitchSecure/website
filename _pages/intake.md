@@ -45,6 +45,7 @@ cta-subtitle: "Looking for more information or want to try out the GlitchSecure 
 cta-button-text: "Let's Talk!"
 cta-button-link: "https://cal.com/glitchsecure/jade/?email="
 ---
+
 <script async src="https://tally.so/widgets/embed.js"></script>
 
 <script>

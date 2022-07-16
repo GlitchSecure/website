@@ -13,7 +13,7 @@ GlitchSecure Inc. (“GlitchSecure”) is willing to provide certain services to
 
 Read the terms and conditions of this Agreement carefully before purchasing any services from GlitchSecure. This is a legal and enforceable contract between You and GlitchSecure. By entering into a written quotation, statement of work, or similar document with GlitchSecure that references the agreement below, you agree to the terms and conditions of this Agreement. If you enter into a separate written Master Services Agreement with GlitchSecure for the services, then the terms of that separate written agreement shall apply and this Agreement shall have no effect.
 
-# 1\. Definitions
+# 1. Definitions
 
 ![](https://lh6.googleusercontent.com/_lHyo0HCJC_vBmPISHARvOMmnCvBDoXwt9Hkl_yRdd-hmuMunoQ7__zVkVeRfoSAVSMbetHgATK9YWDX8RkK6bm5pDtpbzKXk0iHQDteX2uAZhVkkAb1eGliNQahC46OrY25JEdYwbs)
 
