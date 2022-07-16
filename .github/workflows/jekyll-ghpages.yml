@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           path: .github/actions/jekyll4-deploy-gh-pages
       - name: Bundler Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v2
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
