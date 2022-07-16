@@ -6,5 +6,5 @@ hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "bookingOpen = true; booking();return false;"
 permalink: /pricing/
-published: true
+published: false
 ---

@@ -2,7 +2,7 @@
 layout: platform
 title: Platform
 permalink: /platform/
-published: true
+published: false
 
 # Platform Feature
 platform-feature-title1: "Get actionable results. Instantly."
