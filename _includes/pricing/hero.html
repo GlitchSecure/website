@@ -1,0 +1,115 @@
+
+
+<!-- ====== Hero Section Start -->
+<div
+  x-cloak x-data="
+    {
+      videoOpen: false,
+      bookingOpen: false
+    }
+  "
+  class="relative pb-32 bg-gradient-to-br from-[#1d162b] via-[#240f4c] to-[#221243]"
+>
+
+
+<img class="opacity-[0.2] w-full h-full absolute object-cover object-center" src="/assets/img/home/herobg2.png">
+  {%- include nav2.html -%}
+
+  <div class="container pt-24 lg:pt-48">
+    <div class="flex flex-wrap items-center">
+      <div class="w-full lg:w-1/2 px-4">
+        <div class="hero-content animate-fadeIn">
+          <h1
+            class="
+              text-gray-200
+              font-extrabold
+              text-2xl
+              md:text-left
+              md:text-4xl
+              leading-snug
+              tracking-tight
+            "
+          >
+            {{ page.hero-title }}
+          </h1><h2
+          class="
+            text-violet-600
+            font-medium
+            md:font-bold
+            text-xl
+            md:text-left
+            md:text-3xl
+            leading-snug
+          ">{{ page.hero-title-2 }}</h2>
+          <h3
+          class="
+            text-violet-500
+            md:font-medium
+            text-lg
+            md:text-left
+            md:text-2xl
+            leading-tight
+            tracking-tight
+            mb-5
+          ">{{ page.hero-title-3 }}</h3>
+          <p class="text-sm md:text-xl mb-8 text-gray-100 max-w-xl md:text-left">
+            {{ page.hero-subtitle }}
+          </p>
+          <div class="md:flex flex-wrap mb-7">
+            <a href="{{ page.hero-button-link }}"
+               class="
+               inline-flex
+               text-base
+               font-medium
+               text-black
+               bg-neutral-100
+               rounded-lg
+               hover:bg-opacity-90
+               py-3
+               px-6
+               transition
+               mb-3
+               mr-1
+               "
+               >
+            {{ page.hero-button }}
+            </a>
+
+            <a href="{{ page.hero-button2-link }}"
+            @click="bookingOpen = true; booking();return false;"
+               class="
+               hidden
+               sm:inline-flex
+               text-base
+               font-medium
+               text-white
+               bg-dark-purple
+               rounded-lg
+               hover:bg-opacity-90
+               py-3
+               px-6
+               transition
+               mb-3
+               ml-2
+               "
+               >
+            {{ page.hero-button2 }}
+            </a>
+               </div>
+        </div>
+      </div>
+      <div class="hidden lg:block w-full lg:w-1/2  px-4">
+        <div class="text-right mx-auto">
+          <div class="relative inline-block z-10 mt-16 lg:mt-0 animate-fadeIn">
+            <img
+              src="{{ site.url }}/assets/img/home/hero-preview2.svg"
+              alt="hero"
+              class="max-w-full mx-auto self-start rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include home/booking-modal.html %}
+</div>
