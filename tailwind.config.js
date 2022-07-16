@@ -6,9 +6,10 @@ module.exports = withAnimations({
   theme: {
     extend: {
       colors: {
-        'dark-purple': '#1d162b',
-        'medium-purple': '#271d3a',
-        'light-purple': '#320e7a',
+        'hero-gradient-left': '#6540b0',
+        'glitchsecure-purple': '#5720c8',
+        'hero-gradient-right': '#461AA0',
+        'glitchsecure-purple-secondary': '#756892',
       },
       backgroundImage: {
   'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
