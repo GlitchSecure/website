@@ -21,6 +21,7 @@
       </div>
       <div class="flex w-full items-center justify-between px-4">
         <div>
+          {% if site.data.navigation %}
           <button
             @click="navbarOpen = !navbarOpen"
             :class="navbarOpen && 'navbarTogglerActive' "
@@ -52,6 +53,7 @@
             ></span>
 
           </button>
+          {% endif %}
 
           <nav
             :class="!navbarOpen && 'hidden' "
