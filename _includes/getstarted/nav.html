@@ -1,0 +1,42 @@
+  <!-- ====== Navbar Section Start -->
+  <header
+    class="flex w-full items-center bg-transparent"
+  >
+    <div class="container max-w-7xl">
+      <div class="relative flex items-center justify-between">
+        <div class="w-96 max-w-full px-4">
+          <a href="{{ site.url }}/" class="block w-full py-5">
+            <img
+              src="{{ site.url }}/assets/img/logo-wordmark-white.svg"
+              alt="logo"
+              class="w-full"
+            />
+          </a>
+        </div>
+        <div class="flex w-full items-center justify-between px-4">
+          <button
+            @click="bookingOpen = false"
+            class="
+              block
+              absolute
+              right-4
+              top-1/2
+              violet-500
+              px-3
+              py-2
+              rounded-lg
+            "
+          >
+            <span
+              class="relative -my-0.5 w-8 h-0.5 block bg-neutral-200 rotate-45"
+            ></span>
+            <span
+              class="relative w-8 h-0.5 block bg-neutral-200 -rotate-45"
+            ></span>
+
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ====== Navbar Section End -->
