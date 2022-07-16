@@ -2,9 +2,8 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="h-full">
 
 {%- include head.html -%}
-<style> [x-cloak] { display: none }</style>
 
-<body class="h-full bg-medium-purple">
+<body class="h-full">
 
   {% include home/hero.html %}
   {% include home/client-list.html %}
@@ -12,7 +11,6 @@
   {% include home/feature.html %}
   {% include home/cta.html %}
   {% include footer.html %}
-  {{ content }}
 </body>
 
 </html>

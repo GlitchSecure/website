@@ -2,12 +2,13 @@
 layout: home
 # Hero
 hero-text-1: "Coming Soon"
-hero-title: "Real-time Security Assessments & Penetration Testing"
+hero-title: "Real-time Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
 hero-title-3: "Enhanced by automation & collaboration"
 hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your applications and networks today."
-hero-button: "Get started"
-hero-button-link: "/#demo"
+hero-button: "Get Started"
+hero-button-link: "javascript:void(0)"
+hero-button-click: "bookingOpen = true; booking();return false;"
 hero-button2: "Book a demo"
 hero-button2-link: "javascript:void(0)"
 

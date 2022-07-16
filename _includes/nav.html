@@ -6,12 +6,12 @@
       submenuOpen: false
     }
   "
-  class="bg-neutral-900 sticky top-0 z-30 w-full flex items-center"
+  class="flex w-full items-center bg-transparent"
 >
-  <div class="container">
-    <div class="flex items-center justify-between relative">
-      <div class="px-4 w-96 max-w-full">
-        <a href="{{ site.url }}/" class="w-full block py-5">
+  <div class="container max-w-7xl animate-fadeIn">
+    <div class="relative flex items-center justify-between">
+      <div class="w-96 max-w-full px-4">
+        <a href="{{ site.url }}/" class="block w-full py-5">
           <img
             src="{{ site.url }}/assets/img/logo-wordmark-white.svg"
             alt="logo"
@@ -19,8 +19,9 @@
           />
         </a>
       </div>
-      <div class="flex px-4 justify-between items-center w-full">
+      <div class="flex w-full items-center justify-between px-4">
         <div>
+          {% if site.data.navigation %}
           <button
             @click="navbarOpen = !navbarOpen"
             :class="navbarOpen && 'navbarTogglerActive' "
@@ -35,117 +36,61 @@
               ring-violet-500
               violet-500
               px-3
-              py-[6px]
+              py-2
+
               rounded-lg
                transform -translate-y-1/2
             "
           >
             <span
-              class="relative w-[30px] h-[2px] my-[6px] block bg-violet-500 transform transition duration-500 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-500 ease-in-out"
             ></span>
             <span
-              class="relative w-[30px] h-[2px] my-[6px] block bg-violet-500 transform transition duration-200 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-200 ease-in-out"
             ></span>
             <span
-              class="relative w-[30px] h-[2px] my-[6px] block bg-violet-500 transform transition duration-700 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-700 ease-in-out"
             ></span>
 
           </button>
+          {% endif %}
+
           <nav
             :class="!navbarOpen && 'hidden' "
             id="navbarCollapse"
-            class="
-              absolute
-              py-5
-              lg:py-0 lg:px-6
-              bg-neutral-900 bg-opacity-80
-              shadow
-              max-w-[250px]
-              w-full
-              lg:max-w-full lg:w-full
-              right-4
-              top-full
-              lg:block lg:static lg:shadow-none
-            "
+            class="bg-black absolute block top-full right-4 z-50 w-full max-w-xs py-5 shadow
+            lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none"
           >
-            <ul class="blcok lg:flex">
-              {% for item in site.data.navigation %}
+            <ul class="block lg:flex">
+              {% for item in site.data.navigation %} {% if page.url == item.url
+              %}
+              <li class="group relative">
+                <a
+                  href="{{ item.url }}"
+                  class="flex border-b-2 border-gray-400 py-2 px-6 text-base font-medium text-gray-200 hover:text-gray-400 lg:inline-flex lg:py-6 lg:px-6"
+                >
+                  {{ item.title }}
+                </a>
+              </li>
 
-                {% if page.url == item.url %}
-                <li class="relative group">
-                  <a
-                    href="{{ item.url }}"
-                    class="
-                      text-base
-                      font-medium
-                      text-gray-200
-                      hover:text-gray-400
-                      border-b-2
-                      border-gray-400
-                      py-2
-                      lg:py-6 lg:inline-flex
-                      px-6
-                      flex
-                      lg:px-6
-                    ">
-                    {{ item.title }}
-                  </a>
-                </li>
-
-                {% elsif item.dropdown %}
-              <li class="relative group submenu-item ">
+              {% elsif item.dropdown %}
+              <li class="submenu-item group relative">
                 <a
                   href="javascript:void(0)"
                   @click="submenuOpen = !submenuOpen "
-                  class="
-                  text-base
-                  font-medium
-                  text-gray-200
-                  hover:text-gray-400
-                  border-transparent
-                  border-b-2
-                  hover:border-gray-400
-                  py-2
-                  lg:py-6 lg:inline-flex
-                  px-6
-                  flex
-                  lg:px-6
-                  "
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-gray-200 hover:border-gray-400 hover:text-gray-400 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
                 <div
                   :class="!submenuOpen ? 'hidden lg:block' : 'block' "
-                  class="
-                    relative
-                    lg:absolute lg:w-[250px]
-                    top-full
-                    lg:top-[115%]
-                    left-0
-                    rounded-lg
-                    lg:shadow-lg
-                    px-4
-                    lg:p-4 lg:opacity-0 lg:invisible
-                    group-hover:opacity-100
-                    lg:group-hover:visible lg:group-hover:top-full
-                    bg-neutral-900 bg-opacity-80
-                    transition-all
-                  "
+                  class="relative top-full left-0 rounded-lg bg-neutral-900 bg-opacity-80 px-4 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:top-[115%] lg:w-64 lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
                 >
-                <!-- dropdown menu -->
-                {% for item in site.data.navigation-dropdown-services %}
+                  <!-- dropdown menu -->
+                  {% for item in site.data.navigation-dropdown-services %}
                   <a
                     href="{{ item.url }}"
-                    class="
-                      block
-                      text-sm
-                      font-medium
-                      text-gray-200
-                      rounded
-                      hover:bg-violet-500 hover:text-gray-100
-                      py-[10px]
-                      px-4
-                    "
+                    class="block rounded py-2.5 px-4 text-sm font-medium text-gray-200 hover:bg-violet-500 hover:text-gray-100"
                   >
                     {{ item.title }}
                   </a>
@@ -153,60 +98,46 @@
                 </div>
               </li>
               {% else %}
-              <li class="relative group">
+              <li class="group relative">
                 <a
                   href="{{ item.url }}"
-                  class="
-                    text-base
-                    font-medium
-                    text-gray-200
-                    hover:text-gray-400
-                    border-transparent
-                    border-b-2
-                    hover:border-gray-400
-                    py-2
-                    lg:py-6 lg:inline-flex
-                    px-6
-                    flex
-                    lg:px-6
-                  "
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-gray-200 hover:border-gray-400 hover:text-gray-400 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
               </li>
-              {% endif %}
-
-            {% endfor %}
+              {% endif %} {% endfor %}
             </ul>
           </nav>
         </div>
-        <div class="xl:flex justify-end hidden pr-16 lg:pr-0">
+        <div class="justify-end pr-16 lg:pr-0 flex">
           <a
             href="https://app.glitchsecure.com/"
-            class="
-              text-base
-              font-medium
-              text-gray-200
-              hover:text-gray-400
-              py-3
-              px-7
-            ">
+            class="hidden sm:block py-3 px-7 text-base font-medium text-gray-200 hover:text-gray-400"
+          >
             Login
           </a>
           <a
-            href="/contact/"
-            class="
-              text-base
-              font-medium
-              text-black
-              bg-neutral-300
-              rounded-lg
-              py-3
-              px-4
-              hover:bg-opacity-90
-            ">
-          <svg class="inline w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-            Book a demo
+            href="javascript:void(0)"
+            @click="bookingOpen = true; booking();return false;"
+            class="hidden xl:block rounded-lg bg-neutral-100 py-3 px-4 text-base font-medium text-black hover:bg-opacity-90"
+          >
+            <svg
+              class="mr-1 inline h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            Get Started
           </a>
         </div>
       </div>

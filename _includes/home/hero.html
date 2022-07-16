@@ -1,110 +1,65 @@
-
-
 <!-- ====== Hero Section Start -->
 <div
-  x-cloak x-data="
+  x-data="
     {
       videoOpen: false,
       bookingOpen: false
     }
   "
-  class="relative pb-32 bg-gradient-to-br from-[#1d162b] via-[#240f4c] to-[#221243]"
+  class="relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right pb-32 dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
 >
+  <img
+    class="absolute block h-full w-full object-cover object-center opacity-[0.2] dark:hidden"
+    src="/assets/img/home/herobg-light.png"
+  />
+  <img
+    class="absolute hidden h-full w-full object-cover object-center opacity-[0.2] dark:block"
+    src="/assets/img/home/herobg-dark.png"
+  />
+  {%- include nav.html -%}
 
-
-<img class="opacity-[0.2] w-full h-full absolute object-cover object-center" src="/assets/img/home/herobg2.png">
-  {%- include nav2.html -%}
-
-  <div class="container pt-24 lg:pt-48">
+  <div class="container max-w-7xl pt-24 lg:pt-48">
     <div class="flex flex-wrap items-center">
-      <div class="w-full lg:w-1/2 px-4">
-        <div class="hero-content animate-fadeIn">
+      <div class="w-full px-4 lg:w-1/2">
+        <div class="animate-fadeIn">
           <h1
-            class="
-              text-gray-200
-              font-extrabold
-              text-2xl
-              md:text-left
-              md:text-4xl
-              leading-snug
-              tracking-tight
-            "
+            class="text-2xl font-extrabold leading-snug tracking-tight text-gray-200 md:text-left md:text-4xl"
           >
             {{ page.hero-title }}
-          </h1><h2
-          class="
-            text-violet-600
-            font-medium
-            md:font-bold
-            text-xl
-            md:text-left
-            md:text-3xl
-            leading-snug
-          ">{{ page.hero-title-2 }}</h2>
+          </h1>
+          <h2
+            class="text-xl font-medium leading-snug text-[#c5b7e1] md:text-left md:text-3xl md:font-bold"
+          >
+            {{ page.hero-title-2 }}
+          </h2>
           <h3
-          class="
-            text-violet-500
-            md:font-medium
-            text-lg
-            md:text-left
-            md:text-2xl
-            leading-tight
-            tracking-tight
-            mb-5
-          ">{{ page.hero-title-3 }}</h3>
-          <p class="text-sm md:text-xl mb-8 text-gray-100 max-w-xl md:text-left">
+            class="mb-5 text-lg leading-tight tracking-tight text-[#c5b7e1] md:text-left md:text-2xl md:font-medium"
+          >
+            {{ page.hero-title-3 }}
+          </h3>
+          <p
+            class="mb-8 max-w-xl text-sm text-gray-100 md:text-left md:text-xl"
+          >
             {{ page.hero-subtitle }}
           </p>
-          <div class="md:flex flex-wrap mb-7">
-            <a href="{{ page.hero-button-link }}"
-               class="
-               inline-flex
-               text-base
-               font-medium
-               text-black
-               bg-neutral-100
-               rounded-lg
-               hover:bg-opacity-90
-               py-3
-               px-6
-               transition
-               mb-3
-               mr-1
-               "
-               >
-            {{ page.hero-button }}
+          <div class="mb-7 flex-wrap md:flex">
+            <a
+              href="{{ page.hero-button-link }}"
+              @click="{{ page.hero-button-click }}"
+              class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-black transition hover:bg-opacity-90"
+            >
+              {{ page.hero-button }}
             </a>
-
-            <a href="{{ page.hero-button2-link }}"
-            @click="bookingOpen = true; booking();return false;"
-               class="
-               hidden
-               sm:inline-flex
-               text-base
-               font-medium
-               text-white
-               bg-dark-purple
-               rounded-lg
-               hover:bg-opacity-90
-               py-3
-               px-6
-               transition
-               mb-3
-               ml-2
-               "
-               >
-            {{ page.hero-button2 }}
-            </a>
-               </div>
+          </div>
         </div>
       </div>
-      <div class="hidden lg:block w-full lg:w-1/2  px-4">
-        <div class="text-right mx-auto">
-          <div class="relative inline-block z-10 mt-16 lg:mt-0 animate-fadeIn">
+      <div class="hidden w-full px-4 lg:block lg:w-1/2">
+        <div class="mx-auto text-right">
+          <div class="relative z-10 mt-16 inline-block animate-fadeIn lg:mt-0">
             <img
-              src="{{ site.url }}/assets/img/home/hero-preview2.svg"
+              src="{{ site.url }}/assets/img/home/hero-preview.svg"
               alt="hero"
-              class="max-w-full mx-auto self-start rounded-lg"
+              class="mx-auto max-w-full self-start rounded-lg"
             />
           </div>
         </div>
@@ -113,3 +68,7 @@
   </div>
   {% include home/booking-modal.html %}
 </div>
+<figure
+  class="-mt-32 h-32 w-full bg-white dark:bg-glitchsecure-purple-medium"
+  style="clip-path: polygon(0% 100%, 100% 40%, 101% 101%, 0% 100%)"
+></figure>
