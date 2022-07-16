@@ -1,17 +1,10 @@
 <div
   x-show="bookingOpen"
-  class="fixed top-0 left-0 z-50 flex h-screen w-full items-center justify-center bg-black bg-opacity-70 animate-fadeIn"
+  class="fixed top-0 left-0 z-50 h-full w-full animate-fadeIn overflow-y-scroll scrollbar-hide bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right h-full dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
   style="display: none"
 >
-  <div
-    id="booking"
-    class="mx-auto h-full w-full bg-white"
-  >
 
-    <noscript>
-      <p>This page requires JavaScript to be displayed properly.</p>
-    </noscript>
-    <div class="relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right h-full dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark">
+    <div class="relative mx-auto h-full w-full">
       <img
         class="absolute block h-full w-full object-cover object-center opacity-[0.2] dark:hidden"
         src="/assets/img/home/herobg-light.png"
@@ -22,8 +15,10 @@
       />
 
       {% include getstarted/nav.html %}
+      <noscript>
+        <p>This page requires JavaScript to be displayed properly.</p>
+      </noscript>
       {% include getstarted/calendar.html %}
     </div>
 
-</div>
 </div>
