@@ -8,11 +8,11 @@
       bookingOpen: false
     }
   "
-  class="relative pb-32 bg-gradient-to-br from-[#1d162b] via-[#240f4c] to-[#221243]"
+  class="relative pb-32 bg-gradient-to-br from-[#6540b0] via-[#5720c8] to-[#461AA0]"
 >
 
 
-<img class="opacity-[0.2] w-full h-full absolute object-cover object-center" src="/assets/img/home/herobg2.png">
+<img class="opacity-[0.2] w-full h-full absolute object-cover object-center" src="/assets/img/home/herobg3.png">
   {%- include nav2.html -%}
 
   <div class="container pt-24 lg:pt-48">
@@ -33,7 +33,7 @@
             {{ page.hero-title }}
           </h1><h2
           class="
-            text-violet-600
+            text-[#c5b7e1]
             font-medium
             md:font-bold
             text-xl
@@ -43,7 +43,7 @@
           ">{{ page.hero-title-2 }}</h2>
           <h3
           class="
-            text-violet-500
+            text-[#c5b7e1]
             md:font-medium
             text-lg
             md:text-left
@@ -73,27 +73,6 @@
                "
                >
             {{ page.hero-button }}
-            </a>
-
-            <a href="{{ page.hero-button2-link }}"
-            @click="bookingOpen = true; booking();return false;"
-               class="
-               hidden
-               sm:inline-flex
-               text-base
-               font-medium
-               text-white
-               bg-dark-purple
-               rounded-lg
-               hover:bg-opacity-90
-               py-3
-               px-6
-               transition
-               mb-3
-               ml-2
-               "
-               >
-            {{ page.hero-button2 }}
             </a>
                </div>
         </div>

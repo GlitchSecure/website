@@ -1,10 +1,10 @@
 <!-- ====== Services Section Start -->
-<section class="relative pt-16 pb-12 lg:pb-24 bg-medium-purple">
+<section class="relative pt-16 pb-12 lg:pb-24 bg-white">
    <div class="container">
       <div class="flex flex-wrap -mx-4">
          <div class="w-full px-4">
             <div class="text-center mx-auto mb-12 lg:mb-20 max-w-5xl">
-               <span class="font-semibold text-lg text-gray-200 mb-2 block">
+               <span class="font-semibold text-lg text-neutral-700 mb-2 block">
                {{ page.process-title-small }}
                </span>
                <h2 id="features"
@@ -12,81 +12,102 @@
                   font-bold
                   text-3xl
                   sm:text-4xl
-                  text-gray-200
+                  text-neutral-700
                   mb-4
                   "
                   >
                   {{ page.process-title }}
                </h2>
-               <p class="text-2xl text-gray-200">
+               <p class="text-2xl text-neutral-700">
                   {{ page.process-subtitle }}
                </p>
             </div>
          </div>
       </div>
+
+
       <div class="flex flex-wrap justify-center -mx-4">
         {% for item in site.data.home.features %}
-         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-            <div
-               class="
-               bg-gradient-to-br from-[#1d162b] to-[#25183f]
-               py-11
-               px-6
-               text-center
-               group
-               duration-200
-               rounded-xl
-               overflow-hidden
-               relative
-               hover:-translate-y-1
-               mb-10
-               "
-               >
-               <div
-                  class="
-                  mx-auto
-                  mb-8
-                  w-20
-                  h-20
-                  rounded-full
-                  border border-violet-500
-                  text-gray-200
-                  font-semibold
-                  text-3xl
-                  flex
-                  items-center
-                  justify-center
-                  shadow-sm
-                  group-hover:bg-violet-500
-                  group-hover:text-white
-                  group-hover:border-violet-500
-                  "
-                  >
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="md:h-6 md:w-6 h-4 w-4"><path d="{{ item.icon }}"></path></svg>
-               </div>
-               <h4 class="text-lg text-gray-200 font-semibold mb-4 uppercase">
-                  {{ item.title }}
-               </h4>
-               <p class="text-base text-gray-300 leading-relaxed h-32 text-left">
-                  {{ item.subtitle}}
-               </p>
-               <span
-                  class="
-                  absolute
-                  bottom-0
-                  left-0
-                  h-2
-                  w-0
-                  bg-violet-500
-                  duration-200
-                  block
-                  group-hover:w-full
-                  "
-                  ></span>
-            </div>
-         </div>
+        <div class="w-full sm:w-4/5 md:w-1/2 lg:w-1/3 px-4">
+           <div
+              class="
+              p-10
+              md:px-8
+              lg:py-9 lg:px-6
+              xl:p-10
+              2xl:p-12
+              rounded-xl
+              bg-white
+              border border-[#EFEFEF]
+              mb-8
+              text-left
+              group
+              relative
+              "
+              >
+              <div
+                 class="
+                 h-11
+                 inline-flex
+                 items-center
+                 mb-4
+                 relative
+                 z-10
+                 mx-auto
+                 "
+                 >
+                 <svg
+                    width="120"
+                    height="90"
+                    viewBox="0 0 49 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                       d="{{ item.icon }}"
+                       fill="#5720c8"
+                       />
+                 </svg>
+              </div>
+              <h4 class="font-semibold text-xl text-dark mb-3">
+                 {{ item.title }}
+              </h4>
+              <p class="text-body-color h-32">
+                 {{ item.subtitle }}
+              </p>
+              <span
+                 class="
+                 absolute
+                 -bottom-2
+                 left-0
+                 right-0
+                 w-3/4
+                 mx-auto
+                 h-12
+                 bg-primary
+                 opacity-0
+                 group-hover:opacity-[14%]
+                 blur-[12px]
+                 transition
+                 z-[-1]
+                 "
+                 ></span>
+           </div>
+        </div>
          {% endfor %}
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
    </div>
 </section>
 <!-- ====== Services Section End -->
