@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Security
+subtitle: "Last Updated: 10 June 2022"
 permalink: /legal/security/
-tagline: "Last Updated: 10 June 2022"
 published: true
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Privacy Policy
+subtitle: "Last Updated: 15 July 2022"
 permalink: /legal/privacy/
-tagline: "Last Updated: 15 July 2022"
 published: true
 ---
 
