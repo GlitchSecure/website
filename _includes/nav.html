@@ -21,7 +21,7 @@
       </div>
       <div class="flex w-full items-center justify-between px-4">
         <div>
-          <!--<button
+          <button
             @click="navbarOpen = !navbarOpen"
             :class="navbarOpen && 'navbarTogglerActive' "
             id="navbarToggler"
@@ -51,13 +51,15 @@
               class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-700 ease-in-out"
             ></span>
 
-          </button>-->
+          </button>
+
           <nav
             :class="!navbarOpen && 'hidden' "
             id="navbarCollapse"
-            class="bg-dark-purple absolute right-4 top-full z-50 w-full max-w-xs py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none"
+            class="bg-black absolute block top-full right-4 z-50 w-full max-w-xs py-5 shadow
+            lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none"
           >
-            <ul class="blcok lg:flex">
+            <ul class="block lg:flex">
               {% for item in site.data.navigation %} {% if page.url == item.url
               %}
               <li class="group relative">
