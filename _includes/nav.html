@@ -6,9 +6,9 @@
       submenuOpen: false
     }
   "
-  class="bg-neutral-900 sticky top-0 z-30 w-full flex items-center"
+  class="bg-transparent w-full flex items-center"
 >
-  <div class="container">
+  <div class="container animate-fadeIn">
     <div class="flex items-center justify-between relative">
       <div class="px-4 w-96 max-w-full">
         <a href="{{ site.url }}/" class="w-full block py-5">
@@ -21,7 +21,7 @@
       </div>
       <div class="flex px-4 justify-between items-center w-full">
         <div>
-          <button
+          <!--<button
             @click="navbarOpen = !navbarOpen"
             :class="navbarOpen && 'navbarTogglerActive' "
             id="navbarToggler"
@@ -35,22 +35,23 @@
               ring-violet-500
               violet-500
               px-3
-              py-[6px]
+              py-2
+
               rounded-lg
                transform -translate-y-1/2
             "
           >
             <span
-              class="relative w-[30px] h-[2px] my-[6px] block bg-violet-500 transform transition duration-500 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-500 ease-in-out"
             ></span>
             <span
-              class="relative w-[30px] h-[2px] my-[6px] block bg-violet-500 transform transition duration-200 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-200 ease-in-out"
             ></span>
             <span
-              class="relative w-[30px] h-[2px] my-[6px] block bg-violet-500 transform transition duration-700 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-700 ease-in-out"
             ></span>
 
-          </button>
+          </button>-->
           <nav
             :class="!navbarOpen && 'hidden' "
             id="navbarCollapse"
@@ -58,14 +59,16 @@
               absolute
               py-5
               lg:py-0 lg:px-6
-              bg-neutral-900 bg-opacity-80
+              bg-dark-purple
+              lg:bg-transparent
               shadow
-              max-w-[250px]
+              max-w-xs
               w-full
               lg:max-w-full lg:w-full
               right-4
               top-full
               lg:block lg:static lg:shadow-none
+              z-50
             "
           >
             <ul class="blcok lg:flex">
@@ -118,7 +121,7 @@
                   :class="!submenuOpen ? 'hidden lg:block' : 'block' "
                   class="
                     relative
-                    lg:absolute lg:w-[250px]
+                    lg:absolute lg:w-64
                     top-full
                     lg:top-[115%]
                     left-0
@@ -143,7 +146,7 @@
                       text-gray-200
                       rounded
                       hover:bg-violet-500 hover:text-gray-100
-                      py-[10px]
+                      py-2.5
                       px-4
                     "
                   >
@@ -194,19 +197,20 @@
             Login
           </a>
           <a
-            href="/contact/"
+          href="javascript:void(0)"
+          @click="bookingOpen = true; booking();return false;"
             class="
               text-base
               font-medium
               text-black
-              bg-neutral-300
+              bg-neutral-100
               rounded-lg
               py-3
               px-4
               hover:bg-opacity-90
             ">
           <svg class="inline w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-            Book a demo
+            Get Started
           </a>
         </div>
       </div>
