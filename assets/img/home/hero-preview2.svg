@@ -15,6 +15,15 @@
    id="svg971"
    sodipodi:docname="hero-preview2.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   <style>
+       .primary { fill: #ffffff; }
+       .secondary { fill: #e6e6e6; }
+
+       @media (prefers-color-scheme: dark) {
+       .primary { fill: #271d3a; }
+       .secondary { fill: #1d162b; }
+       }
+   </style>
   <metadata
      id="metadata977">
     <rdf:RDF>
@@ -59,21 +68,21 @@
      width="703.57562"
      height="450.60114"
      id="rect893"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="20.419001"
      y="56.915482"
      width="663.3385"
      height="171.77293"
      id="rect895"
-     style="fill:#ffffff" />
+     class="primary" />
   <rect
      x="185.4182"
      y="81.727127"
      width="140.28123"
      height="8.0526695"
      id="rect897"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="185.4182"
      y="111.10108"
@@ -87,28 +96,28 @@
      width="176.54439"
      height="8.0526695"
      id="rect901"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="185.4182"
      y="166.34557"
      width="103.06377"
      height="8.0526695"
      id="rect903"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="185.4182"
      y="193.9155"
      width="155.54994"
      height="8.0526695"
      id="rect905"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="121.4805"
      y="78.864243"
      width="17.17729"
      height="17.17729"
      id="rect907"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="121.4805"
      y="106.53877"
@@ -122,42 +131,42 @@
      width="17.17729"
      height="17.17729"
      id="rect911"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="121.4805"
      y="161.88783"
      width="17.17729"
      height="17.17729"
      id="rect913"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="121.4805"
      y="189.56235"
      width="17.17729"
      height="17.17729"
      id="rect915"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="533.73553"
      y="117.9903"
      width="57.257629"
      height="57.257641"
      id="rect917"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="20.419001"
      y="252.54576"
      width="663.3385"
      height="171.77293"
      id="rect919"
-     style="fill:#ffffff" />
+     class="primary" />
   <rect
      x="151.06361"
      y="267.81207"
      width="17.17729"
      height="17.17728"
      id="rect921"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="121.4805"
      y="267.81207"
@@ -169,7 +178,7 @@
      d="m 412.72386,305.3754 a 65.04556,65.04556 0 0 0 -105.003,-9.69992 l -4.18616,-3.65793 a 70.59368,70.59368 0 0 1 113.973,10.52622 z"
      id="path925"
      inkscape:connector-curvature="0"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <path
      d="m 415.34355,377.79383 -4.6134,-3.102 a 65.07765,65.07765 0 0 0 1.99371,-69.31644 l 4.78387,-2.83166 a 70.63742,70.63742 0 0 1 -2.16418,75.25012 z"
      id="path927"
@@ -191,14 +200,14 @@
      width="57.257629"
      height="57.257629"
      id="rect933"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      x="119.09476"
      y="342.24939"
      width="57.257641"
      height="57.257629"
      id="rect935"
-     style="fill:#e6e6e6" />
+     class="secondary" />
   <rect
      width="703.57562"
      height="29.890471"
@@ -211,19 +220,19 @@
      cy="15.28159"
      r="5.5399699"
      id="circle939"
-     style="fill:#ffffff" />
+     class="primary" />
   <circle
      cx="43.240528"
      cy="15.28159"
      r="5.5399699"
      id="circle941"
-     style="fill:#ffffff" />
+     class="primary" />
   <circle
      cx="64.26886"
      cy="15.28159"
      r="5.5399699"
      id="circle943"
-     style="fill:#ffffff" />
+     class="primary" />
   <path
      d="M 954.95261,639.22428 H 686.95262 a 1,1 0 0 1 0,-2 h 267.99999 a 1,1 0 0 1 0,2 z"
      id="path969"

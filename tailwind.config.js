@@ -10,6 +10,11 @@ module.exports = withAnimations({
         'glitchsecure-purple': '#5720c8',
         'hero-gradient-right': '#461AA0',
         'glitchsecure-purple-secondary': '#756892',
+        'glitchsecure-purple-dark': '#1d162b',
+        'hero-gradient-middle-dark': '#240f4c',
+        'hero-gradient-right-dark': '#221243',
+        'glitchsecure-purple-medium': '#271d3a',
+        'glitchsecure-purple-light': '#320e7a',
       },
       backgroundImage: {
   'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
