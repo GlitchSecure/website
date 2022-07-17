@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           path: .github/actions/jekyll4-deploy-gh-pages
       - name: Bundler Cache
-      - uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.0
           bundler-cache: true
