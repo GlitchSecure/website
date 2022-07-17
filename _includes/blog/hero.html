@@ -24,7 +24,7 @@
           <p class="mb-10 text-base leading-relaxed text-[#9CA7B1] lg:mb-12">
             {% if site.posts.first.description %}{{ site.posts.first.description
             | strip_html | strip_newlines | truncate: 120 }} {% elsif
-            site.posts.first.tagline %} {{ site.posts.first.tagline | strip_html
+            site.posts.first.subtitle %} {{ site.posts.first.subtitle | strip_html
             | strip_newlines | truncate: 120 }} {% else %} {{
             site.posts.first.content | strip_html | strip_newlines | truncate:
             120 }} {% endif %}

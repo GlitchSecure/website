@@ -1,8 +1,8 @@
 <head>
   {% if page.description %}
   {% capture description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
-  {% elsif page.tagline %}
-  {% capture description %}{{ page.tagline | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
+  {% elsif page.subtitle %}
+  {% capture description %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
   {% else %}
   {% capture description %}{{ site.description }}{% endcapture %}
   {% endif %}

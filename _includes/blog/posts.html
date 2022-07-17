@@ -14,7 +14,7 @@
             ><img
               class="h-48 w-full object-cover"
               src="{% if post.image.feature %}{{ site.url }}/assets/img/{{ post.image.featurel }}{% else %}{{ site.url }}/assets/img/blog/default-feature.jpg{% endif %}"
-              alt="{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 120 }} {% elsif post.tagline %} {{ post.tagline | strip_html | strip_newlines | truncate: 120 }} {% else %} {{ post.content | strip_html | strip_newlines | truncate: 120 }} {% endif %}"
+              alt="{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 120 }} {% elsif post.subtitle %} {{ post.subtitle | strip_html | strip_newlines | truncate: 120 }} {% else %} {{ post.content | strip_html | strip_newlines | truncate: 120 }} {% endif %}"
           /></a>
         </div>
         <div class="flex flex-1 flex-col justify-between bg-neutral-900 p-6">
@@ -26,8 +26,8 @@
               </p>
               <p class="mt-3 text-base text-gray-400">
                 {% if post.description %}{{ post.description | strip_html |
-                strip_newlines | truncate: 120 }} {% elsif post.tagline %} {{
-                post.tagline | strip_html | strip_newlines | truncate: 120 }} {%
+                strip_newlines | truncate: 120 }} {% elsif post.subtitle %} {{
+                post.subtitle | strip_html | strip_newlines | truncate: 120 }} {%
                 else %} {{ post.content | strip_html | strip_newlines |
                 truncate: 120 }} {% endif %}
               </p>
