@@ -8,15 +8,8 @@ jobs:
 
     steps:
       - name: GitHub Checkout
-        uses: actions/checkout@v1
-      - name: Bundler Cache
-        uses: actions/cache@v1
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      # checkout the private repo containing the action to run
+        uses: actions/checkout@v3
+        # checkout the private repo containing the action to run
       - name: Checkout GitHub Action Repo
         uses: actions/checkout@v3
         with:
@@ -24,6 +17,13 @@ jobs:
           ref: refs/heads/main
           token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           path: .github/actions/jekyll4-deploy-gh-pages
+      - name: Bundler Cache
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
 
       - name: Build & Deploy to GitHub Pages
         uses: ./.github/actions/jekyll4-deploy-gh-pages
@@ -33,3 +33,5 @@ jobs:
           GITHUB_REPOSITORY_PUBLIC: "GlitchSecure/public-website"
           GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+      - name: Fix cache permissions
+        run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/progress-3.6.0/.travis.yml
