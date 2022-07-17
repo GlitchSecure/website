@@ -34,4 +34,4 @@ jobs:
           GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
       - name: Fix cache permissions
-        run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/progress-3.6.0/.travis.yml
+        run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/progress-3.6.0/.travis.yml && sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/fspath-3.1.2/.travis.yml
