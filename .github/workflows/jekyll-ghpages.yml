@@ -8,8 +8,15 @@ jobs:
 
     steps:
       - name: GitHub Checkout
-        uses: actions/checkout@v3
-        # checkout the private repo containing the action to run
+        uses: actions/checkout@v1
+      - name: Bundler Cache
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      # checkout the private repo containing the action to run
       - name: Checkout GitHub Action Repo
         uses: actions/checkout@v3
         with:
@@ -17,11 +24,6 @@ jobs:
           ref: refs/heads/main
           token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           path: .github/actions/jekyll4-deploy-gh-pages
-      - name: Bundler Cache
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7.0
-          bundler-cache: true
 
       - name: Build & Deploy to GitHub Pages
         uses: ./.github/actions/jekyll4-deploy-gh-pages
