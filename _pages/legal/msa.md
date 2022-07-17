@@ -3,7 +3,7 @@ layout: page
 title: Master Services Agreement
 subtitle: "Last Updated: 11 July 2022"
 hero-button-link: "javascript:void(0)"
-hero-button-click: "bookingOpen = true; booking();return false;"
+hero-button-click: "getstartedOpen = true; getstarted();return false;"
 permalink: /legal/msa/
 tagline: "Last Updated: 11 July 2022"
 published: true

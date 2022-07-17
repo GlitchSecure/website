@@ -8,7 +8,7 @@ hero-title-3: "Enhanced by automation & collaboration"
 hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your applications and networks today."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
-hero-button-click: "bookingOpen = true; booking();return false;"
+hero-button-click: "getstartedOpen = true; getstarted();return false;"
 hero-button2: "Book a demo"
 hero-button2-link: "javascript:void(0)"
 
