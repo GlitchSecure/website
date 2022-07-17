@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: GitHub Checkout
         uses: actions/checkout@v3
-        # checkout the private repo containing the action to run
+      # checkout the private repo containing the action to run
       - name: Checkout GitHub Action Repo
         uses: actions/checkout@v3
         with:
@@ -17,6 +17,7 @@ jobs:
           ref: refs/heads/main
           token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           path: .github/actions/jekyll4-deploy-gh-pages
+      # Caches and reuses ruby gems to decrease build time
       - name: Bundler Cache
         uses: actions/cache@v3
         with:
@@ -24,7 +25,7 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-
+      # Builds the site in a docker container and pushes to gh-pages branch and seperate repo
       - name: Build & Deploy to GitHub Pages
         uses: ./.github/actions/jekyll4-deploy-gh-pages
         env:
@@ -33,5 +34,6 @@ jobs:
           GITHUB_REPOSITORY_PUBLIC: "GlitchSecure/public-website"
           GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-      - name: Fix cache permissions
+      # Makes some files readable so that tar doesn't error out
+      - name: Set Bundler Cache Permissions
         run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/progress-3.6.0/.travis.yml && sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/fspath-3.1.2/.travis.yml
