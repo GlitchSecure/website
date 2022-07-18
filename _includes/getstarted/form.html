@@ -8,9 +8,6 @@
       >
       Get started!
       </h1>
-      <noscript>
-        <p class="text-gray-200">This page requires JavaScript to function properly.</p>
-      </noscript>
       </div>
       <form action="javascript:void(0)" class="grid grid-cols-1 gap-y-6">
       <div>
@@ -25,8 +22,14 @@
         <label for="email" class="sr-only">Email</label>
         <input type="text" name="email" id="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email" x-data="{ email: localStorage.getItem('getstarted-email') }" x-init="$watch('email', (val) => localStorage.setItem('getstarted-email', val))" x-model="email">
       </div>
+      <div class="mx-auto text-center">
+        <p class="text-gray-200">By clicking next, you agree to our <a href="/legal/privacy/" class="hover:underline">privacy policy</a>.</p>
+        <noscript>
+          <p class="text-gray-200 mt-4">This page requires JavaScript to function properly.</p>
+        </noscript>
+      </div>
       <span class="my-2 border-t border-dashed border-neutral-200 dark:border-neutral-700"></span>
-      <div class="mx-auto">
+      <div class="mx-auto text-center">
 
         <button @click="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}})"
         class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base md:py-4 md:px-12 md:text-2xl font-medium text-black transition hover:bg-opacity-90">Next</button>

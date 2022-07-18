@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-subtitle: "Last Updated: 15 July 2022"
+subtitle: "Last Updated: 18 July 2022"
 permalink: /legal/privacy/
 published: true
 ---
@@ -48,3 +48,5 @@ We use a variety of third party providers to help facilitate our business operat
 ### Your Rights
 
 If you have an account on our website or platform, you can request that we delete any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+
+If you have any questions or feedback about our privacy policy please reach out to us at [hello@glitchsecure.com](mailto:hello@glitchsecure.com).
