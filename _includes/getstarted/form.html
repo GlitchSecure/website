@@ -28,7 +28,7 @@
       <span class="my-2 border-t border-dashed border-neutral-200 dark:border-neutral-700"></span>
       <div class="mx-auto">
 
-        <button @click="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted();return false;"
+        <button @click="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}})"
         class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base md:py-4 md:px-12 md:text-2xl font-medium text-black transition hover:bg-opacity-90">Next</button>
       </div>
     </form>
