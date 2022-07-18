@@ -1,11 +1,10 @@
 <!-- ====== Hero Section Start -->
 <div
-  x-data="
-    {
-      videoOpen: false,
-      bookingOpen: false
-    }
-  "
+x-data="
+  {
+    getstartedOpen: false,
+  }
+"
   class="relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right pb-12 dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
 >
   <img
@@ -51,9 +50,5 @@
       </div>
     </div>
   </div>
-  {% include home/booking-modal.html %}
+  {% include getstarted/modal.html %}
 </div>
-<figure
-  class="-mt-32 h-32 w-full bg-white dark:bg-glitchsecure-purple-dark"
-  style="clip-path: polygon(0% 100%, 100% 40%, 101% 101%, 0% 100%)"
-></figure>
