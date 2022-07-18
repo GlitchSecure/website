@@ -3,7 +3,7 @@ layout: platform
 title: Platform
 subtitle: "No more waiting for outdated PDF reports and spreadsheets. Get security vulnerabilities delivered to you instantly in a real-time dashboard."
 permalink: /platform/
-published: true
+published: false
 
 # Platform Feature
 platform-feature-title1: "Get actionable results. Instantly."

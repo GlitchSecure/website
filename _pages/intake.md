@@ -2,18 +2,16 @@
 layout: home
 title: New Client Intake
 permalink: /intake/
-tagline: GlitchSecure New Client Intake
+subtitle: GlitchSecure New Client Intake
 published: true
 # Hero
-hero-text-1: "Coming Soon"
-hero-title: "Real-time Security Assessments & Penetration Testing"
+hero-title: "Real-time Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
 hero-title-3: "Enhanced by automation & collaboration"
 hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your applications and networks today."
-hero-button: "Get started"
-hero-button-link: "/#demo"
-hero-button2: "Book a demo"
-hero-button2-link: "javascript:void(0)"
+hero-button: "Get Started"
+hero-button-link: "javascript:void(0)"
+hero-button-click: "localStorage.clear(); getstartedOpen = true;"
 
 # client list
 client-list-title: "Companies our researchers have helped secure"
@@ -35,7 +33,7 @@ feature-button1: "Get Started"
 feature-button1-link: "#demo"
 
 feature-title2: "Expert advice in real-time."
-feature-subtitle2: "Our dedicated security experts are available throughout the assessment period to provide advice and help you along the way. We'll work with you to triaging findings, understand technical details, and ensure vulnerabilities are correctly mitigated."
+feature-subtitle2: "Our dedicated security experts are available throughout the assessment period to provide advice and help you along the way. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly mitigated."
 feature-button2: "Learn More"
 feature-button2-link: "#demo"
 
@@ -43,8 +41,9 @@ feature-button2-link: "#demo"
 cta-title: "Need a security assessment?"
 cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform?<br>We're here to help! Enter your email and we'll get back to you today!"
 cta-button-text: "Let's Talk!"
-cta-button-link: "https://cal.com/glitchsecure/jade/?email="
+cta-button-link: "https://cal.com/team/glitchsecure/intro/?email="
 ---
+
 
 <script async src="https://tally.so/widgets/embed.js"></script>
 

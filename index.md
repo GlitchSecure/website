@@ -1,16 +1,13 @@
 ---
 layout: home
 # Hero
-hero-text-1: "Coming Soon"
 hero-title: "Real-time Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
 hero-title-3: "Enhanced by automation & collaboration"
 hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your applications and networks today."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
-hero-button-click: "getstartedOpen = true; getstarted();return false;"
-hero-button2: "Book a demo"
-hero-button2-link: "javascript:void(0)"
+hero-button-click: "localStorage.clear(); getstartedOpen = true;"
 
 # client list
 client-list-title: "Companies our researchers have helped secure"
@@ -40,5 +37,5 @@ feature-button2-link: "#demo"
 cta-title: "Need a security assessment?"
 cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform?<br>We're here to help! Enter your email and we'll get back to you today!"
 cta-button-text: "Let's Talk!"
-cta-button-link: "https://cal.com/glitchsecure/jade/?email="
+cta-button-link: "https://cal.com/team/glitchsecure/intro/?email="
 ---
