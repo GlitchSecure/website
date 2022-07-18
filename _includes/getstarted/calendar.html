@@ -38,6 +38,22 @@
 
             Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}}});
           }
+          // Send POST request with form data
+          let xhr = new XMLHttpRequest();
+                    xhr.open("POST", "https://submit.glitchsecure.com/getstarted.php");
+                    xhr.setRequestHeader("Accept", "application/json");
+                    xhr.setRequestHeader("Content-Type", "application/json");
+
+                    xhr.onload = () => console.log(xhr.responseText);
+
+                    let data = {
+                     name: localStorage.getItem('getstarted-name'), // Prefill Name
+                     email: localStorage.getItem('getstarted-email'), // Prefill Email
+                     company: localStorage.getItem('getstarted-company'), // Prefill Email
+                    };
+
+                    xhr.send(JSON.stringify(data));
+
         }
       </script>
       <!-- Cal inline embed code ends -->
