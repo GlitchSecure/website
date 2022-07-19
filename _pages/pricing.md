@@ -6,5 +6,5 @@ hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Page'}})"
 permalink: /pricing/
-published: false
+published: true
 ---
