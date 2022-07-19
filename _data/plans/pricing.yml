@@ -12,7 +12,7 @@ starter:
   vulns-checked: "XX"
   hybrid-testing: "Yes"
   realtime-colab: "Yes"
-  researchers: "1-2"
+  researchers: "1"
   delivery-time: "Instantly"
   alerts: "Yes"
   remediation-previous: "Yes"
