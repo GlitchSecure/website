@@ -10,7 +10,8 @@
     </div>
 
     <!-- Cards -->
-    <div class="relative mt-8 max-w-2xl mx-auto px-4 pb-8 sm:mt-12 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0">
+    <div
+    class="relative mt-8 max-w-2xl mx-auto px-4 pb-8 sm:mt-12 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0">
       <!-- Decorative background -->
       <div aria-hidden="true" class="hidden absolute top-4 bottom-6 left-8 right-8 inset-0 bg-glitchsecure-purple rounded-tl-lg rounded-tr-lg lg:block"></div>
 
@@ -601,7 +602,7 @@
 
 
         <h4 class="mt-10 text-sm font-bold text-gray-900">All Testing</h4>
-        <div class="mt-6 relative mb-24">
+        <div class="mt-6 relative">
           <!-- Fake card background -->
           <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
             <div class="shadow absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
@@ -698,7 +699,7 @@
   </section>
 
   <!-- Feature comparison (lg+) -->
-  <section aria-labelledby="comparison-heading" class="hidden lg:block mb-16">
+  <section aria-labelledby="comparison-heading" class="hidden lg:block">
 
     <div class="max-w-7xl mx-auto py-24 px-8">
       <div class="w-full border-t border-gray-200 flex items-stretch">
@@ -1187,44 +1188,6 @@
             <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
           </div>
         </div>
-      </div>
-
-
-
-      <div class="mx-auto py-16">
-        <h3 class="mb-6 text-sm font-bold text-gray-900">Addons</h3>
-
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-          <table class="w-full text-left text-sm text-gray-500 dark:text-gray-400">
-            <thead
-              class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400"
-            >
-              <tr>
-                <th scope="col" class="px-6 py-3"></th>
-                <th scope="col" class="px-6 py-3">What's included</th>
-                <th scope="col" class="px-6 py-3">Credit</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for member in site.data.plans.pricing.addons %}
-              <tr class="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
-                <th
-                  scope="row"
-                  class="whitespace-nowrap px-6 py-4 font-medium text-gray-900 dark:text-white"
-                >
-                  {{ member.name }}
-                </th>
-                <td class="px-6 py-4">{{ member.what-included }}</td>
-                <td class="px-6 py-4">{{ member.credit }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="mx-auto py-18 text-center">
-        <p class="text-sm text-gray-500">¹ A single credit is equivalent to 16 hours of testing charged at $3,200USD/$4,160CAD</p>
-
       </div>
     </div>
   </section>
