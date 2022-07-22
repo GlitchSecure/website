@@ -36,8 +36,8 @@
           </h3>
           <ul role="list" class="mt-4 space-y-4">
             {% for item in site.data.footer.contact %}
-            <li>
-              <a href="{{ item.url }}" class="text-base text-gray-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
+            <li class="text-base text-gray-100">
+              {{ item.title }}
             </li>
             {% endfor %}
           </ul>
