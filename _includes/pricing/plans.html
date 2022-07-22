@@ -24,18 +24,18 @@
       <div class="relative space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3">
         <div class="bg-glitchsecure-purple lg:bg-transparent pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
           <div>
-            <h3 class="text-white text-sm font-semibold uppercase tracking-wide">{{ site.data.plans.pricing.starter.name }}</h3>
+            <h3 class="text-white text-sm font-semibold uppercase tracking-wide">{{ site.data.pricing.plans.starter.name }}</h3>
             <div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start">
               <div class="mt-3 flex items-center">
-                <p class="text-white text-4xl font-extrabold tracking-tight" x-show="currencyUSD">{{ site.data.plans.pricing.starter.price-usd }}</p>
-                <p class="text-white text-4xl font-extrabold tracking-tight" x-cloak x-show="currencyCAD">{{ site.data.plans.pricing.starter.price-cad }}</p>
+                <p class="text-white text-4xl font-extrabold tracking-tight" x-show="currencyUSD">{{ site.data.pricing.plans.starter.price-usd }}</p>
+                <p class="text-white text-4xl font-extrabold tracking-tight" x-cloak x-show="currencyCAD">{{ site.data.pricing.plans.starter.price-cad }}</p>
                 <div class="ml-4">
                   <p class="text-white text-sm" x-show="currencyUSD">USD</p>
                   <p class="text-white text-sm" x-cloak x-show="currencyCAD">CAD</p>
-                  <p class="text-indigo-200 text-sm">{{ site.data.plans.pricing.starter.credits }} Credits</p>
+                  <p class="text-indigo-200 text-sm">{{ site.data.pricing.plans.starter.credits }} Credits</p>
                 </div>
               </div>
-              <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.plans.pricing.starter.cta }}</a>
+              <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.starter.cta }}</a>
             </div>
           </div>
           <ul role="list" class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
@@ -44,7 +44,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.starter.researchers }} Dedicated Researcher</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.starter.researchers }} Dedicated Researcher</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -52,7 +52,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.starter.duration }} Testing Timeframe</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.starter.duration }} Testing Timeframe</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -60,7 +60,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.starter.tests-performed }} Manual Tests Perfomed</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.starter.tests-performed }} Manual Tests Perfomed</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -68,25 +68,25 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.starter.remediation-timeline }} Remediation Testing</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.starter.remediation-timeline }} Remediation Testing</span>
             </li>
           </ul>
         </div>
 
         <div class="bg-white ring-2 ring-indigo-700 shadow-md pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
           <div>
-            <h3 class="text-glitchsecure-purple text-sm font-semibold uppercase tracking-wide">{{ site.data.plans.pricing.standard.name }}</h3>
+            <h3 class="text-glitchsecure-purple text-sm font-semibold uppercase tracking-wide">{{ site.data.pricing.plans.standard.name }}</h3>
             <div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start">
               <div class="mt-3 flex items-center">
-                <p class="text-glitchsecure-purple text-4xl font-extrabold tracking-tight" x-show="currencyUSD">{{ site.data.plans.pricing.standard.price-usd }}</p>
-                <p class="text-glitchsecure-purple text-4xl font-extrabold tracking-tight" x-cloak x-show="currencyCAD">{{ site.data.plans.pricing.standard.price-cad }}</p>
+                <p class="text-glitchsecure-purple text-4xl font-extrabold tracking-tight" x-show="currencyUSD">{{ site.data.pricing.plans.standard.price-usd }}</p>
+                <p class="text-glitchsecure-purple text-4xl font-extrabold tracking-tight" x-cloak x-show="currencyCAD">{{ site.data.pricing.plans.standard.price-cad }}</p>
                 <div class="ml-4">
                   <p class="text-gray-700 text-sm" x-show="currencyUSD">USD</p>
                   <p class="text-gray-700 text-sm" x-cloak x-show="currencyCAD">CAD</p>
-                  <p class="text-gray-500 text-sm">{{ site.data.plans.pricing.standard.credits }} Credits</p>
+                  <p class="text-gray-500 text-sm">{{ site.data.pricing.plans.standard.credits }} Credits</p>
                 </div>
               </div>
-              <a href="#" class="bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.plans.pricing.standard.cta }}</a>
+              <a href="#" class="bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.standard.cta }}</a>
             </div>
           </div>
           <ul role="list" class="border-gray-200 divide-gray-200 mt-7 border-t divide-y lg:border-t-0">
@@ -95,7 +95,7 @@
               <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.plans.pricing.standard.researchers }} Dedicated Researchers</span>
+              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.pricing.plans.standard.researchers }} Dedicated Researchers</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -103,7 +103,7 @@
               <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.plans.pricing.standard.duration }} Testing Timeframe</span>
+              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.pricing.plans.standard.duration }} Testing Timeframe</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -111,7 +111,7 @@
               <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-performed }} Manual Tests Perfomed</span>
+              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-performed }} Manual Tests Perfomed</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -119,7 +119,7 @@
               <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.plans.pricing.standard.remediation-timeline }} Remediation Testing</span>
+              <span class="text-gray-600 ml-3 text-sm font-medium">{{ site.data.pricing.plans.standard.remediation-timeline }} Remediation Testing</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -127,25 +127,25 @@
               <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-gray-600 ml-3 text-sm font-medium">Starts within {{ site.data.plans.pricing.standard.start-time}}</span>
+              <span class="text-gray-600 ml-3 text-sm font-medium">Starts within {{ site.data.pricing.plans.standard.start-time}}</span>
             </li>
           </ul>
         </div>
 
         <div class="bg-glitchsecure-purple lg:bg-transparent pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
           <div>
-            <h3 class="text-white text-sm font-semibold uppercase tracking-wide">{{ site.data.plans.pricing.advanced.name }}</h3>
+            <h3 class="text-white text-sm font-semibold uppercase tracking-wide">{{ site.data.pricing.plans.advanced.name }}</h3>
             <div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start">
               <div class="mt-3 flex items-center">
-                <p class="text-white text-4xl font-extrabold tracking-tight" x-show="currencyUSD">{{ site.data.plans.pricing.advanced.price-usd }}</p>
-                <p class="text-white text-4xl font-extrabold tracking-tight" x-cloak x-show="currencyCAD">{{ site.data.plans.pricing.advanced.price-cad }}</p>
+                <p class="text-white text-4xl font-extrabold tracking-tight" x-show="currencyUSD">{{ site.data.pricing.plans.advanced.price-usd }}</p>
+                <p class="text-white text-4xl font-extrabold tracking-tight" x-cloak x-show="currencyCAD">{{ site.data.pricing.plans.advanced.price-cad }}</p>
                 <div class="ml-4">
                   <p class="text-white text-sm" x-show="currencyUSD">USD</p>
                   <p class="text-white text-sm" x-cloak x-show="currencyCAD">CAD</p>
-                  <p class="text-indigo-200 text-sm">{{ site.data.plans.pricing.advanced.credits }} Credits</p>
+                  <p class="text-indigo-200 text-sm">{{ site.data.pricing.plans.advanced.credits }} Credits</p>
                 </div>
               </div>
-              <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.plans.pricing.advanced.cta }}</a>
+              <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.advanced.cta }}</a>
             </div>
           </div>
           <ul role="list" class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
@@ -154,7 +154,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.advanced.researchers }} Dedicated Researchers</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.advanced.researchers }} Dedicated Researchers</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -162,7 +162,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.advanced.duration }} Testing Timeframe</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.advanced.duration }} Testing Timeframe</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -170,7 +170,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.advanced.tests-performed }} Manual Tests Perfomed</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.advanced.tests-performed }} Manual Tests Perfomed</span>
             </li>
 
             <li class="py-3 flex items-center">
@@ -178,7 +178,7 @@
               <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
-              <span class="text-white ml-3 text-sm font-medium">{{ site.data.plans.pricing.advanced.remediation-timeline }} Remediation Testing</span>
+              <span class="text-white ml-3 text-sm font-medium">{{ site.data.pricing.plans.advanced.remediation-timeline }} Remediation Testing</span>
             </li>
           </ul>
         </div>
@@ -192,8 +192,8 @@
     <div class="max-w-2xl mx-auto py-16 px-4 space-y-16 sm:px-6">
       <div class="border-t border-gray-200" key="plan.title">
         <div class="border-transparent -mt-px pt-6 border-t-2 sm:w-1/2">
-          <h3 class="text-gray-900 text-sm font-bold">{{ site.data.plans.pricing.starter.name }}</h3>
-          <p class="mt-2 text-sm text-gray-500">{{ site.data.plans.pricing.starter.subtitle }}</p>
+          <h3 class="text-gray-900 text-sm font-bold">{{ site.data.pricing.plans.starter.name }}</h3>
+          <p class="mt-2 text-sm text-gray-500">{{ site.data.pricing.plans.starter.subtitle }}</p>
         </div>
 
 
@@ -211,7 +211,7 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Applications Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.targets }} in scope</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.targets }} in scope</span>
 
                 </dd>
               </div>
@@ -219,14 +219,14 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">User Roles Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.user-roles }} user role</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.user-roles }} user role</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">API Endpoints Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.api-endpoints }} API Endpoints</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.api-endpoints }} API Endpoints</span>
                 </dd>
               </div>
             </dl>
@@ -248,7 +248,7 @@
                 <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                   <dt class="pr-4 text-sm font-medium text-gray-600">External IPs Tested</dt>
                   <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                    <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.external-ips }} IPs</span>
+                    <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.external-ips }} IPs</span>
 
                   </dd>
                 </div>
@@ -256,7 +256,7 @@
                 <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                   <dt class="pr-4 text-sm font-medium text-gray-600">Ports Scanned</dt>
                   <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                    <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.ports-scanned }} Ports</span>
+                    <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.ports-scanned }} Ports</span>
                   </dd>
                 </div>
               </dl>
@@ -281,77 +281,77 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Real-time Collaboration</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Instant Slack Alerts</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Carryover Findings</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Findings Delivery</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.delivery-time }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.delivery-time }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Dedicated Researchers</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.researchers }} Researcher</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.researchers }} Researcher</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Testing Timeframe</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.duration }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.duration }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">ASVS Level</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-name }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Manual Tests</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.tests-performed }} Tests Perfomed</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.tests-performed }} Tests Perfomed</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Remediation Testing</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.remediation-timeline }} Included</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.remediation-timeline }} Included</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">PDF Report Available</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.plans.pricing.starter.pdf-report }}</span>
+                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.pricing.plans.starter.pdf-report }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Starts within</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.plans.pricing.starter.start-time }}</span>
+                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.pricing.plans.starter.start-time }}</span>
                 </dd>
               </div>
             </dl>
@@ -365,8 +365,8 @@
 
       <div class="border-t border-gray-200 pt-12" key="plan.title">
         <div class="border-indigo-600 -mt-px pt-6 border-t-2 sm:w-1/2">
-          <h3 class="text-indigo-600 text-sm font-bold">{{ site.data.plans.pricing.standard.name }}</h3>
-          <p class="mt-2 text-sm text-gray-500">{{ site.data.plans.pricing.standard.subtitle }}</p>
+          <h3 class="text-indigo-600 text-sm font-bold">{{ site.data.pricing.plans.standard.name }}</h3>
+          <p class="mt-2 text-sm text-gray-500">{{ site.data.pricing.plans.standard.subtitle }}</p>
         </div>
         <h4 class="mt-10 text-sm font-bold text-gray-900">Web + API Testing</h4>
 
@@ -381,7 +381,7 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Applications Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.targets }} in scope</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.targets }} in scope</span>
 
                 </dd>
               </div>
@@ -389,14 +389,14 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">User Roles Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.user-roles }} user role</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.user-roles }} user role</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">API Endpoints Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.api-endpoints }} API Endpoints</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.api-endpoints }} API Endpoints</span>
                 </dd>
               </div>
             </dl>
@@ -421,7 +421,7 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">External IPs Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.external-ips }} IPs</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.external-ips }} IPs</span>
 
                 </dd>
               </div>
@@ -429,7 +429,7 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Ports Scanned</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.ports-scanned }} Ports</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.ports-scanned }} Ports</span>
                 </dd>
               </div>
             </dl>
@@ -454,77 +454,77 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Real-time Collaboration</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.standard.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.standard.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Instant Slack Alerts</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.standard.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.standard.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Carryover Findings</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.standard.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.standard.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Findings Delivery</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.delivery-time }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.delivery-time }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Dedicated Researchers</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.researchers }} Researchers</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.researchers }} Researchers</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Testing Timeframe</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.duration }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.duration }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">ASVS Level</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-name }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Manual Tests</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-performed }} Tests Perfomed</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-performed }} Tests Perfomed</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Remediation Testing</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.remediation-timeline }} Included</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.remediation-timeline }} Included</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">PDF Report Available</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.plans.pricing.standard.pdf-report }}</span>
+                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.pricing.plans.standard.pdf-report }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Starts within</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.plans.pricing.standard.start-time }}</span>
+                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.pricing.plans.standard.start-time }}</span>
                 </dd>
               </div>
             </dl>
@@ -539,8 +539,8 @@
 
       <div class="border-t border-gray-200" key="plan.title">
         <div class="border-transparent -mt-px pt-6 border-t-2 sm:w-1/2">
-          <h3 class="text-gray-900 text-sm font-bold">{{ site.data.plans.pricing.advanced.name }}</h3>
-          <p class="mt-2 text-sm text-gray-500">{{ site.data.plans.pricing.advanced.subtitle }}</p>
+          <h3 class="text-gray-900 text-sm font-bold">{{ site.data.pricing.plans.advanced.name }}</h3>
+          <p class="mt-2 text-sm text-gray-500">{{ site.data.pricing.plans.advanced.subtitle }}</p>
         </div>
         <h4 class="mt-10 text-sm font-bold text-gray-900">Web + API Testing</h4>
 
@@ -555,7 +555,7 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Applications Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.targets }} in scope</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.targets }} in scope</span>
 
                 </dd>
               </div>
@@ -563,14 +563,14 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">User Roles Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.user-roles }} user role</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.user-roles }} user role</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">API Endpoints Tested</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.api-endpoints }} API Endpoints</span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.api-endpoints }} API Endpoints</span>
                 </dd>
               </div>
             </dl>
@@ -592,7 +592,7 @@
                 <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                   <dt class="pr-4 text-sm font-medium text-gray-600">External IPs Tested</dt>
                   <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                    <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.external-ips }} IPs</span>
+                    <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.external-ips }} IPs</span>
 
                   </dd>
                 </div>
@@ -600,7 +600,7 @@
                 <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                   <dt class="pr-4 text-sm font-medium text-gray-600">Ports Scanned</dt>
                   <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                    <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.ports-scanned }} Ports</span>
+                    <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.ports-scanned }} Ports</span>
                   </dd>
                 </div>
               </dl>
@@ -625,77 +625,77 @@
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Real-time Collaboration</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.advanced.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.advanced.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Instant Slack Alerts</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.advanced.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.advanced.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Carryover Findings</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.plans.pricing.advanced.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.advanced.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Findings Delivery</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.delivery-time }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.delivery-time }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Dedicated Researchers</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.researchers }} Researchers</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.researchers }} Researchers</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Testing Timeframe</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.duration }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.duration }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">ASVS Level</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-name }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Manual Tests</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.tests-performed }} Tests Perfomed</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.tests-performed }} Tests Perfomed</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Remediation Testing</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.remediation-timeline }} Included</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.remediation-timeline }} Included</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">PDF Report Available</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.plans.pricing.advanced.pdf-report }}</span>
+                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.pricing.plans.advanced.pdf-report }}</span>
                 </dd>
               </div>
 
               <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
                 <dt class="pr-4 text-sm font-medium text-gray-600">Starts within</dt>
                 <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.plans.pricing.advanced.start-time }}</span>
+                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.pricing.plans.advanced.start-time }}</span>
                 </dd>
               </div>
             </dl>
@@ -721,22 +721,22 @@
 
         <div aria-hidden="true" class="pr-4 -mt-px pl-4 w-1/4">
           <div class="border-transparent py-6 border-t-2">
-            <p class="text-gray-900 text-sm font-bold">{{ site.data.plans.pricing.starter.name }}</p>
-            <p class="mt-2 text-sm text-gray-500">{{ site.data.plans.pricing.starter.subtitle }}</p>
+            <p class="text-gray-900 text-sm font-bold">{{ site.data.pricing.plans.starter.name }}</p>
+            <p class="mt-2 text-sm text-gray-500">{{ site.data.pricing.plans.starter.subtitle }}</p>
           </div>
         </div>
 
         <div aria-hidden="true" class="pr-4 -mt-px pl-4 w-1/4">
           <div class="border-indigo-600 py-6 border-t-2">
-            <p class="text-indigo-600 text-sm font-bold">{{ site.data.plans.pricing.standard.name }}</p>
-            <p class="mt-2 text-sm text-gray-500">{{ site.data.plans.pricing.standard.subtitle }}</p>
+            <p class="text-indigo-600 text-sm font-bold">{{ site.data.pricing.plans.standard.name }}</p>
+            <p class="mt-2 text-sm text-gray-500">{{ site.data.pricing.plans.standard.subtitle }}</p>
           </div>
         </div>
 
         <div aria-hidden="true" class="-mt-px pl-4 w-1/4">
           <div class="border-transparent py-6 border-t-2">
-            <p class="text-gray-900 text-sm font-bold">{{ site.data.plans.pricing.advanced.name }}</p>
-            <p class="mt-2 text-sm text-gray-500">{{ site.data.plans.pricing.advanced.subtitle }}</p>
+            <p class="text-gray-900 text-sm font-bold">{{ site.data.pricing.plans.advanced.name }}</p>
+            <p class="mt-2 text-sm text-gray-500">{{ site.data.pricing.plans.advanced.subtitle }}</p>
           </div>
         </div>
       </div>
@@ -763,19 +763,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                    <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.targets }} in scope </span>
+                    <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.targets }} in scope </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.targets }} in scope </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.targets }} in scope </span>
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.targets }} in scope </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.targets }} in scope </span>
                 </span>
               </td>
             </tr>
@@ -785,19 +785,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.user-roles }} user role </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.user-roles }} user role </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.user-roles }} user roles </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.user-roles }} user roles </span>
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.user-roles }} user roles </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.user-roles }} user roles </span>
                 </span>
               </td>
             </tr>
@@ -807,19 +807,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.api-endpoints }} API Endpoints </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.api-endpoints }} API Endpoints </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.api-endpoints }} API Endpoints </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.api-endpoints }} API Endpoints </span>
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.api-endpoints }} API Endpoints </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.api-endpoints }} API Endpoints </span>
                 </span>
               </td>
             </tr>
@@ -865,19 +865,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.starter.external-ips }} IPs </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.starter.external-ips }} IPs </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.standard.external-ips }} IPs </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.standard.external-ips }} IPs </span>
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.plans.pricing.advanced.external-ips }} IPs </span>
+                  <span class="text-gray-900 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.external-ips }} IPs </span>
                 </span>
               </td>
             </tr>
@@ -887,19 +887,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.ports-scanned }} Ports</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.ports-scanned }} Ports</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.ports-scanned }} Ports</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.ports-scanned }} Ports</span>
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.ports-scanned }} Ports</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.ports-scanned }} Ports</span>
                 </span>
               </td>
             </tr>
@@ -946,19 +946,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.standard.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.standard.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.advanced.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.advanced.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
             </tr>
@@ -969,19 +969,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.standard.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.standard.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.advanced.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.advanced.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
             </tr>
@@ -991,19 +991,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.standard.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.standard.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
 
               <td class="pl-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  {% if site.data.plans.pricing.advanced.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                  {% if site.data.pricing.plans.advanced.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
                 </span>
               </td>
             </tr>
@@ -1013,19 +1013,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.delivery-time }} </span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.delivery-time }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.delivery-time }} </span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.delivery-time }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.delivery-time }} </span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.delivery-time }} </span>
                 </span>
               </td>
             </tr>
@@ -1035,19 +1035,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.researchers }} Researcher</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.researchers }} Researcher</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.researchers }} Researchers</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.researchers }} Researchers</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.researchers }} Researchers</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.researchers }} Researchers</span>
                 </span>
               </td>
             </tr>
@@ -1057,19 +1057,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.duration }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.duration }}</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.duration }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.duration }}</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.duration }}</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.duration }}</span>
                 </span>
               </td>
             </tr>
@@ -1079,19 +1079,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.tests-name }} </span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.tests-name }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-name }} </span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.tests-name }} </span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.tests-name }} </span>
                 </span>
               </td>
             </tr>
@@ -1101,19 +1101,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.tests-performed }} Tests Perfomed</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.tests-performed }} Tests Perfomed</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.tests-performed }} Tests Perfomed</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-performed }} Tests Perfomed</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.tests-performed }} Tests Perfomed</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.tests-performed }} Tests Perfomed</span>
                 </span>
               </td>
             </tr>
@@ -1123,19 +1123,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.starter.remediation-timeline }} Included</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.starter.remediation-timeline }} Included</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.standard.remediation-timeline }} Included</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.standard.remediation-timeline }} Included</span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">{{ site.data.plans.pricing.advanced.remediation-timeline }} Included</span>
+                  <span class="text-gray-900 text-sm font-medium">{{ site.data.pricing.plans.advanced.remediation-timeline }} Included</span>
                 </span>
               </td>
             </tr>
@@ -1145,19 +1145,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.plans.pricing.starter.pdf-report }} </span>
+                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.pricing.plans.starter.pdf-report }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.plans.pricing.standard.pdf-report }} </span>
+                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.pricing.plans.standard.pdf-report }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.plans.pricing.advanced.pdf-report }} </span>
+                  <span class="text-gray-900 text-sm font-medium">Available within {{ site.data.pricing.plans.advanced.pdf-report }} </span>
                 </span>
               </td>
             </tr>
@@ -1167,19 +1167,19 @@
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.plans.pricing.starter.start-time }} </span>
+                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.pricing.plans.starter.start-time }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.plans.pricing.standard.start-time }} </span>
+                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.pricing.plans.standard.start-time }} </span>
                 </span>
               </td>
 
               <td class="px-4 relative w-1/4 py-0 text-center">
                 <span class="relative w-full h-full py-3">
-                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.plans.pricing.advanced.start-time }} </span>
+                  <span class="text-gray-900 text-sm font-medium">Starts within {{ site.data.pricing.plans.advanced.start-time }} </span>
                 </span>
               </td>
             </tr>
