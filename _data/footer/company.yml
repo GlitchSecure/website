@@ -1,8 +1,8 @@
 #- title: "Blog"
 #  url:
 
-- title: "Careers"
-  url: mailto:hello@glitchsecure.com
+#- title: "About"
+#  url: /about/
 
-- title: "Contact"
-  url: mailto:hello@glitchsecure.com
+- title: "Careers"
+  url: https://docs.glitchsecure.com/team/hiring/
