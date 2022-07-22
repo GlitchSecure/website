@@ -7,16 +7,16 @@ sections:
       - item: "NIST CSF"
       - item: "SOC 2"
 
-  - title: Encryption
-    subtitle: "Working with up-to-date framework releases, we use tried and tested modules, and apply fundamental security considerations to every aspect of our software design. Additionally we apply a second layer of encryption to sensitive data such as vulnerability details."
+  - title: SDLC & Encryption
+    subtitle: "We continualy ensure our frameworks and dependencies are up to date and apply fundamental security considerations to every aspect of our software design. "
     icon: "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
     list:
       - item: "Encryption is used throughout our application"
       - item: "All data is encrypted in transit "
-      - item: "All databases and database backups are encrypted at rest"
+      - item: "Sensitive data and backups are encrypted at rest"
 
   - title: "Access Controls"
-    subtitle: "We limit access to our systems and our data to only those who need it, operating on the principle of least privilege.  "
+    subtitle: "We limit access to our systems and your data to only those who need it, operating on the principle of least privilege by design."
     icon: "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
     list:
       - item: "Unique logins required for all business critical systems"
@@ -32,7 +32,7 @@ sections:
       - item: "PCI-DSS"
 
   - title: "Monitoring"
-    subtitle: "Building a secure Site and Platform are only the beginning.  We monitor our systems to keep them secure and to continuously improve our people, processes and our product."
+    subtitle: "Building a secure platform is only the beginning. We monitor our systems and infrastructure to keep them secure and to continuously improve our processes and our product."
     icon: "M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z"
     list:
       - item: "Continuous resource and infrastructure access monitoring"
