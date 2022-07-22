@@ -24,7 +24,7 @@
   "dependencies": {
     "alpinejs": "^3.9.5",
     "animated-tailwindcss": "^3.3.0",
-    "esbuild": "^0.14.47",
+    "esbuild": "^0.14.48",
     "tailgrids": "^1.1.7",
     "tailwind-scrollbar-hide": "^1.1.7"
   }
