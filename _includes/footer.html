@@ -22,8 +22,26 @@
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="lmt-8 hidden xl:mt-0 xl:grid">
-        <img class="h-36" src="/assets/img/logo-icon-white.svg" />
+
+      <div class="md:grid md:grid-cols-2 md:gap-8">
+        <div>
+          <img class="h-32 hidden xl:block" src="/assets/img/logo-icon-white.svg" />
+        </div>
+
+        <div class="mt-12 md:mt-0 -ml-12 hidden xl:block">
+          <h3
+            class="text-sm font-semibold uppercase tracking-wider text-gray-400"
+          >
+            &nbsp;
+          </h3>
+          <ul role="list" class="mt-4 space-y-4">
+            {% for item in site.data.footer.contact %}
+            <li class="text-base text-gray-100">
+              {{ item.title }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       <div class="grid grid-cols-2 gap-8 xl:col-span-2">
         <div class="md:grid md:grid-cols-2 md:gap-8">
@@ -41,20 +59,22 @@
               {% endfor %}
             </ul>
           </div>
+
           <div class="mt-12 md:mt-0">
             <h3
               class="text-sm font-semibold uppercase tracking-wider text-gray-400"
             >
-              <!--Support-->
+              Support
             </h3>
             <ul role="list" class="mt-4 space-y-4">
               {% for item in site.data.footer.support %}
               <li>
-                <!--<a href="{{ item.url }}" class="text-base text-gray-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>-->
+                <a href="{{ item.url }}" class="text-base text-gray-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
               </li>
               {% endfor %}
             </ul>
           </div>
+
         </div>
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
@@ -156,7 +176,7 @@
         </a>
       </div>
       <p class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
-        &copy; 2022 GlitchSecure, Inc. All rights reserved.
+        Made with <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><title>love</title><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>  | &copy; 2022 GlitchSecure, Inc.
       </p>
     </div>
   </div>
