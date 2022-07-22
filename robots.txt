@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /legal/privacy
 Disallow: /legal/msa
 Disallow: /legal/security
+Disallow: /security
 Disallow: /intake/
 Disallow: /assets/img/clients/
