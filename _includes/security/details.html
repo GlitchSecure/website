@@ -18,10 +18,10 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="{{ item.icon }}" />
             </svg>
           </div>
-          <p class="mt-5 text-lg leading-6 font-medium text-neutral-900 dark:text-neutral-200">{{ item.title }}</p>
+          <p class="mt-5 mb-2 text-xl leading-6 font-medium text-neutral-900 dark:text-neutral-200">{{ item.title }}</p>
         </dt>
         {% for entry in item.list %}
-          <li class="text-neutral-700 dark:text-neutral-200">{{ entry.item }}</li>
+          <li class="ml-5 text-neutral-700 dark:text-neutral-200">{{ entry.item }}</li>
         {% endfor %}
         <dd class="mt-2 text-base text-neutral-600 dark:text-neutral-300">{{ item.subtitle }}</dd>
       </div>
