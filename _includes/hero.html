@@ -24,7 +24,11 @@ x-data="
           <h1
             class="mb-4 text-4xl font-extrabold leading-snug tracking-tight text-gray-200 md:mb-32 md:text-left md:text-6xl"
           >
-            {{ page.title }}
+            {% if page.hero-title %}
+              {{ page.hero-title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
           </h1>
         </div>
       </div>

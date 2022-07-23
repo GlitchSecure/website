@@ -1,6 +1,7 @@
 ---
 layout: platform
 title: Platform
+hero-title: "Real-time Pentest Collaboration"
 subtitle: "No more waiting for outdated PDF reports and spreadsheets. Get security vulnerabilities delivered to you instantly in a real-time dashboard."
 permalink: /platform/
 published: true
