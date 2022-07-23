@@ -3,27 +3,30 @@ layout: platform
 title: Platform
 subtitle: "No more waiting for outdated PDF reports and spreadsheets. Get security vulnerabilities delivered to you instantly in a real-time dashboard."
 permalink: /platform/
-published: false
+published: true
 
 # Platform Feature
-platform-feature-title1: "Get actionable results. Instantly."
-platform-feature-subtitle1: "Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra."
+platform-feature-title1: "Get Expert Manual Testing."
+platform-feature-subtitle1: "Our real-time pentest collaboration platform connects you with expert security researchers to help secure your products and infrastructure through manual security testing."
 platform-feature-button1: "Get Started"
-platform-feature-link1: "#"
+platform-feature-link1: "javascript:void(0)"
+platform-feature-click1: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Platform Feature'}});"
 platform-feature-image1: "/assets/img/platform/platform-preview1.png"
 
 
-platform-feature-title2: "Expert advice in real-time."
-platform-feature-subtitle2: "Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra."
+platform-feature-title2: "Remediate With Ease."
+platform-feature-subtitle2: "No need to wait for the final PDF report! View vulnerabilities as soon as they are found and start fixing them today. Once a fix is in place simply click a button, we'll validate your efforts and automatically update your final report."
 platform-feature-button2: "Get Started"
-platform-feature-link2: "#"
-platform-feature-image2: "/assets/img/platform/platform-preview2.png"
+platform-feature-link2: "javascript:void(0)"
+platform-feature-click2: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Platform Feature'}});"
+platform-feature-image2: "/assets/img/platform/platform-preview2.svg"
 
-platform-feature-title3: "I was too lazy to write something."
-platform-feature-subtitle3: "Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra."
-platform-feature-button3: "Get Started"
-platform-feature-link3: "#"
-platform-feature-image3: "/assets/img/platform/platform-preview3.png"
+platform-feature-title3: "Schedule Recurring Scans."
+platform-feature-subtitle3: "Continually ensure your assets are secure with daily, weekly, and monthly security scanning. Get notified of vulnerabilities before hackers find them, and automatically verify applied patches."
+platform-feature-button3: "Request Beta Access"
+platform-feature-link3: "javascript:void(0)"
+platform-feature-click3: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Platform Beta'}});"
+platform-feature-image3: "/assets/img/platform/platform-preview3.svg"
 
 
 # Call-to-action

@@ -2,8 +2,8 @@
 #  url: "/services/"
 #  dropdown: false
 
-#- title: Platform
-#  url: /platform/
+- title: Platform
+  url: /platform/
 
 #- title: Pricing
 #  url: /pricing/

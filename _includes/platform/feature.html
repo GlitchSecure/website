@@ -1,137 +1,148 @@
 <div
-  class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
->
-  <div class="mt-24">
-    <div
-      class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
-    >
+  x-data="
+    {
+      getstartedOpen: false,
+    }
+  ">
+  <div
+    class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
+  >
+    <div class="mt-24">
       <div
-        class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+        class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
       >
-        <div>
-          <div class="mt-6">
-            <h2
-              class="inline-block border-b border-gray-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200"
-            >
-              {{ page.platform-feature-title1 }}
-            </h2>
-            <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
-              {{ page.platform-feature-subtitle1 }}
-            </p>
-            <a
-              href="{{ page.platform-feature-link1 }}"
-              class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
-            >
-              {{ page.platform-feature-button1 }}
-            </a>
+        <div
+          class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+        >
+          <div>
+            <div class="mt-6">
+              <h2
+                class="inline-block border-b border-gray-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200"
+              >
+                {{ page.platform-feature-title1 }}
+              </h2>
+              <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
+                {{ page.platform-feature-subtitle1 }}
+              </p>
+              <a
+                href="{{ page.platform-feature-link1 }}"
+                @click="{{ page.platform-feature-click1 }}"
+                class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
+              >
+                {{ page.platform-feature-button1 }}
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-        <div
-          class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
-        >
-          <img
-            class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
-            src="{{ page.platform-feature-image1 }}"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-{%- include divider-secondary.html -%}
-
-<div
-  class="relative overflow-hidden bg-glitchsecure-purple pb-32 dark:bg-glitchsecure-purple-dark"
->
-  <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
-
-  <div class="mt-24">
-    <div
-      class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
-    >
-      <div class="mt-12 sm:mt-16 lg:col-start-2 lg:mt-0">
-        <div
-          class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
-        >
-          <img
-            class="hidden w-full rounded-xl lg:absolute lg:left-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
-            src="{{ page.platform-feature-image2 }}"
-            alt=""
-          />
-        </div>
-      </div>
-      <div
-        class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-1 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
-      >
-        <div>
-          <div class="mt-6">
-            <h2
-              class="inline-block border-b border-neutral-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-200"
-            >
-              {{ page.platform-feature-title2 }}
-            </h2>
-            <p class="mt-4 text-lg text-neutral-300">
-              {{ page.platform-feature-subtitle2 }}
-            </p>
-            <a
-              href="{{ page.platform-feature-link2 }}"
-              class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-black transition hover:bg-opacity-90"
-            >
-              {{ page.platform-feature-button2 }}
-            </a>
+        <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+          <div
+            class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+          >
+            <img
+              class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+              src="{{ page.platform-feature-image1 }}"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-{%- include divider-primary.html -%}
+  {%- include divider-secondary.html -%}
 
-<div
-  class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
->
-  <div class="mt-24">
-    <div
-      class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
-    >
+  <div
+    class="relative overflow-hidden bg-glitchsecure-purple pb-32 dark:bg-glitchsecure-purple-dark"
+  >
+    <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
+
+    <div class="mt-24">
       <div
-        class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+        class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
       >
-        <div>
-          <div class="mt-6">
-            <h2
-              class="inline-block border-b border-gray-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200"
-            >
-              {{ page.platform-feature-title3 }}
-            </h2>
-            <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
-              {{ page.platform-feature-subtitle3 }}
-            </p>
-            <a
-              href="{{ page.platform-feature-link3 }}"
-              class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
-            >
-              {{ page.platform-feature-button3 }}
-            </a>
+        <div class="mt-12 sm:mt-16 lg:col-start-2 lg:mt-0">
+          <div
+            class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+          >
+            <img
+              class="hidden w-full rounded-xl lg:absolute lg:left-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+              src="{{ page.platform-feature-image2 }}"
+              alt=""
+            />
           </div>
         </div>
-      </div>
-      <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
         <div
-          class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+          class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-1 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
         >
-          <img
-            class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
-            src="{{ page.platform-feature-image3 }}"
-            alt=""
-          />
+          <div>
+            <div class="mt-6">
+              <h2
+                class="inline-block border-b border-neutral-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-200"
+              >
+                {{ page.platform-feature-title2 }}
+              </h2>
+              <p class="mt-4 text-lg text-neutral-300">
+                {{ page.platform-feature-subtitle2 }}
+              </p>
+              <a
+                href="{{ page.platform-feature-link2 }}" @click="{{ page.platform-feature-click2 }}"
+                class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-black transition hover:bg-opacity-90"
+              >
+                {{ page.platform-feature-button2 }}
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  {%- include divider-primary.html -%}
+
+  <div
+    class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
+  >
+    <div class="mt-24">
+      <div
+        class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+      >
+        <div
+          class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+        >
+          <div>
+            <div class="mt-6">
+              <h2
+                class="inline-block border-b border-gray-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200"
+              >
+                {{ page.platform-feature-title3 }}
+              </h2>
+              <span class="inline-flex items-center -mt-4 px-2.5 py-0.5 rounded-md text-sm font-medium bg-glitchsecure-purple text-neutral-200 dark:bg-glitchsecure-purple-light dark:text-neutral-200"> Coming soon </span>
+              <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
+                {{ page.platform-feature-subtitle3 }}
+              </p>
+              <a
+                href="{{ page.platform-feature-link3 }}" @click="{{ page.platform-feature-click3 }}"
+                class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
+              >
+                {{ page.platform-feature-button3 }}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+          <div
+            class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+          >
+            <img
+              class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+              src="{{ page.platform-feature-image3 }}"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include getstarted/modal.html %}
 </div>
