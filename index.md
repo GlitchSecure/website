@@ -25,13 +25,13 @@ process-subtitle: "We use a hybrid approach that combines manual testing perform
 # Platform Feature
 feature-title1: "Get actionable results. Instantly."
 feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you instantly using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and collaborate with our security team using the GlitchSecure platform."
-feature-button1: "Get Started"
-feature-button1-link: "#demo"
+feature-button1: "Learn More"
+feature-button1-link: "/platform/"
 
 feature-title2: "Expert advice in real-time."
 feature-subtitle2: "Our dedicated security experts are available throughout the assessment period to provide advice and help you along the way. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly mitigated."
 feature-button2: "Learn More"
-feature-button2-link: "#demo"
+feature-button2-link: "/platform/"
 
 # Call-to-action
 cta-title: "Need a security assessment?"
