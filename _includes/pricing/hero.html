@@ -2,7 +2,8 @@
 x-data="
   {
     currencyUSD: true,
-    currencyCAD: false
+    currencyCAD: false,
+    getstartedOpen: false,
   }
 ">
   <!-- Overlapping background -->
@@ -34,7 +35,7 @@ x-data="
                 <p class="text-indigo-200 text-sm">{{ site.data.pricing.plans.starter.credits }} Credits</p>
               </div>
             </div>
-            <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.starter.cta }}</a>
+            <a href="{{ site.data.pricing.plans.starter.cta-link }}" @click="{{ site.data.pricing.plans.starter.cta-click }}" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.starter.cta }}</a>
           </div>
         </div>
         <ul role="list" class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
@@ -85,7 +86,7 @@ x-data="
                 <p class="text-gray-500 text-sm">{{ site.data.pricing.plans.standard.credits }} Credits</p>
               </div>
             </div>
-            <a href="#" class="bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.standard.cta }}</a>
+            <a href="{{ site.data.pricing.plans.standard.cta-link }}" @click="{{ site.data.pricing.plans.standard.cta-click }}" class="bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.standard.cta }}</a>
           </div>
         </div>
         <ul role="list" class="border-gray-200 divide-gray-200 mt-7 border-t divide-y lg:border-t-0">
@@ -144,7 +145,7 @@ x-data="
                 <p class="text-indigo-200 text-sm">{{ site.data.pricing.plans.advanced.credits }} Credits</p>
               </div>
             </div>
-            <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.advanced.cta }}</a>
+            <a href="{{ site.data.pricing.plans.advanced.cta-link }}" @click="{{ site.data.pricing.plans.advanced.cta-click }}" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">{{ site.data.pricing.plans.advanced.cta }}</a>
           </div>
         </div>
         <ul role="list" class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
@@ -183,4 +184,5 @@ x-data="
       </div>
     </div>
   </div>
+  {% include getstarted/modal.html %}
 </div>

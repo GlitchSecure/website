@@ -24,6 +24,8 @@ starter:
   price-cad: "$12,480"
   credits: "3"
   cta: "Get Started"
+  cta-link: "javascript:void(0)"
+  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Starter'}});"
 standard:
   name: "Standard"
   subtitle: "Perfect for startups"
@@ -50,6 +52,8 @@ standard:
   price-cad: "$16,640"
   credits: "4"
   cta: "Get Started"
+  cta-link: "javascript:void(0)"
+  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Standard'}});"
 advanced:
   name: "Advanced"
   subtitle: "When you just need more"
@@ -76,6 +80,8 @@ advanced:
   price-cad: "$24,960"
   credits: "6"
   cta: "Get Started"
+  cta-link: "javascript:void(0)"
+  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Advanced'}});"
 credit-hours: "16"
 credit-price-usd: "$3,200USD"
 credit-price-cad: "$4,160CAD"
