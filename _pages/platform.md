@@ -2,13 +2,14 @@
 layout: platform
 title: Platform
 hero-title: "Real-time Pentest Collaboration"
-subtitle: "No more waiting for outdated PDF reports and spreadsheets. Get security vulnerabilities delivered to you instantly in a real-time dashboard."
+subtitle: "Flexible and on demand pentesting delivered to you instantly in a real-time dashboard. See results in days, not weeks."
 permalink: /platform/
 published: true
 
 # Platform Feature
 platform-feature-title1: "Get Expert Manual Testing."
-platform-feature-subtitle1: "Our real-time pentest collaboration platform connects you with expert security researchers to help secure your products and infrastructure through manual security testing."
+platform-feature-subtitle1: "We've built our own real-time pentest collaboration platform that connects you with expert security researchers to secure your products and infrastructure. <br><br>
+Testing results are delivered to you in a simple dashboard, keeping you informed of testing progress."
 platform-feature-button1: "Get Started"
 platform-feature-link1: "javascript:void(0)"
 platform-feature-click1: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Platform Feature'}});"
