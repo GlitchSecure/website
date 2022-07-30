@@ -83,8 +83,8 @@ advanced:
   cta-link: "javascript:void(0)"
   cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Advanced'}});"
 credit-hours: "16"
-credit-price-usd: "$3,200USD"
-credit-price-cad: "$4,160CAD"
+credit-price-usd: "$3,200"
+credit-price-cad: "$4,160"
 addons:
   - name: "Additional applications"
     what-included: "1 Application"

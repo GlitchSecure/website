@@ -3,7 +3,7 @@ layout: pricing
 title: Pricing
 hero-title: "Simple, trans­parent pricing."
 subtitle: "Every plan comes with a dedicated security researcher, a full PDF report, and free remediation testing. We have a plan for businesses of every stage, size and shape."
-hero-button: "Get Started"
+#hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Page'}})"
 permalink: /pricing/
