@@ -24,6 +24,7 @@
               <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
                 {{ page.about-feature-subtitle1 }}
               </p>
+              {% if page.about-feature-button-1 %}
               <a
                 href="{{ page.about-feature-link1 }}"
                 @click="{{ page.about-feature-click1 }}"
@@ -31,6 +32,7 @@
               >
                 {{ page.about-feature-button1 }}
               </a>
+              {% endif %}
             </div>
           </div>
         </div>
