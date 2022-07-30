@@ -3,7 +3,7 @@ layout: home
 # Hero
 hero-title: "Real-time Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
-hero-title-3: "Enhanced by automation & collaboration"
+#hero-title-3: "Enhanced by automation & collaboration"
 hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to find and remediate vulnerabilities in your applications and networks today."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"

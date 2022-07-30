@@ -26,18 +26,22 @@
           >
             {{ page.hero-title }}
           </h1>
+          {% if page.hero-title-2 %}
           <h2
             class="text-xl font-medium leading-snug text-[#c5b7e1] md:text-left md:text-3xl md:font-bold"
           >
             {{ page.hero-title-2 }}
           </h2>
+          {% endif %}
+          {% if page.hero-title-3 %}
           <h3
             class="mb-5 text-lg leading-tight tracking-tight text-[#c5b7e1] md:text-left md:text-2xl md:font-medium"
           >
             {{ page.hero-title-3 }}
           </h3>
+          {% endif %}
           <p
-            class="mb-8 max-w-xl text-sm text-gray-100 md:text-left md:text-xl"
+            class="mt-4 mb-8 max-w-xl text-sm text-gray-100 md:text-left md:text-xl"
           >
             {{ page.hero-subtitle }}
           </p>
