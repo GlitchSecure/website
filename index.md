@@ -34,8 +34,8 @@ feature-button2: "Learn More"
 feature-button2-link: "/platform/"
 
 # Call-to-action
-cta-title: "Need a security assessment?"
-cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform?<br>We're here to help! Enter your email and we'll get back to you today!"
-cta-button-text: "Let's Talk!"
+cta-title: "Need a pentest? Let's talk."
+cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform?<br>We're here to help! Enter your email to schedule an intro call."
+cta-button-text: "Book a call!"
 cta-button-link: "https://cal.com/team/glitchsecure/intro/?email="
 ---

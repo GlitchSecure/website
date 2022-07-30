@@ -32,7 +32,7 @@ platform-feature-image3: "/assets/img/platform/platform-preview3.svg"
 
 
 # Call-to-action
-cta-title: "Schedule a free demo today"
-cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform? <br>Enter your email and we'll get back to you today!"
-cta-button-text: "Let's Talk!"
+cta-title: "Schedule a free demo call"
+cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform? <br>Enter your email to meet with our team today!"
+cta-button-text: "Book a call!"
 ---
