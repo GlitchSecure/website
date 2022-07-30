@@ -7,10 +7,9 @@ permalink: /about/
 published: true
 
 # About Feature
-about-feature-title1: "People driven."
-about-feature-subtitle1: "We've built our own real-time pentest collaboration about that connects you with expert security researchers to secure your products and infrastructure. <br><br>
-Testing results are delivered to you in a simple dashboard, keeping you informed of testing progress."
-about-feature-button1: "Get Started"
+about-feature-title1: "People driven. Technology Powered."
+about-feature-subtitle1: Necessitatibus minima libero nobis praesentium architecto. Sed velit exercitationem natus illum animi atque ut cumque. Eum ut aut dicta minus voluptas. Natus facere praesentium ea sequi dolor voluptatum aut. Libero molestiae culpa blanditiis perferendis saepe."
+#about-feature-button1: "Get Started"
 about-feature-link1: "javascript:void(0)"
 about-feature-click1: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'about Feature'}});"
 about-feature-image1: "/assets/img/about/hero-preview.svg"
