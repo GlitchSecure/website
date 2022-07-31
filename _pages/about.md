@@ -2,7 +2,7 @@
 layout: about
 title: "About"
 hero-title: "Meet your dedicated security team"
-subtitle: "We're more than meets the eye. A passionate collective of security researchers and (ethical) hackers on a mission to help you secure what matters most."
+subtitle: "We're more than meets the eye. A passionate collective of security researchers, (ethical) hackers, and developers on a mission to help you secure what matters most."
 permalink: /about/
 published: true
 
