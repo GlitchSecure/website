@@ -17,7 +17,7 @@ stats-title: "Next generation security assessments"
 stats-subtitle: "Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam."
 
 # Features
-process-title-small: "Our Process"
+process-title-small: "Our process"
 process-title: "How we're different"
 process-subtitle: "We use a hybrid approach that combines manual testing performed by experts, a real-time reporting dashboard, and automation to deliver high quality results. "
 ## See _date/home/feature.yml

@@ -1,13 +1,13 @@
 ---
 layout: about
 title: "About"
-hero-title: "Meet your dedicated security team"
+hero-title: "Meet Your Dedicated Security Team"
 subtitle: "We're more than meets the eye. A passionate collective of security researchers, (ethical) hackers, and developers on a mission to help you secure what matters most."
 permalink: /about/
 published: true
 
 # About Feature
-about-feature-title1: "People driven. Technology Powered."
+about-feature-title1: "People driven. Technology powered."
 about-feature-subtitle1: "We are continually developing bleeding edge technology to help delivery the most thorough security testing. We're highly skilled experts in our field and are passionate about delivering the best results."
 #about-feature-button1: "Get Started"
 about-feature-link1: "javascript:void(0)"
