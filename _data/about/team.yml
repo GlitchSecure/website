@@ -1,0 +1,59 @@
+- name: Jade
+  pronouns: They/Them
+  country: Canada
+  picture: /assets/img/about/team/jade.jpg
+  title: Founder / Security Researcher / Developer
+  certs: "OSCP"
+  social-name: "@GlitchWitch"
+  social-link: "https://twitter.com/GlitchWitch"
+  bio: "Jade is an IT and Information Security professional with both a strong technical background and a history of technical leadership."
+
+- name: Travis
+  pronouns: He/Him
+  country: United States
+  picture: /assets/img/about/team/travis.jpg
+  title: Lead Security Researcher
+  certs: "OSCP / Security+"
+  social-name: "@McCormackCyber"
+  social-link: "https://twitter.com/McCormackCyber"
+  bio: "Travis has over a decade of experience in IT with a focus on security. He has performed hundreds of web application and API pentests in many verticals and of varying complexities."
+
+- name: Marko
+  pronouns: He/Him
+  country: Serbia
+  picture: /assets/img/about/team/marko.jpg
+  title: Staff Security Researcher / Developer
+  certs: "OSCP / CRTO / Pentest+"
+  social-name: "@ExAndroidDev"
+  social-link: "https://twitter.com/ExAndroidDev"
+  bio: "Marko is an experienced web, mobile, and infrastructure penetration tester. Red teaming enthusiast and CTF player. OSCP since March 2019, Pentest+ since December 2019, CRTO since June 2022."
+
+- name: payloadartist
+  pronouns: He/Him
+  country: India
+  picture: /assets/img/about/team/payloadartist.png
+  title: Staff Security Researcher
+  certs: Bachelor of Technology
+  social-name: "@payloadartist"
+  social-link: "https://twitter.com/payloadartist"
+  bio: "A builder, breaker, and experimenter in AppSec. He has a strong background in application security with over 4 years of experience in the cybersecurity domain."
+
+#- name: Lucas
+#  pronouns: He/Him
+#  country: Brazil
+#  picture: /assets/img/about/team/lucas.jpg
+#  title: Full Stack Developer
+#  certs: Bachelor of Information Technology
+#  social-name: "@lucasdotvin"
+#  social-link: "https://twitter.com/lucasdotvin"
+#  bio: "Lucas loves the power technology has to transform the world. He mainly focuses on the development of applications in the Laravel framework's ecosystem, with a focus on high-demand RESTful APIs."
+
+#- name: Shreyansh
+#  pronouns: He/Him
+#  country: India
+#  picture: /assets/img/about/team/shreyansh.jpg
+#  title: Full Stack Developer
+#  certs: CCNA / B.S. IT / Masters CS
+#  social-name: "@izshreyansh"
+#  social-link: "https://twitter.com/izshreyansh"
+#  bio: "Shreyansh is an experienced Product Developer. Througout his career he has continually demonstrated good coding practices and has activly contributed to the Laravel ecosystem."

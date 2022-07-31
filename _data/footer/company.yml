@@ -1,11 +1,11 @@
 #- title: "Blog"
 #  url:
 
-#- title: "About"
-#  url: /about/
+- title: "About"
+  url: /about/
 
-- title: "Contact"
-  url: mailto:hello@glitchsecure.com
+#- title: "Contact"
+#  url: mailto:hello@glitchsecure.com
 
 - title: "Careers"
   url: https://docs.glitchsecure.com/team/hiring/
