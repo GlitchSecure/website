@@ -3,7 +3,7 @@
   country: Canada
   picture: /assets/img/about/team/jade.jpg
   title: Founder, Security Researcher, Developer
-  certs: "OSCP / A+"
+  certs: "OSCP"
   bio: "Jade is an IT and Information Security professional with both a strong technical background and a history of technical leadership."
 
 - name: Travis
@@ -11,7 +11,7 @@
   country: United States
   picture: /assets/img/about/team/travis.jpg
   title: Lead Security Researcher
-  certs: "OSCP / CISSP / C|EH / Security+"
+  certs: "OSCP / Security+"
   bio: "Travis has over a decade of experience in IT with a focus on security. He has performed hundreds of web application and API pentests in many verticals and of varying complexities."
 
 - name: Marko
