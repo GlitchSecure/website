@@ -17,7 +17,7 @@
 <div class="bg-white pb-16">
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
-      <h2 class="text-neutral-900 text-3xl font-extrabold tracking-tight sm:text-4xl">Meet our global team</h2>
+      <h2 class="text-neutral-900 dark:text-neutral-200 text-3xl font-extrabold tracking-tight sm:text-4xl">Meet our global team</h2>
 
       <ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
         {% for item in site.data.about.team %}
@@ -29,12 +29,12 @@
             <div class="sm:col-span-2">
               <div class="space-y-4">
                 <div class="text-lg leading-6 font-medium space-y-1">
-                  <h3 class="text-neutral-900">{{ item.name }}<span class="text-sm">{% if item.pronouns %} / {{ item.pronouns }}</span>{% endif %}{% if item.country %}<span class="text-sm"> / {{ item.country }}</span>{% endif %}</h3>
-                  <p class="text-neutral-800 text-sm">{{ item.title }}</p>
-                  <p class="text-neutral-700 text-sm">{% if item.social-name %}<a href="{{ item.social-link }}">{{ item.social-name }}</a>{% endif %}{% if item.certs %} / {{ item.certs }}{% endif %}</p>
+                  <h3 class="text-neutral-900 dark:text-neutral-200">{{ item.name }}<span class="text-sm">{% if item.pronouns %} / {{ item.pronouns }}</span>{% endif %}{% if item.country %}<span class="text-sm"> / {{ item.country }}</span>{% endif %}</h3>
+                  <p class="text-neutral-800 dark:text-neutral-100 text-sm">{{ item.title }}</p>
+                  <p class="text-neutral-600 dark:text-neutral-300 text-sm">{% if item.social-name %}<a href="{{ item.social-link }}">{{ item.social-name }}</a>{% endif %}{% if item.certs %} / {{ item.certs }}{% endif %}</p>
                 </div>
                 <div class="text-lg">
-                  <p class="text-neutral-700">{{ item.bio }}</p>
+                  <p class="text-neutral-600 dark:text-neutral-200">{{ item.bio }}</p>
                 </div>
               </div>
             </div>
