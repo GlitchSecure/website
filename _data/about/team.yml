@@ -30,18 +30,18 @@
   certs: Bachelor of Technology
   bio: "Arif loves to build, break and experiment with AppSec. He has a strong background in application security with over 4 years of experience in the cybersecurity domain."
 
-- name: Lucas
-  pronouns: He/Him
-  country: Brazil
-  picture: /assets/img/about/team/lucas.jpg
-  title: Full Stack Developer
-  certs: Bachelor of Information Technology
-  bio: "Lucas loves the power technology has to transform the world. He mainly focuses on the development of applications in the Laravel framework's ecosystem, with a focus on high-demand RESTful APIs."
+#- name: Lucas
+#  pronouns: He/Him
+#  country: Brazil
+#  picture: /assets/img/about/team/lucas.jpg
+#  title: Full Stack Developer
+#  certs: Bachelor of Information Technology
+#  bio: "Lucas loves the power technology has to transform the world. He mainly focuses on the development of applications in the Laravel framework's ecosystem, with a focus on high-demand RESTful APIs."
 
-- name: Shreyansh
-  pronouns: He/Him
-  country: India
-  picture: /assets/img/about/team/shreyansh.jpg
-  title: Full Stack Developer
-  certs: CCNA / B.S. IT / Masters CS
-  bio: "Shreyansh is an experienced Product Developer. Througout his career he has continually demonstrated good coding practices and has activly contributed to the Laravel ecosystem."
+#- name: Shreyansh
+#  pronouns: He/Him
+#  country: India
+#  picture: /assets/img/about/team/shreyansh.jpg
+#  title: Full Stack Developer
+#  certs: CCNA / B.S. IT / Masters CS
+#  bio: "Shreyansh is an experienced Product Developer. Througout his career he has continually demonstrated good coding practices and has activly contributed to the Laravel ecosystem."
