@@ -45,7 +45,7 @@ module.exports = withAnimations({
           "radial-gradient(ellipse at bottom right, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
         DEFAULT: {
