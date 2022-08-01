@@ -82,7 +82,6 @@ module.exports = withAnimations({
     require("@tailwindcss/typography"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/forms"),
-    require("tailgrids/plugin"),
     require('tailwind-scrollbar-hide'),
   ],
 });
