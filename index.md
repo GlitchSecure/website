@@ -4,7 +4,7 @@ layout: home
 hero-title: "Real-time Collaborative <wbr>Penetration Testing"
 hero-title-2: "Delivered by expert researchers"
 #hero-title-3: "Enhanced by automation & collaboration"
-hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to continuously find and remediate vulnerabilities in your applications and networks."
+hero-subtitle: "Assess your security posture instantly. Collaborate with our expert security researchers to continually find and remediate vulnerabilities in your applications and networks."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Landing Page'}})"
