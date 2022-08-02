@@ -45,7 +45,7 @@ module.exports = withAnimations({
           "radial-gradient(ellipse at bottom right, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -82,7 +82,6 @@ module.exports = withAnimations({
     require("@tailwindcss/typography"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/forms"),
-    require("tailgrids/plugin"),
     require('tailwind-scrollbar-hide'),
   ],
 });
