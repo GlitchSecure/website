@@ -6,7 +6,7 @@
   certs: "OSCP"
   social-name: "@GlitchWitch"
   social-link: "https://twitter.com/GlitchWitch"
-  bio: "Jade is an IT and Information Security professional with both a strong technical background and a history of technical leadership."
+  bio: "Jade (aka GlitchWitch) is an IT and Information Security professional with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web."
 
 - name: Travis
   pronouns: He/Him
@@ -26,7 +26,7 @@
   certs: "OSCP / CRTO / Pentest+"
   social-name: "@ExAndroidDev"
   social-link: "https://twitter.com/ExAndroidDev"
-  bio: "Marko is an experienced web, mobile, and infrastructure penetration tester. Red teaming enthusiast and CTF player. OSCP since March 2019, Pentest+ since December 2019, CRTO since June 2022."
+  bio: "Marko is an experienced web, mobile, and infrastructure penetration tester having obtained is OSCP in 2019. Red teaming enthusiast and CTF player with a background in android development."
 
 - name: payloadartist
   pronouns: He/Him

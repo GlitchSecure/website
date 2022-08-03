@@ -24,6 +24,20 @@ stats-stat2-number: "1500+"
 stats-stat3-title: "Happy Clients"
 stats-stat3-number: "200+"
 
+# About testimonials
+testimonial-logo-1: "/assets/img/about/testimonials/assembly.svg"
+testimonial-quote-1: "I worked with GlitchSecure as part of Assembly's first PenTest. It was an absolute pleasure to work with them. The test deeply covered all the required aspects and communication was stellar. Would definitely recommend GlitchSecure."
+testimonial-picture-1: "/assets/img/about/testimonials/fernando.jpg"
+testimonial-name-1: "Fernando Martin"
+testimonial-title-1: "VP of Engineering"
+testimonial-company-1: "Assembly"
+
+testimonial-logo-2: "/assets/img/about/testimonials/alloy.svg"
+testimonial-quote-2: "It was a pleasure to work with Jade and their team. They were thorough, detailed in their report and supplied insightful recommendations. They also promptly answered our questions and tested our remediations measure just as quickly. Working with them was a very positive experience overall."
+testimonial-picture-2: "/assets/img/about/testimonials/jean-martin.jpg"
+testimonial-name-2: "Jean-Martin Archer"
+testimonial-title-2: "Staff Software Engineer"
+testimonial-company-2: "Alloy"
 
 # client list
 client-list-title: "Companies our researchers have helped secure"
