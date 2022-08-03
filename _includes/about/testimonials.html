@@ -1,440 +1,53 @@
-<!-- ====== Testimonials Section Start -->
-<section class="bg-glitchsecure-purple pt-20 pb-10 lg:pt-[120px] lg:pb-20">
-  <div class="w-full mx-auto px-4">
-    <div class="-mx-4 flex flex-wrap justify-center">
-      <div class="w-full px-4">
-        <div class="mx-auto mb-[60px] max-w-[510px] text-center">
-          <span class="mb-2 block text-lg font-semibold text-primary">
-            Testimonials
-          </span>
-          <h2
-            class="mb-4 text-3xl font-bold text-neutral-200 sm:text-4xl md:text-[40px]"
-          >
-            What our Clients Say
-          </h2>
-          <p class="text-base text-body-color">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<section class="bg-white dark:bg-glitchsecure-purple-medium mb-12 -mt-24">
+  <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+    <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 lg:pr-16 mt-32">
+      <div class="md:flex-shrink-0">
+        <img class="h-8" src="{{ page.testimonial-logo-1 }}" alt="{{ page.testimonial-company-1 }}">
       </div>
-    </div>
-    <div
-      x-data="
-         {
-         slides: ['1','2','3', '4'],
-         activeSlide: 1,
-         activeButton: 'w-[30px] bg-primary',
-         button: 'w-[10px] bg-[#E4E4E4]'
-         }
-         "
-    >
-      <div class="relative flex justify-center">
-        <div class="relative w-full pb-16">
-          <div
-            class="flex-no-wrap snap mx-auto flex h-auto w-full max-w-[300px] overflow-hidden transition-all xs:max-w-[400px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px]"
-            x-ref="carousel"
-          >
-            <div
-              class="mx-auto h-full min-w-[300px] px-4 xs:min-w-[368px] sm:min-w-[510px] md:min-w-[340px] lg:min-w-[465px] xl:min-w-[370px] 2xl:min-w-[430px]"
-            >
-              <div
-                class="mb-10 bg-white p-8 shadow-testimonial-5 lg:py-8 lg:px-6 xl:p-8"
-              >
-                <div class="mb-5 flex items-center">
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                </div>
-                <p class="mb-5 text-base leading-relaxed text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-                <div class="flex items-center">
-                  <div class="mr-4 h-[50px] w-full max-w-[50px]">
-                    <img
-                      src="https://cdn.tailgrids.com/1.0/assets/images/testimonials/testimonial-04/image-01.png"
-                      alt="image"
-                      class="w-full"
-                    />
-                  </div>
-                  <div class="w-full">
-                    <h5 class="mb-1 text-sm font-semibold text-dark">
-                      Sabo Masties
-                    </h5>
-                    <p class="text-xs text-body-color">Founder @ Rolex</p>
-                  </div>
-                </div>
-              </div>
+      <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+        <div class="relative text-lg font-medium text-neutral-900 dark:text-neutral-300 md:flex-grow">
+          <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-glitchsecure-purple" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+          </svg>
+          <p class="relative pl-8">{{ page.testimonial-quote-1 }}</p>
+        </div>
+        <footer class="mt-8">
+          <div class="flex items-start">
+            <div class="flex-shrink-0 inline-flex rounded-full border-2 border-neutral-700 dark:border-neutral-200">
+              <img class="h-12 w-12 rounded-full" src="{{ page.testimonial-picture-1 }}" alt="">
             </div>
-            <div
-              class="mx-auto h-full min-w-[300px] px-4 xs:min-w-[368px] sm:min-w-[510px] md:min-w-[340px] lg:min-w-[465px] xl:min-w-[370px] 2xl:min-w-[430px]"
-            >
-              <div
-                class="mb-10 bg-white p-8 shadow-testimonial-5 lg:py-8 lg:px-6 xl:p-8"
-              >
-                <div class="mb-5 flex items-center">
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                </div>
-                <p class="mb-5 text-base leading-relaxed text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-                <div class="flex items-center">
-                  <div class="mr-4 h-[50px] w-full max-w-[50px]">
-                    <img
-                      src="https://cdn.tailgrids.com/1.0/assets/images/testimonials/testimonial-04/image-02.png"
-                      alt="image"
-                      class="w-full"
-                    />
-                  </div>
-                  <div class="w-full">
-                    <h5 class="mb-1 text-sm font-semibold text-dark">
-                      Musharof Chowdhury
-                    </h5>
-                    <p class="text-xs text-body-color">Founder @ Ayro UI</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="mx-auto h-full min-w-[300px] px-4 xs:min-w-[368px] sm:min-w-[510px] md:min-w-[340px] lg:min-w-[465px] xl:min-w-[370px] 2xl:min-w-[430px]"
-            >
-              <div
-                class="mb-10 bg-white p-8 shadow-testimonial-5 lg:py-8 lg:px-6 xl:p-8"
-              >
-                <div class="mb-5 flex items-center">
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                </div>
-                <p class="mb-5 text-base leading-relaxed text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-                <div class="flex items-center">
-                  <div class="mr-4 h-[50px] w-full max-w-[50px]">
-                    <img
-                      src="https://cdn.tailgrids.com/1.0/assets/images/testimonials/testimonial-04/image-03.png"
-                      alt="image"
-                      class="w-full"
-                    />
-                  </div>
-                  <div class="w-full">
-                    <h5 class="mb-1 text-sm font-semibold text-dark">
-                      William Smith
-                    </h5>
-                    <p class="text-xs text-body-color">Founder @ Trorex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="mx-auto h-full min-w-[300px] px-4 xs:min-w-[368px] sm:min-w-[510px] md:min-w-[340px] lg:min-w-[465px] xl:min-w-[370px] 2xl:min-w-[430px]"
-            >
-              <div
-                class="mb-10 bg-white p-8 shadow-testimonial-5 lg:py-8 lg:px-6 xl:p-8"
-              >
-                <div class="mb-5 flex items-center">
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                  <span class="mr-1">
-                    <svg
-                      width="18"
-                      height="16"
-                      viewBox="0 0 18 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
-                        fill="#FBB040"
-                      />
-                    </svg>
-                  </span>
-                </div>
-                <p class="mb-5 text-base leading-relaxed text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
-                </p>
-                <div class="flex items-center">
-                  <div class="mr-4 h-[50px] w-full max-w-[50px]">
-                    <img
-                      src="https://cdn.tailgrids.com/1.0/assets/images/testimonials/testimonial-04/image-02.png"
-                      alt="image"
-                      class="w-full"
-                    />
-                  </div>
-                  <div class="w-full">
-                    <h5 class="mb-1 text-sm font-semibold text-dark">
-                      Musharof Chowdhury
-                    </h5>
-                    <p class="text-xs text-body-color">Founder @ TailGrids</p>
-                  </div>
-                </div>
-              </div>
+            <div class="ml-4">
+              <div class="text-base font-medium text-neutral-700 dark:text-neutral-400">{{ page.testimonial-name-1 }}</div>
+              <div class="text-base font-medium text-neutral-900 dark:text-neutral-300">{{ page.testimonial-title-1 }}, {{ page.testimonial-company-1 }}.</div>
             </div>
           </div>
-        </div>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="py-12 px-4 sm:px-6 md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+      <div class="md:flex-shrink-0">
+        <img class="h-8" src="{{ page.testimonial-logo-2 }}" alt="{{ page.testimonial-company-2 }}">
       </div>
+      <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+        <div class="relative text-lg font-medium text-neutral-900 dark:text-neutral-300 md:flex-grow">
+          <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-glitchsecure-purple" fill="currentColor" viewBox="0 0 32 32">
+            <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+          </svg>
+          <p class="relative pl-8">{{ page.testimonial-quote-2 }}</p>
+        </div>
+        <footer class="mt-8">
+          <div class="flex items-start">
+            <div class="flex-shrink-0 inline-flex rounded-full border-2 border-neutral-700 dark:border-neutral-200">
+              <img class="h-12 w-12 rounded-full" src="{{ page.testimonial-picture-2 }}" alt="">
+            </div>
+            <div class="ml-4">
+              <div class="text-base font-medium text-neutral-700 dark:text-neutral-400">{{ page.testimonial-name-2 }}</div>
+              <div class="text-base font-medium text-neutral-900 dark:text-neutral-300">{{ page.testimonial-title-2 }}, {{ page.testimonial-company-2 }}.</div>
+            </div>
+          </div>
+        </footer>
+      </blockquote>
     </div>
   </div>
 </section>
-<!-- ====== Testimonials Section End -->
