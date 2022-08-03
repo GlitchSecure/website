@@ -7,14 +7,14 @@
         class="text-4xl font-extrabold leading-snug tracking-tight text-neutral-200 md:text-6xl">Let's get this <br>pentest started!
       </h1>
 
-      <p class="text-neutral-200 mt-8">Already have an account? <a href="https://app.glitchsecure.com/" target="_blank" class="underline">Login</a></p>
+      <p class="text-neutral-200 mt-8 text-xl">Already have an account? <a href="https://app.glitchsecure.com/" target="_blank" class="underline">Login</a></p>
 
       </div>
       <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}})" class="grid grid-cols-1 gap-y-6">
       <div class="flex justify-start items-center relative">
         <label for="full-name" class="sr-only">Full name</label>
         <input type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full shadow-sm py-3 pl-8
-        placeholder-neutral-400 focus:ring-neutral-900 focus:border-neutral-900 border-gray-300 dark:bg-neutral-900 dark: dark:placeholder-neutral-300 dark:text-neutral-300 dark:focus:ring-neutral-300 dark:focus:border-neutral-300 dark:border-gray-600 rounded-md" placeholder="Your Name" x-data="{ name: localStorage.getItem('getstarted-name') }" x-init="$watch('name', (val) => localStorage.setItem('getstarted-name', val))" x-model="name" required>
+        placeholder-neutral-400 focus:ring-neutral-900 focus:border-neutral-900 border-gray-300 dark:bg-neutral-900 dark: dark:placeholder-neutral-300 dark:text-neutral-300 dark:focus:ring-neutral-300 dark:focus:border-neutral-300 dark:border-gray-600 rounded-md" placeholder="Name" x-data="{ name: localStorage.getItem('getstarted-name') }" x-init="$watch('name', (val) => localStorage.setItem('getstarted-name', val))" x-model="name" required>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute ml-2 text-neutral-500 dark:text-neutral-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
       </div>
       <div class="flex justify-start items-center relative">
