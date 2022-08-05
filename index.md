@@ -2,9 +2,9 @@
 layout: home
 # Hero
 hero-title: "Real-time Continuous <wbr>Security Testing"
-hero-title-2: "Security Testing as a Service "
-#hero-title-3: "Enhanced by automation & collaboration"
-hero-subtitle: "Assess your security posture instantly. Get year round alerts and collaborate with our expert security researchers to continually find and remediate vulnerabilities in your applications and networks."
+hero-title-2: "Delivered by expert researchers"
+#hero-title-3: "Security Testing as a Service"
+hero-subtitle: "<strong>Assess your security posture instantly.</strong> Get year round alerts and collaborate with our expert security researchers to continually find and remediate vulnerabilities in your applications and networks."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Landing Page'}})"
@@ -24,7 +24,7 @@ process-subtitle: "We use a hybrid approach that combines manual testing perform
 
 # Platform Feature
 feature-title1: "Get actionable results. Instantly."
-feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you instantly using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and integrate our security team into your secure development lifecycle."
+feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you as soon as their found using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and integrate our security team into your secure development lifecycle."
 feature-button1: "Learn More"
 feature-button1-link: "/platform/"
 

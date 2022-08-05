@@ -21,27 +21,27 @@
     <div class="flex flex-wrap items-center">
       <div class="w-full px-4 lg:w-1/2">
         <div class="animate-fadeIn">
+          {% if page.hero-title-3 %}
+          <h2
+            class="text-base font-medium leading-snug text-neutral-200 opacity-75 md:text-left md:text-xl md:font-bold"
+          >
+            {{ page.hero-title-3 }}
+          </h2>
+          {% endif %}
           <h1
-            class="text-3xl font-extrabold leading-snug tracking-tight text-gray-200 md:text-left md:text-5xl"
+            class="text-3xl font-extrabold leading-snug tracking-tight text-neutral-200 md:text-left md:text-5xl"
           >
             {{ page.hero-title }}
           </h1>
           {% if page.hero-title-2 %}
           <h2
-            class="text-xl font-medium leading-snug text-[#c5b7e1] md:text-left md:text-3xl md:font-bold"
+            class="text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
           >
             {{ page.hero-title-2 }}
           </h2>
           {% endif %}
-          {% if page.hero-title-3 %}
-          <h3
-            class="mb-5 text-lg leading-tight tracking-tight text-[#c5b7e1] md:text-left md:text-2xl md:font-medium"
-          >
-            {{ page.hero-title-3 }}
-          </h3>
-          {% endif %}
           <p
-            class="mt-4 mb-8 max-w-xl text-base text-gray-100 md:text-left md:text-xl"
+            class="mt-8 mb-8 max-w-xl text-base text-neutral-100 md:text-left md:text-xl"
           >
             {{ page.hero-subtitle }}
           </p>
