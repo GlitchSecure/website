@@ -7,7 +7,7 @@ permalink: /platform/
 published: true
 
 # Platform Feature
-platform-feature-title1: "Get expert manual testing."
+platform-feature-title1: "Get expert hacker insights."
 platform-feature-subtitle1: "We've built our own real-time security collaboration platform to help continually monitor your assets for vulnerabilities and connect you with expert security researchers to secure your products and infrastructure. <br><br>
 Results are delivered to you in a simple dashboard, keeping you informed of testing progress and enabling your secure development lifecycle throughout the year."
 platform-feature-button1: "Get Started"
