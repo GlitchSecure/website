@@ -23,12 +23,13 @@ platform-feature-link2: "javascript:void(0)"
 platform-feature-click2: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Platform Feature'}});"
 platform-feature-image2: "/assets/img/platform/platform-preview2.svg"
 
-platform-feature-title3: "Schedule recurring scans."
-platform-feature-subtitle3: "Continually ensure your assets are secure with daily, weekly, and monthly security scanning. Get notified of vulnerabilities before hackers find them, and automatically verify applied patches."
-platform-feature-button3: "Request Beta Access"
+platform-feature-title3: "Get continuous results."
+platform-feature-subtitle3: "Continually ensure your assets are secure with daily, weekly, and monthly automated security testing. Get notified instantly of vulnerabilities before hackers find them, and automatically verify applied patches."
+platform-feature-button3: "Get Started"
 platform-feature-link3: "javascript:void(0)"
 platform-feature-click3: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Platform Beta'}});"
 platform-feature-image3: "/assets/img/platform/platform-preview3.svg"
+platform-feature-bubble3: "Early Access"
 
 
 # Call-to-action
