@@ -1,14 +1,14 @@
 ---
 layout: about
 title: "About"
-hero-title: "Meet Your Dedicated Security Team"
+hero-title: "Meet Your Dedicated Security Experts"
 subtitle: "We're more than meets the eye. A passionate collective of security researchers, (ethical) hackers, and developers on a mission to help you secure what matters most."
 permalink: /about/
 published: true
 
 # About Feature
 about-feature-title1: "People driven. Technology powered."
-about-feature-subtitle1: "We're more than a faceless SaaS. We believe the only way to truly provide high quality automated security testing is by developing that technology through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results while building a calm and independent company."
+about-feature-subtitle1: "We're not another faceless SaaS. We believe the only way to truly provide high quality automated security testing is by developing that technology through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results while building a calm and independent company."
 #about-feature-button1: "Get Started"
 about-feature-link1: "javascript:void(0)"
 about-feature-click1: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'about Feature'}});"
