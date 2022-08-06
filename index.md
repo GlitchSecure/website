@@ -24,7 +24,7 @@ process-subtitle: "We use a hybrid approach that combines manual testing perform
 
 # Platform Feature
 feature-title1: "Get actionable results. Instantly."
-feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you as soon as their found using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and integrate our security team into your secure development lifecycle."
+feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you as soon as they're found using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and integrate our security team into your secure development lifecycle."
 feature-button1: "Learn More"
 feature-button1-link: "/platform/"
 
