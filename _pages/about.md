@@ -8,7 +8,7 @@ published: true
 
 # About Feature
 about-feature-title1: "People driven. Technology powered."
-about-feature-subtitle1: "We are continually developing bleeding edge technology to help delivery the most thorough security testing. We're highly skilled experts in our field and are passionate about delivering the best results."
+about-feature-subtitle1: "We're more than a faceless SaaS. We believe the only way to truly provide high quality automated security testing is by developing that technology through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results while building a calm and independent company."
 #about-feature-button1: "Get Started"
 about-feature-link1: "javascript:void(0)"
 about-feature-click1: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'about Feature'}});"
@@ -16,7 +16,7 @@ about-feature-image1: "/assets/img/about/hero-preview.svg"
 
 # About stats
 stats-title: "A proven track record."
-stats-subtitle: "With decades of collective experience writing and securing software, we have proven we have what it takes and continually deliver high quality results through offensive security assessments and code review."
+stats-subtitle: "With decades of collective experience writing and securing software, we have proven we have what it takes and continually deliver high quality results through offensive security testing, pentest automation, and expert driven insights."
 stats-stat1-title: "Pentests Performed"
 stats-stat1-number: "300+"
 stats-stat2-title: "Vulnerabilities Discovered"
