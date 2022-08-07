@@ -60,9 +60,11 @@
   {%- feed_meta -%}
 
 <script>
-  if (localStorage.theme === 'dark' || (!('theme' in localStorage))) {
+  if (localStorage.theme === 'dark') {
     document.documentElement.classList.add('dark')
   } else {
+    localStorage.theme = 'light';
+    document.documentElement.classList.add('light');
     document.documentElement.classList.remove('dark')
   }
 </script>
