@@ -6,7 +6,7 @@
       submenuOpen: false
     }
   "
-  class="flex w-full items-center bg-transparent relative z-10 x-cloak"
+  class="flex w-full items-center bg-transparent relative z-10"
 >
   <div class="w-full mx-auto px-4 max-w-7xl animate-fadeIn">
     <div class="relative flex items-center justify-between">
@@ -37,9 +37,8 @@
               neutral-200
               px-3
               py-2
-
               rounded-lg
-               transform -translate-y-1/2
+              transform -translate-y-1/2
             "
           >
             <span
@@ -59,7 +58,7 @@
             :class="!navbarOpen && 'hidden' "
             id="navbarCollapse"
             class="bg-neutral-900 absolute block top-full right-4 z-50 w-full max-w-xs py-5 shadow
-            lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none"
+            lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none x-cloak"
           >
             <ul class="block lg:flex">
               {% for item in site.data.navigation %} {% if page.url == item.url
