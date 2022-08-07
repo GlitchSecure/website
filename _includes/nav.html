@@ -58,7 +58,8 @@
             :class="!navbarOpen && 'hidden' "
             id="navbarCollapse"
             class="bg-neutral-900 absolute block top-full right-4 z-50 w-full max-w-xs py-5 shadow
-            lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none x-cloak"
+            lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none"
+            x-cloak
           >
             <ul class="block lg:flex">
               {% for item in site.data.navigation %} {% if page.url == item.url
