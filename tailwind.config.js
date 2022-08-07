@@ -2,6 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const withAnimations = require("animated-tailwindcss");
 
 module.exports = withAnimations({
+  darkMode: 'class',
   content: [
     "*.html",
     "_site/*.html",
