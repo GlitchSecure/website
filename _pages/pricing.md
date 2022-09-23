@@ -3,6 +3,8 @@ layout: pricing
 title: Pricing
 hero-title: "Simple Flexible Annual Pricing"
 subtitle: "Our transparent credit based pricing system enables you to plan and launch security tests that are tailored to your exact scope and coverage needs. "
+hero-vertical: true
+hero-wrapper-padding: "pb-40"
 
 #subtitle: "Every plan comes with a dedicated security researcher, a full PDF report, and free remediation testing. We have a plan for businesses of every stage, size and shape."
 #hero-button: "Get Started"
