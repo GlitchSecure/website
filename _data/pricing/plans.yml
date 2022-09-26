@@ -3,78 +3,186 @@ plans:
     subtitle: For small apps
     key: verified_automated_scan
     description: "Several DAST tool's run over the course of 5 days on a monthly cadence with results compiled into a single report, includes manual verification of all findings."
-    credits: 1
+    base_credits: 1
     max_credits: 3
-    targets: "1"
-    web-test: "1"
-    user-roles: "1"
-    api-endpoints: "32"
-    external-ips: "32"
-    ports-scanned: "Top 1000"
-    tests-performed: "131"
-    tests-name: "ASVS Level 1"
-    vulns-checked: "XX"
-    hybrid-testing: "Yes"
-    realtime-colab: "Yes"
-    researchers: "1"
-    delivery-time: "Instantly"
-    alerts: "Yes"
-    remediation-previous: "Yes"
-    remediation-timeline: "6 Months"
-    pdf-report: "5 Days"
-    duration: "1 Week"
+    incrementing-features:
+      - key: applications
+        base: 1
+        increment: 1
+        max: 3
+        included: true
+
+      - key: user-roles
+        base: 1
+        increment: 3
+        max: 7
+        included: true
+
+      - key: api-endpoints
+        base: 32
+        increment: 32
+        max: 128
+        included: true
+
+      - key: manual-tests
+        base: 131
+        increment: 0
+        max: 267
+        included: true
+
+      - key: external-ips
+        base: 16
+        increment: 16
+        max: 48
+        included: true
+
+      - key: ports-scanned
+        base: 65565
+        increment: 0
+        max: 65565
+        included: true
+
+      - key: pentest-timeframe-weeks
+        base: 2
+        increment: 0
+        max: 2
+        included: true
+
+      - key: remediation-testing-timeframe-months
+        base: 12
+        increment: 0
+        max: 12
+        included: true
+
+      - key: pdf-report-timeframe-days
+        base: 5
+        increment: -1
+        max: 2
+        included: true
 
   - name: Targeted Pentest
     subtitle: Perfect for startups
     key: targeted
     description: 'A pentest that focuses on one specific feature, function, or test type over a single week. Includes a verified automated scan.'
-    credits: 2
+    base_credits: 2
     max_credits: 4
-    targets: "2"
-    web-test: "2"
-    user-roles: "3"
-    api-endpoints: "64"
-    external-ips: "64"
-    ports-scanned: "All 65565"
-    tests-performed: "131"
-    tests-name: "ASVS Level 1"
-    vulns-checked: "XX"
-    hybrid-testing: "Yes"
-    realtime-colab: "Yes"
-    researchers: "2"
-    delivery-time: "Instantly"
-    alerts: "Yes"
-    remediation-previous: "Yes"
-    remediation-timeline: "12 Months"
-    pdf-report: "3 Days"
-    duration: "2 Week"
+    incrementing-features:
+      - key: applications
+        base: 1
+        increment: 0
+        max: 1
+        included: true
+
+      - key: user-roles
+        base: 1
+        increment: 0
+        max: 1
+        included: true
+
+      - key: api-endpoints
+        base: 16
+        increment: 16
+        max: 32
+        included: true
+
+      - key: manual-tests
+        base: 43
+        increment: 0
+        max: 43
+        included: true
+
+      - key: external-ips
+        base: 16
+        increment: 16
+        max: 32
+        included: true
+
+      - key: ports-scanned
+        base: 65565
+        increment: 0
+        max: 65565
+        included: true
+
+      - key: pentest-timeframe-weeks
+        base: 5
+        increment: 2
+        max: 7
+        included: true
+
+      - key: remediation-testing-timeframe-months
+        base: 12
+        increment: 0
+        max: 12
+        included: true
+
+      - key: pdf-report-timeframe-days
+        base: 0
+        increment: 0
+        max: 0
+        included: false
 
   - name: "In-depth Pentest"
     subtitle: When you just need more
     key: indepth
     description: 'A standard 2 week pentest with a configurable scope, remediation timeframe, and test coverage based on the number of credits.'
-    credits: 3
-    max_credits: 5
-    targets: "3"
-    web-test: "3"
-    user-roles: "5"
-    api-endpoints: "128"
-    external-ips: "128"
-    ports-scanned: "All 65565"
-    tests-performed: "267"
-    tests-name: "ASVS Level 2"
-    vulns-checked: "XX"
-    hybrid-testing: "Yes"
-    realtime-colab: "Yes"
-    researchers: "2+"
-    delivery-time: "Instantly"
-    alerts: "Yes"
-    remediation-previous: "Yes"
-    remediation-timeline: "12 Months"
-    pdf-report: "2 Days"
-    duration: "2+ Week"
+    base_credits: 3
+    max_credits: 6
+    incrementing-features:
+      - key: applications
+        base: 1
+        increment: 1
+        max: 4
+        included: true
 
-features:
+      - key: user-roles
+        base: 1
+        increment: 3
+        max: 7
+        included: true
+
+      - key: api-endpoints
+        base: 32
+        increment: 32
+        max: 128
+        included: true
+
+      - key: manual-tests
+        base: 131
+        increment: 0
+        max: 267
+        included: true
+
+      - key: external-ips
+        base: 32
+        increment: 32
+        max: 128
+        included: true
+
+      - key: ports-scanned
+        base: 65565
+        increment: 0
+        max: 65565
+        included: true
+
+      - key: pentest-timeframe-weeks
+        base: 2
+        increment: 0
+        max: 2
+        included: true
+
+      - key: remediation-testing-timeframe-months
+        base: 12
+        increment: 0
+        max: 12
+        included: true
+
+      - key: pdf-report-timeframe-days
+        base: 5
+        increment: -1
+        max: 2
+        included: true
+
+base-features:
   - name: Remediate with ease
     description: No need to wait for the final PDF report! View vulnerabilities as soon as they are found and start fixing them today.
     plans:
@@ -131,22 +239,73 @@ features:
     plans:
       - targeted
 
+incrementing-features:
+  - name: Applications Tested
+    key: applications
+    prefix: ''
+    suffix: ''
+
+  - name: User Roles Tested
+    key: user-roles
+    prefix: ''
+    suffix: ''
+
+  - name: API Endpoints Tested
+    key: api-endpoints
+    prefix: ''
+    suffix: ''
+
+  - name: Manual Tests
+    key: manual-tests
+    prefix: ''
+    suffix: ''
+
+  - name: External IPs Tested
+    key: external-ips
+    prefix: ''
+    suffix: ''
+
+  - name: Ports Scanned 
+    key: ports-scanned
+    prefix: ''
+    suffix: ''
+
+  - name: Pentest Timeframe 
+    key: pentest-timeframe-weeks
+    prefix: ''
+    suffix: 'weeks'
+
+  - name: Remediation Testing
+    key: remediation-testing-timeframe-months
+    prefix: ''
+    suffix: 'months'
+
+  - name: PDF Report Available
+    key: pdf-report-timeframe-days
+    prefix: ''
+    suffix: 'days'
+
 addons:
   - name: "Additional applications"
     what-included: "1 Application"
     credit: "1"
+
   - name: "Additional user roles"
     what-included: "2 User roles"
     credit: "1"
+
   - name: "Additional IPs"
     what-included: "32 IPs"
     credit: "1"
+
   - name: "Additional API end-points"
     what-included: "32 API end-points"
     credit: "1"
+
   - name: "Additional tests performed"
     what-included: "Additional ASVS Level"
     credit: "1"
+
   - name: "Additional remediation testing"
     what-included: "6 Months"
     credit: "1"

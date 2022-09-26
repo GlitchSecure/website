@@ -14,91 +14,26 @@
   x-init="setAtTop()"
   @scroll.window="setAtTop()"
   @click.away="plansOpen = false"
-  x-bind:class="atTop ? 'border-gray-200' : 'border-transparent'"
-  class="sticky top-0 z-50 lg:hidden mt-24 border-b-2 bg-white"
+  class="sticky top-0 z-50 mt-24 bg-white"
 >
-  <div class="px-4 sm:px-6 py-3 flex items-center relative z-0">
-    {% for plan in site.data.pricing.plans.plans %}
-      <button
-        type="button"
-        x-data="{ credits: {{ plan.credits }} }"
-        x-show="isSelected('{{ plan.key }}')"
-        @click="plansOpen = !plansOpen"
-        x-bind:class="atTop ? 'py-2' : 'py-3'"
-        class="relative border-glitchsecure-500 pl-4 pr-14 flex items-center space-x-5 w-full cursor-pointer overflow-hidden rounded-xl border-2 transition-colors"
+  <div x-bind:class="atTop ? 'border-gray-200' : 'border-transparent'" class="border-b-2">
+    <div class="flex items-center justify-center space-x-4 max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto py-3">
+      <div
+        x-bind:class="!atTop ? 'lg:hidden' : ''"
+        class="flex items-center relative z-0 mr-auto"
       >
-
-        <div class="flex-shrink">
-          <svg
-            class="w-5 h-5 sm:h-9 sm:w-9 text-glitchsecure-600 transition-colors"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20" fill="currentColor"
-          >
-            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-          </svg>
-        </div>
-
-        <div class="flex-1 flex flex-col items-stretch text-left">
-          <h2 class="text-lg font-bold text-gray-700 dark:text-gray-200">
-            {{ plan.name }}
-          </h2>
-          <div x-show="!atTop" class="text-sm text-gray-700 dark:text-gray-200">
-            {{ plan.subtitle }}
-          </div>
-        </div>
-
-        <h2
-          class="text-glitchsecure-600 transition-colors text-lg font-semibold whitespace-nowrap"
-          x-text="(
-            credits === 1
-              ? `${credits} Credit`
-              : `${credits} Credits`
-          )"
-        ></h2>
-
-        <div class="absolute right-0 top-0 h-full w-10 flex items-center justify-center bg-glitchsecure-500">
-          <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-          </svg>
-        </div>
-        
-      </button>
-    {% endfor %}
-  </div>
-
-  <div
-    x-show="plansOpen"
-    class="absolute top-0 z-10 w-full"
-    x-transition:enter="transition ease-out duration-200"
-    x-transition:enter-start="opacity-0 -translate-y-1"
-    x-transition:enter-end="opacity-100 translate-y-0"
-    x-transition:leave="transition ease-in duration-150"
-    x-transition:leave-start="opacity-100 translate-y-0"
-    x-transition:leave-end="opacity-0 -translate-y-1"
-  >
-    <div class="overflow-hidden shadow-lg bg-white border-b-2">
-      <div class="relative grid gap-3 px-4 sm:px-6 pt-3 pb-5">
-        <h3 class="text-glitchsecure-50 text-sm font-semibold uppercase tracking-wide">
-          Select a plan
-        </h3>
-
         {% for plan in site.data.pricing.plans.plans %}
-
           <button
             type="button"
-            x-data="{ credits: {{ plan.credits }}, maxCredits: {{ plan.max_credits }} }"
-            @click="selectedPlanKey = '{{ plan.key }}'; plansOpen = false"
-            x-bind:class="{
-              'border-glitchsecure-500': isSelected('{{ plan.key }}'),
-              'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelected('{{ plan.key }}'),
-            }"
-            class="flex items-center space-x-5 px-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
+            x-data="{ credits: {{ plan.base_credits }} }"
+            x-show="isSelected('{{ plan.key }}')"
+            @click="plansOpen = !plansOpen"
+            class="relative border-glitchsecure-500 py-2 pl-4 pr-16 flex items-center space-x-3 w-full cursor-pointer overflow-hidden rounded-xl border-2 transition-colors"
           >
 
             <div class="flex-shrink">
               <svg
-                x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
-                class="w-5 h-5 sm:h-9 sm:w-9 transition-colors"
+                class="w-5 h-5 sm:h-9 sm:w-9 text-glitchsecure-600 transition-colors"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20" fill="currentColor"
               >
@@ -106,35 +41,120 @@
               </svg>
             </div>
 
-            <div class="flex flex-col items-start text-left">
-              
+            <div class="flex-1 flex flex-col items-stretch text-left">
               <h2 class="text-lg font-bold text-gray-700 dark:text-gray-200">
                 {{ plan.name }}
               </h2>
-              <div class="text-sm text-gray-700 dark:text-gray-200">
-                {{ plan.subtitle }}
-              </div>
-              
             </div>
 
-            <div class="flex-1 flex flex-col items-end justify-end space-y-2">
-
-              <h2
-                x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
-                class="transition-colors text-xl font-semibold sm:text-2xl whitespace-nowrap"
-                x-text="(
-                  credits === 1
-                    ? `${credits} Credit`
-                    : `${credits} Credits`
-                )"
-              ></h2>
-
+            <div class="absolute right-0 top-0 h-full w-10 flex items-center justify-center bg-glitchsecure-500">
+              <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
             </div>
             
           </button>
-
         {% endfor %}
+      </div>
 
+      <div class="flex justify-center">
+        <div class="bg-white rounded-full inline-flex items-center space-x-2 p-1">
+          <button type="button" @click="creditCounterDecrement()" class="text-glitchsecure-200 hover:text-glitchsecure-400">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z" clip-rule="evenodd" />
+            </svg>
+          </button>
+
+          <span x-text="(
+            creditCounter === 1
+              ? `${creditCounter} Credit`
+              : `${creditCounter} Credits`
+          )"></span>
+
+          <button type="button" @click="creditCounterIncrement()" class="text-glitchsecure-200 hover:text-glitchsecure-400">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+
+    <div
+      x-show="plansOpen"
+      class="absolute top-0 z-10 w-full"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0 -translate-y-1"
+      x-transition:enter-end="opacity-100 translate-y-0"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100 translate-y-0"
+      x-transition:leave-end="opacity-0 -translate-y-1"
+    >
+      <div class="overflow-hidden shadow-lg bg-white border-b-2">
+        <div class="relative grid gap-3 pt-3 pb-5 max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
+          <h3 class="text-glitchsecure-50 text-sm font-semibold uppercase tracking-wide">
+            Select a plan
+          </h3>
+
+          {% for plan in site.data.pricing.plans.plans %}
+
+            <button
+              type="button"
+              x-data="{ credits: {{ plan.base_credits }} }"
+              @click="selectPlan('{{ plan.key }}'); plansOpen = false"
+              x-bind:class="{
+                'border-glitchsecure-500': isSelected('{{ plan.key }}'),
+                'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelected('{{ plan.key }}'),
+              }"
+              class="flex items-center space-x-5 px-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
+            >
+
+              <div class="flex-shrink">
+                <svg
+                  x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+                  class="w-5 h-5 sm:h-9 sm:w-9 transition-colors"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20" fill="currentColor"
+                >
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+              </div>
+
+              <div class="flex flex-col items-start text-left">
+                
+                <h2 class="text-lg font-bold text-gray-700 dark:text-gray-200">
+                  {{ plan.name }}
+                </h2>
+                <div class="text-sm text-gray-700 dark:text-gray-200">
+                  {{ plan.subtitle }}
+                </div>
+                
+              </div>
+
+              <div class="flex-1 flex flex-col items-end justify-end space-y-2">
+
+                <h2
+                  x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+                  class="transition-colors text-xl font-semibold sm:text-2xl whitespace-nowrap"
+                  x-text="isSelected('{{ plan.key }}') ? (
+                    creditCounter === 1
+                      ? `${creditCounter} Credit`
+                      : `${creditCounter} Credits`
+                  ) : (
+                    credits === 1
+                      ? `${credits} Credit`
+                      : `${credits} Credits`
+                  )"
+                ></h2>
+
+              </div>
+              
+            </button>
+
+          {% endfor %}
+
+        </div>
       </div>
     </div>
   </div>
@@ -143,7 +163,7 @@
 
 <section id="plans" class="relative bg-white dark:bg-glitchsecure-purple-medium lg:pt-16">
 
-  <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col lg:flex-row justify-center space-x-8 space-y-4 lg:space-y-0">
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col lg:flex-row justify-center lg:space-x-8 space-y-4 lg:space-y-0">
 
     <div class="flex-1 hidden lg:flex flex-col space-y-8">
 
@@ -151,8 +171,8 @@
 
         <button
           type="button"
-          x-data="{ credits: {{ plan.credits }}, maxCredits: {{ plan.max_credits }} }"
-          @click="selectedPlanKey = '{{ plan.key }}'"
+          x-data="{ credits: {{ plan.base_credits }} }"
+          @click="selectPlan('{{ plan.key }}')"
           x-bind:class="{
             'border-glitchsecure-500': isSelected('{{ plan.key }}'),
             'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelected('{{ plan.key }}'),
@@ -187,7 +207,11 @@
             <h2
               x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
               class="transition-colors text-xl font-semibold sm:text-2xl whitespace-nowrap"
-              x-text="(
+              x-text="isSelected('{{ plan.key }}') ? (
+                creditCounter === 1
+                  ? `${creditCounter} Credit`
+                  : `${creditCounter} Credits`
+              ) : (
                 credits === 1
                   ? `${credits} Credit`
                   : `${credits} Credits`
@@ -228,10 +252,10 @@
 
       <ul role="list" class="border-glitchsecure-200 divide-glitchsecure-400 mt-4 divide-y lg:border-t-0 flex-1">
 
-        {% for feature in site.data.pricing.plans.features %}
+        {% for feature in site.data.pricing.plans.base-features %}
           <li
             x-data="{
-              plans: [{% for planKey in site.data.pricing.plans.features[forloop.index0].plans %}'{{ planKey }}', {% endfor %}],
+              plans: [{% for planKey in site.data.pricing.plans.base-features[forloop.index0].plans %}'{{ planKey }}', {% endfor %}],
               get show() { return this.plans.includes(this.selectedPlanKey) },
             }"
             x-show="show"

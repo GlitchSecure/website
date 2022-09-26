@@ -1,207 +1,18 @@
-<section class="px-4 sm:px-6 lg:px-8 pt-16 lg:pt-32">
+<section class="pt-16 lg:pt-32">
 
-  <!-- Feature comparison (up to lg) -->
-  <div class="relative lg:hidden">
+  <div aria-labelledby="comparison-heading" class="relative">
 
-    {% for plan in site.data.pricing.plans.plans %}
+    <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
+      <div class="hidden lg:flex items-stretch w-full border-t border-gray-200">
 
-      <div x-show="isSelected('{{ plan.key }}')" key="plan.title">
-
-        <h4 class="text-sm font-bold text-neutral-700 dark:text-neutral-200">
-          Web + API Testing
-        </h4>
-
-        <div class="mt-6 relative">
-
-          <!-- Fake card background -->
-          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
-            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
-          </div>
-
-          <!-- Fake card border -->
-          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
-            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
-          </div>
-
-          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
-            <dl class="divide-y divide-gray-200">
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Applications Tested</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.targets }} in scope</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">User Roles Tested</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.user-roles }} user role</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">API Endpoints Tested</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.api-endpoints }} API Endpoints</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Manual Tests</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.tests-performed }} Tests Performed</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300"><abbr title="Application Security Verification Project">ASVS</abbr> Level</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
-                </dd>
-              </div>
-
-            </dl>
-          
-          </div>
-
-        </div>
-
-        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">
-          External Network Testing
-        </h4>
-
-        <div class="mt-6 relative">
-
-          <!-- Fake card background -->
-          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
-            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
-          </div>
-
-          <!-- Fake card border -->
-          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
-            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
-          </div>
-
-          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
-            <dl class="divide-y divide-gray-200">
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">External IPs Tested</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.external-ips }} IPs</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Ports Scanned</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.ports-scanned }} Ports</span>
-                </dd>
-              </div>
-            </dl>
-          </div>
-
-        </div>
-
-        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">
-          All Testing
-        </h4>
-
-        <div class="mt-6 relative">
-
-          <!-- Fake card background -->
-          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
-            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
-          </div>
-
-          <!-- Fake card border -->
-          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
-            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
-          </div>
-
-          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
-            <dl class="divide-y divide-gray-200">
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Real-time Collaboration</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.pricing.plans.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Instant Slack Alerts</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.pricing.plans.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Carryover Findings</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  {% if site.data.pricing.plans.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Findings Delivery</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.delivery-time }}</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Dedicated Researchers</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.researchers }} Researcher</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Pentest Timeframe</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.duration }}</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Remediation Testing</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.remediation-timeline }} Included</span>
-                </dd>
-              </div>
-
-              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
-                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">PDF Report Available</dt>
-                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
-                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.starter.pdf-report }}</span>
-                </dd>
-              </div>
-
-            </dl>
-          </div>
-          
-        </div>
-      
-      </div>
-
-    {% endfor %}
-
-  </div>
-
-  <!-- Feature comparison (lg+) -->
-  <div aria-labelledby="comparison-heading" class="relative hidden lg:block">
-
-    <div class="max-w-7xl mx-auto">
-      <div class="w-full border-t border-gray-200 flex items-stretch">
-
-        <div class="-mt-px w-1/4 py-6 pr-4 flex items-end">
-          <h3 class="mt-auto text-sm font-bold text-neutral-700 dark:text-neutral-200">
-            Web + API Testing
-          </h3>
-        </div>
+        <div class="-mt-px flex-1 py-6 pr-4 flex items-end mr-auto"></div>
 
         {% for plan in site.data.pricing.plans.plans %}
 
-          <div @click="selectedPlanKey = '{{ plan.key }}'" class="cursor-pointer pr-4 -mt-px pl-4 w-1/4">
+          <div
+            @click="selectedPlanKey !== '{{ plan.key }}' ? selectPlan('{{ plan.key }}') : null"
+            class="lg:cursor-pointer pr-4 -mt-px pl-4 flex-1"
+          >
             <div
               x-bind:class="isSelected('{{ plan.key }}') ? 'border-glitchsecure-600' : 'border-transparent'"
               class="py-6 border-t-2"
@@ -224,332 +35,73 @@
 
         <!-- Fake card backgrounds -->
         <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
-          <div class="w-1/4 pr-4"></div>
 
-          <div class="w-1/4 px-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
-          </div>
-          <div class="w-1/4 px-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow-md"></div>
-          </div>
-          <div class="w-1/4 pl-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
-          </div>
-
-        </div>
-
-        <table class="relative w-full">
-          <tbody class="divide-y divide-gray-100">
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Applications Tested</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ plan.targets }} in scope </span>
-                  </span>
-                </td>
-              {% endfor %}
-              
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">User Roles Tested</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ plan.user-roles }} user role </span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">API Endpoints Tested</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ plan.api-endpoints }} API Endpoints </span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Manual Tests</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ plan.tests-performed }} Tests Performed</span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300"><abbr title="Application Security Verification Project">ASVS</abbr> Level</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ plan.tests-name }} </span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-          </tbody>
-        </table>
-
-        <!-- Fake card borders -->
-        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
-
-          <div class="w-1/4 pr-4"></div>
+          <div class="flex-1 pr-4 mr-auto"></div>
 
           {% for plan in site.data.pricing.plans.plans %}
 
-            <div class="w-1/4 px-4">
-              <div
-                x-bind:class="isSelected('{{ plan.key }}') ? 'ring-2 ring-glitchsecure-600 ring-opacity-100' : 'ring-1 ring-black ring-opacity-5'"
-                class="w-full h-full rounded-lg"></div>
+            <div x-bind:class="{ 'hidden lg:block': !isSelected('{{ plan.key }}') }" class="flex-1 px-4">
+              <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow border"></div>
             </div>
 
           {% endfor %}
 
         </div>
-      </div>
-
-      <h3 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">External Network Testing</h3>
-
-      <div class="mt-6 relative">
-        <!-- Fake card backgrounds -->
-        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
-          <div class="w-1/4 pr-4"></div>
-          <div class="w-1/4 px-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
-          </div>
-          <div class="w-1/4 px-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow-md"></div>
-          </div>
-          <div class="w-1/4 pl-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
-          </div>
-        </div>
 
         <table class="relative w-full">
           <tbody class="divide-y divide-gray-100">
 
-            <tr>
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">External IPs Tested</th>
+            {% for feature in site.data.pricing.plans.incrementing-features %}
 
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ plan.external-ips }} IPs </span>
-                  </span>
-                </td>
-              {% endfor %}
+              <tr>
 
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Ports Scanned</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ plan.ports-scanned }} Ports</span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-          </tbody>
-        </table>
-
-        <!-- Fake card borders -->
-        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+                <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">
+                  {{ feature.name }}
+                </th>
+                
+                {% for plan in site.data.pricing.plans.plans %}
+                  {% for f in plan.incrementing-features %}
+                    {% if f.key == feature.key %}
+                      <td
+                        x-data="{
+                          base: {{ f.base }},
+                          increment: {{ f.increment }},
+                          max: {{ f.max }},
+                          included: {{ f.included }},
+                          get credits() {
+                            const newValue = this.creditCounter * this.increment
+                            if (this.base <= newValue) {
+                              return this.base
+                            } else if (this.max >= newValue) {
+                              return this.max
+                            }
+                            return newValue
+                          },
+                        }"
+                        x-bind:class="{ 'hidden lg:table-cell' : !isSelected('{{ plan.key }}') }"
+                        class="px-4 relative w-1/4 py-0 text-center"
+                      >
+                        <span class="relative w-full h-full py-3">
+                          <span x-show="included" class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">
+                            {{ feature.prefix }} <span x-text="credits"></span> {{ feature.suffix }}
+                          </span>
+                          <span x-show="!included" class="flex justify-center text-neutral-400 text-sm font-medium">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                              <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+                            </svg>
+                          </span>
+                        </span>
+                      </td>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+                
+              </tr>
           
-          <div class="w-1/4 pr-4"></div>
-
-          {% for plan in site.data.pricing.plans.plans %}
-
-            <div class="w-1/4 px-4">
-              <div
-                x-bind:class="isSelected('{{ plan.key }}') ? 'ring-2 ring-glitchsecure-600 ring-opacity-100' : 'ring-1 ring-black ring-opacity-5'"
-                class="w-full h-full rounded-lg"></div>
-            </div>
-
-          {% endfor %}
-
-        </div>
-      </div>
-
-      <h3 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">All Testing</h3>
-
-      <div class="mt-6 relative">
-        <!-- Fake card backgrounds -->
-        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
-          <div class="w-1/4 pr-4"></div>
-          <div class="w-1/4 px-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
-          </div>
-          <div class="w-1/4 px-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow-md"></div>
-          </div>
-          <div class="w-1/4 pl-4">
-            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
-          </div>
-        </div>
-
-        <table class="relative w-full">
-          <tbody class="divide-y divide-gray-100">
-
-            <tr>
-              
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Real-time Collaboration</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    {% if plan.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Instant Slack Alerts</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    {% if plan.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Carryover Findings</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    {% if plan.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Findings Delivery</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ plan.delivery-time }} </span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Dedicated Researchers</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ plan.researchers }} Researcher</span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Pentest Timeframe</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ plan.duration }}</span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Remediation Testing</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ plan.remediation-timeline }} Included</span>
-                  </span>
-                </td>
-              {% endfor %}
-
-            </tr>
-
-            <tr>
-
-              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">PDF Report Available</th>
-
-              {% for plan in site.data.pricing.plans.plans %}
-                <td class="px-4 relative w-1/4 py-0 text-center">
-                  <span class="relative w-full h-full py-3">
-                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ plan.pdf-report }} </span>
-                  </span>
-                </td>
-              {% endfor %}
-              
-            </tr>
+            {% endfor %}
 
           </tbody>
         </table>
-
-        <!-- Fake card borders -->
-        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
-
-          <div class="w-1/4 pr-4"></div>
-
-          {% for plan in site.data.pricing.plans.plans %}
-
-            <div class="w-1/4 px-4">
-              <div
-                x-bind:class="isSelected('{{ plan.key }}') ? 'ring-2 ring-glitchsecure-600 ring-opacity-100' : 'ring-1 ring-black ring-opacity-5'"
-                class="w-full h-full rounded-lg"></div>
-            </div>
-
-          {% endfor %}
-
-        </div>
 
       </div>
     </div>
