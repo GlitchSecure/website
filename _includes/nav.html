@@ -73,7 +73,7 @@
                 </a>
               </li>
 
-              {% elsif item.dropdown %}
+              {% elsif item.dropdown-solutions %}
               <li class="submenu-item group relative">
                 <a
                   href="javascript:void(0)"
@@ -84,13 +84,37 @@
                 </a>
                 <div
                   :class="!submenuOpen ? 'hidden lg:block' : 'block' "
-                  class="relative top-full left-0 rounded-lg bg-neutral-900 bg-opacity-80 px-4 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:top-[115%] lg:w-64 lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
+                  class="relative top-full left-0 rounded-lg bg-neutral-900 px-4 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:w-72 lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
                 >
                   <!-- dropdown menu -->
-                  {% for item in site.data.navigation-dropdown-services %}
+                  {% for item in site.data.navigation-dropdown-solutions %}
                   <a
                     href="{{ item.url }}"
-                    class="block rounded py-2.5 px-4 text-sm font-medium text-neutral-200 hover:bg-neutral-200 hover:text-neutral-100"
+                    class="block rounded py-2.5 px-4 text-sm font-medium text-neutral-200 hover:bg-neutral-200 hover:text-neutral-900"
+                  >
+                    {{ item.title }}
+                  </a>
+                  {% endfor %}
+                </div>
+              </li>
+              {% elsif item.dropdown-company %}
+              <li class="submenu-item group relative">
+                <a
+                  href="javascript:void(0)"
+                  @click="submenuOpen = !submenuOpen "
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
+                >
+                  {{ item.title }}
+                </a>
+                <div
+                  :class="!submenuOpen ? 'hidden lg:block' : 'block' "
+                  class="relative top-full left-0 rounded-lg bg-neutral-900 px-4 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:w-36 lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
+                >
+                  <!-- dropdown menu -->
+                  {% for item in site.data.navigation-dropdown-company %}
+                  <a
+                    href="{{ item.url }}"
+                    class="block rounded py-2.5 px-4 text-sm font-medium text-neutral-200 hover:bg-neutral-200 hover:text-neutral-900"
                   >
                     {{ item.title }}
                   </a>
@@ -108,7 +132,7 @@
               </li>
               {% endif %} {% endfor %}
               <hr class="group relative lg:hidden my-3 border-dotted opacity-25">
-              <li class="group relative block sm:hidden">
+              <li class="group relative block lg:hidden">
                 <a
                   href="https://app.glitchsecure.com"
                   class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
@@ -117,7 +141,7 @@
                 </a>
               </li>
 
-              <hr class="group relative sm:hidden lg:hidden my-3 border-dotted opacity-25">
+              <hr class="group relative lg:hidden my-3 border-dotted opacity-25">
 
               <li class="group relative lg:hidden">
                 <a
@@ -132,6 +156,7 @@
           </nav>
         </div>
         <div class="justify-end pr-16 lg:pr-0 flex">
+          <!-- dark mode toggle -->
           <button x-data="{
                     toggle: () => {
                         if (localStorage.theme === 'dark') {
@@ -145,7 +170,7 @@
                         }
                     },
                 }"
-                @click="toggle" type="button" id="headlessui-listbox-button-4" aria-haspopup="true" aria-expanded="false" aria-labelledby="headlessui-listbox-label-3 headlessui-listbox-button-undefined">
+                @click="toggle" type="button" aria-haspopup="true" aria-expanded="false" class="lg:mr-6">
                 <span class="dark:hidden">
                   <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
                     <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" class="fill-neutral-300/20 stroke-neutral-200"></path><path d="M12 4v1M17.66 6.344l-.828.828M20.005 12.004h-1M17.66 17.664l-.828-.828M12 20.01V19M6.34 17.664l.835-.836M3.995 12.004h1.01M6 6l.835.836" class="stroke-neutral-200"></path>
@@ -157,9 +182,10 @@
                   </svg>
                 </span>
               </button>
+          <!-- login link -->
           <a
             href="https://app.glitchsecure.com/"
-            class="hidden sm:block py-3 px-7 text-base font-medium text-neutral-200 hover:text-neutral-300"
+            class="hidden xl:block my-3 mr-8 text-base font-medium text-neutral-200 hover:text-neutral-300"
           >
             Login
           </a>

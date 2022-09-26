@@ -1,15 +1,16 @@
-#- title: Services
-#  url: "/services/"
-#  dropdown: false
-
 - title: Platform
   url: /platform/
+
+- title: Solutions
+  url: "/solutions/"
+  dropdown-solutions: true
 
 - title: Pricing
   url: /pricing/
 
-- title: About
+- title: Company
   url: /about/
+  dropdown-company: true
 
 #- title: FAQ
 #  url: /faq/
