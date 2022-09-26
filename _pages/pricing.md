@@ -13,6 +13,13 @@ hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get 
 permalink: /pricing/
 published: true
 
+credit-heading: "What is a security credit?"
+credit-description: "A credit is a standardised flat-rate unit that empowers you to budget your security needs for the whole year. Credits enable your team to plan and launch security testing throughout your secure development life-cycle without the delays and bottlenecks associated with traditional penetration testing firms."
+credit-price: "$3,300"
+credit-price-currency: USD
+
+client-list-title: Companies out researchs have helped secure
+
 # Call-to-action
 cta-title: "Need a pentest? Let's talk."
 cta-subtitle: "We'd love to work with you! Enter your email and pick a time on our calendar that works best for you, we'll be happy to answer any questions you might have.<br>"

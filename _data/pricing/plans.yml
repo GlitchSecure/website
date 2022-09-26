@@ -1,90 +1,136 @@
-starter:
-  name: "Starter"
-  subtitle: "For small apps"
-  targets: "1"
-  web-test: "1"
-  user-roles: "1"
-  api-endpoints: "32"
-  external-ips: "32"
-  ports-scanned: "Top 1000"
-  tests-performed: "131"
-  tests-name: "ASVS Level 1"
-  vulns-checked: "XX"
-  hybrid-testing: "Yes"
-  realtime-colab: "Yes"
-  researchers: "1"
-  delivery-time: "Instantly"
-  alerts: "Yes"
-  remediation-previous: "Yes"
-  remediation-timeline: "6 Months"
-  pdf-report: "5 Days"
-  duration: "1 Week"
-  start-time: "5 Days"
-  price-usd: "$9,600/yr"
-  price-cad: "$12,480/yr"
-  credits: "3"
-  cta: "Get Started"
-  cta-link: "javascript:void(0)"
-  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Starter'}});"
-standard:
-  name: "Standard"
-  subtitle: "Perfect for startups"
-  targets: "2"
-  web-test: "2"
-  user-roles: "3"
-  api-endpoints: "64"
-  external-ips: "64"
-  ports-scanned: "All 65565"
-  tests-performed: "131"
-  tests-name: "ASVS Level 1"
-  vulns-checked: "XX"
-  hybrid-testing: "Yes"
-  realtime-colab: "Yes"
-  researchers: "2"
-  delivery-time: "Instantly"
-  alerts: "Yes"
-  remediation-previous: "Yes"
-  remediation-timeline: "12 Months"
-  pdf-report: "3 Days"
-  duration: "2 Week"
-  start-time: "3 Days"
-  price-usd: "$12,800/yr"
-  price-cad: "$16,640/yr"
-  credits: "4"
-  cta: "Get Started"
-  cta-link: "javascript:void(0)"
-  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Standard'}});"
-advanced:
-  name: "Advanced"
-  subtitle: "When you just need more"
-  targets: "3"
-  web-test: "3"
-  user-roles: "5"
-  api-endpoints: "128"
-  external-ips: "128"
-  ports-scanned: "All 65565"
-  tests-performed: "267"
-  tests-name: "ASVS Level 2"
-  vulns-checked: "XX"
-  hybrid-testing: "Yes"
-  realtime-colab: "Yes"
-  researchers: "2+"
-  delivery-time: "Instantly"
-  alerts: "Yes"
-  remediation-previous: "Yes"
-  remediation-timeline: "12 Months"
-  pdf-report: "2 Days"
-  duration: "2+ Week"
-  start-time: "2 Days"
-  price-usd: "$19,200/yr"
-  price-cad: "$24,960/yr"
-  credits: "6"
-  cta: "Get Started"
-  cta-link: "javascript:void(0)"
-  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Advanced'}});"
-credit-hours: "16"
-credit-price-usd: "$3,200"
-credit-price-cad: "$4,160"
+plans:
+  - name: Verified Automated Scan
+    subtitle: For small apps
+    key: verified_automated_scan
+    description: "Several DAST tool's run over the course of 5 days on a monthly cadence with results compiled into a single report, includes manual verification of all findings."
+    credits: 1
+    max_credits: 3
+    targets: "1"
+    web-test: "1"
+    user-roles: "1"
+    api-endpoints: "32"
+    external-ips: "32"
+    ports-scanned: "Top 1000"
+    tests-performed: "131"
+    tests-name: "ASVS Level 1"
+    vulns-checked: "XX"
+    hybrid-testing: "Yes"
+    realtime-colab: "Yes"
+    researchers: "1"
+    delivery-time: "Instantly"
+    alerts: "Yes"
+    remediation-previous: "Yes"
+    remediation-timeline: "6 Months"
+    pdf-report: "5 Days"
+    duration: "1 Week"
+
+  - name: Targeted Pentest
+    subtitle: Perfect for startups
+    key: targeted
+    description: 'A pentest that focuses on one specific feature, function, or test type over a single week. Includes a verified automated scan.'
+    credits: 2
+    max_credits: 4
+    targets: "2"
+    web-test: "2"
+    user-roles: "3"
+    api-endpoints: "64"
+    external-ips: "64"
+    ports-scanned: "All 65565"
+    tests-performed: "131"
+    tests-name: "ASVS Level 1"
+    vulns-checked: "XX"
+    hybrid-testing: "Yes"
+    realtime-colab: "Yes"
+    researchers: "2"
+    delivery-time: "Instantly"
+    alerts: "Yes"
+    remediation-previous: "Yes"
+    remediation-timeline: "12 Months"
+    pdf-report: "3 Days"
+    duration: "2 Week"
+
+  - name: "In-depth Pentest"
+    subtitle: When you just need more
+    key: indepth
+    description: 'A standard 2 week pentest with a configurable scope, remediation timeframe, and test coverage based on the number of credits.'
+    credits: 3
+    max_credits: 5
+    targets: "3"
+    web-test: "3"
+    user-roles: "5"
+    api-endpoints: "128"
+    external-ips: "128"
+    ports-scanned: "All 65565"
+    tests-performed: "267"
+    tests-name: "ASVS Level 2"
+    vulns-checked: "XX"
+    hybrid-testing: "Yes"
+    realtime-colab: "Yes"
+    researchers: "2+"
+    delivery-time: "Instantly"
+    alerts: "Yes"
+    remediation-previous: "Yes"
+    remediation-timeline: "12 Months"
+    pdf-report: "2 Days"
+    duration: "2+ Week"
+
+features:
+  - name: Remediate with ease
+    description: No need to wait for the final PDF report! View vulnerabilities as soon as they are found and start fixing them today.
+    plans:
+      - verified_automated_scan
+      - targeted
+      - indepth
+
+  - name: Get continuous results
+    description: Continually ensure your assets are secure. Get notified instantly of vulnerabilities before hackers find them
+    plans:
+      - verified_automated_scan
+      - targeted
+      - indepth
+
+  - name: Zero false positives
+    description: Cut through the noise and get verified vulnerability reports to help you prioritize and fix issues sooner without the fluff.
+    plans:
+      - verified_automated_scan
+
+  - name: Built by hackers
+    description: Lorem Ipsum
+    plans:
+      - verified_automated_scan
+
+
+  - name: Meet compliance requirements
+    description: Meet vulnerability scanning and assessment compliance requirements without the hassle.
+    plans:
+      - verified_automated_scan
+
+  - name: Meet compliance requirements
+    description: Get SOC2, ISO27001, or PCI compliance-ready without the hassle.
+    plans:
+      - indepth
+
+  - name: Lorem Ipsum
+    description: Lorem Ipsum
+    plans:
+      - targeted
+      - indepth
+
+  - name: Lorem Ipsum
+    description: Lorem Ipsum
+    plans:
+      - indepth
+
+  - name: Test new features
+    description: "Integrate regular testing into your SDLC with pentesting that's as agile as your team is"
+    plans:
+      - targeted
+
+  - name: Targeted vulnerability testing
+    description: "Ensure you're protected against the latest critical vulnerabilities such as Log4j"
+    plans:
+      - targeted
+
 addons:
   - name: "Additional applications"
     what-included: "1 Application"

@@ -1,0 +1,261 @@
+<div
+  x-data="{
+    plansOpen: false,
+    atTop: false,
+    setAtTop() {
+      const distance = ($el.offsetTop - window.scrollY),
+            atTop = distance > -1 && distance < 1
+
+      if (atTop !== this.atTop) {
+        this.atTop = atTop
+      }
+    }
+  }"
+  x-init="setAtTop()"
+  @scroll.window="setAtTop()"
+  @click.away="plansOpen = false"
+  x-bind:class="atTop ? 'border-gray-200' : 'border-transparent'"
+  class="sticky top-0 z-50 lg:hidden mt-24 border-b-2 bg-white"
+>
+  <div class="px-4 sm:px-6 py-3 flex items-center relative z-0">
+    {% for plan in site.data.pricing.plans.plans %}
+      <button
+        type="button"
+        x-data="{ credits: {{ plan.credits }} }"
+        x-show="isSelected('{{ plan.key }}')"
+        @click="plansOpen = !plansOpen"
+        x-bind:class="atTop ? 'py-2' : 'py-3'"
+        class="relative border-glitchsecure-500 pl-4 pr-14 flex items-center space-x-5 w-full cursor-pointer overflow-hidden rounded-xl border-2 transition-colors"
+      >
+
+        <div class="flex-shrink">
+          <svg
+            class="w-5 h-5 sm:h-9 sm:w-9 text-glitchsecure-600 transition-colors"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20" fill="currentColor"
+          >
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+        </div>
+
+        <div class="flex-1 flex flex-col items-stretch text-left">
+          <h2 class="text-lg font-bold text-gray-700 dark:text-gray-200">
+            {{ plan.name }}
+          </h2>
+          <div x-show="!atTop" class="text-sm text-gray-700 dark:text-gray-200">
+            {{ plan.subtitle }}
+          </div>
+        </div>
+
+        <h2
+          class="text-glitchsecure-600 transition-colors text-lg font-semibold whitespace-nowrap"
+          x-text="(
+            credits === 1
+              ? `${credits} Credit`
+              : `${credits} Credits`
+          )"
+        ></h2>
+
+        <div class="absolute right-0 top-0 h-full w-10 flex items-center justify-center bg-glitchsecure-500">
+          <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        
+      </button>
+    {% endfor %}
+  </div>
+
+  <div
+    x-show="plansOpen"
+    class="absolute top-0 z-10 w-full"
+    x-transition:enter="transition ease-out duration-200"
+    x-transition:enter-start="opacity-0 -translate-y-1"
+    x-transition:enter-end="opacity-100 translate-y-0"
+    x-transition:leave="transition ease-in duration-150"
+    x-transition:leave-start="opacity-100 translate-y-0"
+    x-transition:leave-end="opacity-0 -translate-y-1"
+  >
+    <div class="overflow-hidden shadow-lg bg-white border-b-2">
+      <div class="relative grid gap-3 px-4 sm:px-6 pt-3 pb-5">
+        <h3 class="text-glitchsecure-50 text-sm font-semibold uppercase tracking-wide">
+          Select a plan
+        </h3>
+
+        {% for plan in site.data.pricing.plans.plans %}
+
+          <button
+            type="button"
+            x-data="{ credits: {{ plan.credits }}, maxCredits: {{ plan.max_credits }} }"
+            @click="selectedPlanKey = '{{ plan.key }}'; plansOpen = false"
+            x-bind:class="{
+              'border-glitchsecure-500': isSelected('{{ plan.key }}'),
+              'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelected('{{ plan.key }}'),
+            }"
+            class="flex items-center space-x-5 px-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
+          >
+
+            <div class="flex-shrink">
+              <svg
+                x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+                class="w-5 h-5 sm:h-9 sm:w-9 transition-colors"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20" fill="currentColor"
+              >
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+            </div>
+
+            <div class="flex flex-col items-start text-left">
+              
+              <h2 class="text-lg font-bold text-gray-700 dark:text-gray-200">
+                {{ plan.name }}
+              </h2>
+              <div class="text-sm text-gray-700 dark:text-gray-200">
+                {{ plan.subtitle }}
+              </div>
+              
+            </div>
+
+            <div class="flex-1 flex flex-col items-end justify-end space-y-2">
+
+              <h2
+                x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+                class="transition-colors text-xl font-semibold sm:text-2xl whitespace-nowrap"
+                x-text="(
+                  credits === 1
+                    ? `${credits} Credit`
+                    : `${credits} Credits`
+                )"
+              ></h2>
+
+            </div>
+            
+          </button>
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="plans" class="relative bg-white dark:bg-glitchsecure-purple-medium lg:pt-16">
+
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col lg:flex-row justify-center space-x-8 space-y-4 lg:space-y-0">
+
+    <div class="flex-1 hidden lg:flex flex-col space-y-8">
+
+      {% for plan in site.data.pricing.plans.plans %}
+
+        <button
+          type="button"
+          x-data="{ credits: {{ plan.credits }}, maxCredits: {{ plan.max_credits }} }"
+          @click="selectedPlanKey = '{{ plan.key }}'"
+          x-bind:class="{
+            'border-glitchsecure-500': isSelected('{{ plan.key }}'),
+            'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelected('{{ plan.key }}'),
+          }"
+          class="flex items-center space-x-5 px-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
+        >
+
+          <div class="flex-shrink">
+            <svg
+              x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+              class="w-5 h-5 sm:h-9 sm:w-9 transition-colors"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20" fill="currentColor"
+            >
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+
+          <div class="flex flex-col items-start space-y-2 text-left">
+            
+            <h2 class="text-xl font-bold text-gray-700 dark:text-gray-200">
+              {{ plan.name }}
+            </h2>
+            <div class="text-sm text-gray-700 dark:text-gray-200">
+              {{ plan.description }}
+            </div>
+            
+          </div>
+
+          <div class="flex-1 flex flex-col items-end justify-end space-y-2">
+
+            <h2
+              x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+              class="transition-colors text-xl font-semibold sm:text-2xl whitespace-nowrap"
+              x-text="(
+                credits === 1
+                  ? `${credits} Credit`
+                  : `${credits} Credits`
+              )"
+            ></h2>
+
+          </div>
+          
+        </button>
+
+      {% endfor %}
+
+    </div>
+
+    <div class="bg-glitchsecure-700 dark:bg-glitchsecure-900 shadow-md p-5 rounded-lg min-w-0 w-full lg:w-[25rem] max-w-full flex flex-col">
+
+      <div class="lg:hidden">
+        <h3 class="text-glitchsecure-50 text-sm font-semibold uppercase tracking-wide">
+          Selected Plan
+        </h3>
+        {% for plan in site.data.pricing.plans.plans %}
+          <div x-show="isSelected('{{ plan.key }}')" class="text-white mt-4">
+            <h3 class="text-xl font-bold">
+              {{ plan.name }}
+            </h3>
+            <p class="mt-2 text-sm text-white opacity-70">
+              {{ plan.description }}
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="hidden lg:block">
+        <h3 class="text-glitchsecure-50 text-sm font-semibold uppercase tracking-wide">
+          What's Included...
+        </h3>
+      </div>
+
+      <ul role="list" class="border-glitchsecure-200 divide-glitchsecure-400 mt-4 divide-y lg:border-t-0 flex-1">
+
+        {% for feature in site.data.pricing.plans.features %}
+          <li
+            x-data="{
+              plans: [{% for planKey in site.data.pricing.plans.features[forloop.index0].plans %}'{{ planKey }}', {% endfor %}],
+              get show() { return this.plans.includes(this.selectedPlanKey) },
+            }"
+            x-show="show"
+            class="py-3 flex items-center"
+          >
+            <svg class="text-white opacity-60 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-white ml-3 text-sm font-medium">
+              {{ feature.name }}
+            </span>
+          </li>
+        {% endfor %}
+
+      </ul>
+
+      <button
+        @click="openGetStarted()"
+        class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full"
+      >
+        Get Started
+      </button>
+
+    </div>
+  </div>
+
+</section>
