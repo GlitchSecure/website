@@ -17,27 +17,31 @@
   />
   {%- include nav.html -%}
 
-  <div class="container max-w-7xl pt-24 lg:pt-48">
+  <div class="w-full mx-auto px-4 max-w-7xl pt-24 lg:pt-48">
     <div class="flex flex-wrap items-center">
       <div class="w-full px-4 lg:w-1/2">
         <div class="animate-fadeIn">
+          {% if page.hero-title-3 %}
+          <h2
+            class="text-base font-medium leading-snug text-neutral-200 opacity-75 md:text-left md:text-xl md:font-bold"
+          >
+            {{ page.hero-title-3 }}
+          </h2>
+          {% endif %}
           <h1
-            class="text-2xl font-extrabold leading-snug tracking-tight text-gray-200 md:text-left md:text-4xl"
+            class="text-3xl font-extrabold leading-snug tracking-tight text-neutral-200 md:text-left md:text-5xl"
           >
             {{ page.hero-title }}
           </h1>
+          {% if page.hero-title-2 %}
           <h2
-            class="text-xl font-medium leading-snug text-[#c5b7e1] md:text-left md:text-3xl md:font-bold"
+            class="text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
           >
             {{ page.hero-title-2 }}
           </h2>
-          <h3
-            class="mb-5 text-lg leading-tight tracking-tight text-[#c5b7e1] md:text-left md:text-2xl md:font-medium"
-          >
-            {{ page.hero-title-3 }}
-          </h3>
+          {% endif %}
           <p
-            class="mb-8 max-w-xl text-sm text-gray-100 md:text-left md:text-xl"
+            class="mt-8 mb-8 max-w-xl text-base text-neutral-100 md:text-left md:text-xl"
           >
             {{ page.hero-subtitle }}
           </p>
@@ -45,7 +49,7 @@
             <a
               href="{{ page.hero-button-link }}"
               @click="{{ page.hero-button-click }}"
-              class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-black transition hover:bg-opacity-90"
+              class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-neutral-800 transition hover:bg-opacity-90"
             >
               {{ page.hero-button }}
             </a>
@@ -55,11 +59,8 @@
       <div class="hidden w-full px-4 lg:block lg:w-1/2">
         <div class="mx-auto text-right">
           <div class="relative z-10 mt-16 inline-block animate-fadeIn lg:mt-0">
-            <img
-              src="{{ site.url }}/assets/img/home/hero-preview.svg"
-              alt="hero"
-              class="mx-auto max-w-full self-start rounded-lg"
-            />
+            <img src="/assets/img/home/hero-preview.svg" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-lg dark:hidden"/>
+            <img src="/assets/img/home/hero-preview-dark.svg" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-lg hidden dark:block"/>
           </div>
         </div>
       </div>

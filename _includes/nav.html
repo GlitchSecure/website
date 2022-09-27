@@ -6,14 +6,14 @@
       submenuOpen: false
     }
   "
-  class="flex w-full items-center bg-transparent"
+  class="flex w-full items-center bg-transparent relative z-10"
 >
-  <div class="container max-w-7xl animate-fadeIn">
+  <div class="w-full mx-auto px-4 max-w-7xl animate-fadeIn">
     <div class="relative flex items-center justify-between">
       <div class="w-96 max-w-full px-4">
-        <a href="{{ site.url }}/" class="block w-full py-5">
+        <a href="/" class="block w-full py-5">
           <img
-            src="{{ site.url }}/assets/img/logo-wordmark-white.svg"
+            src="/assets/img/logo-wordmark-white.svg"
             alt="logo"
             class="w-full"
           />
@@ -33,23 +33,22 @@
               top-1/2
               lg:hidden
               focus:ring-2
-              ring-violet-500
-              violet-500
+              ring-neutral-200
+              neutral-200
               px-3
               py-2
-
               rounded-lg
-               transform -translate-y-1/2
+              transform -translate-y-1/2
             "
           >
             <span
-              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-500 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-neutral-200 transform transition duration-500 ease-in-out"
             ></span>
             <span
-              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-200 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-neutral-200 transform transition duration-200 ease-in-out"
             ></span>
             <span
-              class="relative w-8 h-0.5 my-1.5 block bg-violet-500 transform transition duration-700 ease-in-out"
+              class="relative w-8 h-0.5 my-1.5 block bg-neutral-200 transform transition duration-700 ease-in-out"
             ></span>
 
           </button>
@@ -58,8 +57,9 @@
           <nav
             :class="!navbarOpen && 'hidden' "
             id="navbarCollapse"
-            class="bg-black absolute block top-full right-4 z-50 w-full max-w-xs py-5 shadow
+            class="bg-neutral-900 absolute block top-full right-4 z-50 w-full max-w-xs py-5 shadow
             lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-6 lg:shadow-none"
+            x-cloak
           >
             <ul class="block lg:flex">
               {% for item in site.data.navigation %} {% if page.url == item.url
@@ -67,7 +67,7 @@
               <li class="group relative">
                 <a
                   href="{{ item.url }}"
-                  class="flex border-b-2 border-gray-400 py-2 px-6 text-base font-medium text-gray-200 hover:text-gray-400 lg:inline-flex lg:py-6 lg:px-6"
+                  class="flex border-b-2 border-neutral-300 py-2 px-6 text-base font-medium text-neutral-200 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
@@ -78,7 +78,7 @@
                 <a
                   href="javascript:void(0)"
                   @click="submenuOpen = !submenuOpen "
-                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-gray-200 hover:border-gray-400 hover:text-gray-400 lg:inline-flex lg:py-6 lg:px-6"
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
@@ -90,7 +90,7 @@
                   {% for item in site.data.navigation-dropdown-services %}
                   <a
                     href="{{ item.url }}"
-                    class="block rounded py-2.5 px-4 text-sm font-medium text-gray-200 hover:bg-violet-500 hover:text-gray-100"
+                    class="block rounded py-2.5 px-4 text-sm font-medium text-neutral-200 hover:bg-neutral-200 hover:text-neutral-100"
                   >
                     {{ item.title }}
                   </a>
@@ -101,26 +101,72 @@
               <li class="group relative">
                 <a
                   href="{{ item.url }}"
-                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-gray-200 hover:border-gray-400 hover:text-gray-400 lg:inline-flex lg:py-6 lg:px-6"
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
               </li>
               {% endif %} {% endfor %}
+              <hr class="group relative lg:hidden my-3 border-dotted opacity-25">
+              <li class="group relative block sm:hidden">
+                <a
+                  href="https://app.glitchsecure.com"
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
+                >
+                  Login
+                </a>
+              </li>
+
+              <hr class="group relative sm:hidden lg:hidden my-3 border-dotted opacity-25">
+
+              <li class="group relative lg:hidden">
+                <a
+                  href="javascript:void(0)"
+                  @click="localStorage.clear(); navbarOpen = false; getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Mobile Navigation Menu'}});"
+                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
+                >
+                  Get Started
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
         <div class="justify-end pr-16 lg:pr-0 flex">
+          <button x-data="{
+                    toggle: () => {
+                        if (localStorage.theme === 'dark') {
+                            localStorage.theme = 'light';
+                            document.documentElement.classList.add('light');
+                            document.documentElement.classList.remove('dark');
+                        } else {
+                            localStorage.theme = 'dark';
+                            document.documentElement.classList.add('dark');
+                            document.documentElement.classList.remove('light');
+                        }
+                    },
+                }"
+                @click="toggle" type="button" id="headlessui-listbox-button-4" aria-haspopup="true" aria-expanded="false" aria-labelledby="headlessui-listbox-label-3 headlessui-listbox-button-undefined">
+                <span class="dark:hidden">
+                  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                    <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" class="fill-neutral-300/20 stroke-neutral-200"></path><path d="M12 4v1M17.66 6.344l-.828.828M20.005 12.004h-1M17.66 17.664l-.828-.828M12 20.01V19M6.34 17.664l.835-.836M3.995 12.004h1.01M6 6l.835.836" class="stroke-neutral-200"></path>
+                  </svg>
+                </span>
+                <span class="hidden dark:inline">
+                  <svg viewBox="0 0 24 24" fill="none" class="w-6 h-6">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.715 15.15A6.5 6.5 0 0 1 9 6.035C6.106 6.922 4 9.645 4 12.867c0 3.94 3.153 7.136 7.042 7.136 3.101 0 5.734-2.032 6.673-4.853Z" class="fill-neutral-300/20"></path><path d="m17.715 15.15.95.316a1 1 0 0 0-1.445-1.185l.495.869ZM9 6.035l.846.534a1 1 0 0 0-1.14-1.49L9 6.035Zm8.221 8.246a5.47 5.47 0 0 1-2.72.718v2a7.47 7.47 0 0 0 3.71-.98l-.99-1.738Zm-2.72.718A5.5 5.5 0 0 1 9 9.5H7a7.5 7.5 0 0 0 7.5 7.5v-2ZM9 9.5c0-1.079.31-2.082.845-2.93L8.153 5.5A7.47 7.47 0 0 0 7 9.5h2Zm-4 3.368C5 10.089 6.815 7.75 9.292 6.99L8.706 5.08C5.397 6.094 3 9.201 3 12.867h2Zm6.042 6.136C7.718 19.003 5 16.268 5 12.867H3c0 4.48 3.588 8.136 8.042 8.136v-2Zm5.725-4.17c-.81 2.433-3.074 4.17-5.725 4.17v2c3.552 0 6.553-2.327 7.622-5.537l-1.897-.632Z" class="fill-neutral-200"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M17 3a1 1 0 0 1 1 1 2 2 0 0 0 2 2 1 1 0 1 1 0 2 2 2 0 0 0-2 2 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 1 1 0-2 2 2 0 0 0 2-2 1 1 0 0 1 1-1Z" class="fill-neutral-200"></path>
+                  </svg>
+                </span>
+              </button>
           <a
             href="https://app.glitchsecure.com/"
-            class="hidden sm:block py-3 px-7 text-base font-medium text-gray-200 hover:text-gray-400"
+            class="hidden sm:block py-3 px-7 text-base font-medium text-neutral-200 hover:text-neutral-300"
           >
             Login
           </a>
           <a
             href="javascript:void(0)"
             @click="localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Navigation Menu'}});"
-            class="hidden xl:block rounded-lg bg-neutral-100 py-3 px-4 text-base font-medium text-black hover:bg-opacity-90"
+            class="hidden lg:block rounded-lg bg-neutral-100 text-neutral-800 py-3 px-4 text-base font-medium hover:bg-opacity-90"
           >
             <svg
               class="mr-1 inline h-4 w-4"
@@ -134,7 +180,7 @@
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
               />
             </svg>
             Get Started

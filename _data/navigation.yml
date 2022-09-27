@@ -2,14 +2,14 @@
 #  url: "/services/"
 #  dropdown: false
 
-#- title: Platform
-#  url: /platform/
+- title: Platform
+  url: /platform/
 
-#- title: Pricing
-#  url: /pricing/
+- title: Pricing
+  url: /pricing/
 
-#- title: About
-#  url: /about/
+- title: About
+  url: /about/
 
 #- title: FAQ
 #  url: /faq/

@@ -6,10 +6,6 @@
  preserveAspectRatio="xMidYMid meet">
  <style>
      path { fill: #404040; }
-
-     @media (prefers-color-scheme: dark) {
-         path { fill: #D1D5DB; }
-     }
  </style>
 <metadata>
 Created by potrace 1.16, written by Peter Selinger 2001-2019

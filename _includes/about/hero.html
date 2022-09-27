@@ -1,191 +1,54 @@
-<!-- ====== About Section Start -->
 <div
-  class="relative bg-gradient-to-br from-[#1d162b] via-[#240f4c] to-[#221243] pt-[150px] pb-[110px] lg:pt-[170px]"
->
-  <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="-mx-4 flex flex-wrap items-center">
-      <div class="w-full px-4 lg:w-1/2">
-        <div class="mb-12 max-w-[540px] lg:mb-0">
-          <h2
-            class="mb-5 text-3xl font-bold leading-tight text-gray-200 sm:text-[40px] sm:leading-tight md:text-[45px] md:leading-tight lg:text-[38px] lg:leading-tight xl:text-[45px] xl:leading-tight"
-          >
-            Lorem Ipsum
-          </h2>
-          <p
-            class="mb-10 text-base font-medium leading-relaxed text-body-color"
-          >
-            Proin gravida nibh vel velit auctor aliquet. aks Aenean
-            sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-            nec sagittis sem.consequat ipsum, nec sagittis sem nibh id
-            elit.Donec vestibulum justo a diam ultricies. pel lentesque.
-          </p>
-          <h3 class="mb-8 text-2xl font-bold text-gray-200">Lorem Ipsum</h3>
-          <ul class="pb-6">
-            <li class="mb-4 flex text-base text-body-color">
-              <span
-                class="mr-2 mt-2 flex h-2 w-full max-w-[8px] items-center justify-center rounded-full bg-primary text-base"
+  x-data="
+    {
+      getstartedOpen: false,
+    }
+  ">
+  <div
+    class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
+  >
+    <div class="mt-24">
+      <div
+        class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+      >
+        <div
+          class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+        >
+          <div>
+            <div class="mt-6">
+              <h2
+                class="inline-block border-b border-gray-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-700 dark:text-neutral-200"
               >
-              </span>
-              Consectetur adipiscing elit in voluptate velit.
-            </li>
-            <li class="mb-4 flex text-base text-body-color">
-              <span
-                class="mr-2 mt-2 flex h-2 w-full max-w-[8px] items-center justify-center rounded-full bg-primary text-base"
+                {{ page.about-feature-title1 }}
+              </h2>
+              <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
+                {{ page.about-feature-subtitle1 }}
+              </p>
+              {% if page.about-feature-button-1 %}
+              <a
+                href="{{ page.about-feature-link1 }}"
+                @click="{{ page.about-feature-click1 }}"
+                class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
               >
-              </span>
-              Mattis vulputate cupidatat.
-            </li>
-          </ul>
-          <a
-            href="javascript:void(0)"
-            class="inline-flex items-center justify-center rounded-md bg-primary py-3 px-6 text-center text-base font-medium text-white hover:bg-opacity-90 sm:py-4 sm:px-9"
-          >
-            Know More
-          </a>
-        </div>
-      </div>
-      <div class="w-full px-4 lg:w-1/2">
-        <div class="-mx-2 flex flex-wrap sm:-mx-4 lg:-mx-2 xl:-mx-4">
-          <div class="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
-            <div
-              class="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]"
-            >
-              <img
-                src="https://cdn.tailgrids.com/1.0/assets/images/about/about-04/image-01.jpg"
-                alt="about image"
-                class="h-full w-full object-cover object-center"
-              />
+                {{ page.about-feature-button1 }}
+              </a>
+              {% endif %}
             </div>
           </div>
-          <div class="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
-            <div
-              class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]"
-            >
-              <img
-                src="https://cdn.tailgrids.com/1.0/assets/images/about/about-04/image-02.jpg"
-                alt="about image"
-                class="h-full w-full object-cover object-center"
-              />
-            </div>
-            <div
-              class="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary py-12 px-6 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8"
-            >
-              <div>
-                <span class="block text-5xl font-extrabold text-white">
-                  09
-                </span>
-                <span class="block text-base font-semibold text-white">
-                  We have
-                </span>
-                <span
-                  class="block text-base font-medium text-white text-opacity-70"
-                >
-                  Years of experience
-                </span>
-              </div>
-              <div>
-                <span class="absolute top-0 left-0 -z-10">
-                  <svg
-                    width="106"
-                    height="144"
-                    viewBox="0 0 106 144"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      opacity="0.1"
-                      x="-67"
-                      y="47.127"
-                      width="113.378"
-                      height="131.304"
-                      transform="rotate(-42.8643 -67 47.127)"
-                      fill="url(#paint0_linear_1416_214)"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear_1416_214"
-                        x1="-10.3111"
-                        y1="47.127"
-                        x2="-10.3111"
-                        y2="178.431"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="white" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span class="absolute top-0 right-0 -z-10">
-                  <svg
-                    width="130"
-                    height="97"
-                    viewBox="0 0 130 97"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      opacity="0.1"
-                      x="0.86792"
-                      y="-6.67725"
-                      width="155.563"
-                      height="140.614"
-                      transform="rotate(-42.8643 0.86792 -6.67725)"
-                      fill="url(#paint0_linear_1416_215)"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear_1416_215"
-                        x1="78.6495"
-                        y1="-6.67725"
-                        x2="78.6495"
-                        y2="133.937"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="white" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-                <span class="absolute bottom-0 right-0 -z-10">
-                  <svg
-                    width="175"
-                    height="104"
-                    viewBox="0 0 175 104"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      opacity="0.1"
-                      x="175.011"
-                      y="108.611"
-                      width="101.246"
-                      height="148.179"
-                      transform="rotate(137.136 175.011 108.611)"
-                      fill="url(#paint0_linear_1416_216)"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear_1416_216"
-                        x1="225.634"
-                        y1="108.611"
-                        x2="225.634"
-                        y2="256.79"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="white" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </span>
-              </div>
-            </div>
+        </div>
+        <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+          <div
+            class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+          >
+            <img
+              class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+              src="{{ page.about-feature-image1 }}"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
+{% include getstarted/modal.html %}
 </div>
-<!-- ====== About Section End -->
