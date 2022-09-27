@@ -49,16 +49,29 @@ layout: default
   },
 
   incrementingFeatureValue(featureKey) {
-    const incrFeature = this.selectedPlan.features.filter(f => f.key === featureKey)[0] || null
+    const plan = this.selectedPlan,
+          counter = this.creditCounter,
+          incrFeature = plan.features.filter(f => f.key === featureKey)[0] || false
 
-    if (!incrFeature) return null
+    if (!incrFeature) {
+      return null
+    }
 
-    const value = this.creditCounter * incrFeature.increment
+    let value = 0,
+        incrementCount = counter - plan.base_credits
 
-    if (incrFeature.base <= value) {
-      return incrFeature.base
-    } else if (incrFeature.max >= value) {
-      return incrFeature.max
+    if (incrementCount <= 0) {
+      value = incrFeature.base
+    }
+
+    if (incrementCount > 0) {
+      value = incrFeature.base + (incrFeature.increment * incrementCount)
+    }
+    
+    if (value <= incrFeature.base) {
+      value = incrFeature.base
+    } else if (value >= incrFeature.max) {
+      value = incrFeature.max
     }
 
     return value
