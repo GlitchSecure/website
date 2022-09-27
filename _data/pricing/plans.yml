@@ -1,8 +1,8 @@
 plans:
-  - name: Verified Automated Scan
+  - name: Vulnerability Assessment
     subtitle: For small apps
-    key: verified_automated_scan
-    description: "Several DAST tool's run over the course of 5 days on a monthly cadence with results compiled into a single report, includes manual verification of all findings."
+    key: vulnerability_assessment
+    description: "Get recurring vulnerability scans of your web application or network to identify vulnerabilities before hackers find them, and automatically verify applied patches. Scans are run on a monthly basis with findings verified by expert hackers."
     base_credits: 1
     max_credits: 3
     incrementing-features:
@@ -63,7 +63,7 @@ plans:
   - name: Targeted Pentest
     subtitle: Perfect for startups
     key: targeted
-    description: 'A pentest that focuses on one specific feature, function, or test type over a single week. Includes a verified automated scan.'
+    description: "Go beyond fulfilling compliance requirements and integrate pentesting into your SDLC. Use this agile approach to proactively identify vulnerabilities in new releases and specific functions, or when the next major vulnerability (like log4j) is published."
     base_credits: 2
     max_credits: 4
     incrementing-features:
@@ -124,7 +124,7 @@ plans:
   - name: "In-depth Pentest"
     subtitle: When you just need more
     key: indepth
-    description: 'A standard 2 week pentest with a configurable scope, remediation timeframe, and test coverage based on the number of credits.'
+    description: "Get an in-depth look at your enite application, API, or network through an in-depth human powered penetration test. Meet compliance requirements and ensure full coverage with standards like the OWASP Application Secuirty Verification Standard."
     base_credits: 3
     max_credits: 6
     incrementing-features:
@@ -183,51 +183,60 @@ plans:
         included: true
 
 base-features:
+
+  - name: Expert Hacker Insights
+    description: Break free from the outdated pentest model with real-time and continuous security testing to ensure you’re always protected.
+    plans:
+      - vulnerability_assessment
+      - targeted
+      - indepth
   - name: Remediate with ease
     description: No need to wait for the final PDF report! View vulnerabilities as soon as they are found and start fixing them today.
     plans:
-      - verified_automated_scan
+      - vulnerability_assessment
       - targeted
       - indepth
 
   - name: Get continuous results
-    description: Continually ensure your assets are secure. Get notified instantly of vulnerabilities before hackers find them
+    description: Continually ensure your assets are secure. Get notified instantly of vulnerabilities before hackers find them.
     plans:
-      - verified_automated_scan
+      - vulnerability_assessment
       - targeted
       - indepth
 
-  - name: Zero false positives
-    description: Cut through the noise and get verified vulnerability reports to help you prioritize and fix issues sooner without the fluff.
-    plans:
-      - verified_automated_scan
 
   - name: Built by hackers
     description: Lorem Ipsum
     plans:
-      - verified_automated_scan
+      - vulnerability_assessment
+
+  - name: Zero false positives
+    description: Cut through the noise and get verified vulnerability reports to help you prioritise and fix issues sooner without the fluff.
+    plans:
+      - vulnerability_assessment
 
 
   - name: Meet compliance requirements
     description: Meet vulnerability scanning and assessment compliance requirements without the hassle.
     plans:
-      - verified_automated_scan
+      - vulnerability_assessment
+
+  - name: Lorem Ipsum
+    description: Lorem Ipsum
+    plans:
+      - targeted
+      - indepth
+
+  - name: Lorem Ipsum
+    description: Lorem Ipsum
+    plans:
+      - indepth
 
   - name: Meet compliance requirements
     description: Get SOC2, ISO27001, or PCI compliance-ready without the hassle.
     plans:
       - indepth
 
-  - name: Lorem Ipsum
-    description: Lorem Ipsum
-    plans:
-      - targeted
-      - indepth
-
-  - name: Lorem Ipsum
-    description: Lorem Ipsum
-    plans:
-      - indepth
 
   - name: Test new features
     description: "Integrate regular testing into your SDLC with pentesting that's as agile as your team is"
@@ -265,12 +274,12 @@ incrementing-features:
     prefix: ''
     suffix: ''
 
-  - name: Ports Scanned 
+  - name: Ports Scanned
     key: ports-scanned
     prefix: ''
     suffix: ''
 
-  - name: Pentest Timeframe 
+  - name: Pentest Timeframe
     key: pentest-timeframe-weeks
     prefix: ''
     suffix: 'weeks'

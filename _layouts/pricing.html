@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="pb-24 lg:pb-32" x-data="{
+<div class="" x-data="{
   getstartedOpen: false,
   openGetStarted() {
     localStorage.clear()
@@ -41,25 +41,24 @@ layout: default
   {% include divider-primary.html %}
   {% include pricing/hero.html %}
   {% include pricing/plans-tabs.html %}
+  {% include pricing/divider-secondary.html %}
   {% include pricing/features.html %}
-  {% include pricing/plans-table.html %}
-  {% include pricing/addons.html %}
-  
-  <div class="relative bg-gray-50 mt-24 lg:mt-32 pb-8">
-    
-    <img class="absolute inset-0 h-full w-full object-cover object-center opacity-[0.2]" src="/assets/img/home/herobg-dark.png">
-
-    {% include home/client-list.html %}
-
+  {% include divider-primary.html %}
+    {% include getstarted/modal.html %}
   </div>
 
   {% include pricing/faqs.html %}
 
-  {% include getstarted/modal.html %}
+  {%- include divider-secondary.html -%}
+  {% include about/stats.html %}
+  {%- include divider-primary.html -%}
 
-</div>
 
-<div class="pb-32"></div>
+
+
+
+{% include about/testimonials.html %}
 
 {% include divider-secondary.html %}
+
 {% include cta.html %}
