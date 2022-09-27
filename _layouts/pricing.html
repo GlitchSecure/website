@@ -2,39 +2,82 @@
 layout: default
 ---
 
-<div class="" x-data="{
+<div x-data="{
   getstartedOpen: false,
   openGetStarted() {
     localStorage.clear()
     this.getstartedOpen = true
     plausible('Get Started Button', {props: {method: this.selectedPlanKey}});
   },
-  plans: [{% for plan in site.data.pricing.plans.plans %}{
+
+  plans: [{% for plan in site.data.pricing.plans %}{
     key: `{{ plan.key }}`,
     base_credits: {{ plan.base_credits }},
     max_credits: {{ plan.max_credits }},
+    features: [{% for feature in plan.features %}{
+      key: `{{ feature.key }}`,
+      {% if feature.increment %}
+      base: {{ feature.base }},
+      increment: {{ feature.increment }},
+      max: {{ feature.max }},
+      {% endif %}
+    },
+    {% endfor %}],
   },{% endfor %}],
-  selectedPlanKey: '{{ site.data.pricing.plans.plans[0].key }}',
-  creditCounter: {{ site.data.pricing.plans.plans[0].base_credits }},
+
+  selectedPlanKey: '{{ site.data.pricing.plans[0].key }}',
+  
+  selectPlan(planKey) { 
+    this.selectedPlanKey = planKey
+    this.creditCounter = this.selectedPlan.base_credits
+  },
+
+  creditCounter: {{ site.data.pricing.plans[0].base_credits }},
+
   creditCounterIncrement() { 
     const newValue = this.creditCounter + 1
     if (this.selectedPlan.max_credits >= newValue) {
       this.creditCounter = newValue
     }
   },
+
   creditCounterDecrement() {
     const newValue = this.creditCounter - 1
     if (this.selectedPlan.base_credits <= newValue) {
       this.creditCounter = newValue
     }
   },
-  selectPlan(planKey) { 
-    this.selectedPlanKey = planKey
-    this.creditCounter = this.selectedPlan.base_credits
+
+  incrementingFeatureValue(featureKey) {
+    const incrFeature = this.selectedPlan.features.filter(f => f.key === featureKey)[0] || null
+
+    if (!incrFeature) return null
+
+    const value = this.creditCounter * incrFeature.increment
+
+    if (incrFeature.base <= value) {
+      return incrFeature.base
+    } else if (incrFeature.max >= value) {
+      return incrFeature.max
+    }
+
+    return value
   },
-  isSelected(planKey) { return this.selectedPlanKey === planKey },
+
+  isSelectedPlan(planKey) {
+    return this.selectedPlanKey === planKey
+  },
+  isSelectedPlanFeature(featureKey) {
+    return this.selectedPlan.features.map(f => f.key).includes(featureKey)
+  },
   get selectedPlan() {
     return this.plans.filter(plan => plan.key === this.selectedPlanKey)[0]
+  },
+  get canDecrement() {
+    return (this.creditCounter - 1) >= this.selectedPlan.base_credits
+  },
+  get canIncrement() { 
+    return (this.creditCounter + 1) <= this.selectedPlan.max_credits
   },
 }">
 
@@ -42,23 +85,18 @@ layout: default
   {% include pricing/hero.html %}
   {% include pricing/plans-tabs.html %}
   {% include pricing/divider-secondary.html %}
-  {% include pricing/features.html %}
+  {% include pricing/featurettes.html %}
   {% include divider-primary.html %}
-    {% include getstarted/modal.html %}
-  </div>
+  {% include getstarted/modal.html %}
 
-  {% include pricing/faqs.html %}
+</div>
 
-  {%- include divider-secondary.html -%}
-  {% include about/stats.html %}
-  {%- include divider-primary.html -%}
+{% include pricing/faqs.html %}
 
-
-
-
+{%- include divider-secondary.html -%}
+{% include about/stats.html %}
+{%- include divider-primary.html -%}
 
 {% include about/testimonials.html %}
-
 {% include divider-secondary.html %}
-
 {% include cta.html %}

@@ -7,18 +7,18 @@
 
         <div class="-mt-px flex-1 py-6 pr-4 flex items-end mr-auto"></div>
 
-        {% for plan in site.data.pricing.plans.plans %}
+        {% for plan in site.data.pricing.plans %}
 
           <div
             @click="selectedPlanKey !== '{{ plan.key }}' ? selectPlan('{{ plan.key }}') : null"
             class="lg:cursor-pointer pr-4 -mt-px pl-4 flex-1"
           >
             <div
-              x-bind:class="isSelected('{{ plan.key }}') ? 'border-glitchsecure-600' : 'border-transparent'"
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'border-glitchsecure-600' : 'border-transparent'"
               class="py-6 border-t-2"
             >
               <p
-                x-bind:class="isSelected('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-neutral-700 dark:text-neutral-200'"
+                x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-neutral-700 dark:text-neutral-200'"
                 class="text-sm font-bold"
               >
                 {{ plan.name }}
@@ -38,9 +38,9 @@
 
           <div class="flex-1 pr-4 mr-auto"></div>
 
-          {% for plan in site.data.pricing.plans.plans %}
+          {% for plan in site.data.pricing.plans %}
 
-            <div x-bind:class="{ 'hidden lg:block': !isSelected('{{ plan.key }}') }" class="flex-1 px-4">
+            <div x-bind:class="{ 'hidden lg:block': !isSelectedPlan('{{ plan.key }}') }" class="flex-1 px-4">
               <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow border"></div>
             </div>
 
@@ -59,7 +59,7 @@
                   {{ feature.name }}
                 </th>
                 
-                {% for plan in site.data.pricing.plans.plans %}
+                {% for plan in site.data.pricing.plans %}
                   {% for f in plan.incrementing-features %}
                     {% if f.key == feature.key %}
                       <td
@@ -67,7 +67,6 @@
                           base: {{ f.base }},
                           increment: {{ f.increment }},
                           max: {{ f.max }},
-                          included: {{ f.included }},
                           get credits() {
                             const newValue = this.creditCounter * this.increment
                             if (this.base <= newValue) {
@@ -78,14 +77,14 @@
                             return newValue
                           },
                         }"
-                        x-bind:class="{ 'hidden lg:table-cell' : !isSelected('{{ plan.key }}') }"
+                        x-bind:class="{ 'hidden lg:table-cell' : !isSelectedPlan('{{ plan.key }}') }"
                         class="px-4 relative w-1/4 py-0 text-center"
                       >
                         <span class="relative w-full h-full py-3">
-                          <span x-show="included" class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">
+                          <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">
                             {{ feature.prefix }} <span x-text="credits"></span> {{ feature.suffix }}
                           </span>
-                          <span x-show="!included" class="flex justify-center text-neutral-400 text-sm font-medium">
+                          <span x-show="false" class="flex justify-center text-neutral-400 text-sm font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                               <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
                             </svg>
