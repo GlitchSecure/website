@@ -1,0 +1,980 @@
+  <!-- Feature comparison (up to lg) -->
+  <section aria-labelledby="mobile-comparison-heading" class="lg:hidden">
+
+    <div class="max-w-2xl mx-auto py-16 px-4 space-y-16 sm:px-6">
+      <div class="border-t border-gray-200" key="plan.title">
+        <div class="border-transparent -mt-px pt-6 border-t-2 sm:w-1/2">
+          <h3 class="text-neutral-700 dark:text-neutral-200 text-sm font-bold">{{ site.data.pricing.plans.starter.name }}</h3>
+          <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{{ site.data.pricing.plans.starter.subtitle }}</p>
+        </div>
+
+
+
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">Web + API Testing</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Applications Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.targets }} in scope</span>
+
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">User Roles Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.user-roles }} user role</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">API Endpoints Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.api-endpoints }} API Endpoints</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Manual Tests</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.tests-performed }} Tests Performed</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300"><abbr title="Application Security Verification Project">ASVS</abbr> Level</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+
+
+
+
+          <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">External Network Testing</h4>
+
+          <div class="mt-6 relative">
+            <!-- Fake card background -->
+            <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+              <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+            </div>
+
+            <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+              <dl class="divide-y divide-gray-200">
+                <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                  <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">External IPs Tested</dt>
+                  <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.external-ips }} IPs</span>
+
+                  </dd>
+                </div>
+
+                <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                  <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Ports Scanned</dt>
+                  <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.ports-scanned }} Ports</span>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">All Testing</h4>
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Real-time Collaboration</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Instant Slack Alerts</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Carryover Findings</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Findings Delivery</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.delivery-time }}</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Dedicated Researchers</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.researchers }} Researcher</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Pentest Timeframe</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.duration }}</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Remediation Testing</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.remediation-timeline }} Included</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">PDF Report Available</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.starter.pdf-report }}</span>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+
+        <!-- Fake card border -->
+        <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+          <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-200 pt-12" key="plan.title">
+        <div class="border-indigo-600 -mt-px pt-6 border-t-2 sm:w-1/2">
+          <h3 class="text-indigo-600 text-sm font-bold">{{ site.data.pricing.plans.standard.name }}</h3>
+          <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{{ site.data.pricing.plans.standard.subtitle }}</p>
+        </div>
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">Web + API Testing</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow-md absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-2 ring-indigo-600 shadow-md relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Applications Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.targets }} in scope</span>
+
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">User Roles Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.user-roles }} user role</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">API Endpoints Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.api-endpoints }} API Endpoints</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Manual Tests</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.tests-performed }} Tests Performed</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300"><abbr title="Application Security Verification Project">ASVS</abbr> Level</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-2 ring-indigo-600 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">External Network Testing</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow-md absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-2 ring-indigo-600 shadow-md relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">External IPs Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.external-ips }} IPs</span>
+
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Ports Scanned</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.ports-scanned }} Ports</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-2 ring-indigo-600 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">All Testing</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow-md absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-2 ring-indigo-600 shadow-md relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Real-time Collaboration</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.standard.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Instant Slack Alerts</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.standard.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Carryover Findings</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.standard.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Findings Delivery</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.delivery-time }}</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Dedicated Researchers</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.researchers }} Researchers</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Pentest Timeframe</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.duration }}</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Remediation Testing</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.remediation-timeline }} Included</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">PDF Report Available</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.standard.pdf-report }}</span>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-2 ring-indigo-600 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-200" key="plan.title">
+        <div class="border-transparent -mt-px pt-6 border-t-2 sm:w-1/2">
+          <h3 class="text-neutral-700 dark:text-neutral-200 text-sm font-bold">{{ site.data.pricing.plans.advanced.name }}</h3>
+          <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{{ site.data.pricing.plans.advanced.subtitle }}</p>
+        </div>
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">Web + API Testing</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Applications Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.targets }} in scope</span>
+
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">User Roles Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.user-roles }} user role</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">API Endpoints Tested</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium text-right">up to {{ site.data.pricing.plans.advanced.api-endpoints }} API Endpoints</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Manual Tests</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.tests-performed }} Tests Performed</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300"><abbr title="Application Security Verification Project">ASVS</abbr> Level</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }}</span>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+
+
+
+
+          <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">External Network Testing</h4>
+
+          <div class="mt-6 relative">
+            <!-- Fake card background -->
+            <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+              <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+            </div>
+
+            <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+              <dl class="divide-y divide-gray-200">
+                <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                  <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">External IPs Tested</dt>
+                  <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.external-ips }} IPs</span>
+
+                  </dd>
+                </div>
+
+                <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                  <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Ports Scanned</dt>
+                  <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.ports-scanned }} Ports</span>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+
+        <h4 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">All Testing</h4>
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white dark:bg-glitchsecure-purple-dark rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Real-time Collaboration</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.advanced.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Instant Slack Alerts</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.advanced.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Carryover Findings</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  {% if site.data.pricing.plans.advanced.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Findings Delivery</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.delivery-time }}</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Dedicated Researchers</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.researchers }} Researchers</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Pentest Timeframe</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.duration }}</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">Remediation Testing</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.remediation-timeline }} Included</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-neutral-600 dark:text-neutral-300">PDF Report Available</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.advanced.pdf-report }}</span>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature comparison (lg+) -->
+  <section aria-labelledby="comparison-heading" class="hidden lg:block">
+
+    <div class="max-w-7xl mx-auto py-24 px-8">
+      <div class="w-full border-t border-gray-200 flex items-stretch">
+        <div class="-mt-px w-1/4 py-6 pr-4 flex items-end">
+          <h3 class="mt-auto text-sm font-bold text-neutral-700 dark:text-neutral-200">Web + API Testing</h3>
+        </div>
+
+        <div aria-hidden="true" class="pr-4 -mt-px pl-4 w-1/4">
+          <div class="border-transparent py-6 border-t-2">
+            <p class="text-neutral-700 dark:text-neutral-200 text-sm font-bold">{{ site.data.pricing.plans.starter.name }}</p>
+            <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{{ site.data.pricing.plans.starter.subtitle }}</p>
+          </div>
+        </div>
+
+        <div aria-hidden="true" class="pr-4 -mt-px pl-4 w-1/4">
+          <div class="border-indigo-600 py-6 border-t-2">
+            <p class="text-indigo-600 text-sm font-bold">{{ site.data.pricing.plans.standard.name }}</p>
+            <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{{ site.data.pricing.plans.standard.subtitle }}</p>
+          </div>
+        </div>
+
+        <div aria-hidden="true" class="-mt-px pl-4 w-1/4">
+          <div class="border-transparent py-6 border-t-2">
+            <p class="text-neutral-700 dark:text-neutral-200 text-sm font-bold">{{ site.data.pricing.plans.advanced.name }}</p>
+            <p class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{{ site.data.pricing.plans.advanced.subtitle }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <!-- Fake card backgrounds -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow-md"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
+          </div>
+        </div>
+
+        <table class="relative w-full">
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Applications Tested</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                    <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.targets }} in scope </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.targets }} in scope </span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.targets }} in scope </span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">User Roles Tested</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.user-roles }} user role </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.user-roles }} user roles </span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.user-roles }} user roles </span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">API Endpoints Tested</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.api-endpoints }} API Endpoints </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.api-endpoints }} API Endpoints </span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.api-endpoints }} API Endpoints </span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Manual Tests</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.tests-performed }} Tests Performed</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.tests-performed }} Tests Performed</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.tests-performed }} Tests Performed</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300"><abbr title="Application Security Verification Project">ASVS</abbr> Level</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.tests-name }} </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.tests-name }} </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.tests-name }} </span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Fake card borders -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-2 ring-indigo-600 ring-opacity-100"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">External Network Testing</h3>
+
+      <div class="mt-6 relative">
+        <!-- Fake card backgrounds -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow-md"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
+          </div>
+        </div>
+
+        <table class="relative w-full">
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">External IPs Tested</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.starter.external-ips }} IPs </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.standard.external-ips }} IPs </span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">up to {{ site.data.pricing.plans.advanced.external-ips }} IPs </span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Ports Scanned</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.ports-scanned }} Ports</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.ports-scanned }} Ports</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.ports-scanned }} Ports</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Fake card borders -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-2 ring-indigo-600 ring-opacity-100"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mt-10 text-sm font-bold text-neutral-700 dark:text-neutral-200">All Testing</h3>
+
+
+      <div class="mt-6 relative">
+        <!-- Fake card backgrounds -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow-md"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full bg-white dark:bg-glitchsecure-purple-dark rounded-lg shadow"></div>
+          </div>
+        </div>
+
+        <table class="relative w-full">
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Real-time Collaboration</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.starter.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.standard.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.advanced.realtime-colab == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Instant Slack Alerts</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.starter.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.standard.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.advanced.alerts == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Carryover Findings</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.starter.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.standard.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  {% if site.data.pricing.plans.advanced.remediation-previous == 'Yes' %}{% include pricing/svg/yes.html %}{% else %}{% include pricing/svg/no.html %}{% endif %}
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Findings Delivery</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.delivery-time }} </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.delivery-time }} </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.delivery-time }} </span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Dedicated Researchers</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.researchers }} Researcher</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.researchers }} Researchers</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.researchers }} Researchers</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Pentest Timeframe</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.duration }}</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.duration }}</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.duration }}</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">Remediation Testing</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.starter.remediation-timeline }} Included</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.standard.remediation-timeline }} Included</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">{{ site.data.pricing.plans.advanced.remediation-timeline }} Included</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-neutral-600 dark:text-neutral-300">PDF Report Available</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.starter.pdf-report }} </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.standard.pdf-report }} </span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-neutral-700 dark:text-neutral-200 text-sm font-medium">Available Within {{ site.data.pricing.plans.advanced.pdf-report }} </span>
+                </span>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <!-- Fake card borders -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-2 ring-indigo-600 ring-opacity-100"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
