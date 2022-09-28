@@ -126,14 +126,21 @@
           {{ page.plan-tabs-cta-button-title }}
         </button>
 
-        <a
+        <!--<a
           href="{{ plan-tabs-contact-button-link }}"
-          target="_blan"
           x-show="!canIncrement"
           class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
         >
           {{ page.plan-tabs-contact-button-title }}
-        </a>
+        </a>-->
+        <button
+          x-show="!canIncrement"
+          <!-- Will change this to the contact page in the future-->
+          @click="openGetStarted()"
+          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+        >
+          {{ page.plan-tabs-contact-button-title }}
+        </button>
       </div>
 
     </div>
