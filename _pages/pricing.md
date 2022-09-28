@@ -18,6 +18,7 @@ credit-description: "A credit is a standardised flat-rate unit that empowers you
 credit-price: "$3,300"
 credit-price-currency: USD
 credit-unit: Per Credit
+credit-counter-tooltip: 'Lorem ipsum dolor sit amet consect adipisicing elit.'
 
 plan-tabs-cta-button-title: 'Get Started'
 plan-tabs-contact-button-title: 'Need more? Contact us'

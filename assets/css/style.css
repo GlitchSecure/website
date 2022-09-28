@@ -8,6 +8,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 [x-cloak] {
   display: none !important;
 }
@@ -15,11 +16,39 @@ html {
 .navbarTogglerActive > span:nth-child(1) {
   transform: rotate(45deg);
   top: 7px;
-}.navbarTogglerActive > span:nth-child(2) {
+}
+
+.navbarTogglerActive > span:nth-child(2) {
   opacity: 0;
-}.navbarTogglerActive > span:nth-child(3) {
+}
+
+.navbarTogglerActive > span:nth-child(3) {
   top: -8px;
   transform: rotate(135deg);
+}
+
+.tippy-box {
+  @apply relative bg-white rounded-md py-2 px-3 shadow-lg text-black text-xs w-52;
+}
+
+.tippy-box::before {
+  content: '';
+  @apply bg-white h-2 w-2 rotate-45 absolute left-1/2 -bottom-1 -ml-1;
+}
+
+.tippy-box,
+.tippy-content {
+  @apply transition-all;
+}
+
+.tippy-box[data-state='visible'],
+.tippy-box[data-state='visible'] .tippy-content {
+  @apply opacity-100;
+}
+
+.tippy-box[data-state='hidden'],
+.tippy-box[data-state='hidden'] .tippy-content {
+  @apply opacity-0;
 }
 
 @font-face {
