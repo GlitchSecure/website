@@ -17,6 +17,7 @@ credit-heading: "What is a security testing credit?"
 credit-description: "A credit is a standardised flat-rate unit that empowers you to budget your security needs for the whole year. Credits enable your team to plan and launch security testing throughout your secure development life-cycle without the delays and bottlenecks associated with traditional penetration testing firms."
 credit-price: "$3,300"
 credit-price-currency: USD
+credit-unit: Per Credit
 
 plan-tabs-cta-button-title: 'Get Started'
 plan-tabs-contact-button-title: 'Need more? Contact us'
