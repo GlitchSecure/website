@@ -12,9 +12,10 @@ module.exports = withAnimations({
     "_layouts/**/*.html",
     "_includes/**/*.html", 
   ],
-  safelist: [{
-    pattern: /tippy-(box|content)/,
-  }],
+  safelist: [
+    'tippy-box',
+    'tippy-content',
+  ],
   theme: {
     extend: {
       colors: {
