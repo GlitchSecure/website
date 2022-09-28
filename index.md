@@ -25,7 +25,7 @@ feature-button1: "Learn More"
 feature-button1-link: "/platform/"
 
 feature-title2: "Expert insights in real-time."
-feature-subtitle2: "Our dedicated security experts are continuously available throughout the assessment and beyond to provide advice and validate your fixes. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly mitigated throughout the year."
+feature-subtitle2: "Our dedicated security experts are continuously available throughout the assessment and beyond to provide advice and validate your fixes. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly identified and mitigated throughout the year."
 feature-button2: "Learn More"
 feature-button2-link: "/platform/"
 
