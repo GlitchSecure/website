@@ -1,6 +1,17 @@
 <!-- ====== Hero Section Start -->
 <div
-  x-data="{ getstartedOpen: false }"
+  x-data="{
+    getstartedOpen: false,
+    handleOpen(event) {
+      localStorage.clear()
+      this.getstartedOpen = true
+      
+      if (typeof event.detail.method !== 'undefined') {
+        plausible('Get Started Button', {props: {method: event.detail.method}})
+      }
+    }
+  }"
+  @getstarted.window="handleOpen"
   class="{% if page.hero-wrapper-padding %} {{ page.hero-wrapper-padding }} {% else %} pb-12 {% endif %} relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
 >
   <img
