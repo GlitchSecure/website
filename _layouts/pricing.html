@@ -36,6 +36,8 @@ layout: default
     this.creditCounter = this.selectedPlan.base_credits
   },
 
+  creditPrice: parseInt('{{ page.credit-price }}'.replace(/\D/g,'')),
+
   creditCounter: {{ site.data.pricing.plans[0].base_credits }},
 
   creditCounterIncrement() {
@@ -97,6 +99,17 @@ layout: default
   },
   isSelectedPlanFeature(featureKey) {
     return this.selectedPlan.features.map(f => f.key).includes(featureKey)
+  },
+
+  get planTotal() {
+    let total = this.creditCounter * this.creditPrice
+    if (typeof Intl !== 'undefined') {
+      total = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(total)
+    } else {
+      total = '$' + total.toFixed(2)
+    }
+    
+    return total.toString().replace('.00', '')
   },
   get selectedPlan() {
     return this.plans.filter(plan => plan.key === this.selectedPlanKey)[0]

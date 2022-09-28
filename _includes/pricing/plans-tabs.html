@@ -117,6 +117,10 @@
         </div>
       </div>
 
+      <div class="pt-5">
+        <div class="text-xl font-medium text-center text-white" x-text="planTotal"></div>
+      </div>
+
       <div class="pt-5 mt-auto">
         <button
           x-show="canIncrement"
@@ -133,6 +137,7 @@
         >
           {{ page.plan-tabs-contact-button-title }}
         </a>-->
+        
         <button
           x-show="!canIncrement"
           @click="openGetStarted()"
