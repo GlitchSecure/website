@@ -90,7 +90,7 @@
 - name: "In-depth Pentest"
   subtitle: When you just need more
   key: indepth
-  description: "Get an in-depth look at your enite application, API, or network through an in-depth human powered penetration test. Meet compliance requirements and ensure full coverage with standards like the OWASP Application Secuirty Verification Standard."
+  description: "Get an in-depth look at your entire application, API, or network through an in-depth human powered penetration test. Meet compliance requirements and ensure full coverage with standards like the OWASP Application Security Verification Standard."
   base_credits: 3
   max_credits: 6
   features:
