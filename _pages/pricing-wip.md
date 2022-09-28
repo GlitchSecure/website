@@ -1,5 +1,5 @@
 ---
-layout: pricing
+layout: blank
 title: Pricing
 hero-title: "Simple Transparent Pentest Pricing"
 subtitle: "Our transparent credit based pricing system enables you to plan and launch vulnerability assessments and penetration tests that are tailored to your exact scope and coverage needs."
@@ -10,7 +10,7 @@ hero-wrapper-padding: "pb-40"
 #hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Page'}})"
-permalink: /pricing/
+permalink: /pricing-wip/
 published: true
 
 credit-heading: "What is a security testing credit?"
@@ -58,3 +58,7 @@ cta-subtitle: "We'd love to work with you! Enter your email and pick a time on o
 cta-button-text: "Let's Talk!"
 cta-button-link: "https://cal.com/team/glitchsecure/intro/?email="
 ---
+
+Hey, sorry for the confusion. The new pricing page is now live at [https://glitchsecure.com/pricing/](https://glitchsecure.com/pricing/)
+
+<meta http-equiv="refresh" content="5; URL=https://glitchsecure.com/pricing/" />

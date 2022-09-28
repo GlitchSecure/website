@@ -24,6 +24,18 @@ module.exports = withAnimations({
         "hero-gradient-right-dark": "#221243",
         "glitchsecure-purple-medium": "#271d3a",
         "glitchsecure-purple-light": "#320e7a",
+        "glitchsecure": {
+          "50": "#8952fa",
+          "100": "#7f48f0",
+          "200": "#753ee6",
+          "300": "#6b34dc",
+          "400": "#612ad2",
+          "500": "#5720c8",
+          "600": "#4d16be",
+          "700": "#430cb4",
+          "800": "#3902aa",
+          "900": "#2f00a0"
+        },
       },
       backgroundImage: {
         "gradient-radial":
