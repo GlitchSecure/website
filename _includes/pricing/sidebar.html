@@ -13,7 +13,9 @@
       </span>
       <span class="text-white ml-3 text-sm">
         {% if feature.increments %}
-          {{ feature.prefix }}<span class="font-bold" x-text="incrementingFeatureValue('{{ feature.key }}')"></span>{{ feature.suffix }} {{ feature.name }}
+          {{ feature.prefix }}
+          <span class="font-bold" x-text="incrementingFeatureValue('{{ feature.key }}')"></span>{{ feature.suffix }}
+          <span x-text="incrementingFeatureName('{{ feature.key }}', '{{ feature.unit }}', '{{ feature.unit-plural }}')"></span>
         {% else %}
           {{ feature.name }}
         {% endif %}

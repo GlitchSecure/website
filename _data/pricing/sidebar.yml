@@ -34,35 +34,40 @@
 
 - name: Applications Tested
   key: sidebar_applications
-  description: ''
+  increments: true
+  unit: Application Tested
+  unit-plural: Applications Tested
   prefix: ''
   suffix: ''
-  increments: true
 
 - name: User Roles Tested
   key: sidebar_user-roles
-  description: ''
+  increments: true
+  unit: User Role Tested
+  unit-plural: User Roles Tested
   prefix: ''
   suffix: ''
-  increments: true
 
 - name: API Endpoints Tested
   key: sidebar_api-endpoints
-  description: ''
+  increments: true
+  unit: API Endpoint Tested
+  unit-plural: API Endpoints Tested
   prefix: ''
   suffix: ''
-  increments: true
 
 - name: External IPs Tested
   key: sidebar_external-ips
-  description: ''
+  increments: true
+  unit: External IP Tested
+  unit-plural: External IPs Tested
   prefix: ''
   suffix: ''
-  increments: true
 
 - name: Ports Scanned
   key: sidebar_ports-scanned
-  description: ''
+  increments: true
+  unit: Port Scanned
+  unit-plural: Ports Scanned
   prefix: ''
   suffix: ''
-  increments: true

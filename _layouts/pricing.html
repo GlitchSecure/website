@@ -77,6 +77,17 @@ layout: default
     return value
   },
 
+  incrementingFeatureName(featureKey, unit, unitPlural) {
+    const plan = this.selectedPlan,
+          creditCount = this.incrementingFeatureValue(featureKey)
+
+    if (creditCount === null) {
+      return ''
+    }
+
+    return creditCount === 1 ? unit : unitPlural
+  },
+
   isSelectedPlan(planKey) {
     return this.selectedPlanKey === planKey
   },
