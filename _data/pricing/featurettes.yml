@@ -1,67 +1,35 @@
+- name: Expert Hacker Insights
+  icon: 'M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75'
+  key: expert_hacker_insights
+  description: "Break free from the outdated pentest model with real-time and continuous security testing to ensure you're always protected."
+- name: Remediate with ease
+  key: remediate_with_ease
+  description: No need to wait for the final PDF report! View vulnerabilities as soon as they are found and start fixing them today.
+
 - name: Get continuous results
   key: get_continuous_results
-  increments: false
+  description: Continually ensure your assets are secure. Get notified instantly of vulnerabilities before hackers find them.
 
 - name: Built by hackers
   key: built_by_hackers
-  increments: false
+  description: Lorem Ipsum
 
 - name: Zero false positives
   key: zero_false_positives
   description: Cut through the noise and get verified vulnerability reports to help you prioritise and fix issues sooner without the fluff.
-  increments: false
 
 - name: Meet compliance requirements
   key: compliance_requirements
   description: Get SOC2, ISO27001, or PCI compliance-ready without the hassle.
-  increments: false
 
 - name: Meet compliance requirements
   key: vulnerability_compliance
   description: Meet vulnerability scanning and assessment compliance requirements without the hassle.
-  increments: false
 
 - name: Test new features
   key: test_new_features
   description: "Integrate regular testing into your SDLC with pentesting that's as agile as your team is"
-  increments: false
 
 - name: Targeted vulnerability testing
   key: targeted_vulnerability_testing
   description: "Ensure you're protected against the latest critical vulnerabilities such as Log4j"
-  increments: false
-
-- name: Applications Tested
-  key: applications
-  description: ''
-  prefix: ''
-  suffix: ''
-  increments: true
-
-- name: User Roles Tested
-  key: user-roles
-  description: ''
-  prefix: ''
-  suffix: ''
-  increments: true
-
-- name: API Endpoints Tested
-  key: api-endpoints
-  description: ''
-  prefix: ''
-  suffix: ''
-  increments: true
-
-- name: External IPs Tested
-  key: external-ips
-  description: ''
-  prefix: ''
-  suffix: ''
-  increments: true
-
-- name: Ports Scanned
-  key: ports-scanned
-  description: ''
-  prefix: ''
-  suffix: ''
-  increments: true

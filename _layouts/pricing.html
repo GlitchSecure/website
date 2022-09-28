@@ -26,15 +26,15 @@ layout: default
   },{% endfor %}],
 
   selectedPlanKey: '{{ site.data.pricing.plans[0].key }}',
-  
-  selectPlan(planKey) { 
+
+  selectPlan(planKey) {
     this.selectedPlanKey = planKey
     this.creditCounter = this.selectedPlan.base_credits
   },
 
   creditCounter: {{ site.data.pricing.plans[0].base_credits }},
 
-  creditCounterIncrement() { 
+  creditCounterIncrement() {
     const newValue = this.creditCounter + 1
     if (this.selectedPlan.max_credits >= newValue) {
       this.creditCounter = newValue
@@ -67,7 +67,7 @@ layout: default
     if (incrementCount > 0) {
       value = incrFeature.base + (incrFeature.increment * incrementCount)
     }
-    
+
     if (value <= incrFeature.base) {
       value = incrFeature.base
     } else if (value >= incrFeature.max) {
@@ -89,7 +89,7 @@ layout: default
   get canDecrement() {
     return (this.creditCounter - 1) >= this.selectedPlan.base_credits
   },
-  get canIncrement() { 
+  get canIncrement() {
     return (this.creditCounter + 1) <= this.selectedPlan.max_credits
   },
 }">
@@ -101,15 +101,11 @@ layout: default
   {% include pricing/featurettes.html %}
   {% include divider-primary.html %}
   {% include getstarted/modal.html %}
-
 </div>
-
-{% include pricing/faqs.html %}
-
-{%- include divider-secondary.html -%}
-{% include about/stats.html %}
-{%- include divider-primary.html -%}
-
-{% include about/testimonials.html %}
-{% include divider-secondary.html %}
-{% include cta.html %}
+  {% include pricing/faqs.html %}
+  {%- include divider-secondary.html -%}
+  {% include about/stats.html %}
+  {%- include divider-primary.html -%}
+  {% include about/testimonials.html %}
+  {% include divider-secondary.html %}
+  {% include cta.html %}
