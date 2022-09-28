@@ -1,61 +1,67 @@
 - name: 12 Months of Continuous Testing
-  key: continuous_testing
+  key: sidebar_continuous_testing
   increments: false
 
 - name: Get continuous results
-  key: get_continuous_results
-  increments: false
-
-- name: Built by hackers
-  key: built_by_hackers
-  increments: false
-
-- name: Zero false positives
-  key: zero_false_positives
+  key: sidebar_get_continuous_results
   increments: false
 
 - name: Meet compliance requirements
-  key: compliance_requirements
+  key: sidebar_compliance_requirements
   increments: false
 
-- name: Test new features
-  key: test_new_features
+- name: Meet compliance requirements
+  key: sidebar_vulnerability_compliance
+
+- name: Zero false positives
+  key: sidebar_zero_false_positives
+  increments: false
+
+- name: Identify Critical Vulnerabilities
+  key: sidebar_identify_vulns
+  increments: false
+
+- name: 12 Months of Remedation Testing
+  key: sidebar_remediation_testing
   increments: false
 
 - name: Targeted vulnerability testing
-  key: targeted_vulnerability_testing
+  key: sidebar_targeted_vulnerability_testing
   increments: false
 
+- name: Test new features
+  key: sidebar_test_new_features
+
 - name: Applications Tested
-  key: applications
+  key: sidebar_applications
   description: ''
   prefix: ''
   suffix: ''
   increments: true
 
 - name: User Roles Tested
-  key: user-roles
+  key: sidebar_user-roles
   description: ''
   prefix: ''
   suffix: ''
   increments: true
 
 - name: API Endpoints Tested
-  key: api-endpoints
+  key: sidebar_api-endpoints
   description: ''
   prefix: ''
   suffix: ''
   increments: true
 
 - name: External IPs Tested
-  key: external-ips
+  key: sidebar_external-ips
   description: ''
   prefix: ''
   suffix: ''
   increments: true
 
 - name: Ports Scanned
-  key: ports-scanned
+  key: sidebar_ports-scanned
   description: ''
   prefix: ''
   suffix: ''
