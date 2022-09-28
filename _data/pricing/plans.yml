@@ -1,135 +1,106 @@
-- name: Vulnerability Assessment
-  subtitle: For small apps
-  key: vulnerability_assessment
-  description: "Get recurring vulnerability scans of your web application or network to identify vulnerabilities before hackers find them, and automatically verify applied patches. Scans are run on a monthly basis with findings verified by expert hackers."
-  base_credits: 1
-  max_credits: 3
-  features:
-    - key: sidebar_continuous_testing
-
-    - key: sidebar_vulnerability_compliance
-
-    - key: sidebar_targeted_vulnerability_testing
-
-    - key: sidebar_zero_false_positives
-
-    - key: sidebar_applications
-      base: 1
-      increment: 1
-      max: 3
-
-    - key: sidebar_user-roles
-      base: 1
-      increment: 3
-      max: 7
-
-    - key: sidebar_external-ips
-      base: 16
-      increment: 16
-      max: 48
-
-    - key: expert_hacker_insights
-
-    - key: get_continuous_results
-
-    - key: zero_false_positives
-
-    - key: vulnerability_compliance
-
-    - key: test_new_features
-
-    - key: targeted_vulnerability_testing
-
-- name: Targeted Pentest
-  subtitle: Perfect for startups
-  key: targeted
-  description: "Go beyond fulfilling compliance requirements and integrate pentesting into your SDLC. Use this agile approach to proactively identify vulnerabilities in new releases and specific functions, or when the next major vulnerability (like log4j) is published."
-  base_credits: 2
-  max_credits: 4
-  features:
-    - key: sidebar_targeted_vulnerability_testing
-
-    - key: sidebar_remediation_testing
-
-    - key: sidebar_test_new_features
-
-    - key: sidebar_applications
-      base: 1
-      increment: 0
-      max: 1
-
-    - key: sidebar_user-roles
-      base: 1
-      increment: 0
-      max: 1
-
-    - key: sidebar_api-endpoints
-      base: 16
-      increment: 16
-      max: 32
-
-    - key: sidebar_external-ips
-      base: 16
-      increment: 16
-      max: 32
-
-    - key: expert_hacker_insights
-
-    - key: remediate_with_ease
-
-    - key: zero_false_positives
-
-    - key: compliance_requirements
-
-    - key: test_new_features
-
-    - key: targeted_vulnerability_testing
-
-
-
-- name: "In-depth Pentest"
-  subtitle: When you just need more
-  key: indepth
-  description: "Get an in-depth look at your entire application, API, or network through an in-depth human powered penetration test. Meet compliance requirements and ensure full coverage with standards like the OWASP Application Security Verification Standard."
-  base_credits: 3
-  max_credits: 6
-  features:
-    - key: sidebar_remediation_testing
-
-    - key: sidebar_identify_vulns
-
-    - key: sidebar_compliance_requirements
-
-    - key: sidebar_expert_hacker_insights
-
-    - key: sidebar_applications
-      base: 1
-      increment: 1
-      max: 4
-
-    - key: sidebar_user-roles
-      base: 1
-      increment: 3
-      max: 7
-
-    - key: sidebar_api-endpoints
-      base: 32
-      increment: 32
-      max: 128
-
-    - key: sidebar_external-ips
-      base: 32
-      increment: 32
-      max: 128
-
-    - key: expert_hacker_insights
-
-    - key: remediate_with_ease
-
-    - key: get_continuous_results
-
-    - key: zero_false_positives
-
-    - key: compliance_requirements
-
-    - key: targeted_vulnerability_testing
+starter:
+  name: "Starter"
+  subtitle: "For small apps"
+  targets: "1"
+  web-test: "1"
+  user-roles: "1"
+  api-endpoints: "32"
+  external-ips: "32"
+  ports-scanned: "Top 1000"
+  tests-performed: "131"
+  tests-name: "ASVS Level 1"
+  vulns-checked: "XX"
+  hybrid-testing: "Yes"
+  realtime-colab: "Yes"
+  researchers: "1"
+  delivery-time: "Instantly"
+  alerts: "Yes"
+  remediation-previous: "Yes"
+  remediation-timeline: "6 Months"
+  pdf-report: "5 Days"
+  duration: "1 Week"
+  start-time: "5 Days"
+  price-usd: "$9,600/yr"
+  price-cad: "$12,480/yr"
+  credits: "3"
+  cta: "Get Started"
+  cta-link: "javascript:void(0)"
+  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Starter'}});"
+standard:
+  name: "Standard"
+  subtitle: "Perfect for startups"
+  targets: "2"
+  web-test: "2"
+  user-roles: "3"
+  api-endpoints: "64"
+  external-ips: "64"
+  ports-scanned: "All 65565"
+  tests-performed: "131"
+  tests-name: "ASVS Level 1"
+  vulns-checked: "XX"
+  hybrid-testing: "Yes"
+  realtime-colab: "Yes"
+  researchers: "2"
+  delivery-time: "Instantly"
+  alerts: "Yes"
+  remediation-previous: "Yes"
+  remediation-timeline: "12 Months"
+  pdf-report: "3 Days"
+  duration: "2 Week"
+  start-time: "3 Days"
+  price-usd: "$12,800/yr"
+  price-cad: "$16,640/yr"
+  credits: "4"
+  cta: "Get Started"
+  cta-link: "javascript:void(0)"
+  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Standard'}});"
+advanced:
+  name: "Advanced"
+  subtitle: "When you just need more"
+  targets: "3"
+  web-test: "3"
+  user-roles: "5"
+  api-endpoints: "128"
+  external-ips: "128"
+  ports-scanned: "All 65565"
+  tests-performed: "267"
+  tests-name: "ASVS Level 2"
+  vulns-checked: "XX"
+  hybrid-testing: "Yes"
+  realtime-colab: "Yes"
+  researchers: "2+"
+  delivery-time: "Instantly"
+  alerts: "Yes"
+  remediation-previous: "Yes"
+  remediation-timeline: "12 Months"
+  pdf-report: "2 Days"
+  duration: "2+ Week"
+  start-time: "2 Days"
+  price-usd: "$19,200/yr"
+  price-cad: "$24,960/yr"
+  credits: "6"
+  cta: "Get Started"
+  cta-link: "javascript:void(0)"
+  cta-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Pricing Advanced'}});"
+credit-hours: "16"
+credit-price-usd: "$3,200"
+credit-price-cad: "$4,160"
+addons:
+  - name: "Additional applications"
+    what-included: "1 Application"
+    credit: "1"
+  - name: "Additional user roles"
+    what-included: "2 User roles"
+    credit: "1"
+  - name: "Additional IPs"
+    what-included: "32 IPs"
+    credit: "1"
+  - name: "Additional API end-points"
+    what-included: "32 API end-points"
+    credit: "1"
+  - name: "Additional tests performed"
+    what-included: "Additional ASVS Level"
+    credit: "1"
+  - name: "Additional remediation testing"
+    what-included: "6 Months"
+    credit: "1"
