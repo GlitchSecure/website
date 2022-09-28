@@ -1,0 +1,148 @@
+<section id="plans" class="relative bg-white dark:bg-glitchsecure-purple-medium pt-16">
+
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col md:flex-row justify-center md:space-x-8 space-y-8 md:space-y-0">
+
+    <div class="flex-1 flex flex-col space-y-8">
+
+      {% for plan in site.data.pricing.plans %}
+
+        <button
+          type="button"
+          x-data="{ credits: {{ plan.base_credits }} }"
+          @click="selectPlan('{{ plan.key }}')"
+          x-bind:class="{
+            'border-glitchsecure-500': isSelectedPlan('{{ plan.key }}'),
+            'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelectedPlan('{{ plan.key }}'),
+          }"
+          class="flex flex-col md:flex-row md:items-center px-5 space-y-5 md:space-y-0 md:space-x-3 lg:space-x-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
+        >
+
+          <div class="flex-shrink">
+            <div
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'bg-glitchsecure-600' : 'bg-gray-400'"
+              class="flex h-8 w-8 md:h-6 md:w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full text-white"
+            >
+              <svg class="w-2/3 h-2/3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-start space-y-2 text-left">
+
+            <h2 class="text-lg md:text-base lg:text-xl font-bold text-gray-700 dark:text-gray-200">
+              {{ plan.name }}
+            </h2>
+            <div class="text-sm text-gray-700 dark:text-gray-200 md:hidden lg:block">
+              {{ plan.description }}
+            </div>
+
+          </div>
+
+          <div class="flex-1 flex flex-col items-end justify-end space-y-2">
+
+            <h2
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+              class="transition-colors text-xl font-semibold whitespace-nowrap"
+              x-text="isSelectedPlan('{{ plan.key }}') ? (
+                creditCounter === 1
+                  ? `${creditCounter} Credit`
+                  : `${creditCounter} Credits`
+              ) : (
+                credits === 1
+                  ? `${credits} Credit`
+                  : `${credits} Credits`
+              )"
+            ></h2>
+
+          </div>
+
+        </button>
+
+      {% endfor %}
+
+    </div>
+
+    <div class="flex flex-col flex-shrink bg-glitchsecure-700 shadow-md p-5 rounded-lg min-w-0 md:w-[22rem] max-w-full">
+
+      <h3 class="text-white opacity-50 text-sm font-semibold uppercase tracking-wide">
+        Features
+      </h3>
+
+      {% include pricing/sidebar.html %}
+
+      <div class="flex justify-center pt-5 mt-auto">
+        <div class="relative bg-white rounded-full inline-flex items-center p-px">
+          <button
+            type="button"
+            @click="creditCounterDecrement()"
+            x-bind:disabled="!canDecrement"
+            x-bind:class="canDecrement ? 'text-glitchsecure-200 hover:text-glitchsecure-400' : 'text-neutral-300'"
+            class="group rounded-l-full pr-11"
+          >
+            <svg
+              class="w-9 h-9 rounded-full"
+              x-bind:class="{ 'group-hover:shadow-xl': canDecrement }"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z" clip-rule="evenodd" />
+            </svg>
+          </button>
+
+          <span class="absolute inset-0 flex items-center justify-center pointer-events-none text-lg font-medium text-center" x-text="(
+            creditCounter === 1
+              ? `${creditCounter} Credit`
+              : `${creditCounter} Credits`
+          )"></span>
+
+          <button
+            type="button"
+            @click="creditCounterIncrement()"
+            x-bind:disabled="!canIncrement"
+            x-bind:class="canIncrement ? 'text-glitchsecure-200 hover:text-glitchsecure-400' : 'text-neutral-300'"
+            class="group rounded-r-full pl-11"
+          >
+            <svg
+              class="w-9 h-9 rounded-full"
+              x-bind:class="{ 'group-hover:shadow-xl': canIncrement }"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-5 mt-auto">
+        <button
+          x-show="canIncrement"
+          @click="openGetStarted()"
+          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+        >
+          {{ page.plan-tabs-cta-button-title }}
+        </button>
+
+        <!--<a
+          href="{{ plan-tabs-contact-button-link }}"
+          x-show="!canIncrement"
+          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+        >
+          {{ page.plan-tabs-contact-button-title }}
+        </a>-->
+        <button
+          x-show="!canIncrement"
+          @click="openGetStarted()"
+          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+        >
+          {{ page.plan-tabs-contact-button-title }}
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+</section>
