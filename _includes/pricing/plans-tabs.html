@@ -39,7 +39,7 @@
 
           </div>
 
-          <div class="flex-1 flex flex-col items-end justify-end space-y-2">
+          <div class="flex-1 flex flex-col items-end justify-end space-y-1">
 
             <h2
               x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
@@ -54,6 +54,11 @@
                   : `${credits} Credits`
               )"
             ></h2>
+
+            <div
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-gray-600' : 'text-gray-400'"
+              class="text-base font-medium" x-text="planTotal('{{ plan.key }}')"
+            ></div>
 
           </div>
 
@@ -126,12 +131,12 @@
               </svg>
             </div>
           {% endif %}
-          
+
         </div>
       </div>
 
       <div class="pt-5">
-        <div class="text-xl font-medium text-center text-white" x-text="planTotal"></div>
+        <div class="text-xl font-medium text-center text-white" x-text="planTotal()"></div>
       </div>
 
       <div class="pt-5 mt-auto">

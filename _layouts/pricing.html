@@ -97,12 +97,26 @@ layout: default
   isSelectedPlan(planKey) {
     return this.selectedPlanKey === planKey
   },
+
   isSelectedPlanFeature(featureKey) {
     return this.selectedPlan.features.map(f => f.key).includes(featureKey)
   },
 
-  get planTotal() {
-    let total = this.creditCounter * this.creditPrice
+  planTotal(planKey = null) {
+    let plan = planKey !== null ? this.plans.filter(p => p.key === planKey)[0] : this.selectedPlan,
+        credits = this.creditCounter,
+        total
+
+    console.log(planKey, plan)
+
+    if (credits < plan.base_credits) {
+      credits = plan.base_credits
+    } else if (this.creditCounter > plan.max_credits) {
+      credits = plan.max_credits
+    }
+
+    total = credits * this.creditPrice
+
     if (typeof Intl !== 'undefined') {
       total = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(total)
     } else {
@@ -111,6 +125,7 @@ layout: default
     
     return total.toString().replace('.00', '')
   },
+
   get selectedPlan() {
     return this.plans.filter(plan => plan.key === this.selectedPlanKey)[0]
   },
