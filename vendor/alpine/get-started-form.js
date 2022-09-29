@@ -1,36 +1,43 @@
-export default ({ fields = {}, fieldClasses = [] }) => ({
+export default ({ fieldDefaults, fieldClasses = [] }) => ({
 
-  fields,
+  fieldDefaults,
+
+  fields: fieldDefaults,
 
   fieldClasses: fieldClasses.join(' '),
 
-  handleSetFields(event) {
-    const fields = Object.entries(event.detail)
-
-    fields.map(([fieldName, fieldValue]) => (
-      (Object.keys(this.fields).includes(fieldName) && this.fields[fieldName] !== fieldValue) 
-        ? this.fields[fieldName] = fieldValue
-        : null
+  handleSetFields(newFields) {
+    Object.entries(newFields).map(([fieldName, fieldValue]) => (
+      this.fields[fieldName] = fieldValue
     ))
   },
 
-  storeFields(fields = null) {
-    Object.entries(fields || this.fields).map(([fieldName, fieldValue]) => (
+  handleClearFields() {
+    this.fields = this.fieldDefaults
+  },
+
+  storeFields(newFields) {
+    Object.entries(newFields).map(([fieldName, fieldValue]) => (
       localStorage.setItem(`getstarted-${fieldName}`, fieldValue)
+    ))
+  },
+
+  getStoredFields() {
+    Object.keys(this.fields).map(fieldName => (
+      this.fields[fieldName] = localStorage.getItem(`getstarted-${fieldName}`) || this.fields[fieldName]
     ))
   },
 
   init() {
 
     // Get latest field values from localStorage
-    Object.keys(this.fields).map(fieldName => (
-      this.fields[fieldName] = localStorage.getItem(`getstarted-${fieldName}`) || this.fields[fieldName]
-    ))
+    this.getStoredFields()
 
     // Update localStorage when fields change
-    this.$watch('fields', this.storeFields)
+    this.$watch('fields', (fields) => this.storeFields(fields))
 
-    document.addEventListener('getstarted-set-fields', (event) => this.handleSetFields(event))
+    document.addEventListener('getstarted-set-fields',   (event) => this.handleSetFields(event.detail))
+    document.addEventListener('getstarted-clear-fields', (event) => this.handleClearFields())
 
   }
 })
