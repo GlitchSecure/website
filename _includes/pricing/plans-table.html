@@ -14,11 +14,11 @@
             class="lg:cursor-pointer pr-4 -mt-px pl-4 flex-1"
           >
             <div
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'border-glitchsecure-600' : 'border-transparent'"
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'border-glitchsecure-purple-medium' : 'border-transparent'"
               class="py-6 border-t-2"
             >
               <p
-                x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-neutral-700 dark:text-neutral-200'"
+                x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-purple-medium' : 'text-neutral-700 dark:text-neutral-200'"
                 class="text-sm font-bold"
               >
                 {{ plan.name }}

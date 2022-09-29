@@ -11,15 +11,15 @@
           x-data="{ credits: {{ plan.base_credits }} }"
           @click="selectPlan('{{ plan.key }}')"
           x-bind:class="{
-            'border-glitchsecure-500': isSelectedPlan('{{ plan.key }}'),
-            'dark:border-gray-700 hover:border-glitchsecure-50 dark:hover:border-glitchsecure-800': !isSelectedPlan('{{ plan.key }}'),
+            'border-glitchsecure-purple': isSelectedPlan('{{ plan.key }}'),
+            'dark:border-gray-700 hover:border-glitchsecure-purple dark:hover:border-glitchsecure-purple': !isSelectedPlan('{{ plan.key }}'),
           }"
           class="flex flex-col md:flex-row md:items-center px-5 space-y-5 md:space-y-0 md:space-x-3 lg:space-x-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
         >
 
           <div class="flex-shrink">
             <div
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'bg-glitchsecure-600' : 'bg-gray-400'"
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'bg-glitchsecure-purple' : 'bg-neutral-400 dark:bg-neutral-700'"
               class="flex h-8 w-8 md:h-6 md:w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full text-white"
             >
               <svg class="w-2/3 h-2/3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -33,7 +33,7 @@
             <h2 class="text-lg md:text-base lg:text-xl font-bold text-gray-700 dark:text-gray-200">
               {{ plan.name }}
             </h2>
-            <div class="text-sm text-gray-700 dark:text-gray-200 md:hidden lg:block">
+            <div class="text-sm text-gray-700 dark:text-gray-400 md:hidden lg:block">
               {{ plan.description }}
             </div>
 
@@ -42,7 +42,7 @@
           <div class="flex-1 flex flex-col items-end justify-end space-y-1">
 
             <h2
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-600' : 'text-gray-400'"
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-purple' : 'text-gray-400 dark:text-gray-600'"
               class="transition-colors text-xl font-semibold whitespace-nowrap"
               x-text="isSelectedPlan('{{ plan.key }}') ? (
                 creditCounter === 1
@@ -56,7 +56,7 @@
             ></h2>
 
             <div
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-gray-600' : 'text-gray-400'"
+              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-gray-600 dark:text-gray-400' : 'text-gray-400 dark:text-gray-600'"
               class="text-base font-medium" x-text="planTotal('{{ plan.key }}')"
             ></div>
 
@@ -68,7 +68,7 @@
 
     </div>
 
-    <div class="flex flex-col flex-shrink bg-glitchsecure-700 shadow-md p-5 rounded-lg min-w-0 md:w-[22rem] max-w-full">
+    <div class="flex flex-col flex-shrink bg-glitchsecure-purple shadow-md p-5 rounded-lg min-w-0 md:w-[22rem] max-w-full">
 
       <h3 class="text-white opacity-50 text-sm font-semibold uppercase tracking-wide">
         Features
@@ -82,7 +82,7 @@
             type="button"
             @click="creditCounterDecrement()"
             x-bind:disabled="!canDecrement"
-            x-bind:class="canDecrement ? 'text-glitchsecure-200 hover:text-glitchsecure-400' : 'text-neutral-300'"
+            x-bind:class="canDecrement ? 'text-glitchsecure-purple-light hover:text-glitchsecure-purple-medium' : 'text-neutral-300'"
             class="group rounded-l-full pr-11"
           >
             <svg
@@ -106,7 +106,7 @@
             type="button"
             @click="creditCounterIncrement()"
             x-bind:disabled="!canIncrement"
-            x-bind:class="canIncrement ? 'text-glitchsecure-200 hover:text-glitchsecure-400' : 'text-neutral-300'"
+            x-bind:class="canIncrement ? 'text-glitchsecure-purple-light hover:text-glitchsecure-purple-medium' : 'text-neutral-300'"
             class="group rounded-r-full pl-11"
           >
             <svg
@@ -143,7 +143,7 @@
         <button
           x-show="canIncrement"
           @click="openGetStarted()"
-          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+          class="bg-glitchsecure-purple-light text-white hover:bg-glitchsecure-purple-medium block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
         >
           {{ page.plan-tabs-cta-button-title }}
         </button>
@@ -151,7 +151,7 @@
         <!--<a
           href="{{ plan-tabs-contact-button-link }}"
           x-show="!canIncrement"
-          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+          class="bg-glitchsecure-purple-light text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
         >
           {{ page.plan-tabs-contact-button-title }}
         </a>-->
@@ -159,7 +159,7 @@
         <button
           x-show="!canIncrement"
           @click="openGetStarted()"
-          class="bg-glitchsecure-100 text-white hover:bg-glitchsecure-purple block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
+          class="bg-glitchsecure-purple-light text-white hover:bg-glitchsecure-purple-medium block w-full py-3 px-8 border border-transparent rounded-md shadow-sm text-center font-medium"
         >
           {{ page.plan-tabs-contact-button-title }}
         </button>
