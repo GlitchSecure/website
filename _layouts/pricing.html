@@ -107,12 +107,10 @@ layout: default
         credits = this.creditCounter,
         total
 
-    console.log(planKey, plan)
-
-    if (credits < plan.base_credits) {
+    if (isSelectedPlan(planKey)) {
+      credits = plan.creditCounter
+    } else {
       credits = plan.base_credits
-    } else if (this.creditCounter > plan.max_credits) {
-      credits = plan.max_credits
     }
 
     total = credits * this.creditPrice
