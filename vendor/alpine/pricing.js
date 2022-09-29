@@ -133,10 +133,9 @@ export default ({ plans = [], creditPrice = null }) => ({
   init() {
     this.selectedPlanKey = this.plans[0].key
     this.creditCounter = this.plans[0].base_credits
+    this.setGetStartedFields()
     
     this.$watch('selectedPlanKey', () => this.setGetStartedFields())
-    this.$watch('creditCounter',   () => this.setGetStartedFields())
-
-    this.setGetStartedFields()
+    // this.$watch('creditCounter',   () => this.setGetStartedFields())
   }
 })

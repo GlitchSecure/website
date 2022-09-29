@@ -4,32 +4,33 @@ export default ({ fields = {}, fieldClasses = [] }) => ({
 
   fieldClasses: fieldClasses.join(' '),
 
-  handleSubmit() {
-    this.getstartedFormOpen = false
-    this.getstartedCalendarOpen = true
-    window.getstarted()
-    plausible('Get Started Submission', {props: {method: 'Get Started Form'}})
-  },
-
   handleSetFields(event) {
     const fields = Object.entries(event.detail)
 
-    fields.map(([fieldName, fieldValue], index) => (
+    fields.map(([fieldName, fieldValue]) => (
       (Object.keys(this.fields).includes(fieldName) && this.fields[fieldName] !== fieldValue) 
         ? this.fields[fieldName] = fieldValue
         : null
     ))
+  },
 
+  storeFields(fields = null) {
+    Object.entries(fields || this.fields).map(([fieldName, fieldValue]) => (
+      localStorage.setItem(`getstarted-${fieldName}`, fieldValue)
+    ))
   },
 
   init() {
 
-    for (var fieldName in this.fields) {
-      // Get latest field values from localStorage
-      this.fields[fieldName] = localStorage.getItem(`getstarted-${fieldName}`)
-      // Set changing field values to localStorage
-      this.$watch(`fields.${fieldName}`, (val) => localStorage.setItem(`getstarted-${fieldName}`, val))
-    }
+    // Get latest field values from localStorage
+    Object.keys(this.fields).map(fieldName => (
+      this.fields[fieldName] = localStorage.getItem(`getstarted-${fieldName}`) || this.fields[fieldName]
+    ))
+
+    // Update localStorage when fields change
+    this.$watch('fields', this.storeFields)
+
+    document.addEventListener('getstarted-set-fields', (event) => this.handleSetFields(event))
 
   }
 })

@@ -44,9 +44,9 @@
       <form
         x-data="getStartedForm({
           fields: {
-            name: null,
-            email: null,
-            company: null,
+            name: '',
+            email: '',
+            company: '',
             plan: null,
             credits: null
           },
@@ -69,8 +69,16 @@
             'rounded-md'
           ]
         })"
-        @submit="handleSubmit"
-        @getstarted-set-fields.window="handleSetFields"
+        @submit="
+          storeFields();
+          getstartedFormOpen = false;
+          getstartedCalendarOpen = true;
+          getstarted();
+          plausible('Get Started Submission', {props: {method: 'Get Started Form'}});
+          
+          event.preventDefault();
+          return false;
+        "
         class="grid grid-cols-1 gap-y-6"
       >
 
