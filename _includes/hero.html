@@ -3,11 +3,11 @@
   x-data="{
     getstartedOpen: false,
     handleOpen(event) {
-      localStorage.clear()
-      this.getstartedOpen = true
+      localStorage.clear();
+      this.getstartedOpen = true;
       
       if (typeof event.detail.method !== 'undefined') {
-        plausible('Get Started Button', {props: {method: event.detail.method}})
+        plausible('Get Started Button', {props: {method: event.detail.method}});
       }
     }
   }"

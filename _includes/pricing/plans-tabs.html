@@ -8,18 +8,21 @@
 
         <button
           type="button"
-          x-data="{ credits: {{ plan.base_credits }} }"
-          @click="selectPlan('{{ plan.key }}')"
+          x-data="{
+            planKey: '{{ plan.key }}',
+            planBaseCredits: {{ plan.base_credits }},
+          }"
+          @click="selectPlan(planKey)"
           x-bind:class="{
-            'border-glitchsecure-purple': isSelectedPlan('{{ plan.key }}'),
-            'dark:border-gray-700 hover:border-glitchsecure-purple dark:hover:border-glitchsecure-purple': !isSelectedPlan('{{ plan.key }}'),
+            'border-glitchsecure-purple': isSelectedPlan(planKey),
+            'dark:border-gray-700 hover:border-glitchsecure-purple dark:hover:border-glitchsecure-purple': !isSelectedPlan(planKey),
           }"
           class="flex flex-col md:flex-row md:items-center px-5 space-y-5 md:space-y-0 md:space-x-3 lg:space-x-5 py-4 w-full cursor-pointer rounded-xl border-2 transition-colors"
         >
 
           <div class="flex-shrink">
             <div
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'bg-glitchsecure-purple' : 'bg-neutral-400 dark:bg-neutral-700'"
+              x-bind:class="isSelectedPlan(planKey) ? 'bg-glitchsecure-purple' : 'bg-neutral-400 dark:bg-neutral-700'"
               class="flex h-8 w-8 md:h-6 md:w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full text-white"
             >
               <svg class="w-2/3 h-2/3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -42,22 +45,15 @@
           <div class="flex-1 flex flex-col items-end justify-end space-y-1">
 
             <h2
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-glitchsecure-purple' : 'text-gray-400 dark:text-gray-600'"
+              x-bind:class="isSelectedPlan(planKey) ? 'text-glitchsecure-purple' : 'text-gray-400 dark:text-gray-600'"
               class="transition-colors text-xl font-semibold whitespace-nowrap"
-              x-text="isSelectedPlan('{{ plan.key }}') ? (
-                creditCounter === 1
-                  ? `${creditCounter} Credit`
-                  : `${creditCounter} Credits`
-              ) : (
-                credits === 1
-                  ? `${credits} Credit`
-                  : `${credits} Credits`
-              )"
+              x-text="isSelectedPlan(planKey) ? formatCredits(creditCounter) : formatCredits(planBaseCredits)"
             ></h2>
 
             <div
-              x-bind:class="isSelectedPlan('{{ plan.key }}') ? 'text-gray-600 dark:text-gray-400' : 'text-gray-400 dark:text-gray-600'"
-              class="text-base font-medium" x-text="planTotal('{{ plan.key }}')"
+              x-bind:class="isSelectedPlan(planKey) ? 'text-gray-600 dark:text-gray-400' : 'text-gray-400 dark:text-gray-600'"
+              class="text-base font-medium"
+              x-text="isSelectedPlan(planKey) ? selectedPlanTotal : planTotal(planKey)"
             ></div>
 
           </div>
@@ -136,7 +132,7 @@
       </div>
 
       <div class="pt-5">
-        <div class="text-xl font-medium text-center text-white" x-text="planTotal()"></div>
+        <div class="text-xl font-medium text-center text-white" x-text="selectedPlanTotal"></div>
       </div>
 
       <div class="pt-5 mt-auto">

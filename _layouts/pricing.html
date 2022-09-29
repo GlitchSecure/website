@@ -2,17 +2,7 @@
 layout: default
 ---
 
-<div x-data="{
-  openGetStarted() {
-    $dispatch('getstarted', {method: 'Pricing Page'})
-  },
-
-  setGetStartedFields() {
-    $dispatch('getstarted-set-fields', {
-      plan: this.selectedPlanKey,
-      credits: this.creditCounter
-    })
-  },
+<div x-data="pricing({
 
   plans: [{% for plan in site.data.pricing.plans %}{
     key: `{{ plan.key }}`,
@@ -29,118 +19,9 @@ layout: default
     {% endfor %}],
   },{% endfor %}],
 
-  selectedPlanKey: '{{ site.data.pricing.plans[0].key }}',
-
-  selectPlan(planKey) {
-    this.selectedPlanKey = planKey
-    this.creditCounter = this.selectedPlan.base_credits
-  },
-
   creditPrice: parseInt('{{ page.credit-price }}'.replace(/\D/g,'')),
-
-  creditCounter: {{ site.data.pricing.plans[0].base_credits }},
-
-  creditCounterIncrement() {
-    const newValue = this.creditCounter + 1
-    if (this.selectedPlan.max_credits >= newValue) {
-      this.creditCounter = newValue
-    }
-  },
-
-  creditCounterDecrement() {
-    const newValue = this.creditCounter - 1
-    if (this.selectedPlan.base_credits <= newValue) {
-      this.creditCounter = newValue
-    }
-  },
-
-  incrementingFeatureValue(featureKey) {
-    const plan = this.selectedPlan,
-          counter = this.creditCounter,
-          incrFeature = plan.features.filter(f => f.key === featureKey)[0] || false
-
-    if (!incrFeature) {
-      return null
-    }
-
-    let value = 0,
-        incrementCount = counter - plan.base_credits
-
-    if (incrementCount <= 0) {
-      value = incrFeature.base
-    }
-
-    if (incrementCount > 0) {
-      value = incrFeature.base + (incrFeature.increment * incrementCount)
-    }
-
-    if (value <= incrFeature.base) {
-      value = incrFeature.base
-    } else if (value >= incrFeature.max) {
-      value = incrFeature.max
-    }
-
-    return value
-  },
-
-  incrementingFeatureName(featureKey, unit, unitPlural) {
-    const plan = this.selectedPlan,
-          creditCount = this.incrementingFeatureValue(featureKey)
-
-    if (creditCount === null) {
-      return ''
-    }
-
-    return creditCount === 1 ? unit : unitPlural
-  },
-
-  isSelectedPlan(planKey) {
-    return this.selectedPlanKey === planKey
-  },
-
-  isSelectedPlanFeature(featureKey) {
-    return this.selectedPlan.features.map(f => f.key).includes(featureKey)
-  },
-
-  planTotal(planKey = null) {
-    let plan = planKey !== null ? this.plans.filter(p => p.key === planKey)[0] : this.selectedPlan,
-        credits = this.creditCounter,
-        total
-
-    if (this.isSelectedPlan(planKey)) {
-      credits = plan.creditCounter
-    } else {
-      credits = plan.base_credits
-    }
-
-    total = credits * this.creditPrice
-
-    if (typeof Intl !== 'undefined') {
-      total = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(total)
-    } else {
-      total = '$' + total.toFixed(2)
-    }
-    
-    return total.toString().replace('.00', '')
-  },
-
-  get selectedPlan() {
-    return this.plans.filter(plan => plan.key === this.selectedPlanKey)[0]
-  },
-  get canDecrement() {
-    return (this.creditCounter - 1) >= this.selectedPlan.base_credits
-  },
-  get canIncrement() {
-    return (this.creditCounter + 1) <= this.selectedPlan.max_credits
-  },
-
-  init() {
-    $watch('selectedPlanKey', () => this.setGetStartedFields())
-    $watch('creditCounter',   () => this.setGetStartedFields())
-
-    this.setGetStartedFields()
-  }
-}">
+  
+})">
 
   {% include divider-primary.html %}
   {% include pricing/hero.html %}
