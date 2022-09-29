@@ -107,7 +107,7 @@ layout: default
         credits = this.creditCounter,
         total
 
-    if (isSelectedPlan(planKey)) {
+    if (this.isSelectedPlan(planKey)) {
       credits = plan.creditCounter
     } else {
       credits = plan.base_credits
