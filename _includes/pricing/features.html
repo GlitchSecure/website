@@ -1,0 +1,38 @@
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="pt-32">
+
+  <div class="bg-neutral-50 dark:bg-glitchsecure-purple-dark py-24">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <dl class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+        {% for feature in site.data.pricing.features %}
+
+          <div x-show="isSelectedPlanFeature('{{ feature.key }}')">
+            <dt>
+              <div class="flex h-12 w-12 items-center justify-center rounded-md bg-glitchsecure-purple text-white">
+                {% if feature.icon %}
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="{{ feature.icon }}" />
+                  </svg>
+                {% else %}
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                {% endif %}
+              </div>
+              <p class="mt-5 text-lg font-medium leading-6 text-neutral-900 dark:text-neutral-200">
+                {{ feature.name }}
+              </p>
+            </dt>
+            <dd class="mt-2 text-base text-neutral-500 dark:text-neutral-400">
+              {{ feature.description }}
+            </dd>
+          </div>
+
+        {% endfor %}
+
+      </dl>
+    </div>
+  </div>
+
+</div>
