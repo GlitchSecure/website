@@ -146,7 +146,7 @@
               <li class="group relative lg:hidden">
                 <a
                   href="javascript:void(0)"
-                  @click="localStorage.clear(); navbarOpen = false; getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Mobile Navigation Menu'}});"
+                  @click="$dispatch('getstarted', {method: 'Mobile Navigation Menu'}); navbarOpen = false"
                   class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   Get Started
@@ -191,7 +191,7 @@
           </a>
           <a
             href="javascript:void(0)"
-            @click="localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Navigation Menu'}});"
+            @click="$dispatch('getstarted', {method: 'Navigation Menu'})"
             class="hidden lg:block rounded-lg bg-neutral-100 text-neutral-800 py-3 px-4 text-base font-medium hover:bg-opacity-90"
           >
             <svg

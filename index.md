@@ -7,7 +7,7 @@ hero-title-2: "From a hacker's perspective"
 hero-subtitle: "<strong>Assess your security posture instantly.</strong> Get year round alerts and expert insights to continually find and remediate vulnerabilities in your applications and networks."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
-hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Landing Page'}})"
+hero-button-click: "$dispatch('getstarted', {method: 'Landing Page'})"
 
 # client list
 client-list-title: "Companies our researchers have helped secure"
@@ -25,7 +25,7 @@ feature-button1: "Learn More"
 feature-button1-link: "/platform/"
 
 feature-title2: "Expert insights in real-time."
-feature-subtitle2: "Our dedicated security experts are continuously available throughout the assessment and beyond to provide advice and validate your fixes. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly mitigated throughout the year."
+feature-subtitle2: "Our dedicated security experts are continuously available throughout the assessment and beyond to provide advice and validate your fixes. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly identified and mitigated throughout the year."
 feature-button2: "Learn More"
 feature-button2-link: "/platform/"
 
