@@ -1,15 +1,18 @@
-- name: Vulnerability Assessment
+- name: Continuous Vulnerability Assessment
   subtitle: For small apps
   key: vulnerability_assessment
-  description: "Get recurring vulnerability scans of your web application or network to identify vulnerabilities before hackers find them, and automatically verify applied patches. Scans are run on a monthly basis with findings verified by expert hackers."
+  description: "Get recurring <span class=\"font-semibold\">automated vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them, and automatically verify applied patches. Scans are run on a monthly basis and <span class=\"font-semibold\">verified by expert hackers to eliminate false positives</span>."
   base_credits: 1
   max_credits: 3
   features:
+    - key: sidebar_vuln_scan
+
     - key: sidebar_continuous_testing
+      base: 12
+      increment: 0
+      max: 12
 
     - key: sidebar_vulnerability_compliance
-
-    - key: sidebar_targeted_vulnerability_testing
 
     - key: sidebar_zero_false_positives
 
@@ -20,8 +23,8 @@
 
     - key: sidebar_user-roles
       base: 1
-      increment: 3
-      max: 7
+      increment: 1
+      max: 3
 
     - key: sidebar_external-ips
       base: 16
@@ -40,18 +43,21 @@
 
     - key: targeted_vulnerability_testing
 
-- name: Targeted Pentest
+- name: "On-demand (Targeted) Pentest"
   subtitle: Perfect for startups
   key: targeted
-  description: "Go beyond fulfilling compliance requirements and integrate pentesting into your SDLC. Use this agile approach to proactively identify vulnerabilities in new releases and specific functions, or when the next major vulnerability (like log4j) is published."
+  description: "Go beyond fulfilling compliance requirements and integrate pentesting into your SDLC. Use this agile approach to proactively <span class=\"font-semibold\">identify vulnerabilities in new releases and specific functions</span>, or when the next major zero-day vulnerability (like log4j) is published."
   base_credits: 2
-  max_credits: 4
+  max_credits: 3
   features:
-    - key: sidebar_targeted_vulnerability_testing
+    - key: sidebar_agile_pentest
 
     - key: sidebar_remediation_testing
+      base: 12
+      increment: 0
+      max: 12
 
-    - key: sidebar_test_new_features
+    - key: sidebar_targeted_vulnerability_testing
 
     - key: sidebar_applications
       base: 1
@@ -87,20 +93,21 @@
 
 
 
-- name: "In-depth Pentest"
+- name: "On-demand (In-depth) Pentest"
   subtitle: When you just need more
   key: indepth
-  description: "Get an in-depth look at your entire application, API, or network through an in-depth human powered penetration test. Meet compliance requirements and ensure full coverage with standards like the OWASP Application Security Verification Standard."
+  description: "Get an in-depth look at your entire application, API, or network through an thorough <span class=\"font-semibold\">human powered</span> penetration test. <span class=\"font-semibold\">Simulate cyber attacks, meet compliance requirements</span>, and ensure full coverage of your assets."
   base_credits: 3
   max_credits: 6
   features:
-    - key: sidebar_remediation_testing
+    - key: sidebar_indepth_pentest
 
-    - key: sidebar_identify_vulns
+    - key: sidebar_remediation_testing
+      base: 12
+      increment: 0
+      max: 12
 
     - key: sidebar_compliance_requirements
-
-    - key: sidebar_expert_hacker_insights
 
     - key: sidebar_applications
       base: 1
@@ -109,8 +116,8 @@
 
     - key: sidebar_user-roles
       base: 1
-      increment: 3
-      max: 7
+      increment: 1
+      max: 4
 
     - key: sidebar_api-endpoints
       base: 32

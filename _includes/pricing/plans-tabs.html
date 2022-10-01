@@ -47,13 +47,13 @@
             <h2
               x-bind:class="isSelectedPlan(planKey) ? 'text-glitchsecure-purple' : 'text-gray-400 dark:text-gray-600'"
               class="transition-colors text-xl font-semibold whitespace-nowrap"
-              x-text="isSelectedPlan(planKey) ? formatCredits(creditCounter) : formatCredits(planBaseCredits)"
+              x-text="isSelectedPlan(planKey) ? selectedPlanTotal : planTotal(planKey)"
             ></h2>
 
             <div
               x-bind:class="isSelectedPlan(planKey) ? 'text-gray-600 dark:text-gray-400' : 'text-gray-400 dark:text-gray-600'"
               class="text-base font-medium"
-              x-text="isSelectedPlan(planKey) ? selectedPlanTotal : planTotal(planKey)"
+              x-text="isSelectedPlan(planKey) ? formatCredits(creditCounter) : formatCredits(planBaseCredits)"
             ></div>
 
           </div>
@@ -67,7 +67,7 @@
     <div class="flex flex-col flex-shrink bg-glitchsecure-purple shadow-md p-5 rounded-lg min-w-0 md:w-[22rem] max-w-full">
 
       <h3 class="text-white opacity-50 text-sm font-semibold uppercase tracking-wide">
-        Features
+        What's included
       </h3>
 
       {% include pricing/sidebar.html %}
@@ -131,10 +131,6 @@
         </div>
       </div>
 
-      <div class="pt-5">
-        <div class="text-xl font-medium text-center text-white" x-text="selectedPlanTotal"></div>
-      </div>
-
       <div class="pt-5 mt-auto">
         <button
           x-show="canIncrement"
@@ -151,7 +147,7 @@
         >
           {{ page.plan-tabs-contact-button-title }}
         </a>-->
-        
+
         <button
           x-show="!canIncrement"
           @click="openGetStarted()"
