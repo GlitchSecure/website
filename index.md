@@ -7,7 +7,7 @@ hero-title-2: "From a hacker's perspective"
 hero-subtitle: "<strong>Assess your security posture instantly.</strong> Get year round alerts and expert insights to continually find and remediate vulnerabilities in your applications and networks."
 hero-button: "Get Started"
 hero-button-link: "javascript:void(0)"
-hero-button-click: "localStorage.clear(); getstartedOpen = true; plausible('Get Started Button', {props: {method: 'Landing Page'}})"
+hero-button-click: "$dispatch('getstarted', {method: 'Landing Page'})"
 
 # client list
 client-list-title: "Companies our researchers have helped secure"

@@ -2,9 +2,38 @@
 layout: default
 ---
 
-{% include divider-primary.html %}
-{% include pricing/hero.html %}
-{% include pricing/plans.html %}
-{% include pricing/addons.html %}
-{% include divider-secondary.html %}
-{% include cta.html %}
+<div x-data="pricing({
+
+  plans: [{% for plan in site.data.pricing.plans %}{
+    key: `{{ plan.key }}`,
+    base_credits: {{ plan.base_credits }},
+    max_credits: {{ plan.max_credits }},
+    features: [{% for feature in plan.features %}{
+      key: `{{ feature.key }}`,
+      {% if feature.increment %}
+      base: {{ feature.base }},
+      increment: {{ feature.increment }},
+      max: {{ feature.max }},
+      {% endif %}
+    },
+    {% endfor %}],
+  },{% endfor %}],
+
+  creditPrice: parseInt('{{ page.credit-price }}'.replace(/\D/g,'')),
+  
+})">
+
+  {% include divider-primary.html %}
+  {% include pricing/hero.html %}
+  {% include pricing/plans-tabs.html %}
+  {% include pricing/divider-secondary.html %}
+  {% include pricing/features.html %}
+  {% include divider-primary.html %}
+</div>
+  {% include pricing/faqs.html %}
+  {%- include divider-secondary.html -%}
+  {% include about/stats.html %}
+  {%- include divider-primary.html -%}
+  {% include about/testimonials.html %}
+  {% include divider-secondary.html %}
+  {% include cta.html %}

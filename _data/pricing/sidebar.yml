@@ -1,0 +1,93 @@
+- name: '<strong>Automated vulnerability scanning</strong>'
+  key: sidebar_vuln_scan
+  increments: false
+
+- name: "<strong>Test specific functions or features</strong>"
+  key: sidebar_agile_pentest
+  increments: false
+
+- name: "<strong>Evaluate your entire application</strong>"
+  key: sidebar_indepth_pentest
+  increments: false
+
+- name: Get continuous results
+  key: sidebar_get_continuous_results
+  increments: false
+
+- name: Meet compliance requirements
+  key: sidebar_compliance_requirements
+  increments: false
+
+- name: Meet compliance requirements
+  key: sidebar_vulnerability_compliance
+
+- name: Results verified by experts
+  key: sidebar_zero_false_positives
+  increments: false
+
+- name: Identify Critical Vulnerabilities
+  key: sidebar_identify_vulns
+  increments: false
+
+- name: Targeted vulnerability testing
+  key: sidebar_targeted_vulnerability_testing
+  increments: false
+
+- name: Test new features
+  key: sidebar_test_new_features
+
+- name: Months of continuous testing
+  key: sidebar_continuous_testing
+  increments: true
+  unit: Month of continuous testing
+  unit-plural: Months of continuous testing
+  prefix: ''
+  suffix: ''
+
+- name: Months of remedation testing
+  key: sidebar_remediation_testing
+  increments: true
+  unit: Month of remedation testing
+  unit-plural: Months of remedation testing
+  prefix: ''
+  suffix: ''
+
+- name: Applications Tested
+  key: sidebar_applications
+  increments: true
+  unit: Application Tested
+  unit-plural: Applications Tested
+  prefix: ''
+  suffix: ''
+
+- name: User Roles Tested
+  key: sidebar_user-roles
+  increments: true
+  unit: User Role Tested
+  unit-plural: User Roles Tested
+  prefix: ''
+  suffix: ''
+
+- name: API Endpoints Tested
+  key: sidebar_api-endpoints
+  increments: true
+  unit: API Endpoint Tested
+  unit-plural: API Endpoints Tested
+  prefix: ''
+  suffix: ''
+
+- name: External IPs Tested
+  key: sidebar_external-ips
+  increments: true
+  unit: External IP Tested
+  unit-plural: External IPs Tested
+  prefix: 'Upto '
+  suffix: ''
+
+- name: Ports Scanned
+  key: sidebar_ports-scanned
+  increments: true
+  unit: Port Scanned
+  unit-plural: Ports Scanned
+  prefix: ''
+  suffix: ''
