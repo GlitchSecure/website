@@ -2,7 +2,7 @@
 layout: pricing
 title: Pricing
 hero-title: "Simple Transparent Pentest Pricing"
-subtitle: "Our credit based pricing system enables you to plan and launch vulnerability assessments and penetration tests that are tailored to your exact scope and coverage needs throughout the year."
+subtitle: "Our credit based pricing system enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
 
@@ -14,7 +14,7 @@ permalink: /pricing/
 published: true
 
 credit-heading: "What is a security testing credit?"
-credit-description: "A credit is a standardised flat-rate unit of work. Credits are  used to consistently scope assessments and are sold in annual packages that include unlimited access to our platform and free remediation testing. Credits enable your team to plan and launch security testing throughout your secure development life-cycle without the delays and bottlenecks associated with traditional penetration testing firms."
+credit-description: "A credit is a standardised flat-rate unit of work. Credits are  used to consistently scope assessments and are sold in annual packages that include unlimited access to our platform and free remediation testing."
 
 credit-price: "$3,300"
 credit-price-currency: /yr
