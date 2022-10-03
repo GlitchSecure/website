@@ -53,10 +53,4 @@ testimonial-picture-2: "/assets/img/about/testimonials/jean-martin.jpg"
 testimonial-name-2: "Jean-Martin Archer"
 testimonial-title-2: "Staff Software Engineer"
 testimonial-company-2: "Alloy"
-
-# Call-to-action
-cta-title: "Need a pentest? Let's talk."
-cta-subtitle: "We'd love to work with you! Enter your email and pick a time on our calendar that works best for you, we'll be happy to answer any questions you might have.<br>"
-cta-button-text: "Let's Talk!"
-cta-button-link: "https://cal.com/team/glitchsecure/intro/?email="
 ---

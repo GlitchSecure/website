@@ -31,11 +31,4 @@ platform-feature-click3: "$dispatch('getstarted', {method: 'Platform Beta'})"
 platform-feature-image3: "/assets/img/platform/platform-preview3.svg"
 platform-feature-bubble3: "Early Access"
 
-
-# Call-to-action
-cta-title: "Schedule a free demo call"
-cta-subtitle: "Looking for more information or want to try out the GlitchSecure platform? <br>Enter your email to meet with our team today!"
-cta-button-text: "Book a call!"
-cta-button-link: ""
-cta-button-click: ""
 ---
