@@ -90,3 +90,51 @@
     </div>
   </div>
 </div>
+
+{%- include divider-secondary.html -%}
+<!-- Alternating Feature Sections -->
+<div
+  class="relative overflow-hidden bg-glitchsecure-purple pb-32 dark:bg-glitchsecure-purple-dark"
+>
+  <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
+
+  <div class="mt-24">
+    <div
+      class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+    >
+      <div class="mt-12 sm:mt-16 lg:col-start-2 lg:mt-0">
+        <div
+          class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+        >
+          <img
+            class="hidden w-full lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+            src="/assets/img/home/feature3.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-1 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
+      >
+        <div>
+          <div class="mt-6">
+            <h2
+              class="inline-block border-b border-neutral-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-200"
+            >
+              {{ page.feature-title3 }}
+            </h2>
+            <p class="mt-4 text-lg text-neutral-100">
+              {{ page.feature-subtitle3 }}
+            </p>
+            <a
+              href="{{ page.feature-button3-link }}"
+              class="mt-6 mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 text-neutral-800 py-3 px-6 text-base font-medium  transition hover:bg-opacity-90"
+            >
+              {{ page.feature-button3 }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
