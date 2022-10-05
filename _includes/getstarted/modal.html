@@ -1,12 +1,21 @@
 <div
-  x-show="getstartedOpen"
-  x-data="
-    {
-      getstartedFormOpen: true,
-      getstartedCalendarOpen: false
+  x-data="{
+    open: false,
+    getstartedFormOpen: true,
+    getstartedCalendarOpen: false,
+    handleOpen(event) {
+      $dispatch('getstarted-clear-fields');
+
+      this.open = true;
+      
+      if (typeof event.detail.method !== 'undefined') {
+        plausible('Get Started Button', {props: {method: event.detail.method}});
+      }
     }
-  "
-  class="fixed top-0 left-0 z-50 h-full w-full animate-fadeIn overflow-y-scroll scrollbar-hide bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right h-full dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
+  }"
+  @getstarted.window="handleOpen"
+  x-show="open"
+  class="fixed top-0 left-0 z-50 h-full w-full animate-fadeIn overflow-y-scroll scrollbar-hide bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
   style="display: none"
 >
 <img
