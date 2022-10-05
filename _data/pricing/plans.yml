@@ -96,7 +96,7 @@
 - name: "On-demand (In-depth) Pentest"
   subtitle: When you just need more
   key: indepth
-  description: "Get an in-depth look at your entire application, API, or network through an thorough <span class=\"font-semibold\">human powered</span> penetration test. <span class=\"font-semibold\">Simulate cyber attacks, meet compliance requirements</span>, and ensure full coverage of your assets."
+  description: "Get an in-depth look at your entire application, API, or network through a <span class=\"font-semibold\">human powered</span> full scope penetration test. <span class=\"font-semibold\">Simulate cyber attacks, meet compliance requirements</span>, and ensure thorough testing coverage of your assets."
   base_credits: 3
   max_credits: 6
   features:
