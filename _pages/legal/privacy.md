@@ -1,52 +1,88 @@
 ---
 layout: page
 title: Privacy Policy
-subtitle: "Last Updated: 18 July 2022"
+subtitle: "Last Updated: 05 October 2022"
 permalink: /legal/privacy/
 published: true
 ---
+GlitchSecure Inc. (“__we__”, “__us__”, or “__GlitchSecure__”) endeavours to protect and respect your privacy. If you are a GlitchSecure Client, or just visiting our website, this policy applies to you (a “__user__”, “__you__”, or “__your__”). Please read this Privacy Policy before using our website or engaging in any services. If you do not agree with the terms of this Privacy Policy, do not continue to use our website or services.
 
-GlitchSecure Inc ("GlitchSecure") endeavours to protect and respect your privacy. If you have any questions or feedback about our privacy policy, please reach out to us using the contact form. Please note that this policy may change at anytime without prior warning.
+This Privacy Policy describes the type of personal data we collect, how we use that personal data, and with whom we share it. This Policy will also let you know the rights that you have over your data. This Privacy Policy shall be read in conjunction with the Terms of Service Agreement and all relevant provisions of the Terms of Service Agreement shall apply to this Privacy Policy and be deemed to be incorporated herein by reference. This Privacy Policy does not apply to third-party websites, products, or services.
 
----
+By using our website, you agree to the terms and conditions of this Privacy Policy and consent to the collection, usage, storage, processing, handling, transferring, and sharing of the information submitted by you in accordance with the terms contained in this Privacy Policy.
 
-This Privacy Policy describes the type of personal data we collect, how we use that personal data, and with whom we share it. This policy does not apply to third party websites, products, or services.
+Please note that this Privacy Policy may change at any time without prior warning. Updates and changes will take effect immediately upon their posting on our website. If you have any questions or feedback about our Privacy Policy, please reach out to us at [hello@glitchsecure.com](mailto:hello@glitchsecure.com)..
 
-### Cookies and Tracking
+----
 
-When you visit our website, we use cookies and scripts for the purposes of gathering information and analysing usage patterns on our website. These analytics may be shared with third party providers for the purposes of better understanding the use of our website and improving our services.
+### 1. Collection of Personal Data
 
-### Voluntarily Provided Information
+We collect data from you through our interactions with you and through our services. You provide some of this data directly, and we get some of it by collecting data about your interactions, use, and experiences with our website and services.
 
-When you fill out a form provided by us or submit data to our website, we collect certain information that you voluntarily provide such as your name, email address, and company information. This information will be retained by us for the purpose of communicating with you as we deem necessary. Any data voluntarily provided may be stored and processed by third party providers.
+You provide data when you view and enter into a contract with us, communicate with us for customer support reasons, use our products or services, and create a user account on our website.
 
-### External Embedded Content
+When you fill out a form provided by us or submit data to our website, we collect certain information that you voluntarily provide, such as your name, email address, and company information. This information will be retained by us for the purpose of communicating with you as we deem necessary. Any data voluntarily provided may be stored and processed by third-party providers.
 
-Pages on our website may include embedded content from third party providers. Any third-party content that is embedded on our website may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content.
+### 2. Your Rights
 
-### Logging
+If you have an account on our website, you can request that we delete any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+
+You have choices when it comes to the data you share. When we ask you to provide personal data, you can decline. If you choose not to provide data required to provide you with a service, we cannot provide that service to you. If we need to collect personal data according to law, or to enter into or carry out a contract with you, we will not be able to do so.
+If you have an account on our website, you can request that we delete any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+
+### 3. How we Use Personal Data
+
+We use your personal data to provide services to you, to generate statistics and produce reports in anonymized and aggregated form that does not or cannot be used to identify you, and to collect data and analytics about use of our services to continue to improve the development and delivery of our services.
+
+### 4. Where we Process Your Data
+
+The personal data we collect is processed in our offices located in Winnipeg, Manitoba, and in any data processing facilities operated by third parties which satisfy data protection requirements.
+
+### 5. Consent
+
+When you fill out a form provided by us or submit data to our website to enter into a contract with us, complete a transaction, access data, contact us, or obtain support services, your consent to our collection and use of the information is implied for that purpose.
+
+If we ask for your personal information for a secondary purpose, like marketing, we will ask you for your express consent, or provide you with an opportunity to opt out.
+
+### 6. Age of Consent
+
+By using this site, you represent and warrant that you are over the age of majority in your province, state, or country of residence, and additionally, that you are at least eighteen (18) years of age, being the age of majority in Manitoba.
+
+### 7. Data Retention and Protection
+
+We retain, securely store, process and analyze information when you visit our website. This information includes but is not limited to: IP address, name, email address, postal address, telephone number, profession, billing information, details of any financial transaction you participate in on the Services, browser and device information and information collected through technologies such as cookies.
+
+We will retain your information as long as there is a business need to do so. For example, we may retain your information during the time that we provide services to you, and for a reasonable time after such services have been completed, or for such timelines as are required for legal, tax, or accounting purposes. Some information may be retained as a means of preventing fraud, or for business functionality and if permitted by law. Any data retained by us is subject to the requirements of our Privacy Policy.
+
+To protect your personal data, we take reasonable steps in accordance with industry standards to ensure that your data is not lost, misused, accessed, disclosed, altered, or destroyed. Personal information is restricted to GlitchSecure and authorized Contractors.
+
+### 8. Data Breach
+
+In case of any data breach of user information, website database, or third-party data, we will inform you of such breach without any undue delay, if required by applicable privacy legislation.
+
+### 9. Cookies and Tracking
+
+When you visit our website, we use cookies and scripts for the purposes of gathering information and analyzing usage patterns on our website. These analytics may be shared with third-party providers for the purposes of better understanding the use of our website and improving our services.
+
+### 10. Logging
 
 We retain usage and access logs as well as analytics data indefinitely. These logs may be used in order to ensure the security and performance of our services.
 
-### Disclosure
+### 11. External Embedded Content
 
-We use a variety of third party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties including but not limited to:
+Pages on our website may include embedded content from third party providers. Any third-party content that is embedded on our website may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content.
 
-- Google (Email, Calendar, and Video Meeting Provider)
-- Cal.com (Calendar Provider)
-- Slack (Communication)
-- Stripe (Billing & Finance)
-- Wise (Billing & Finance)
-- Tally (Forms)
-- Plausible Analytics (Website Analytics)
-- Flare (Website Analytics & Error Tracking)
-- Laravel Forge (Server Management)
-- Amazon SES (Email Provider)
-- DigitalOcean (Hosting Provider)
-- Cloudflare (CDN and Firewall)
+### 12. Disclosure
 
-### Your Rights
+We use a variety of third-party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties. You can find a full list of third-party providers we utilise at [https://docs.glitchsecure.com/infrastructure/vendors/](https://docs.glitchsecure.com/infrastructure/vendors/).
 
-If you have an account on our website or platform, you can request that we delete any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+These third-party providers have their own privacy policies which govern the way that they collect and store your information. We strongly recommend that you read their privacy policies to understand how they use your information.
 
-If you have any questions or feedback about our privacy policy please reach out to us at [hello@glitchsecure.com](mailto:hello@glitchsecure.com).
+You acknowledge and agree that in the event you have availed our services through a third-party reseller, we may disclose your user information to such reseller for the purpose of account management.
+In addition, we may disclose your personal information if we are required to do so by law.
+
+### 13. Changes to this Privacy Policy
+
+We may modify or update this Privacy Policy from time to time - please ensure that you review it frequently. When we make changes to this Privacy Policy, we will indicate that we have done so by changing the “Last Updated” date that appears at the top of the page.
+If we make material changes to the Policy, you can find them here, so that you continue to be aware of the way that we collect and use information.
+By continuing to use our website and services, you are consenting to the changes. If you do not consent to a change, you must discontinue use of our website and services.
