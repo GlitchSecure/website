@@ -31,7 +31,7 @@ When we ask you to provide personal data or information, you can decline to do s
 
 ### 3. How we Use Personal Data
 
-We use your personal data to provide services to you, to generate statistics and produce reports in anonymized and aggregated form that does not or cannot be used to identify you, and to collect data and analytics about use of our services to continue to improve the development and delivery of our services.
+We use your personal data to provide services to you, to generate statistics and produce reports in anonymised and aggregated form that does not or cannot be used to identify you, and to collect data and analytics about use of our services to continue to improve the development and delivery of our services.
 
 ### 4. Where we Process Your Data
 
@@ -49,11 +49,11 @@ By using this site, you represent and warrant that you are over the age of major
 
 ### 7. Data Retention and Protection
 
-We retain, securely store, process and analyze information when you visit our website. This information includes but is not limited to: IP address, name, email address, postal address, telephone number, profession, billing information, details of any financial transaction you participate in, browser and device information and information collected through technologies such as cookies.
+We retain, securely store, process and analyse information when you visit our website. This information includes but is not limited to: IP address, name, email address, postal address, telephone number, profession, billing information, details of any financial transaction you participate in, browser and device information and information collected through technologies such as cookies.
 
 We will retain your information as long as there is a legal or business need to do so. For example, we may retain your information during the time that we provide services to you, and for a reasonable time after such services have been completed, or for such timelines as are required for legal, tax, or accounting purposes. Some information may be retained as a means of preventing fraud, or for business functionality and if permitted by law. Any data retained by us is subject to the requirements of our Privacy Policy.
 
-To protect your personal data, we take reasonable steps in accordance with industry standards to ensure that your data is not lost, misused, accessed, disclosed, altered, or destroyed. Access to personal information is restricted to GlitchSecure and its authorized Contractors.
+To protect your personal data, we take reasonable steps in accordance with industry standards to ensure that your data is not lost, misused, accessed, disclosed, altered, or destroyed. Access to personal information is restricted to GlitchSecure and its authorised personnel.
 
 ### 8. Data Breach
 
