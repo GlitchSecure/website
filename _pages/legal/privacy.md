@@ -12,7 +12,8 @@ This Privacy Policy describes the type of personal data we collect, how we use t
 Please note that this Privacy Policy may change at any time without prior warning. Updates and changes will take effect immediately upon their posting on our website. If you have any questions or feedback about our Privacy Policy, please reach out to us at [hello@glitchsecure.com](mailto:hello@glitchsecure.com).
 
 BY USING OUR WEBSITE, YOU AGREE TO THE TERMS AND CONDITIONS OF THIS PRIVACY POLICY AND CONSENT TO THE COLLECTION, USAGE, STORAGE, PROCESSING, HANDLING, TRANSFERRING, AND SHARING OF THE INFORMATION SUBMITTED BY YOU IN ACCORDANCE WITH THE TERMS CONTAINED IN THIS PRIVACY POLICY.
-----
+
+---
 
 ### 1. Collection of Personal Data
 
