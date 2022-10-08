@@ -1,6 +1,7 @@
 User-agent: *
-Disallow: /legal/privacy
+Disallow: /legal/
 Disallow: /legal/msa
+Disallow: /legal/terms
 Disallow: /legal/security
 Disallow: /security
 Disallow: /intake/
