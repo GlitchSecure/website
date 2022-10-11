@@ -26,4 +26,4 @@ items:
     answer: "We can offer volume discounts on purchases of 20 credits or more. Please contact us to discuss your needs."
 
   - question: "What payment methods do you accept?"
-    answer: "We accept a variety of payment methods including direct debit, ACH, wire transfer, interac e-transfer, and credit card. We use Stripe, Paddle, and Wise for payment processing and can accept payments from most regions."
+    answer: "We accept a variety of payment methods including direct debit, ACH, wire transfer, interac e-transfer, and credit card. We use Stripe, GoCardless, and Wise for payment processing and can accept payments from most regions."

@@ -74,7 +74,7 @@ Pages on our website may include embedded content from third party providers. An
 
 ### 12. Disclosure
 
-We use a variety of third-party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties. You can find a full list of third-party providers we utilise at [https://docs.glitchsecure.com/infrastructure/vendors/](https://docs.glitchsecure.com/infrastructure/vendors/).
+We use a variety of third-party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties. You can find a full list of third-party providers we utilise [here](/legal/vendors/).
 
 These third-party providers have their own privacy policies which govern the way that they collect and store your information. We strongly recommend that you read their privacy policies to understand how they use your information.
 
