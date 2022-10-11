@@ -23,7 +23,7 @@ items:
     answer: "No, credits are non-refundable. Credits must be redeemed for services within 1 year of purchase. If an issue arises that prevents delivery of services you may contact us to discuss your options in accordance with our Terms of Service."
 
   - question: "Do you offer volume discounts?"
-    answer: "We can offer volume discounts on purchases of 20 credits or more. Please contact us to discuss your needs."
+    answer: "We can offer volume discounts on purchases of 15 credits or more. Please contact us to discuss your needs."
 
   - question: "What payment methods do you accept?"
     answer: "We accept a variety of payment methods including direct debit, ACH, wire transfer, interac e-transfer, and credit card. We use Stripe, GoCardless, and Wise for payment processing and can accept payments from most regions."
