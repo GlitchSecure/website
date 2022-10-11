@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Third-Party Vendors
-subtitle: "Last Updated: 10 October 2022"
+subtitle: 
 permalink: /legal/vendors/
 published: true
 ---
