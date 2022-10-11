@@ -19,6 +19,7 @@ In addition to internal and self-hosted software and tools, we use a variety of 
 | Stripe | Payment Processing | [https://stripe.com/privacy](https://stripe.com/privacy) |
 | Paddle | Payment Processing | [https://www.paddle.com/legal/privacy](https://www.paddle.com/legal/privacy) |
 | GoCardless | Payment Processing | [https://gocardless.com/privacy/](https://gocardless.com/privacy/)
+| Steinbach Credit Union | Payment Processing | [https://scu.mb.ca/privacy/directory#code](https://scu.mb.ca/privacy/directory#code) |
 | Wise | Payment Processing | [https://wise.com/ca/legal/privacy-policy](https://wise.com/ca/legal/privacy-policy) |
 | GitHub | Project Management and Version Control | [https://docs.github.com/en/site-policy/privacy-policies](https://docs.github.com/en/site-policy/privacy-policies) |
 | Flare | Website Analytics & Error Tracking | [https://flareapp.io/privacy-cookie-policy](https://flareapp.io/privacy-cookie-policy) |
