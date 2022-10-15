@@ -25,7 +25,7 @@
     "@popperjs/core": "^2.11.6",
     "alpinejs": "^3.10.3",
     "animated-tailwindcss": "^3.3.0",
-    "esbuild": "^0.15.7",
+    "esbuild": "^0.15.9",
     "tailgrids": "^1.1.7",
     "tailwind-scrollbar-hide": "^1.1.7",
     "tippy.js": "^6.3.7"
