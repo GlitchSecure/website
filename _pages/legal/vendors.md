@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Third-Party Vendors
+title: Third-Party Providers
 subtitle:
 permalink: /legal/vendors/
 published: true
@@ -9,7 +9,7 @@ published: true
 In addition to internal and self-hosted software and tools, we use a variety of third party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties including but not limited to:
 
 
-| Vendor | Purpose | Privacy Policy |
+| Third-Party Provider | Purpose | Privacy Policy |
 | :--- | :--- | :--- |
 | Google | SSO, Email, Calendar, and Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
 | Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
