@@ -1,7 +1,7 @@
 ---
 layout: pricing
 title: Pricing
-hero-title: "Simple Transparent Pentest Pricing"
+hero-title: "Simple Transparent VAPT Pricing"
 subtitle: "Our credit based pricing system enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
