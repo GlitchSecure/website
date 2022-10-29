@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "alpinejs": "^3.10.3",
+    "alpinejs": "^3.10.4",
     "animated-tailwindcss": "^3.3.0",
     "esbuild": "^0.15.7",
     "tailgrids": "^1.1.7",
