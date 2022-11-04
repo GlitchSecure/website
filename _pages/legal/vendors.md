@@ -11,9 +11,9 @@ In addition to internal and self-hosted software and tools, we use a variety of 
 
 | Third-Party Provider | Purpose | Privacy Policy |
 | :--- | :--- | :--- |
-| Google | SSO, Email, Calendar, and Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
-| Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
+| Google | SSO, Email, Calendar, Storage, Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
 | Cal.com | Calendar | [https://cal.com/privacy](https://cal.com/privacy) |
+| Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
 | Agrello | Electronic Document Signatures | [https://www.agrello.io/legal/privacy-policy](https://www.agrello.io/legal/privacy-policy) |
 | IntroCRM | Email, Marketing | [https://introcrm.com/privacy-policy/](https://introcrm.com/privacy-policy/) |
 | Hunter.io | Email, Marketing | [https://hunter.io/privacy-policy](https://hunter.io/privacy-policy) |
@@ -28,7 +28,7 @@ In addition to internal and self-hosted software and tools, we use a variety of 
 | CloudFlare | CDN, Firewall | [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/) |
 | DigitalOcean | Server Provider | [https://www.digitalocean.com/legal/privacy-policy](https://www.digitalocean.com/legal/privacy-policy) |
 | Shaw | Internet Service Provider | [https://www.shaw.ca/privacy-policy](https://www.shaw.ca/privacy-policy) |
-| NameCheap | Domains, Email | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
-| Amazon SES | Email | [https://aws.amazon.com/privacy/](https://aws.amazon.com/privacy/) |
+| NameCheap | Domains, Email, Marketing | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
+| Amazon SES | Transactional Email | [https://aws.amazon.com/privacy/](https://aws.amazon.com/privacy/) |
 | Tailscale | VPN | [https://tailscale.com/privacy-policy/](https://tailscale.com/privacy-policy/) |
 | BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
