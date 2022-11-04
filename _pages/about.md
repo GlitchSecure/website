@@ -28,6 +28,7 @@ stats-stat3-number: "200+"
 team-title: "Meet the collective"
 
 # About testimonials
+testimonial-title: "Don't just take it from us..."
 testimonial-logo-1: "/assets/img/about/testimonials/assembly.svg"
 testimonial-logo-1-dark: "/assets/img/about/testimonials/assembly-dark.svg"
 testimonial-quote-1: "I worked with GlitchSecure as part of Assembly's first PenTest. It was an absolute pleasure to work with them. The test deeply covered all the required aspects and communication was stellar. Would definitely recommend GlitchSecure."
@@ -44,6 +45,6 @@ testimonial-name-2: "Jean-Martin Archer"
 testimonial-title-2: "Staff Software Engineer"
 testimonial-company-2: "Alloy"
 
-# client list
-client-list-title: "Companies our researchers have helped secure"
+# Investors
+investors-title: "Backed by"
 ---
