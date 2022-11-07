@@ -1,8 +1,8 @@
 ---
 layout: pricing
 title: Pricing
-hero-title: "Simple Transparent Pentest Pricing"
-subtitle: "Our credit based pricing system enables you to plan and launch vulnerability assessments and penetration tests that are tailored to your exact scope and coverage needs throughout the year."
+hero-title: "Simple Transparent VAPT Pricing"
+subtitle: "Our credit based pricing system enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
 
@@ -14,7 +14,7 @@ permalink: /pricing/
 published: true
 
 credit-heading: "What is a security testing credit?"
-credit-description: "A credit is a standardised flat-rate unit of work. Credits are  used to consistently scope assessments and are sold in annual packages that include unlimited access to our platform and free remediation testing. Credits enable your team to plan and launch security testing throughout your secure development life-cycle without the delays and bottlenecks associated with traditional penetration testing firms."
+credit-description: "A credit is a standardised flat-rate unit of work. Credits are  used to consistently scope assessments and are sold in annual packages that include unlimited access to our platform and free remediation testing."
 
 credit-price: "$3,300"
 credit-price-currency: /yr
@@ -53,10 +53,4 @@ testimonial-picture-2: "/assets/img/about/testimonials/jean-martin.jpg"
 testimonial-name-2: "Jean-Martin Archer"
 testimonial-title-2: "Staff Software Engineer"
 testimonial-company-2: "Alloy"
-
-# Call-to-action
-cta-title: "Need a pentest? Let's talk."
-cta-subtitle: "We'd love to work with you! Enter your email and pick a time on our calendar that works best for you, we'll be happy to answer any questions you might have.<br>"
-cta-button-text: "Let's Talk!"
-cta-button-link: "https://cal.com/team/glitchsecure/intro/?email="
 ---

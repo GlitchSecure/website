@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}"> {%- include head.html -%}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
 
 <body class="h-full bg-white dark:bg-glitchsecure-purple-medium" x-data="
   {
@@ -7,7 +8,7 @@
     getstartedCalendarOpen: false
   }
 ">
-  <div class="fixed top-0 left-0 z-50 h-full w-full animate-fadeIn overflow-y-scroll scrollbar-hide bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark">
+  <div class="fixed top-0 left-0 z-50 h-full w-full overflow-y-scroll scrollbar-hide bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark">
     <img
       class="absolute block h-full w-full object-cover object-center opacity-[0.2] dark:hidden"
       src="/assets/img/home/herobg-light.png"
@@ -20,7 +21,7 @@
         <div class="relative mx-auto h-full w-full">
 
 
-          {% include getstarted/nav.html %}
+          {% include getstarted/nav-standalone.html %}
           {% include getstarted/form.html %}
           <noscript>
             <p>This page requires JavaScript to be displayed properly.</p>
