@@ -14,7 +14,7 @@ Information about the terms for this website as well as how data is collected an
 
 ## Policies
 
-- [Privacy Policy](/legal/terms/)
+- [Privacy Policy](/legal/privacy/)
 - [Security](/security/)
 
 ## Additional Information

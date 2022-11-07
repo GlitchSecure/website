@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /get-started/
 Disallow: /legal/
 Disallow: /legal/msa
 Disallow: /legal/terms

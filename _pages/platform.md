@@ -29,6 +29,5 @@ platform-feature-button3: "Get Started"
 platform-feature-link3: "javascript:void(0)"
 platform-feature-click3: "$dispatch('getstarted', {method: 'Platform Beta'})"
 platform-feature-image3: "/assets/img/platform/platform-preview3.svg"
-platform-feature-bubble3: "Early Access"
 
 ---
