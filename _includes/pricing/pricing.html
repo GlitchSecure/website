@@ -9,23 +9,23 @@
           <div class="flex flex-col rounded-3xl bg-white dark:bg-neutral-900 shadow-xl ring-1 ring-black/10">
             <div class="p-8 sm:p-10">
               <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-400">
-                VA
+                {{ page.va-plan-shortcode }}
               </h2>
               <h3 class="text-lg font-semibold leading-8 tracking-tight text-center text-glitchsecure-purple dark:text-neutral-200" id="tier-hobby">
-                Continuous Vulnerability Assessments
+                {{ page.va-plan-title }}
               </h3>
               <span class="block mt-6 text-xs text-center text-neutral-600 dark:text-neutral-400">
-                Starting at
+                {{ page.va-plan-price-prefix }}
               </span>
               <div class="mt-4 items-baseline text-5xl font-bold tracking-tight text-center text-neutral-900 dark:text-neutral-200">
-                $275
-                <span class="text-lg font-semibold leading-8 tracking-normal text-neutral-600 dark:text-neutral-400">/mo</span>
+                {{ page.va-plan-price }}
+                <span class="text-lg font-semibold leading-8 tracking-normal text-neutral-600 dark:text-neutral-400">/{{ page.va-plan-price-frequency }}</span>
               </div>
               <span class="block mt-6 text-xs text-center text-neutral-600 dark:text-neutral-400">
-                Per <abbr title="A single target is equivalent to 1 web application, 1 API, or a /28 network range">target</abbr>, billed annually
+                Per <abbr title="{{ page.va-plan-price-value-metric-info }}">{{ page.va-plan-price-value-metric }}</abbr>, billed annually
               </span>
               <p class="mt-6 text-base leading-7 text-neutral-600 dark:text-neutral-400">
-                Get recurring <span class="font-semibold">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them.
+                {{ page.va-plan-description }}
               </p>
             </div>
 
@@ -63,30 +63,28 @@
             </div>
           </div>
 
-
           <div class="flex flex-col rounded-3xl bg-white dark:bg-neutral-900 shadow-xl ring-1 ring-black/10">
             <div class="p-8 sm:p-10">
               <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-400">
-                PT
+                {{ page.pt-plan-shortcode }}
               </h2>
               <h3 class="text-lg font-semibold leading-8 tracking-tight text-center text-glitchsecure-purple dark:text-neutral-200" id="tier-hobby">
-                On-Demand Pentesting
+                {{ page.pt-plan-title }}
               </h3>
               <span class="block mt-6 text-xs text-center text-neutral-600 dark:text-neutral-400">
-                Starting at
+                {{ page.pt-plan-price-prefix }}
               </span>
               <div class="mt-4 items-baseline text-5xl font-bold tracking-tight text-center text-neutral-900 dark:text-neutral-200">
-                $9,900
-                <span class="text-lg font-semibold leading-8 tracking-normal text-neutral-600 dark:text-neutral-400">/yr</span>
+                {{ page.pt-plan-price }}
+                <span class="text-lg font-semibold leading-8 tracking-normal text-neutral-600 dark:text-neutral-400">/{{ page.pt-plan-price-frequency }}</span>
               </div>
               <span class="block mt-6 text-xs text-center text-neutral-600 dark:text-neutral-400">
-                Per <abbr title="Tests can include multiple targets and are based on the size of the targets, number of unique pages or api end-points, and number of user roles.">test</abbr>, billed annually
+                Per <abbr title="{{ page.pt-plan-price-value-metric-info }}">{{ page.pt-plan-price-value-metric }}</abbr>, billed annually
               </span>
               <p class="mt-6 text-base leading-7 text-neutral-600 dark:text-neutral-400">
-                Get an in-depth look at your entire application, API, or network through a <span class="font-semibold">human powered</span> full scope penetration test.
+                {{ page.pt-plan-description }}
               </p>
             </div>
-
             <div class="flex flex-1 flex-col p-2">
               <div class="flex flex-1 flex-col justify-between rounded-2xl bg-neutral-100 dark:bg-neutral-800 p-6 sm:p-8">
                 <ul role="list" class="space-y-6">
