@@ -21,7 +21,7 @@ credit-price-currency: /yr
 credit-unit: Per Credit
 credit-counter-tooltip: 'You can adjust the number of credits based on the size and scope of the application or network to be tested.'
 
-plan-tabs-cta-button-title: 'Get Started'
+plan-tabs-cta-button-title: 'Get started today'
 plan-tabs-contact-button-title: 'Need more? Contact us'
 plan-tabs-contact-button-link: 'mailto:hello@glitchsecure.com'
 
