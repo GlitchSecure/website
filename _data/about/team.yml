@@ -1,18 +1,9 @@
-- name: Jade
-  pronouns: They/Them
-  country: Canada
-  picture: /assets/img/about/team/jade.jpg
-  title: Founder / Security Researcher / Developer
-  certs: "OSCP"
-  social-name: "@GlitchWitch"
-  social-link: "https://twitter.com/GlitchWitch"
-  bio: "Jade is an IT and Information Security professional with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web and automation."
 
 - name: Travis
   pronouns: He/Him
   country: United States
   picture: /assets/img/about/team/travis.jpg
-  title: Lead Security Researcher
+  title: Freelance Security Researcher
   certs: "OSCP / Security+"
   social-name: "@McCormackCyber"
   social-link: "https://twitter.com/McCormackCyber"
@@ -22,7 +13,7 @@
   pronouns: He/Him
   country: Serbia
   picture: /assets/img/about/team/marko.jpg
-  title: Staff Security Researcher / Developer
+  title: Freelance Security Researcher / Developer
   certs: "OSCP / CRTO / Pentest+"
   social-name: "@ExAndroidDev"
   social-link: "https://twitter.com/ExAndroidDev"
@@ -32,28 +23,38 @@
   pronouns: He/Him
   country: India
   picture: /assets/img/about/team/payloadartist.png
-  title: Staff Security Researcher
+  title: Freelance Security Researcher
   certs:
   social-name: "@payloadartist"
   social-link: "https://twitter.com/payloadartist"
   bio: "An application security aficionado and avid contributor to the security community. He has a strong background in application security with over 5 years of experience in the cybersecurity domain."
 
-#- name: Lucas
-#  pronouns: He/Him
-#  country: Brazil
-#  picture: /assets/img/about/team/lucas.jpg
-#  title: Full Stack Developer
-#  certs: Bachelor of Information Technology
-#  social-name: "@lucasdotvin"
-#  social-link: "https://twitter.com/lucasdotvin"
-#  bio: "Lucas loves the power technology has to transform the world. He mainly focuses on the development of applications in the Laravel framework's ecosystem, with a focus on high-demand RESTful APIs."
+- name: Joshua Anderton
+  pronouns: He/Him
+  country: Canada
+  picture: /assets/img/about/team/joshua.jpg
+  title: Freelance Full Stack Developer
+#  certs:
+  social-name: "@joshuaanderton"
+  social-link: "https://twitter.com/joshuaanderton"
+  bio: "Joshua is an experienced Full Stack Developer. He has a long history of growing startups and just can’t stop building things"
 
-#- name: Shreyansh
+#- name: Harris Kenny
 #  pronouns: He/Him
-#  country: India
-#  picture: /assets/img/about/team/shreyansh.jpg
-#  title: Full Stack Developer
-#  certs: CCNA / B.S. IT / Masters CS
-#  social-name: "@izshreyansh"
-#  social-link: "https://twitter.com/izshreyansh"
-#  bio: "Shreyansh is an experienced Product Developer. Througout his career he has continually demonstrated good coding practices and has activly contributed to the Laravel ecosystem."
+#  country: United States
+#  picture: /assets/img/about/team/harris.jpg
+#  title: Fractional VP of Sales
+#  certs:
+#  social-name: "@IntroCRM"
+#  social-link: "https://introcrm.com/"
+#  bio: "With over a decade of experience helping companies scale their business, Harris leads the GlitchSecure sales stratgey."
+
+- name: We're hiring!
+  pronouns: You/Yours
+  country: Remote
+  picture: /assets/img/logo-square-purplebg.png
+  title: Wearer of Hats / Developer / Writer / Hacker
+#  certs:
+  social-name: "@GlitchSecure"
+  social-link: "https://twitter.com/GlitchSecure"
+  bio: "Passionate about security? Looking for a role that grows with you? Help shape the future of a new cyber security startup by joining a unique and diverse team in their mission to secure the web. <a href=\"mailto:hello@glitchsecure.com\" class=\"glitchsecure-purple\">Contact Us<a>"
