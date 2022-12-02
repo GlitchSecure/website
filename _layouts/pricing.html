@@ -20,12 +20,11 @@ layout: default
   },{% endfor %}],
 
   creditPrice: parseInt('{{ page.credit-price }}'.replace(/\D/g,'')),
-  
+
 })">
 
   {% include divider-primary.html %}
-  {% include pricing/hero.html %}
-  {% include pricing/plans-tabs.html %}
+  {% include pricing/pricing.html %}
   {% include pricing/divider-secondary.html %}
   {% include pricing/features.html %}
   {% include divider-primary.html %}
