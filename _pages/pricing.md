@@ -2,30 +2,31 @@
 layout: pricing
 title: Pricing
 hero-title: "Simple Transparent VAPT Pricing"
-subtitle: "Our credit based pricing system enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
+subtitle: "Our simple pricing enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
-
-#subtitle: "Every plan comes with a dedicated security researcher, a full PDF report, and free remediation testing. We have a plan for businesses of every stage, size and shape."
-#hero-button: "Get Started"
-hero-button-link: "javascript:void(0)"
-hero-button-click: "$dispatch('getstarted', {method: 'Pricing Page'})"
 permalink: /pricing/
 published: true
 
-credit-heading: "What is a security testing credit?"
-credit-description: "A credit is a standardised flat-rate unit of work. Credits are  used to consistently scope assessments and are sold in annual packages that include unlimited access to our platform and free remediation testing."
+va-plan-title: 'Continuous Vulnerability Assessments'
+va-plan-shortcode: 'VA'
+va-plan-price-prefix: 'Starting at'
+va-plan-price: '$275'
+va-plan-price-frequency: 'mo'
+va-plan-price-value-metric: 'target'
+va-plan-price-value-metric-info: 'A single target is equivalent to 1 web application, 1 API, or a /28 network range'
+va-plan-description: 'Get recurring <span class=\"font-semibold\">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them.'
+va-plan-cta-button-title: 'Get started today'
 
-credit-price: "$3,300"
-credit-price-currency: /yr
-credit-unit: Per Credit
-credit-counter-tooltip: 'You can adjust the number of credits based on the size and scope of the application or network to be tested.'
-
-plan-tabs-cta-button-title: 'Get Started'
-plan-tabs-contact-button-title: 'Need more? Contact us'
-plan-tabs-contact-button-link: 'mailto:hello@glitchsecure.com'
-
-client-list-title: Companies our researches have helped secure
+pt-plan-title: 'On-Demand Pentesting'
+pt-plan-shortcode: 'PT'
+pt-plan-price-prefix: 'Starting at'
+pt-plan-price: '$9,900'
+pt-plan-price-frequency: 'yr'
+pt-plan-price-value-metric: 'pentest'
+pt-plan-price-value-metric-info: 'Tests can include multiple targets and are based on the size of the targets, number of unique pages or api end-points, and number of user roles.'
+pt-plan-description: 'Get an in-depth look at your entire application, API, or network through a <span class=\"font-semibold\">human powered</span> full scope penetration test.'
+pt-plan-cta-button-title: 'Get a quote'
 
 # About stats
 stats-title: "A proven track record."
