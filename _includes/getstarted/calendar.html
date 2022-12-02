@@ -14,30 +14,28 @@
         </p>
       </div>
     </div>
-    <div class="w-full px-4 lg:block lg:w-2/3 xl:min-w-[832px]">
-      <!-- Cal inline embed code begins -->
-      <div class="w-full h-full" id="my-cal-inline"></div>
+    <div class="w-full px-4 lg:block max-w-lg mx-auto">
+      <div class="w-full h-full" id="booking-page"></div>
       <script type="text/javascript">
         var getstarted_loaded = false;
 
         function getstarted() {
           if (!getstarted_loaded) {
             getstarted_loaded = true;
-            (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-            Cal("init", {origin:"https://app.cal.com"});
 
-            Cal("inline", {
-              elementOrSelector:"#my-cal-inline",
-              calLink: "team/glitchsecure/intro",
-              config: {
-                name: localStorage.getItem('getstarted-name'), // Prefill Name
-                email: localStorage.getItem('getstarted-email'), // Prefill Email
-                company: localStorage.getItem('getstarted-company'), // Prefill Email
-              },
-            });
+            // Start embed script
 
-            Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}}});
+            window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};
+
+            eval('var a=document.createElement(\'script\');a.src=\'https://embed.savvycal.com/v1/embed.js\';document.head.appendChild(a)')
+
+            SavvyCal('init');
+            SavvyCal('inline', { link: 'glitchsecure/intro', selector: '#booking-page', email: localStorage.getItem('getstarted-email'), displayName: localStorage.getItem('getstarted-name') });
+
+            // End embed script
           }
+
+
           // Send POST request with form data
           let xhr = new XMLHttpRequest();
                     xhr.open("POST", "https://submit.glitchsecure.com/getstarted.php");
@@ -56,7 +54,6 @@
 
         }
       </script>
-      <!-- Cal inline embed code ends -->
     </div>
   </div>
 </div>
