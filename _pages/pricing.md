@@ -15,7 +15,7 @@ va-plan-price: '$275'
 va-plan-price-frequency: 'mo'
 va-plan-price-value-metric: 'target'
 va-plan-price-value-metric-info: 'A single target is equivalent to 1 web application, 1 API, or a /28 network range'
-va-plan-description: 'Get recurring <span class=\"font-semibold\">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them.'
+va-plan-description: 'Get recurring <span class="font-semibold">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them.'
 va-plan-cta-button-title: 'Get started today'
 
 pt-plan-title: 'On-Demand Pentesting'
@@ -25,7 +25,7 @@ pt-plan-price: '$9,900'
 pt-plan-price-frequency: 'yr'
 pt-plan-price-value-metric: 'pentest'
 pt-plan-price-value-metric-info: 'Tests can include multiple targets and are based on the size of the targets, number of unique pages or api end-points, and number of user roles.'
-pt-plan-description: 'Get an in-depth look at your entire application, API, or network through a <span class=\"font-semibold\">human powered</span> full scope penetration test.'
+pt-plan-description: 'Get an in-depth look at your entire application, API, or network through a <span class="font-semibold">human powered</span> full scope penetration test.'
 pt-plan-cta-button-title: 'Get a quote'
 
 # About stats
