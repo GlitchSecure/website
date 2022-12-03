@@ -7,7 +7,7 @@
 
         {% for feature in site.data.pricing.features %}
 
-          <div x-show="isSelectedPlanFeature('{{ feature.key }}')">
+          <div>
             <dt>
               <div class="flex h-12 w-12 items-center justify-center rounded-md bg-glitchsecure-purple text-white">
                 {% if feature.icon %}

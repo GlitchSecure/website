@@ -12,7 +12,7 @@ In addition to internal and self-hosted software and tools, we use a variety of 
 | Third-Party Provider | Purpose | Privacy Policy |
 | :--- | :--- | :--- |
 | Google | SSO, Email, Calendar, Storage, Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
-| Cal.com | Calendar | [https://cal.com/privacy](https://cal.com/privacy) |
+| SavvyCal | Calendar | [https://savvycal.com/privacy](https://savvycal.com/privacy/?r=glitchsecure) |
 | Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
 | Agrello | Electronic Document Signatures | [https://www.agrello.io/legal/privacy-policy](https://www.agrello.io/legal/privacy-policy) |
 | IntroCRM | Email, Marketing | [https://introcrm.com/privacy-policy/](https://introcrm.com/privacy-policy/) |
