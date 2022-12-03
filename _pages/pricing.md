@@ -1,8 +1,8 @@
 ---
 layout: pricing
 title: Pricing
-hero-title: "Simple Transparent VAPT Pricing"
-subtitle: "Our simple pricing enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
+hero-title: "Uncomplicated VAPT Pricing"
+subtitle: "Say goodbye to obscure credit systems and hello to simple transparent pricing. Budget and launch security testing that is tailored to your exact scoping needs."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
 permalink: /pricing/
