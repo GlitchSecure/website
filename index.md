@@ -21,7 +21,7 @@ stats-stat1-title: "Pentests Performed"
 stats-stat1-number: "300+"
 stats-stat2-title: "Vulnerabilities Discovered"
 stats-stat2-number: "1500+"
-stats-stat3-title: "Happy Clients"
+stats-stat3-title: "Companies Hacked"
 stats-stat3-number: "200+"
 
 # Features
