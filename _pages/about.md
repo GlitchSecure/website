@@ -28,7 +28,7 @@ stats-stat3-number: "200+"
 team-title: "Meet the collective"
 
 # About testimonials
-testimonial-title: "Don't just take it from us..."
+#testimonial-title: "Don't just take it from us..."
 testimonial-logo-1: "/assets/img/about/testimonials/assembly.svg"
 testimonial-logo-1-dark: "/assets/img/about/testimonials/assembly-dark.svg"
 testimonial-quote-1: "I worked with GlitchWitch as part of Assembly's first PenTest. It was an absolute pleasure to work with them. The test deeply covered all the required aspects and communication was stellar. Would definitely recommend GlitchWitch."
