@@ -2,14 +2,16 @@
 layout: platform
 title: Platform
 hero-title: "Continuous Security Testing as a Service "
-subtitle: "Flexible and on demand pentesting combined with recurring security monitoring. All delivered to you instantly in a real-time dashboard, built by hackers."
+subtitle: "Prevent breaches through year round security monitoring and expert insights to continually <strong>find and remediate vulnerabilities</strong> in your applications and networks <strong>before they're exploited</strong>."
 permalink: /platform/
 published: true
 
 # Platform Feature
 platform-feature-title1: "Get expert hacker insights."
-platform-feature-subtitle1: "We've built our own real-time security automation platform to help continually monitor your assets for vulnerabilities and deliver results from expert security researchers. All designed to help you secure your products and infrastructure. <br><br>
-Results are delivered to you in a simple dashboard, keeping you informed of testing activity and enabling your secure development lifecycle throughout the year."
+platform-feature-subtitle1: "Hackers are constantly checking your products and infrastructure for flaws, you should too. Go beyond a point in time annual pentest and get a real-time assessment of your security posture while continually monitoring your assets for vulnerabilities.
+<br><br>
+Security testing built by expert hackers paired with expert driven results validation means you get actionable findings year round.
+"
 platform-feature-button1: "Get Started"
 platform-feature-link1: "javascript:void(0)"
 platform-feature-click1: "$dispatch('getstarted', {method: 'Platform Feature'})"
@@ -17,7 +19,8 @@ platform-feature-image1: "/assets/img/platform/platform-preview1.png"
 
 
 platform-feature-title2: "Remediate with ease."
-platform-feature-subtitle2: "No need to wait for the final PDF report! View vulnerabilities as soon as they are found and start fixing them today. Once a fix is in place simply click a button, we'll validate your efforts and automatically update your final report."
+platform-feature-subtitle2: "
+Results are delivered to you in a simple dashboard allowing you to view vulnerabilities as soon as they are found and start fixing them today. Once a fix is in place simply click a button, we'll validate your fixes and automatically update your final report."
 platform-feature-button2: "Get Started"
 platform-feature-link2: "javascript:void(0)"
 platform-feature-click2: "$dispatch('getstarted', {method: 'Platform Feature'})"
