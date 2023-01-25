@@ -51,6 +51,22 @@ html {
   @apply opacity-0;
 }
 
+
+.typeText::after {
+  content: "|";
+  /* animation: blink 1s step-end infinite; */
+  animation:  none;
+}
+
+.showAnim.typeText::after {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0;}
+}
+
 @font-face {
   font-family: "Inter";
   font-style: normal;

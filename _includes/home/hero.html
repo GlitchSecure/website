@@ -1,4 +1,5 @@
 <!-- ====== Hero Section Start -->
+
 <div
   x-data
   class="relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right pb-12 lg:pb-32 dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
@@ -18,7 +19,7 @@
       <div class="w-full px-4 lg:w-1/2">
         <div class="animate-fadeIn">
           {% if page.hero-title-3 %}
-          <h2
+          <h2 id="typeText"
             class="text-base font-medium leading-snug text-neutral-200 opacity-75 md:text-left md:text-xl md:font-bold"
           >
             {{ page.hero-title-3 }}
@@ -31,9 +32,9 @@
           </h1>
           {% if page.hero-title-2 %}
           <h2
-            class="text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
+            class="typeText text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
           >
-            {{ page.hero-title-2 }}
+          <noscript>{{ page.hero-title-2 }}</noscript>
           </h2>
           {% endif %}
           <p
@@ -63,3 +64,48 @@
     </div>
   </div>
 </div>
+<script>
+var typeText = document.querySelector(".typeText")
+var textToBeTyped = "Automated, agile, and always on."
+var textToBeTypedArr = ["Automated, agile, and always on.", "Hackers don't stop testing, neither should you.", "Delivered on-demand by expert hackers.",]
+var index = 0, isAdding = true, textToBeTypedIndex = 0
+
+function playAnim() {
+  setTimeout(function () {
+    // set the text of typeText to a substring of the text to be typed using index.
+    typeText.innerText = textToBeTypedArr[textToBeTypedIndex].slice(0, index)
+    if (isAdding) {
+      // adding text
+      if (index > textToBeTypedArr[textToBeTypedIndex].length) {
+        // no more text to add
+        isAdding = false
+        typeText.classList.add("showAnim")
+        //break: wait 2s before playing again
+        setTimeout(function () {
+          typeText.classList.remove("showAnim")
+          playAnim()
+        }, 4000)
+        return
+      } else {
+        // increment index by 1
+        index++
+      }
+    } else {
+      // removing text
+      if (index === 0) {
+        // no more text to remove
+        isAdding = true
+        //switch to next text in text array
+        textToBeTypedIndex = (textToBeTypedIndex + 1) % textToBeTypedArr.length
+      } else {
+        // decrement index by 1
+        index--
+      }
+    }
+    // call itself
+    playAnim()
+  }, isAdding ? 60 : 30)
+}
+// start animation
+playAnim()
+</script>
