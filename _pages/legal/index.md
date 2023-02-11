@@ -25,4 +25,4 @@ Information about the terms for this website as well as how data is collected an
 
 ## Company Information
 
-GlitchSecure Inc. (d/b/a GlitchSecure) is a Canadian-controlled private corporation (CCPC), registered federally in Canada with the business number 716397609RC0001 and corporation number 1417144-6. Our registered office is 960 Portage Avenue, Unit 303, Winnipeg, Manitoba, Canada, R3G 0R3.
+GlitchSecure Inc. (d/b/a GlitchSecure) is a Canadian-controlled private corporation (CCPC), registered federally in Canada with the business number 716397609RC0001 and corporation number 1417144-6. Our registered office is 960 Portage Avenue, Unit 303, Winnipeg, Manitoba, Canada, R3G 0R4.
