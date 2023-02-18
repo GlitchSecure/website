@@ -1,14 +1,14 @@
 ---
 layout: about
 title: "About"
-hero-title: "Meet Your Dedicated Security Partner"
+hero-title: "Your Dedicated Security Partner"
 subtitle: "We're more than meets the eye. A passionate collective of security researchers, (ethical) hackers, and developers on a mission to help you secure the web."
 permalink: /about/
 published: true
 
 # About Feature
 about-feature-title1: "People driven. Technology powered."
-about-feature-subtitle1: "We're not another faceless SaaS. We believe the only way to truly deliver high quality security testing is by continually developing new technology and processes through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
+about-feature-subtitle1: "We believe the only way to truly deliver high quality security testing is by continually developing new technology and processes through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
 #about-feature-button1: "Get Started"
 about-feature-link1: "javascript:void(0)"
 about-feature-click1: "$dispatch('getstarted', {method: 'About Feature'})"
