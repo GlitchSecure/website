@@ -7,9 +7,11 @@ hero-title: "Real-time Continuous <wbr>Security Testing"
 hero-title-2: "Delivered on-demand by expert hackers"
 #hero-title-3: "Security Testing as a Service"
 subtitle: "<strong>Assess your security posture</strong> with continuous vulnerability scanning and on-demand pentests. Prevent breaches through year round security monitoring and expert insights to continually <strong>find and remediate vulnerabilities</strong> in your applications and networks <strong>before they're exploited</strong>."
-hero-button: "Get Started"
+hero-button: "Schedule a demo"
 hero-button-link: "javascript:void(0)"
 hero-button-click: "$dispatch('getstarted', {method: 'Landing Page'})"
+hero-button2: "View Plans"
+hero-button2-link: "/pricing/"
 
 # client list
 client-list-title: "Built by the team that has helped secure"
