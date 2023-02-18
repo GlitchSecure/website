@@ -2,7 +2,7 @@
   <div class="mx-auto mb-12 py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
       <h2 class="text-neutral-900 dark:text-neutral-200 text-3xl font-extrabold tracking-tight sm:text-4xl">{{ page.team-title }}</h2>
-      <h3 class="text-neutral-900 dark:text-neutral-200 text-xl font-medium tracking-tight sm:text-2xl"> GlitchSecure is built by a bootstrapped team of humans, hackers, developers, and thinkers. <br><br>We're highly skilled experts in our field and are passionate about delivering the best results through our craft. </h3>
+      <h3 class="text-neutral-900 dark:text-neutral-200 text-xl font-medium tracking-tight sm:text-2xl">{{ page.team-subtitle }}</h3>
 
             <div class="">
               <ul role="list" class="space-y-12 sm:-mt-8 sm:space-y-0 sm:divide-y sm:divide-gray-200 lg:gap-x-8 lg:space-y-0">
@@ -15,11 +15,11 @@
                       <div class="space-y-4">
                         <div class="space-y-1 text-xl font-medium leading-6">
                           <h3 class="text-neutral-900 dark:text-neutral-100">Jade Null<span class="text-base"> / They/Them </span><span class="text-base"> / Canada</span></h3>
-                          <p class="text-neutral-800 dark:text-neutral-200 text-base">Founder / Security Researcher / Developer</p>
+                          <p class="text-neutral-800 dark:text-neutral-200 text-base">Founder / Principal Security Consultant / Developer</p>
                           <p class="text-neutral-700 dark:text-neutral-300 text-base"><a href="https://linkedin.com/in/GlitchWitch" class="text-neutral-800 dark:text-neutral-200 ">@GlitchWitch</a> / OSCP</p>
                         </div>
                         <div class="text-xl">
-                          <p class="text-neutral-600 dark:text-neutral-200">Jade is an IT and Information Security professional with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web and are dedicated to building a company that puts the very people who help grow it first. <br><br> They can't do it all alone, so they've assembled a hand selected team of experts who are equally passionate and skilled to help further this mission.</p>
+                          <p class="text-neutral-600 dark:text-neutral-200">{{ page.founder-bio }}</p>
                         </div>
                       </div>
                     </div>
@@ -29,7 +29,7 @@
             </div>
 
 
-
+<!-- More people...
       <ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
         {% for item in site.data.about.team %}
         <li>
@@ -52,8 +52,7 @@
           </div>
         </li>
         {% endfor %}
-        <!-- More people... -->
-      </ul>
+      </ul>-->
     </div>
   </div>
 </div>

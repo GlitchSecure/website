@@ -19,15 +19,15 @@
   social-link: "https://twitter.com/ExAndroidDev"
   bio: "Marko is an experienced web, mobile, and infrastructure penetration tester having obtained is OSCP in 2019. Red teaming enthusiast and CTF player with a background in android development."
 
-- name: payloadartist
-  pronouns: He/Him
-  country: India
-  picture: /assets/img/about/team/payloadartist.png
-  title: Freelance Security Researcher
-  certs:
-  social-name: "@payloadartist"
-  social-link: "https://twitter.com/payloadartist"
-  bio: "An application security aficionado and avid contributor to the security community. He has a strong background in application security with over 5 years of experience in the cybersecurity domain."
+#- name: payloadartist
+#  pronouns: He/Him
+#  country: India
+#  picture: /assets/img/about/team/payloadartist.png
+#  title: Freelance Security Researcher
+#  certs:
+#  social-name: "@payloadartist"
+#  social-link: "https://twitter.com/payloadartist"
+#  bio: "An application security aficionado and avid contributor to the security community. He has a strong background in application security with over 5 years of experience in the cybersecurity domain."
 
 - name: Joshua
   pronouns: He/Him

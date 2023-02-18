@@ -11,8 +11,8 @@ items:
   - question: "Will this help me with SOC 2, ISO/IEC 27001, and PCI-DSS Compliance?"
     answer: "Yes! We can fulfil regular interval <strong>vulnerability scanning</strong> and annual <strong>penetration testing requirements</strong> needed for compliance. Schedule an intro call with our team to learn more about how we can help you stay compliant."
 
-  - question: "What types of pentesting do you offer?"
-    answer: "We offer a full range of pentesting for a variety of targets including web applications, mobile and desktop applications, APIs, internal and external networks and cloud services."
+  - question: "What types of security testing do you offer?"
+    answer: "We offer a full range of automated Vulnerability Assessment & Penetration Testing (VAPT) for a variety of targets including web applications, mobile and desktop applications, APIs, internal and external networks and cloud services."
 
   - question: "Will I get a traditional PDF report?"
     answer: "Yes! In addition to being able to view vulnerability findings in real-time on our dashboard, we also provide an always up-to-date PDF report that details all testing activity and finding statuses."
@@ -21,4 +21,4 @@ items:
     answer: "We can offer volume discounts on vulnerability assessments of 15 targets or more. Please contact us to discuss your needs."
 
   - question: "What payment methods do you accept?"
-    answer: "We accept a variety of payment methods including direct debit, ACH Debit, PAD, and Interac e-transfer. We use GoCardless and Wise for payment processing and can accept payments from most regions."
+    answer: "We accept a variety of payment methods including direct debit, ACH Debit, PAD, and Interac e-transfer. We use GoCardless and Wise for payment processing and can accept payments from most regions. <br> Additionally we are happy to invoice in CAD, AUD, EUR, and GBP using a set exchange rate."

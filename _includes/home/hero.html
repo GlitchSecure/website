@@ -1,4 +1,5 @@
 <!-- ====== Hero Section Start -->
+
 <div
   x-data
   class="relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right pb-12 lg:pb-32 dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
@@ -18,7 +19,7 @@
       <div class="w-full px-4 lg:w-1/2">
         <div class="animate-fadeIn">
           {% if page.hero-title-3 %}
-          <h2
+          <h2 id="typeText"
             class="text-base font-medium leading-snug text-neutral-200 opacity-75 md:text-left md:text-xl md:font-bold"
           >
             {{ page.hero-title-3 }}
@@ -31,9 +32,9 @@
           </h1>
           {% if page.hero-title-2 %}
           <h2
-            class="text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
+            class="typeText text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
           >
-            {{ page.hero-title-2 }}
+          <noscript>{{ page.hero-title-2 }}</noscript>
           </h2>
           {% endif %}
           <p
@@ -45,9 +46,16 @@
             <a
               href="{{ page.hero-button-link }}"
               @click="{{ page.hero-button-click }}"
-              class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-neutral-800 transition hover:bg-opacity-90"
+              class="mb-3 mr-1 inline-flex rounded-sm bg-neutral-100 py-3 px-6 text-base font-medium text-neutral-800 transition hover:bg-opacity-90"
             >
               {{ page.hero-button }}
+            </a>
+            <a
+              href="{{ page.hero-button2-link }}"
+              @click="{{ page.hero-button2-click }}"
+              class="mb-3 ml-3 inline-flex rounded-sm border-solid border-2 border-neutral-100 py-3 px-6 text-base font-medium text-neutral-100 transition hover:bg-opacity-20 hover:bg-neutral-900"
+            >
+              {{ page.hero-button2 }}
             </a>
           </div>
         </div>
@@ -55,11 +63,56 @@
       <div class="hidden w-full px-4 lg:block lg:w-1/2">
         <div class="mx-auto text-right">
           <div class="relative z-10 mt-16 inline-block animate-fadeIn lg:mt-0">
-            <img src="/assets/img/home/hero-preview.svg" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-lg dark:hidden"/>
-            <img src="/assets/img/home/hero-preview-dark.svg" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-lg hidden dark:block"/>
+            <img src="/assets/img/home/hero-preview.svg" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-sm dark:hidden"/>
+            <img src="/assets/img/home/hero-preview-dark.svg" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-sm hidden dark:block"/>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<script>
+var typeText = document.querySelector(".typeText")
+var textToBeTyped = "{{ page.hero-typed-text }}"
+var textToBeTypedArr = ["{{ page.hero-typed-text }}", "{{ page.hero-typed-text2 }}", "{{ page.hero-typed-text3 }}"]
+var index = 0, isAdding = true, textToBeTypedIndex = 0
+
+function playAnim() {
+  setTimeout(function () {
+    // set the text of typeText to a substring of the text to be typed using index.
+    typeText.innerText = textToBeTypedArr[textToBeTypedIndex].slice(0, index)
+    if (isAdding) {
+      // adding text
+      if (index > textToBeTypedArr[textToBeTypedIndex].length) {
+        // no more text to add
+        isAdding = false
+        typeText.classList.add("showAnim")
+        //break: wait 2s before playing again
+        setTimeout(function () {
+          typeText.classList.remove("showAnim")
+          playAnim()
+        }, 4000)
+        return
+      } else {
+        // increment index by 1
+        index++
+      }
+    } else {
+      // removing text
+      if (index === 0) {
+        // no more text to remove
+        isAdding = true
+        //switch to next text in text array
+        textToBeTypedIndex = (textToBeTypedIndex + 1) % textToBeTypedArr.length
+      } else {
+        // decrement index by 1
+        index--
+      }
+    }
+    // call itself
+    playAnim()
+  }, isAdding ? 60 : 30)
+}
+// start animation
+playAnim()
+</script>
