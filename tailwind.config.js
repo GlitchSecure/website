@@ -1,5 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const withAnimations = require("animated-tailwindcss");
+const { withAnimations } = require('animated-tailwindcss')
 
 module.exports = withAnimations({
   darkMode: 'class',
@@ -10,7 +10,7 @@ module.exports = withAnimations({
     "_pages/**/*.md",
     "_posts/**/*.md",
     "_layouts/**/*.html",
-    "_includes/**/*.html", 
+    "_includes/**/*.html",
   ],
   safelist: [
     'tippy-box',
