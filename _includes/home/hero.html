@@ -73,8 +73,8 @@
 </div>
 <script>
 var typeText = document.querySelector(".typeText")
-var textToBeTyped = "Automated, agile, and always on."
-var textToBeTypedArr = ["Automated, agile, and always on.", "Hackers don't stop testing, neither should you.", "Delivered on-demand by expert hackers.",]
+var textToBeTyped = "{{ page.hero-typed-text }}"
+var textToBeTypedArr = ["{{ page.hero-typed-text }}", "{{ page.hero-typed-text2 }}", "{{ page.hero-typed-text3 }}",]
 var index = 0, isAdding = true, textToBeTypedIndex = 0
 
 function playAnim() {
