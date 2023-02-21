@@ -4,7 +4,7 @@ title: "About"
 hero-title: "Your Dedicated Security Partner"
 subtitle: "We're more than meets the eye. A passionate collective of security researchers, (ethical) hackers, and developers on a mission to help you secure the web."
 permalink: /about/
-published: true
+published: false
 
 # About Feature
 about-feature-title1: "People driven. Technology powered."
