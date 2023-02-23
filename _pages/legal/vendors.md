@@ -26,9 +26,13 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | NameCheap | Domains, Email, Marketing | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
 | Notanobo | Bookkeeping | [https://notanobo.com/privacy](https://notanobo.com/privacy) |
 | Pipedrive | Customer Relationship Management | [https://www.pipedrive.com/en/privacy](https://www.pipedrive.com/en/privacy) |
+| PortSwigger | Security Scanning Tool | [https://portswigger.net/privacy](https://portswigger.net/privacy) |
 | SavvyCal | Calendar | [https://savvycal.com/privacy](https://savvycal.com/privacy/?r=glitchsecure) |
 | Shaw | Internet Service Provider | [https://www.shaw.ca/privacy-policy](https://www.shaw.ca/privacy-policy) |
 | Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
 | Steinbach Credit Union | Payment Processing | [https://scu.mb.ca/privacy/directory#code](https://scu.mb.ca/privacy/directory#code) |
 | Tailscale | VPN | [https://tailscale.com/privacy-policy/](https://tailscale.com/privacy-policy/) |
+| Tenable | Security Scanning Tool | [https://www.tenable.com/privacy-policy](https://www.tenable.com/privacy-policy) |
+| Vultr | Server Provider | [https://www.vultr.com/legal/privacy/](https://www.vultr.com/legal/privacy/) |
 | Wise | Payment Processing | [https://wise.com/ca/legal/privacy-policy](https://wise.com/ca/legal/privacy-policy) |
+| Zoho | Email, Marketing | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
