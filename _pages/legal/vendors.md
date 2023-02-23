@@ -6,7 +6,7 @@ permalink: /legal/vendors/
 published: true
 ---
 
-In addition to internal and self-hosted opensource software and tools, we use a variety of commercial third party providers to help facilitate our business operations. Any data shared with us may be transmitted or processed by third parties including but not limited to:
+In addition to internal and self-hosted opensource software and tools, we use a variety of commercial third party providers to help facilitate our business operations. Any data shared with us may be stored, transmitted, or processed by third parties including but not limited to:
 
 
 | Third-Party Provider | Purpose | Privacy Policy |
@@ -28,7 +28,6 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | Pipedrive | Customer Relationship Management | [https://www.pipedrive.com/en/privacy](https://www.pipedrive.com/en/privacy) |
 | PortSwigger | Security Scanning Tool | [https://portswigger.net/privacy](https://portswigger.net/privacy) |
 | SavvyCal | Calendar | [https://savvycal.com/privacy](https://savvycal.com/privacy/?r=glitchsecure) |
-| Shaw | Internet Service Provider | [https://www.shaw.ca/privacy-policy](https://www.shaw.ca/privacy-policy) |
 | Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
 | Steinbach Credit Union | Payment Processing | [https://scu.mb.ca/privacy/directory#code](https://scu.mb.ca/privacy/directory#code) |
 | Tailscale | VPN | [https://tailscale.com/privacy-policy/](https://tailscale.com/privacy-policy/) |
