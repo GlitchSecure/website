@@ -22,6 +22,7 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | Google | SSO, Email, Calendar, Storage, Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
 | Hunter.io | Email, Marketing | [https://hunter.io/privacy-policy](https://hunter.io/privacy-policy) |
 | IntroCRM | Email, Marketing | [https://introcrm.com/privacy-policy/](https://introcrm.com/privacy-policy/) |
+| Invicti | Security Scanning Tool | [https://www.invicti.com/legal/privacy-policy/](https://www.invicti.com/legal/privacy-policy/) |
 | Laravel Forge | Server Management | [https://forge.laravel.com/privacy-policy/](https://forge.laravel.com/privacy-policy/) |
 | NameCheap | Domains, Email, Marketing | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
 | Notanobo | Bookkeeping | [https://notanobo.com/privacy](https://notanobo.com/privacy) |
