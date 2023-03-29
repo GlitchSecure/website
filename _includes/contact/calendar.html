@@ -14,7 +14,7 @@
             eval('var a=document.createElement(\'script\');a.src=\'https://embed.savvycal.com/v1/embed.js\';document.head.appendChild(a)')
 
             SavvyCal('init');
-            SavvyCal('inline', { link: 'glitchsecure/intro', selector: '#booking-page', email: localStorage.getItem('contact-email'), displayName: localStorage.getItem('contact-firstname')});
+            SavvyCal('inline', { link: 'glitchsecure/intro', selector: '#booking-page', email: localStorage.getItem('contact-email'), displayName: localStorage.getItem('contact-firstname'), theme: localStorage.getItem('theme')});
 
             // End embed script
           }
@@ -31,7 +31,8 @@
                     let data = {
                      name: localStorage.getItem('contact-firstname'), // Prefill Name
                      email: localStorage.getItem('contact-email'), // Prefill Email
-                     company: localStorage.getItem('contact-companyname'), // Prefill Email
+                     company: localStorage.getItem('contact-companyname'), // Prefill Company name
+                     inquiry: localStorage.getItem('contact-inquiry'), // Prefill Inquiry
                     };
 
                     xhr.send(JSON.stringify(data));
