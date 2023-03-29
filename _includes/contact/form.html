@@ -19,9 +19,9 @@ x-data="
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5" />
                     </svg>
                   </div>
-                  <p class="ml-16 text-lg font-medium leading-6 text-neutral-900">Continuous Vulnerability Assessments</p>
+                  <p class="ml-16 text-lg font-medium leading-6 text-neutral-900 dark:text-neutral-200">Continuous Vulnerability Assessments</p>
                 </dt>
-                <dd class="mt-2 ml-16 text-base text-neutral-600 lg:max-w-md">We improve the traditional security testing lifecycle through continual security testing and remediation verification <strong>throughout the entire year.</strong>
+                <dd class="mt-2 ml-16 text-base text-neutral-600 dark:text-neutral-300 lg:max-w-md">We improve the traditional security testing lifecycle through continual security testing and remediation verification <strong>throughout the entire year.</strong>
                 </dd>
               </div>
               <div class="relative">
@@ -33,17 +33,17 @@ x-data="
                         d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
-                  <p class="ml-16 text-lg font-medium leading-6 text-neutral-900">On-demand Pentests </p>
+                  <p class="ml-16 text-lg font-medium leading-6 text-neutral-900 dark:text-neutral-200">On-demand Pentests </p>
                 </dt>
-                <dd class="mt-2 ml-16 text-base text-neutral-600 lg:max-w-md">Get access to a dedicated team of security experts, available on-demand for targeted and <strong>in-depth penetration testing</strong>. </dd>
+                <dd class="mt-2 ml-16 text-base text-neutral-600 dark:text-neutral-300 lg:max-w-md">Get access to a dedicated team of security experts, available on-demand for targeted and <strong>in-depth penetration testing</strong>. </dd>
               </div>
             </dl>
           </div>
         </div>
         <div class="mt-40 lg:my-12 lg:relative lg:m-0">
           <div class="mx-auto max-w-md sm:max-w-2xl lg:max-w-none lg:px-0 relative">
-            <div class="bg-white rounded-xl p-6 shadow-md relative">
-              <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-400 pt-4 pb-8">
+            <div class="bg-white dark:bg-neutral-900 rounded-xl p-6 shadow-md relative">
+              <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-8">
                 Schedule a free demo today!
               </h2>
               <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}})" x-show="getstartedFormOpen">
@@ -53,7 +53,7 @@ x-data="
                       <input
                       type="text" name="firstname" id="firstname" autocomplete="given-name"
                       placeholder="First Name" x-data="{ firstname: localStorage.getItem('contact-firstname') }" x-init="$watch('firstname', (val) => localStorage.setItem('contact-firstname', val))" x-model="firstname" required
-                      class="py-3 px-4 font-base bg-gray-100 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-500 focus:ring-primary-400 focus:border-primary-400"                      >
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400">
                     </div>
                   </div>
                   <div class="col-span-6 sm:col-span-3">
@@ -61,8 +61,8 @@ x-data="
                       <input
                       type="text" name="lastname" id="lastname" autocomplete="family-name"
                       placeholder="Last Name" x-data="{ lastname: localStorage.getItem('contact-lastname') }" x-init="$watch('lastname', (val) => localStorage.setItem('contact-lastname', val))" x-model="lastname" required
-                      class="py-3 px-4 font-base bg-gray-100 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-500 focus:ring-primary-400 focus:border-primary-400"
-                      >
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+>
                     </div>
                   </div>
                   <div class="col-span-6">
@@ -70,8 +70,8 @@ x-data="
                       <input
                       type="email" name="email" id="email" autocomplete="email"
                       placeholder="Work Email" x-data="{ email: localStorage.getItem('contact-email') }" x-init="$watch('email', (val) => localStorage.setItem('contact-email', val))" x-model="email" required
-                      class="py-3 px-4 font-base bg-gray-100 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-500 focus:ring-primary-400 focus:border-primary-400"
-                      >
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+>
                     </div>
                   </div>
                   <div class="col-span-6">
@@ -79,16 +79,16 @@ x-data="
                       <input
                       type="text" name="company" id="company" autocomplete="organization"
                       placeholder="Company Name" x-data="{ companyname: localStorage.getItem('contact-companyname') }" x-init="$watch('companyname', (val) => localStorage.setItem('contact-companyname', val))" x-model="companyname" required
-                      class="py-3 px-4 font-base bg-gray-100 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-500 focus:ring-primary-400 focus:border-primary-400"
-                      >
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+>
                     </div>
                   </div>
                   <div class="col-span-6">
                     <div class="relative rounded-md shadow-sm font-base">
                       <select
                       x-data="{ inquiry: localStorage.getItem('contact-inquiry') }" x-init="$watch('inquiry', (val) => localStorage.setItem('contact-inquiry', val))" x-model="inquiry" required
-                      class="py-3 px-4 font-base bg-gray-100 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-500 focus:ring-primary-400 focus:border-primary-400"
-                      >
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+>
                         <option value="" selected> How can we hack you today?</option>
                         <option value="VAPT">(VAPT) Vulnerability Assessments and Pentesting</option>
                         <option value="VA">(VA) Vulnerability Assessments</option>
