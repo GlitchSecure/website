@@ -1,6 +1,6 @@
 ---
 layout: demo
-title: "Contact Us"
+title: "Schedule A Demo"
 hero-title: "We're excited to <span class=\"line-through\">hack</span> meet you!</span>"
 hero-subtitle: "We would love to setup a short call to learn about your company and discuss whether GlitchSecure would be a good fit for your business. Please select a time that works best for you."
 permalink: /demo/
