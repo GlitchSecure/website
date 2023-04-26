@@ -1,14 +1,15 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <section class="bg-white dark:bg-glitchsecure-purple-medium pb-16">
   <div class="pt-16 -mb-24 lg:pl-8 max-w-7xl mx-auto">
   <h2 class="text-neutral-900 dark:text-neutral-200 text-3xl font-extrabold tracking-tight sm:text-4xl">{{ page.testimonial-title }}</h2>
   </div>
   <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
     <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 lg:pr-16 mt-32">
+      {% if page.testimonial-logo-1 %}
       <div class="md:flex-shrink-0">
         <img class="h-8 dark:hidden" src="{{ page.testimonial-logo-1 }}" alt="{{ page.testimonial-company-1 }}">
         <img class="h-8 dark:block hidden" src="{{ page.testimonial-logo-1-dark }}" alt="{{ page.testimonial-company-1 }}">
       </div>
+      {% endif %}
       <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
         <div class="relative text-lg font-medium text-neutral-900 dark:text-neutral-300 md:flex-grow">
           <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-glitchsecure-purple" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
@@ -30,10 +31,12 @@
       </blockquote>
     </div>
     <div class="py-12 px-4 sm:px-6 md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+      {% if page.testimonial-logo-3 %}
       <div class="md:flex-shrink-0">
         <img class="h-8 dark:hidden" src="{{ page.testimonial-logo-2 }}" alt="{{ page.testimonial-company-2 }}">
         <img class="h-8 dark:block hidden" src="{{ page.testimonial-logo-2-dark }}" alt="{{ page.testimonial-company-2 }}">
       </div>
+      {% endif %}
       <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
         <div class="relative text-lg font-medium text-neutral-900 dark:text-neutral-300 md:flex-grow">
           <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-glitchsecure-purple" fill="currentColor" viewBox="0 0 32 32">

@@ -1,5 +1,5 @@
 heading: "Frequently Asked Questions"
-subheading: "Still have questions? Feel free to book a call or shoot us an email!"
+subheading: "Still have questions? Feel free to <a class=\"underline\" href=\"/demo/\">book a call</a> or <a class=\"underline\" href=\"mailto:hello@glitchsecure.com\">shoot us an email</a>!"
 items:
 
   - question: "What's the difference between a Vulnerability Assessment and a Pentest?"

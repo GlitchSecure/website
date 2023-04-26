@@ -1,15 +1,15 @@
-<div class="flow-root bg-white dark:bg-glitchsecure-purple-medium pb-32 lg:pb-40"
+<div class="flow-root bg-white dark:bg-glitchsecure-purple-medium pb-32 lg:pb-12"
 x-data="
   {
     getstartedFormOpen: true,
     getstartedCalendarOpen: false
   }
 ">
-  <div class="relative -mt-64 -mb-16">
+  <div class="relative -mt-64 lg:-mt-72 -mb-16">
     <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div class="w-full mx-auto max-w-md hidden md:block sm:px-6 sm:max-w-2xl sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left relative z-10">
-          <div class="pt-72 lg:pt-64 w-full">
+          <div class="pt-72 lg:pt-48 w-full">
             <dl class="mt-10 space-y-10">
               <div class="relative">
                 <dt>
@@ -43,9 +43,12 @@ x-data="
         <div class="mt-40 lg:my-12 lg:relative lg:m-0">
           <div class="mx-auto max-w-md sm:max-w-2xl lg:max-w-none lg:px-0 relative">
             <div class="bg-white dark:bg-neutral-900 rounded-xl p-6 shadow-md relative">
-              <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-8">
-                Schedule a free demo today!
+              <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-0">
+                Schedule a free 25 minute demo!
               </h2>
+              <h3 class="text-sm font-light text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-8">
+                Meet with Jade and get your personalised demo and scope estimate.
+              <h3>
               <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}})" x-show="getstartedFormOpen">
                 <div class="grid grid-cols-6 gap-6">
                   <div class="col-span-6 sm:col-span-3">
@@ -98,7 +101,7 @@ x-data="
                     </div>
                   </div>
                   <button type="submit" class="inline-block w-full col-span-6 rounded-md px-4 py-2.5 text-center text-sm font-semibold leading-5 shadow-md bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple-light">
-                    See Availability
+                    See Jade's Calendar
                   </button>
                 </div>
               </form>
@@ -108,7 +111,7 @@ x-data="
 
               {% include demo/calendar.html %}
             </div>
-            <span class="block mt-8 text-xs text-center text-neutral-400 dark:text-neutral-400">By submitting this form, you agree to our <a href="/legal/terms/" class="underline">terms of service</a> and <a href="/legal/privacy/" class="underline">privacy policy </a></span>
+            <span class="block mt-8 text-xs text-center text-neutral-400 dark:text-neutral-400">By submitting this form, you agree to our <a href="/legal/terms/" class="underline">terms of service</a> and <a href="/legal/privacy/" class="underline">privacy policy.</a> <br> Don't worry, we're a security company so your info is safe with us. </span>
           </div>
         </div>
       </div>
