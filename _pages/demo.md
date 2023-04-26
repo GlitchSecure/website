@@ -6,23 +6,11 @@ hero-subtitle: "We would love to setup a short call to learn about your company 
 permalink: /demo/
 published: true
 
-# About testimonials
-#testimonial-title: "Don't just take it from us..."
-#testimonial-logo-1: "/assets/img/about/testimonials/assembly.svg"
-#testimonial-logo-1-dark: "/assets/img/about/testimonials/assembly-dark.svg"
-testimonial-quote-1: "I worked with Jade as part of [redacted]'s first PenTest. It was an absolute pleasure to work with them. The test deeply covered all the required aspects and communication was stellar. Would definitely recommend GlitchWitch."
-testimonial-picture-1: "/assets/img/about/testimonials/fernando.jpg"
-testimonial-name-1: "Software Engineering Manager"
-testimonial-title-1: "at Google"
-testimonial-company-1: ""
-
-#testimonial-logo-2: "/assets/img/about/testimonials/alloy.svg"
-#testimonial-logo-2-dark: "/assets/img/about/testimonials/alloy-dark.svg"
-testimonial-quote-2: "It was a pleasure to work with Jade and their team. They were thorough, detailed in their report and supplied insightful recommendations. They also promptly answered our questions and tested our remediations measure just as quickly. Working with them was a very positive experience overall."
-testimonial-picture-2: "/assets/img/about/testimonials/jean-martin.jpg"
-testimonial-name-2: "Staff Data Engineer "
-testimonial-title-2: "at Shopify"
-testimonial-company-2: ""
+# Team Section
+team-title: "Meet the founder"
+#team-subtitle: "GlitchSecure is built by a bootstrapped team of humans, hackers, developers, and thinkers.<br><br>We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
+team-subtitle: "GlitchSecure is a bootstrapped startup founded by an industry expert passionate about delivering the best results through their craft."
+founder-bio: "Jade is an IT and Information Security professional with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web and are dedicated to building a company that puts the very people who help grow it first. <!--<br><br> They can't do it all alone, so they've assembled a hand selected team of experts who are equally passionate and skilled to help further this mission.--> <br><br> <a class=\"hover:underline \"href=\"https://linkedin.com/in/GlitchWitch\"> Connect on LinkedIn -> </a>"
 
 # Investors
 investors-title: "Backed by"
