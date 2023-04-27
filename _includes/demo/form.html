@@ -49,7 +49,7 @@ x-data="
               <h3 class="text-sm font-light text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-8">
                 Meet with Jade and get your personalised demo and scope estimate.
               <h3>
-              <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}})" x-show="getstartedFormOpen">
+              <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}}); window.lintrk('track', { conversion_id: 12207428 });" x-show="getstartedFormOpen">
                 <div class="grid grid-cols-6 gap-6">
                   <div class="col-span-6 sm:col-span-3">
                     <div class="relative rounded-md shadow-sm font-base">
