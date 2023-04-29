@@ -2,7 +2,6 @@
 layout: security
 title: "Security by Design"
 hero-title: "Security"
-subtitle:
 permalink: /security/
 published: true
 description: |
