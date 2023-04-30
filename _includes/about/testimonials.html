@@ -24,7 +24,7 @@
             </div>
             <div class="ml-4">
               <div class="text-base font-medium text-neutral-700 dark:text-neutral-400">{{ page.testimonial-name-1 }}</div>
-              <div class="text-base font-medium text-neutral-900 dark:text-neutral-300">{{ page.testimonial-title-1 }}, {{ page.testimonial-company-1 }}.</div>
+              <div class="text-base font-medium text-neutral-900 dark:text-neutral-300">{{ page.testimonial-title-1 }}{% if page.testimonial-company-1 %}, {{ page.testimonial-company-1 }}{% endif %}.</div>
             </div>
           </div>
         </footer>
@@ -51,7 +51,7 @@
             </div>
             <div class="ml-4">
               <div class="text-base font-medium text-neutral-700 dark:text-neutral-400">{{ page.testimonial-name-2 }}</div>
-              <div class="text-base font-medium text-neutral-900 dark:text-neutral-300">{{ page.testimonial-title-2 }}, {{ page.testimonial-company-2 }}.</div>
+              <div class="text-base font-medium text-neutral-900 dark:text-neutral-300">{{ page.testimonial-title-2 }}{% if page.testimonial-company-2 %}, {{ page.testimonial-company-2 }}{% endif %}.</div>
             </div>
           </div>
         </footer>

@@ -14,9 +14,8 @@
                     <div class="sm:col-span-2">
                       <div class="space-y-4">
                         <div class="space-y-1 text-xl font-medium leading-6">
-                          <h3 class="text-neutral-900 dark:text-neutral-100">Jade Null<span class="text-base"> / They/Them </span><span class="text-base"> / Canada</span></h3>
+                          <h3 class="text-neutral-900 dark:text-neutral-100">Jade Null<span class="text-base"> / They/Them</h3>
                           <p class="text-neutral-800 dark:text-neutral-200 text-base">Founder / Principal Security Consultant / Developer</p>
-                          <p class="text-neutral-700 dark:text-neutral-300 text-base"><a href="https://linkedin.com/in/GlitchWitch" class="text-neutral-800 dark:text-neutral-200 ">@GlitchWitch</a> / OSCP</p>
                         </div>
                         <div class="text-xl">
                           <p class="text-neutral-600 dark:text-neutral-200">{{ page.founder-bio }}</p>
@@ -28,31 +27,23 @@
               </ul>
             </div>
 
-
-<!-- More people...
-      <ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
-        {% for item in site.data.about.team %}
-        <li>
-          <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
-            <div class="h-0 aspect-w-10 aspect-h-9 sm:aspect-w-3 sm:aspect-h-4">
-              <img class="object-cover shadow-lg rounded-lg" src="{{ item.picture }}" alt="">
-            </div>
-            <div class="sm:col-span-2">
-              <div class="space-y-4">
-                <div class="text-lg leading-6 font-medium space-y-1">
-                  <h3 class="text-neutral-900 dark:text-neutral-100">{{ item.name }}<span class="text-sm">{% if item.pronouns %} / {{ item.pronouns }}</span>{% endif %}{% if item.country %}<span class="text-sm"> / {{ item.country }}</span>{% endif %}</h3>
-                  <p class="text-neutral-800 dark:text-neutral-200 text-sm">{{ item.title }}</p>
-                  <p class="text-neutral-700 dark:text-neutral-300 text-sm">{% if item.social-name %}<a href="{{ item.social-link }}" class="text-neutral-800 dark:text-neutral-200 ">{{ item.social-name }}</a>{% endif %}{% if item.certs %} / {{ item.certs }}{% endif %}</p>
-                </div>
-                <div class="text-lg">
-                  <p class="text-neutral-600 dark:text-neutral-200">{{ item.bio }}</p>
-                </div>
+            {% if page.team-title2 %}
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div class="mx-auto max-w-2xl lg:mx-0">
+                <h2 class="text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-200 sm:text-4xl">{{ page.team-title2 }}</h2>
+                <p class="mt-6 text-lg leading-8 text-neutral-900 dark:text-neutral-200">{{ page.team-subtitle2 }}</p>
               </div>
+              <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
+                {% for item in site.data.about.team %}
+                <li>
+                  <img class="mx-auto h-24 w-24 rounded-2xl shadow-lg" src="{{ item.picture }}" alt="">
+                  <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-neutral-900 dark:text-neutral-100">{{ item.name }} <span class="text-sm font-light">{% if item.pronouns %} / {{ item.pronouns }}{% endif %}</span></h3>
+                  <p class="text-sm leading-6 text-neutral-800 dark:text-neutral-200">{{ item.title }}</p>
+                </li>
+                {% endfor %}
+              </ul>
             </div>
-          </div>
-        </li>
-        {% endfor %}
-      </ul>-->
+            {% endif %}
     </div>
   </div>
 </div>
