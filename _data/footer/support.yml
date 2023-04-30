@@ -1,5 +1,8 @@
+- title: "Login"
+  url: https://app.glitchsecure.com/
+
 - title: "Status"
   url: https://status.glitchsecure.com/
 
-- title: "Security"
-  url: /security/
+- title: "Contact"
+  url: mailto:hello@glitchsecure.com

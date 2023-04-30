@@ -1,60 +1,29 @@
 
-- name: Travis
+- name: Br̶̥͙̤̘̅́̎̃̏̎a̸̢̧͉̮͕͓̦̝̻̝͇̳̋̅̒̄͜d̵̠̗̙̹͉͚̜͊̇̎̈́
   pronouns: He/Him
   country: United States
-  picture: /assets/img/about/team/travis.jpg
-  title: Freelance Security Researcher
-  certs: "OSCP / Security+"
-  social-name: "@McCormackCyber"
-  social-link: "https://twitter.com/McCormackCyber"
-  bio: "Travis has over a decade of experience in IT with a focus on security. He has performed hundreds of web application and API pentests in many verticals and of varying complexities."
+  picture: /assets/img/about/team/brad.jpg
+  title: Technical Writer
 
-- name: Marko
-  pronouns: He/Him
-  country: Serbia
-  picture: /assets/img/about/team/marko.jpg
-  title: Freelance Security Researcher / Developer
-  certs: "OSCP / CRTO / Pentest+"
-  social-name: "@ExAndroidDev"
-  social-link: "https://twitter.com/ExAndroidDev"
-  bio: "Marko is an experienced web, mobile, and infrastructure penetration tester having obtained is OSCP in 2019. Red teaming enthusiast and CTF player with a background in android development."
-
-#- name: payloadartist
-#  pronouns: He/Him
-#  country: India
-#  picture: /assets/img/about/team/payloadartist.png
-#  title: Freelance Security Researcher
-#  certs:
-#  social-name: "@payloadartist"
-#  social-link: "https://twitter.com/payloadartist"
-#  bio: "An application security aficionado and avid contributor to the security community. He has a strong background in application security with over 5 years of experience in the cybersecurity domain."
-
-- name: Joshua
+- name: Mä̶̛̲̠͍̮͙̟͙̰̰́͆̒̃̆̃̚͘̚̕͜͝ţ̴̨̭̭͚̥̙̙̘͈͇̯̺̻̲͔̓̒̾̎͠ͅt̵̢̢̰̞̥͓͖͖̮̹͙͌̑̇̚͜
   pronouns: He/Him
   country: Canada
-  picture: /assets/img/about/team/joshua.jpg
-  title: Freelance Full Stack Developer
-#  certs:
-  social-name: "@joshuaanderton"
-  social-link: "https://twitter.com/joshuaanderton"
-  bio: "Joshua is an experienced Full Stack Developer. He has a long history of growing startups and just can’t stop building things"
+  picture: /assets/img/about/team/matt.jpg
+  title: Developer
 
-#- name: Harris
-#  pronouns: He/Him
-#  country: United States
-#  picture: /assets/img/about/team/harris.jpg
-#  title: Fractional VP of Sales
-#  certs:
-#  social-name: "@IntroCRM"
-#  social-link: "https://introcrm.com/"
-#  bio: "With over a decade of experience helping companies scale their business, Harris leads the GlitchSecure sales stratgey."
+- name: Di̴̡̨͓͚̞̰̗̯̝͈͉̊̒̃̓̈́͆̅̌͘͘͘͠͠͠ͅȑ̶̟̘̾͑̇́k̸̳̼̩̟̦̲̜͕̩̖͙̤̈̂̾̇̀͠
+  pronouns: He/They
+  country: Canada
+  picture: /assets/img/about/team/dirk.jpg
+  title: Security Researcher
+
+- name: Mä̵̢̨̰̜͕̟̪̤ṛ̶̛̥͎̻̠̗̝̱͖̺̜̥̠̝͇͔̞̎͒̑̽͂̊͛̈́̀͒͒̀̍̓̂̓͊͠ķ̵̭̺̅͑͋̿̔̃͂́̓̎̾́̈̚̕ᵒ̶̧̧̢͈͇̩͙̤̠̞͓͍͕̻̪̒
+  pronouns: He/Him
+  country: Europe
+  picture: /assets/img/about/team/marko.jpg
+  title: Security Researcher
 
 - name: We're hiring!
-  pronouns: You/Yours
   country: Remote
   picture: /assets/img/logo-square-purplebg.png
-  title: Wearer of Hats / Developer / Writer / Hacker
-#  certs:
-  social-name: "@GlitchSecure"
-  social-link: "https://twitter.com/GlitchSecure"
-  bio: "Passionate about security? Looking for a role that grows with you? Help shape the future of a new cyber security startup by joining a unique and diverse team in their mission to secure the web. <a href=\"mailto:hello@glitchsecure.com\" class=\"glitchsecure-purple\">Contact Us<a>"
+  title: This could be you!

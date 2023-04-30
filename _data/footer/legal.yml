@@ -1,7 +1,8 @@
+- title: "Info"
+  url: /legal/
+
 - title: "Terms"
-  url: /legal/terms
+  url: /legal/terms/
 
 - title: "Privacy"
-  url: /legal/privacy
-#- title: "Security Policy"
-#  url: /legal/security
+  url: /legal/privacy/
