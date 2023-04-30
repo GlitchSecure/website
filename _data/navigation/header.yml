@@ -1,6 +1,6 @@
-#- title: Services
+#- title: Solutions
 #  url: "/services/"
-#  dropdown: false
+#  dropdown: true
 
 - title: Platform
   url: /platform/

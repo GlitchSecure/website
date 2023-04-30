@@ -6,7 +6,7 @@
       submenuOpen: false
     }
   "
-  class="flex w-full items-center bg-transparent relative z-10 lg:pt-4"
+  class="flex w-full items-center bg-transparent relative z-20 lg:pt-4"
 >
   <div class="w-full mx-auto px-4 max-w-7xl animate-fadeIn">
     <div class="relative flex items-center justify-between">
@@ -21,7 +21,6 @@
       </div>
       <div class="flex w-full items-center justify-between px-4">
         <div>
-          {% if site.data.navigation %}
           <button
             @click="navbarOpen = !navbarOpen"
             :class="navbarOpen && 'navbarTogglerActive' "
@@ -52,7 +51,6 @@
             ></span>
 
           </button>
-          {% endif %}
 
           <nav
             :class="!navbarOpen && 'hidden' "
@@ -62,46 +60,75 @@
             x-cloak
           >
             <ul class="block lg:flex">
-              {% for item in site.data.navigation %} {% if page.url == item.url
-              %}
-              <li class="group relative">
-                <a
-                  href="{{ item.url }}"
-                  class="flex border-b-2 border-neutral-300 py-2 px-6 text-base font-medium text-neutral-200 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
-                >
-                  {{ item.title }}
-                </a>
-              </li>
+              {% for item in site.data.navigation.header %}
 
-              {% elsif item.dropdown %}
+              {% if item.dropdown %}
               <li class="submenu-item group relative">
                 <a
                   href="javascript:void(0)"
                   @click="submenuOpen = !submenuOpen "
-                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
+                  class="flex border-b-2 {% if page.url == item.url %} border-neutral-300 {% else %} border-transparent {% endif %} py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
+
                 <div
                   :class="!submenuOpen ? 'hidden lg:block' : 'block' "
-                  class="relative top-full left-0 rounded-lg bg-neutral-900 bg-opacity-80 px-4 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:top-[115%] lg:w-64 lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
+                  class="relative z-0 mt-4 lg:border-2 border-neutral-100 top-0 top-full left-0 rounded-lg bg-neutral-900 lg:bg-white bg-opacity-80 px-4 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:group-hover:visible lg:w-[700px]"
                 >
                   <!-- dropdown menu -->
-                  {% for item in site.data.navigation-dropdown-services %}
+                  <div class="hidden divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 lg:grid lg:grid-cols-2 lg:gap-px lg:divide-y-0">
+
+                  {% assign dropdown-title = item.title | slugify %}
+                  {% for item in site.data.navigation.dropdowns.[dropdown-title] %}
+                    <div class="group relative bg-white hover:bg-neutral-100 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+                      <div class="grid grid-cols-5 ">
+                      <div class="">
+                        <span class="inline-flex p-3 rounded-md bg-glitchsecure-purple text-white">
+                          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="{{ item.icon }}" />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="col-span-4 flex items-center">
+                        <h3 class="text-base font-semibold leading-6 text-gray-900">
+                          <a href="{{ item.url }}" class="focus:outline-none">
+                            <!-- Extend touch target to entire panel -->
+                            <span class="absolute inset-0" aria-hidden="true"></span>
+                            {{ item.title }}
+                          </a>
+                        </h3>
+                      </div>
+                      </div>
+                      <p class="mt-4 text-sm text-gray-500">{{ item.description }}</p>
+
+                      <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="{{M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z}}" />
+                        </svg>
+                      </span>
+                    </div>
+
+                  {% endfor %}
+                  </div>
+                  <!-- Mobile dropdown item -->
+                  {% for item in site.data.navigation.dropdowns.[dropdown-title] %}
                   <a
                     href="{{ item.url }}"
-                    class="block rounded py-2.5 px-4 text-sm font-medium text-neutral-200 hover:bg-neutral-200 hover:text-neutral-100"
+                    class="lg:hidden block py-2.5 px-4 text-sm font-medium text-neutral-200 hover:border-b-2 hover:border-neutral-300"
                   >
                     {{ item.title }}
                   </a>
                   {% endfor %}
                 </div>
               </li>
+
+
               {% else %}
               <li class="group relative">
                 <a
                   href="{{ item.url }}"
-                  class="flex border-b-2 border-transparent py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
+                  class="flex border-b-2 {% if page.url == item.url %} border-neutral-300 {% else %} border-transparent {% endif %} py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
                 >
                   {{ item.title }}
                 </a>
