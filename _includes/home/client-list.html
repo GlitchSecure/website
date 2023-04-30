@@ -1,41 +1,15 @@
 <div class="relative pt-16 pb-32 dark:bg-glitchsecure-purple-medium">
   <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-    <p class="inline-block border-b border-neutral-700 pb-4 text-xl text-base font-semibold uppercase tracking-wider text-neutral-700 dark:border-neutral-200 dark:text-neutral-200">
+    <p class="text-3xl font-bold text-neutral-700 dark:text-neutral-200 sm:text-4xl">
       {{ page.client-list-title}}
     </p>
     <div class="mt-6 grid grid-cols-2 gap-0.5 text-white md:grid-cols-4 lg:mt-8 lg:grid-cols-8">
+      {% for item in site.data.home.clients %}
       <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/adobe.svg" alt="Adobe" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/adobe-dark.svg" alt="Adobe" />
+        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/{{ item.name}}.svg" alt="{{ item.alt}}" />
+        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/{{ item.name}}-dark.svg" alt="{{ item.alt}}" />
       </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/bitdefender.svg" alt="Bitdefender" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/bitdefender-dark.svg" alt="Bitdefender" />
-      </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/compass.svg" alt="Compass" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/compass-dark.svg" alt="Compass" />
-      </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/shaw.svg" alt="Shaw" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/shaw-dark.svg" alt="Shaw" />
-      </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/textnow.svg" alt="TextNow" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/textnow-dark.svg" alt="TextNow" />
-      </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/titan.svg" alt="Titanvest" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/titan-dark.svg" alt="Titanvest" />
-      </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/vistaprint.svg" alt="VistaPrint" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/vistaprint-dark.svg" alt="VistaPrint" />
-      </div>
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/zoom.svg" alt="Zoom" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/zoom-dark.svg" alt="Zoom" />
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
