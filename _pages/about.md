@@ -25,11 +25,11 @@ stats-stat3-title: "Companies Hacked"
 stats-stat3-number: "200+"
 
 # Team Section
-team-title: "Meet the founder"
-#team-subtitle: "GlitchSecure is built by a bootstrapped team of humans, hackers, developers, and thinkers.<br><br>We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
-team-subtitle: "Founded in 2022, and based in Canada, GlitchSecure is a bootstrapped startup founded by an industry expert. We are passionate about delivering the best results through our craft and software."
+team-title: "Meet the h̷a̶c̸k̴e̶r̷ ̸c̴o̷l̸l̴e̴c̵t̸i̵v̵e̴"
+founder-title: "The f̴̣̍o̸͕͆u̸̪͘n̸̦̂d̷̺̕ḛ̸͐ȓ̵̨"
+team-subtitle: "Founded in 2022, and based in Canada, GlitchSecure is a bootstrapped startup founded by an industry expert. We are a passionate team of humans, hackers, developers, and thinkers dedicated to delivering the best results through our craft and software."
 founder-bio: "Jade is an Offensive Security Ceritifed Professional (OSCP) with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web and are dedicated to building a company that puts the very people who help grow it first. <br><br> They can't do it all alone, so they've assembled a hand selected team of experts who are equally passionate and skilled to help further this mission. <br><br> <a class=\"hover:underline \" href=\"https://linkedin.com/in/GlitchWitch\"> Connect on LinkedIn -> </a>"
-team-title2: "Meet the h̵a̷c̸k̴i̸n̴g̴ team"
+team-title2: "The h̶a̸c̸k̷e̵r̸s̴"
 #team-subtitle2: "a"
 
 
