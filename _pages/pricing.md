@@ -31,7 +31,7 @@ pt-plan-cta-button-title: 'Get a quote'
 # About stats
 stats-title: "A proven track record."
 stats-subtitle: "With decades of collective experience writing and securing software, we have proven we have what it takes and continually deliver high quality results through offensive security testing, pentest automation, and expert driven insights."
-stats-stat1-title: "Pentests Performed"
+stats-stat1-title: "VAPT's Performed"
 stats-stat1-number: "300+"
 stats-stat2-title: "Vulnerabilities Discovered"
 stats-stat2-number: "1500+"
