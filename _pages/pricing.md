@@ -14,7 +14,7 @@ va-plan-price-prefix: 'Starting at'
 va-plan-price: '$275'
 va-plan-price-frequency: 'mo'
 va-plan-price-value-metric: 'target'
-va-plan-price-value-metric-info: 'A single target is equivalent to 1 FQDN based web asset, or a /28 network range'
+va-plan-price-value-metric-info: 'A single target is equivalent to 1 FQDN based web asset, or a /27 network range'
 va-plan-description: 'Get recurring automated <span class="font-semibold">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them.'
 va-plan-cta-button-title: 'Get started today'
 
