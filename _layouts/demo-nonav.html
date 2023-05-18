@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="h-full">
+
+{%- include head.html -%}
+
+<body class="h-full bg-white dark:bg-glitchsecure-purple-medium">
+
+{%- include hero-nonav.html -%}
+
+{% include divider-primary.html %}
+{% include demo/form.html %}
+{% include demo/team.html %}
+{%- include divider-secondary.html -%}
+{% include about/investors.html %}
+{%- include divider-primary.html -%}
+{% include about/testimonials.html %}
+
+{%- include footer.html -%}
+
+</body>
+
+</html>
