@@ -34,6 +34,3 @@ jobs:
           GITHUB_REPOSITORY_PUBLIC: "GlitchSecure/public-website"
           GITHUB_PUSH_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-      # Makes some files readable so that tar doesn't error out
-      - name: Set Bundler Cache Permissions
-        run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/fspath-3.1.2/.travis.yml
