@@ -1,0 +1,16 @@
+<script type="text/javascript">
+      var buttonId = 'seeCalendarButton';
+      function trackingListener() {
+        var capterra_vkey = '83206387c2021c784fb7023303d7c486',
+        capterra_vid = '2253811',
+        ct = document.createElement('img');
+        ct.src = 'https://ct.capterra.com/capterra_tracker.gif?vid='
+          + capterra_vid + '&vkey=' + capterra_vkey;
+        document.body.appendChild(ct);
+      };
+      var button = document.getElementById(buttonId);
+      button.addEventListener(
+        'click',
+        trackingListener
+      );
+    </script>
