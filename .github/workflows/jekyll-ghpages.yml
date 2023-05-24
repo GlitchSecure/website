@@ -36,4 +36,4 @@ jobs:
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
       # Makes some files readable so that tar doesn't error out
       - name: Set Bundler Cache Permissions
-        run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/progress-3.6.0/.travis.yml && sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/fspath-3.1.2/.travis.yml
+        run: sudo chmod -R a+r /home/runner/work/website/website/vendor/bundle/ruby/2.7.0/gems/fspath-3.1.2/.travis.yml
