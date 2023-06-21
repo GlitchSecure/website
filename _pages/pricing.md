@@ -26,7 +26,7 @@ pt-plan-price-frequency: 'yr'
 pt-plan-price-value-metric: 'week of testing'
 pt-plan-price-value-metric-info: 'Additional testing billed at $1,980 per day based on manually approved scope'
 pt-plan-description: 'Get an in-depth look at your entire application, API, or network through a <span class="font-semibold">human powered</span> full scope penetration test.'
-pt-plan-cta-button-title: 'Learn more'
+pt-plan-cta-button-title: 'Schedule a demo'
 
 # About stats
 stats-title: "A proven track record."
