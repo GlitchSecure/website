@@ -21,12 +21,12 @@ va-plan-cta-button-title: 'Get started today'
 pt-plan-title: 'On-Demand Pentesting'
 pt-plan-shortcode: 'PT'
 pt-plan-price-prefix: 'Starting at'
-pt-plan-price: '$9,900'
+pt-plan-price: '$6,600'
 pt-plan-price-frequency: 'yr'
 pt-plan-price-value-metric: 'week of testing'
 pt-plan-price-value-metric-info: 'Additional testing billed at $1,980 per day based on manually approved scope'
 pt-plan-description: 'Get an in-depth look at your entire application, API, or network through a <span class="font-semibold">human powered</span> full scope penetration test.'
-pt-plan-cta-button-title: 'Get a quote'
+pt-plan-cta-button-title: 'Learn more'
 
 # About stats
 stats-title: "A proven track record."
