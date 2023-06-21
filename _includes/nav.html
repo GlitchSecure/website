@@ -67,14 +67,14 @@
                 <a
                   href="javascript:void(0)"
                   @click="submenuOpen = !submenuOpen "
-                  class="flex border-b-2 {% if page.url == item.url %} border-neutral-300 {% else %} border-transparent {% endif %} py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6"
+                  class="flex border-b-2 {% if page.url == item.url %} border-neutral-300 {% else %} border-transparent {% endif %} py-2 px-6 text-base font-medium text-neutral-200 hover:border-neutral-300 hover:text-neutral-300 lg:inline-flex lg:py-6 lg:px-6 "
                 >
                   {{ item.title }}
                 </a>
 
                 <div
-                  :class="!submenuOpen ? 'hidden lg:block' : 'block' "
-                  class="relative z-0 lg:border-2 border-neutral-100 top-0 top-full left-0 rounded-sm bg-white dark:bg-neutral-900 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:group-hover:visible lg:w-[700px]"
+                  :class="!submenuOpen ? 'hidden lg:block ' : 'block' "
+                  class="relative z-0 lg:border-2 border-neutral-100 top-0 top-full left-0 rounded-sm bg-white dark:bg-neutral-900 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:group-hover:visible lg:group-hover:animate-fadeIn lg:group-hover:animate-faster animate-fadeOut animate-infinite animate-running	 lg:w-[700px]"
                 >
                   <!-- dropdown menu -->
                   <div class="hidden divide-y divide-gray-200 rounded-lg lg:grid lg:grid-cols-2 lg:gap-px lg:divide-y-0">
