@@ -74,7 +74,7 @@
 
                 <div
                   :class="!submenuOpen ? 'hidden lg:block ' : 'block' "
-                  class="relative z-0 lg:border-2 border-neutral-100 top-0 top-full left-0 rounded-sm bg-white dark:bg-neutral-900 transition-all group-hover:opacity-100 lg:invisible lg:absolute lg:group-hover:visible lg:group-hover:animate-fadeIn lg:group-hover:animate-faster animate-fadeOut animate-infinite animate-running	 lg:w-[700px]"
+                  class="relative z-0 lg:border-2 border-neutral-100 top-0 top-full left-0 rounded-sm lg:bg-white dark:bg-neutral-900 lg:transition-all lg:group-hover:opacity-100 lg:invisible lg:absolute lg:group-hover:visible lg:group-hover:animate-fadeIn lg:group-hover:animate-faster lg:animate-fadeOut lg:animate-infinite lg:animate-running	 lg:w-[700px]"
                 >
                   <!-- dropdown menu -->
                   <div class="hidden divide-y divide-gray-200 rounded-lg lg:grid lg:grid-cols-2 lg:gap-px lg:divide-y-0">
@@ -108,7 +108,7 @@
                   <!-- Mobile dropdown item -->
                   {% for item in site.data.navigation.dropdowns.[dropdown-title] %}
                   <a href="{{ item.url }}"
-                    class="lg:hidden block py-2.5 px-4 text-sm font-medium text-neutral-200 hover:border-b-2 hover:border-neutral-300">
+                    class="lg:hidden block pl-8 px-6 mt-4 text-sm font-medium text-neutral-200 hover:border-b-2 hover:border-neutral-300">
                     {{ item.title }}
                   </a>
                   {% endfor %}
