@@ -21,4 +21,4 @@ items:
     answer: "We can offer volume discounts on vulnerability assessments of 15 targets or more. Please contact us to discuss your needs."
 
   - question: "What payment methods do you accept?"
-    answer: "We accept a variety of payment methods including direct debit, ACH Debit, PAD, and Interac e-transfer. We use GoCardless and Wise for payment processing and can accept payments from most regions. <br> Additionally we are happy to invoice in CAD, AUD, EUR, and GBP using a set exchange rate."
+    answer: "We accept a variety of payment methods including ACH Debit and Pre Authorized Debit (PAD). We use GoCardless and Vault for payment processing and can accept payments from most regions. <br> Additionally we are happy to invoice in both USD and CAD using a set exchange rate."
