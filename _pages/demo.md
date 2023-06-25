@@ -14,7 +14,7 @@ founder-bio: "Jade is an Offensive Security Ceritifed Professional (OSCP) with b
 # Investors
 investors-title: "Backed by"
 
-# About testimonials
+# Testimonials
 #testimonial-title: "Don't just take it from us..."
 #testimonial-logo-1: "/assets/img/about/testimonials/assembly.svg"
 #testimonial-logo-1-dark: "/assets/img/about/testimonials/assembly-dark.svg"
