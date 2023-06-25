@@ -29,20 +29,20 @@ stats-stat3-title: "Companies Hacked"
 stats-stat3-number: "200+"
 
 # Features
-process-title-small: "Think like a hacker"
-process-title: "Our process"
-process-subtitle: "We use a hybrid approach that combines testing methodologies built by expert hacker's, a real-time reporting dashboard, and continuous delivery of high quality results."
+process-title-small: ""
+process-title: "Real-time + Continuous = "
+process-subtitle: "A unique approach to offensive appsec."
 ## See _date/home/feature.yml
 
 # Platform Feature
-feature-title1: "Get actionable results."
-feature-subtitle1: "No more waiting for outdated PDF reports and spreadsheets. We report security vulnerabilities to you as soon as they're found using our real-time dashboard. View technical details, triage reports, schedule remediation testing, and integrate our security automation into your secure development lifecycle."
+feature-title1: "Continuous security testing."
+feature-subtitle1: "Hackers are constantly checking your products and infrastructure for flaws, you should too. Go beyond a point in time annual pentest with continuous security testing."
 feature-button1: "Learn More"
-feature-button1-link: "/platform/"
+feature-button1-link: "/vulnerability-assessment/"
 
-feature-title2: "Expert insights in real-time."
-feature-subtitle2: "Our dedicated security experts are continuously available throughout the assessment and beyond to provide advice and validate your fixes. We'll work with you to triage findings, understand technical details, and ensure vulnerabilities are correctly identified and mitigated throughout the year."
+feature-title2: "Hacker powered pentests."
+feature-subtitle2: "Get an in-depth look at your entire application, API, or network through a human powered full scope penetration test. Our team of experienced hackers work collaboratively with you to identify and exploit vulnerabilities, delivering results in real-time."
 feature-button2: "Learn More"
-feature-button2-link: "/platform/"
+feature-button2-link: "/pentest/"
 
 ---

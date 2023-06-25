@@ -14,7 +14,7 @@
           class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
         >
           <img
-            class="hidden w-full lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+            class="hidden w-full lg:absolute lg:right-0 lg:block -mr-32 lg:h-full lg:w-auto lg:max-w-none"
             src="/assets/img/home/feature1.svg"
             alt=""
           />
@@ -24,15 +24,26 @@
         class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-1 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0"
       >
         <div>
-          <div class="mt-6">
+          <div class="">
             <h2
               class="inline-block border-b border-neutral-200 pb-4 text-3xl font-extrabold tracking-tight text-neutral-200"
             >
               {{ page.feature-title1 }}
             </h2>
-            <p class="mt-4 text-lg text-neutral-100">
+            <p class="my-4 text-lg text-neutral-100">
               {{ page.feature-subtitle1 }}
             </p>
+            {% for item in site.data.home.va-features %}
+            <div class="relative pl-9 mt-4">
+              <dt class="inline font-bold text-neutral-200">
+                <svg class="absolute left-1 top-1 h-5 w-5 text-neutral-200" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="{{ item.icon }}" />
+                </svg>
+                {{ item.name }}
+              </dt>
+              <dd class="inline font-light text-neutral-100"><br>{{ item.description }}</dd>
+            </div>
+            {% endfor %}
             <a
               href="{{ page.feature-button1-link }}"
               class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-100 text-neutral-800 py-3 px-6 text-base font-medium  transition hover:bg-opacity-90"
@@ -67,6 +78,17 @@
             <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
               {{ page.feature-subtitle2 }}
             </p>
+            {% for item in site.data.home.pt-features %}
+            <div class="relative pl-9 mt-4">
+              <dt class="inline font-bold text-neutral-700 dark:text-neutral-200">
+                <svg class="absolute left-1 top-1 h-5 w-5" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="{{ item.icon }}" />
+                </svg>
+                {{ item.name }}
+              </dt>
+              <dd class="inline font-light text-neutral-600 dark:text-neutral-300"><br>{{ item.description }}</dd>
+            </div>
+            {% endfor %}
             <a
               href="{{ page.feature-button2-link }}"
               class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
@@ -81,7 +103,7 @@
           class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
         >
           <img
-            class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
+            class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block m-32 lg:h-3/4 lg:w-auto lg:max-w-none"
             src="/assets/img/home/feature2.svg"
             alt=""
           />
