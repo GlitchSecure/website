@@ -190,7 +190,7 @@ THIS AGREEMENT GOVERNS YOUR USE OF GLITCHSECURE WEBSITES, SERVICES, AND PRODUCTS
 
 - 10.13 __Notices.__ Unless specified otherwise herein:
   - (i) all notices must be in writing and addressed to the email address provided by each party as follows:
-    - (a) all notices to GlitchSecure must be sent to [hello@glitchsecure.com](hello@glitchsecure.com); and
+    - (a) all notices to GlitchSecure must be sent to [hello@glitchsecure.com](mailto:hello@glitchsecure.com); and
     - (b) all notices to You will be sent to the email address provided by You and associated with Your primary user account.
   - (ii) notice will be deemed to be given and received on the date of sending if sent prior to 5:00 p.m. (recipient’s time) on a Business Day, and otherwise on the next Business Day, or when verified by automated receipt or electronic logs.
   - (iii) a party hereto may change its address for service from time to time by notice given in accordance with the foregoing provisions.
