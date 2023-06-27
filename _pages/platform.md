@@ -15,8 +15,8 @@ Security testing built by expert hackers paired with expert driven results valid
 platform-feature-button1: "Get Started"
 platform-feature-link1: "/demo/"
 #platform-feature-click1: "$dispatch('getstarted', {method: 'Platform Feature'})"
-platform-feature-image1: "/assets/img/home/hero-platform-light.png"
-platform-feature-image1-dark: "/assets/img/home/hero-platform-dark.png"
+platform-feature-image1: "/assets/img/platform/platform-light.png"
+platform-feature-image1-dark: "/assets/img/platform/platform-dark.png"
 
 platform-feature-title2: "Remediate with ease."
 platform-feature-subtitle2: "Results are delivered to you in a simple dashboard allowing you to view vulnerabilities as soon as they are found and start fixing them today. Once a fix is in place simply click a button, we'll validate your fixes and automatically update your final report."
