@@ -18,7 +18,7 @@ va-plan-price-value-metric-info: 'A single target is equivalent to 1 FQDN based 
 va-plan-description: 'Get recurring automated <span class="font-semibold">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them.'
 va-plan-cta-button-title: 'Get started today'
 
-pt-plan-title: 'On-Demand Pentesting'
+pt-plan-title: 'Real-time Penetration Testing'
 pt-plan-shortcode: 'PT'
 pt-plan-price-prefix: 'Starting at'
 pt-plan-price: '$9,900'

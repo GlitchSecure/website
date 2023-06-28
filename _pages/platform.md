@@ -10,7 +10,7 @@ published: true
 platform-feature-title1: "Get expert hacker insights."
 platform-feature-subtitle1: "Hackers are constantly checking your products and infrastructure for flaws, you should too. Go beyond a point in time annual pentest and get a real-time assessment of your security posture while continually monitoring your assets for vulnerabilities.
 <br><br>
-Security testing built by expert hackers paired with expert driven results validation means you get actionable findings year round.
+Security testing built by hackers paired with expert driven results validation means you get actionable findings year round.
 "
 platform-feature-button1: "Get Started"
 platform-feature-link1: "/demo/"
