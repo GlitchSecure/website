@@ -1,7 +1,7 @@
 - name: Continuous Vulnerability Assessment
   subtitle: For small apps
   key: vulnerability_assessment
-  description: "Get recurring <span class=\"font-semibold\">vulnerability scans</span> of your web application or network to identify vulnerabilities before hackers find them. Validate fixes with continued remediation testing and advice. Scans are run on a quarterly basis and <span class=\"font-semibold\">verified by expert hackers to eliminate false positives</span>."
+  description: "Get recurring <span class=\"font-semibold\">vulnerability scans</span> of your web application or network to identify vulnerabilities before attackers find them. Validate fixes with continued remediation testing and advice. Scans are run on a quarterly basis and <span class=\"font-semibold\">verified by expert hackers to eliminate false positives</span>."
   base_credits: 1
   max_credits: 3
   features:
@@ -96,7 +96,7 @@
 - name: "On-demand (In-depth) Pentest"
   subtitle: When you just need more
   key: indepth
-  description: "Get an in-depth look at your entire application, API, or network through a <span class=\"font-semibold\">human powered</span> full scope penetration test. <span class=\"font-semibold\">Simulate cyber attacks, meet compliance requirements</span>, and ensure thorough testing coverage of your assets."
+  description: "Get an in-depth look at your entire application, API, or network through a <span class=\"font-semibold\">human-powered</span> full scope penetration test. <span class=\"font-semibold\">Simulate cyber attacks, meet compliance requirements</span>, and ensure thorough testing coverage of your assets."
   base_credits: 3
   max_credits: 6
   features:

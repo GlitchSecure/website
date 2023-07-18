@@ -32,7 +32,7 @@
           </h1>
           {% if page.hero-title-2 %}
           <h2
-            class="typeText text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold"
+            class="typeText text-lg font-medium leading-snug text-neutral-300 md:text-left md:text-2xl md:font-bold mt-2"
           >
           <noscript>{{ page.hero-title-2 }}</noscript>
           </h2>
@@ -73,8 +73,8 @@
 </div>
 <script>
 var typeText = document.querySelector(".typeText")
-var textToBeTyped = "{{ page.hero-typed-text }}"
-var textToBeTypedArr = ["{{ page.hero-typed-text }}", "{{ page.hero-typed-text2 }}", "{{ page.hero-typed-text3 }}"]
+var textToBeTyped = "{{ page.hero-typed-text3 }}"
+var textToBeTypedArr = ["{{ page.hero-typed-text3 }}"]
 var index = 0, isAdding = true, textToBeTypedIndex = 0
 
 function playAnim() {
@@ -88,10 +88,10 @@ function playAnim() {
         isAdding = false
         typeText.classList.add("showAnim")
         //break: wait 2s before playing again
-        setTimeout(function () {
-          typeText.classList.remove("showAnim")
-          playAnim()
-        }, 4000)
+        //setTimeout(function () {
+        //  typeText.classList.remove("showAnim")
+        //  playAnim()
+        //}, 4000)
         return
       } else {
         // increment index by 1
@@ -111,7 +111,7 @@ function playAnim() {
     }
     // call itself
     playAnim()
-  }, isAdding ? 60 : 30)
+  }, isAdding ? 45 : 30)
 }
 // start animation
 playAnim()
