@@ -21,7 +21,7 @@ Information about the terms for this website as well as how data is collected an
 
 - [Licences](/legal/licences/)
 - [Third Party Vendors](/legal/vendors/)
-- [IRS Form W-8BEN-E](/assets/attachments/GlitchSecure-Inc-fw8bene.pdf)
+- [IRS Form W-8BEN-E](/assets/attachments/GlitchSecure-Inc-fw8bene-2023-07-27.pdf)
 
 ## Company Information
 
