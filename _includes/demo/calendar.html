@@ -14,7 +14,14 @@
             eval('var a=document.createElement(\'script\');a.src=\'https://embed.savvycal.com/v1/embed.js\';document.head.appendChild(a)')
 
             SavvyCal('init');
-            SavvyCal('inline', { link: 'glitchsecure/demo', selector: '#booking-page', email: localStorage.getItem('contact-email'), displayName: localStorage.getItem('contact-firstname') + ' ' + localStorage.getItem('contact-lastname'), theme: localStorage.getItem('theme')});
+            SavvyCal('inline', {
+              link: 'glitchsecure/demo',
+              selector: '#booking-page',
+              email: localStorage.getItem('contact-email'),
+              displayName: localStorage.getItem('contact-firstname') + ' ' + localStorage.getItem('contact-lastname'),
+              questions: {0: localStorage.getItem('contact-companyname')},
+              theme: localStorage.getItem('theme')
+            });
 
             // End embed script
           }
