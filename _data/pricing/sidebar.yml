@@ -1,4 +1,4 @@
-- name: '<strong>Automated vulnerability scanning</strong>'
+- name: '<strong>Automated security testing</strong>'
   key: sidebar_vuln_scan
   increments: false
 

@@ -15,7 +15,7 @@ va-plan-price: '$3,300'
 va-plan-price-frequency: 'yr'
 va-plan-price-value-metric: 'target'
 va-plan-price-value-metric-info: 'A single target is equivalent to 1 FQDN based web asset, or a /27 network range'
-va-plan-description: 'Get recurring automated <span class="font-semibold">vulnerability scans</span> of your web application or network to identify vulnerabilities before attackers find them.'
+va-plan-description: 'Get recurring automated <span class="font-semibold">security testing</span> of your web application or network to identify vulnerabilities before attackers find them.'
 va-plan-cta-button-title: 'Get started today'
 
 pt-plan-title: 'Real-time Penetration Testing'
