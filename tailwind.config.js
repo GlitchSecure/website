@@ -12,10 +12,6 @@ module.exports = withAnimations({
     "_layouts/**/*.html",
     "_includes/**/*.html",
   ],
-  safelist: [
-    'tippy-box',
-    'tippy-content',
-  ],
   theme: {
     extend: {
       colors: {
@@ -87,6 +83,5 @@ module.exports = withAnimations({
     require("@tailwindcss/typography"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/forms"),
-    require('tailwind-scrollbar-hide'),
   ],
 });
