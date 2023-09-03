@@ -40,7 +40,7 @@ feature-subtitle1: "Malicious hackers are constantly checking your products and 
 feature-button1: "Learn More"
 feature-button1-link: "/vulnerability-assessment/"
 
-feature-title2: "Hacker-powered pentests."
+feature-title2: "Hacker-powered penetration testing."
 feature-subtitle2: "Get an in-depth look at your entire application, API, or network through a human-powered full-scope penetration test. Our team of experienced hackers work collaboratively with you to identify and exploit vulnerabilities, delivering results in real-time."
 feature-button2: "Learn More"
 feature-button2-link: "/pentest/"
