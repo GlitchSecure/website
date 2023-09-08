@@ -3,7 +3,7 @@ subheading: "Still have questions? Feel free to <a class=\"underline\" href=\"/d
 items:
 
   - question: "What's the difference between Continuous Security Testing and Real-time Penetration Testing?"
-    answer: 'A Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometime refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    answer: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
 
   - question: "When can I get remediation testing?"
     answer: 'You can request remediation testing at any time through the platform. Once a patch is in place simply open the finding page and select "Request Remediation Test". Remediation testing is offered for a period of 1 year from the start date of your pentest or vulnerability assessment.'
