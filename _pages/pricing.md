@@ -1,15 +1,15 @@
 ---
 layout: pricing
 title: Pricing
-hero-title: "Uncomplicated VAPT Pricing"
+hero-title: "Uncomplicated Security Pricing"
 subtitle: "Our simple pricing enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
 permalink: /pricing/
 published: true
 
-va-plan-title: 'Continuous Vulnerability Assessments'
-va-plan-shortcode: 'VA'
+va-plan-title: 'Security Testing'
+va-plan-shortcode: 'Continuous'
 va-plan-price-prefix: 'Starting at'
 va-plan-price: '$3,300'
 va-plan-price-frequency: 'yr'
@@ -18,14 +18,14 @@ va-plan-price-value-metric-info: 'A single target is equivalent to 1 FQDN based 
 va-plan-description: 'Get recurring automated <span class="font-semibold">security testing</span> of your web application or network to identify vulnerabilities before attackers find them.'
 va-plan-cta-button-title: 'Get started today'
 
-pt-plan-title: 'Real-time Penetration Testing'
-pt-plan-shortcode: 'PT'
+pt-plan-title: 'Penetration Testing'
+pt-plan-shortcode: 'Real-time'
 pt-plan-price-prefix: 'Starting at'
 pt-plan-price: '$9,900'
 pt-plan-price-frequency: 'yr'
 pt-plan-price-value-metric: 'week of testing'
 pt-plan-price-value-metric-info: 'Additional testing billed at $1,980 per day based on manually approved scope'
-pt-plan-description: 'Get an in-depth look at your entire application, API, or network through a <span class="font-semibold">human-powered</span> full scope penetration test.'
+pt-plan-description: 'Get an in-depth and targeted look at your security posture through a <span class="font-semibold">hacker-powered</span> full scope penetration test.'
 pt-plan-cta-button-title: 'Schedule a demo'
 
 # About stats
