@@ -34,7 +34,7 @@
                     <div>
                         <a class="font-medium text-neutral-900 hover:text-neutral-700 transition duration-150 ease-in-out" href="#0">{{ site.posts.first.author }}</a>
                         <br>
-                        <span class="text-neutral-700">{{ site.posts.first.date | date: "%b %-d, %Y" }} · {% assign words = site.posts.first.content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
+                        <span class="text-neutral-700">{{ site.posts.first.date | date: "%b %-d, %Y" }} · {% capture firstpostcontent %}{{ site.posts.first.content }}{% endcapture %} {% assign wordcount = firstpostcontent | number_of_words %} {% if wordcount < 360 %} 1 MINUTE READ {% else %} {{ wordcount | divided_by:180 }} MINUTE READ {% endif %}</span>
                     </div>
                 </footer>
             </div>
