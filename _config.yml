@@ -3,6 +3,10 @@ description: "Automatically assess your security posture with continuous vulnera
 url: https://glitchsecure.com # where is the production site located?
 companyname: GlitchSecure
 
+paginate: 6
+paginate_path: "/blog/page:num/"
+show_drafts: false
+
 # Social media links
 social:
   twitter: glitchsecure
@@ -16,6 +20,7 @@ plugins:
   - jekyll-postcss
   - jekyll-sitemap
   - jekyll-minifier
+  - jekyll-paginate
 
 postcss:
   cache: false
