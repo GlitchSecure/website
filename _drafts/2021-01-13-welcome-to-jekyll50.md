@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Blog Title 3"
+title: "Blog Title 5"
 tags: [notes, hardware]
-date: 2023-05-04
+date: 2023-06-02
 author: Jade Null
 category: category
 comments: true

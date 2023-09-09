@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Blog Title 3"
+title: "I'm a super cool blog post example"
+tagline: "A catchy tagline"
+description: "Accusantium vel explicabo odio neque. Voluptate dolores quidem nihil laborum possimus itaque. Consequatur voluptate quia vero rerum qui. Vero vel voluptatem veniam. Rem incidunt omnis nostrum nihil est."
 tags: [notes, hardware]
-date: 2023-05-04
+date: 2023-06-06
 author: Jade Null
 category: category
 comments: true

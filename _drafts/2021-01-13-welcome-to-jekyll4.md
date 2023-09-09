@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Blog Title 4"
-tagline: "A catchy tagline"
-description: "A description"
 tags: [notes, hardware]
-date: 2022-01-03
-author: GlitchWitch
+date: 2023-05-03
+author: Jade Null
 category: category
 comments: true
 image:

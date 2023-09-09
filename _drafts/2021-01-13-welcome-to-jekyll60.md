@@ -2,7 +2,7 @@
 layout: post
 title: "Blog Title 6"
 tags: [notes, hardware]
-date: 2023-05-01
+date: 2023-06-01
 author: Jade Null
 category: category
 comments: true
