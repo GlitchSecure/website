@@ -6,6 +6,7 @@ companyname: GlitchSecure
 paginate: 6
 paginate_path: "/blog/page:num/"
 show_drafts: false
+paginate_path: "/blog/:num/"
 
 # Social media links
 social:
