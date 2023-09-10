@@ -1,3 +1,4 @@
+
 <section class="flex flex-col justify-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6">
   <div class="flex flex-wrap -mx-4">
     {% if paginator.page == 1 %}
@@ -45,17 +46,16 @@
 
         <div class="mx-auto mb-12 pagination">
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous">
-            Previous
+          <a href="{{ paginator.previous_page_path }}" class="mr-8 hover:underline">
+            <- Previous
           </a>
         {% endif %}
-        <span class="page_number ">
-          Page: {{ paginator.page }} of {{ paginator.total_pages }}
+        <span class="font-light">
+          {{ paginator.page }} of {{ paginator.total_pages }}
         </span>
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+          <a href="{{ paginator.next_page_path }}" class="ml-10 hover:underline">Next -></a>
         {% else %}
-          <span class="next ">Next</span>
         {% endif %}
       </div>
 
