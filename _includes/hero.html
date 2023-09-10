@@ -2,6 +2,12 @@
 <div
   class="{% if page.hero-wrapper-padding %} {{ page.hero-wrapper-padding }} {% else %} pb-12 {% endif %} relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
 >
+  {% if page.image.hero %}
+  <img
+    class="absolute block h-full w-full object-cover object-center opacity-[0.5]"
+    src="/assets/img/{{ page.image.hero }}"
+  />
+  {% else %}
   <img
     class="absolute block h-full w-full object-cover object-center opacity-[0.2] dark:hidden"
     src="/assets/img/home/herobg-light.png"
@@ -10,6 +16,7 @@
     class="absolute hidden h-full w-full object-cover object-center opacity-[0.2] dark:block"
     src="/assets/img/home/herobg-dark.png"
   />
+  {% endif %}
   {%- include nav.html -%}
 
   <div class="w-full mx-auto px-4 max-w-7xl pt-6 lg:pt-12 lg:mb-0">
