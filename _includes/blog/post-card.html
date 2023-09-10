@@ -1,6 +1,6 @@
 <div class="w-full max-w-full mb-16 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
   <a href="{{ post.url }}">
-    <img src="{% if post.image.feature %}{{ site.url }}/assets/img/{{ post.image.feature }}{% else %}{{ site.url }}/assets/img/blog/default-feature.jpg{% endif %}" alt="Card img" class="object-cover object-center w-full h-48" />
+    <img src="{% if post.image.feature %}/assets/img/{{ post.image.feature }}{% else %}/assets/img/blog/default-feature.jpg{% endif %}" alt="Card img" class="object-cover object-center w-full h-48" />
   </a>
   <div class="flex flex-grow">
     <div class="triangle w-0 h-0 border-solid" style="border-width: 0 20px 20px 0; border-color: transparent #5720c8 transparent transparent;"></div>

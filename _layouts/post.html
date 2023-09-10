@@ -6,7 +6,7 @@ layout: default
   <div class="relative -mt-48 -mb-16">
     <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
       <div class="relative w-3/4 mx-auto">
-      <img src="{% if page.image.feature %}{{ site.url }}/assets/img/{{ page.image.feature }}{% else %}{{ site.url }}/assets/img/blog/default-feature.jpg{% endif %}" alt="Card img" class="object-cover object-center mx-auto rounded-xl" />
+      <img src="{% if page.image.feature %}/assets/img/{{ page.image.feature }}{% else %}/assets/img/blog/default-feature.jpg{% endif %}" alt="Card img" class="object-cover object-center mx-auto rounded-xl" />
       {% if page.image.credit %}
       <span class="absolute text-xs bg-black opacity-75 px-2 text-neutral-500 bottom-5 right-5">
         Image credit:
