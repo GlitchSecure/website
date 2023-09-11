@@ -33,8 +33,16 @@ layout: default
       >
         {{ page.title | escape }}
       </h1>
+      {% if page.coauthor %}
       <div class="flex items-center mt-4">
-          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.author }} 04">
+          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.coauthor | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.coauthor }}">
+          <div>
+              <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.coauthor }}<br></span>
+          </div>
+      </div>
+      {% endif %}
+      <div class="flex items-center mt-4">
+          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.author }}">
           <div>
               <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.author }}</span>
               <br>
