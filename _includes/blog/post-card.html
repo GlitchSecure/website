@@ -3,17 +3,17 @@
     <img src="{% if post.image.feature %}/assets/img/{{ post.image.feature }}{% else %}/assets/img/blog/default-feature.jpg{% endif %}" alt="Card img" class="object-cover object-center w-full h-48" />
   </a>
   <div class="flex flex-grow">
-    <div class="triangle w-0 h-0 border-solid" style="border-width: 0 20px 20px 0; border-color: transparent #5720c8 transparent transparent;"></div>
-    <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
+    <div class="triangle w-0 h-0 border-solid border-r-glitchsecure-purple dark:border-r-glitchsecure-purple-secondary border-t-transparent border-b-transparent border-l-transparent border-t-0 border-r-[20px] border-b-[20px] border-l-0"></div>
+    <div class="flex flex-col justify-between px-4 py-6 bg-white dark:bg-neutral-900 border border-neutral-400 dark:border-neutral-900">
       <div>
         <a class="inline-flex text-center text-xs text-neutral-200 py-1 px-3 rounded-md bg-glitchsecure-purple" href="{{ post.url }}">{{ post.category }}</a>
           <a
             href="{{ post.url }}"
-            class="block my-4 text-2xl font-bold leading-tight hover:underline hover:text-glitchsecure-purple"
+            class="block my-4 text-2xl font-bold leading-tight hover:underline hover:text-glitchsecure-purple dark:text-neutral-200"
           >
             {{ post.title | escape }}
           </a>
-        <p class="mb-4">
+        <p class="mb-4 dark:text-neutral-400">
           {% if post.subtitle %}{{ post.subtitle | strip_html | strip_newlines | truncate: 120 }} {% else %} {{ post.content | strip_html | strip_newlines | truncate: 120 }} {% endif %}
         </p>
       </div>
@@ -23,7 +23,7 @@
         <footer class="flex items-center mt-4">
             <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ post.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ post.author }} 04">
             <div>
-                <span class="font-medium text-neutral-700">{{ post.author }}</span>
+                <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ post.author }}</span>
                 <br>
                 <span class="text-neutral-500">{{ post.date | date: "%b %-d, %Y" }} · {% assign words = post.content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
             </div>
