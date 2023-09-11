@@ -25,7 +25,7 @@
             <div>
                 <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ post.author }}</span>
                 <br>
-                <span class="text-neutral-500">{{ post.date | date: "%b %-d, %Y" }} · {% assign words = post.content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
+                <span class="text-neutral-500 dark:text-neutral-400">{{ post.date | date: "%b %-d, %Y" }} · {% assign words = post.content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
             </div>
         </footer>
       </div>

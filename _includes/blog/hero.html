@@ -21,20 +21,20 @@
                         </ul>
                     </div>
                     <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
-                        <a class="font-bold leading-tight hover:underline dark:text-neutral-200" href="{{ site.posts.first.url }}">{{ site.posts.first.title | escape }}</a>
+                        <a class="font-bold leading-tight hover:underline hover:text-glitchsecure-purple  dark:text-neutral-200" href="{{ site.posts.first.url }}">{{ site.posts.first.title | escape }}</a>
                     </h3>
                 </header>
                 <p class="text-lg text-neutral-700 dark:text-neutral-300 flex-grow">{% if site.posts.first.description %}{{ site.posts.first.description | strip_html | strip_newlines | truncate: 120 }} {% elsif site.posts.first.subtitle %} {{ site.posts.first.subtitle | strip_html | strip_newlines | truncate: 120 }} {% else %} {{ site.posts.first.content | strip_html | strip_newlines | truncate: 120 }} {% endif %}
-                            <br><a href="{{ post.url }}" class="inline-block mt-2 text-base font-black text-glitchsecure-purple uppercase border-b border-transparent hover:border-glitchsecure-purple">Read More -></a>
+                            <br><a href="{{ post.url }}" class="inline-block mt-8 text-base font-black text-glitchsecure-purple uppercase border-b border-transparent hover:border-glitchsecure-purple">Read More -></a>
                           </p>
                 <footer class="flex items-center mt-4">
                     <a href="#0">
                         <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ site.posts.first.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ site.posts.first.author }} 04">
                     </a>
                     <div>
-                        <a class="font-medium text-neutral-900 hover:text-neutral-700 dark:text-neutral-400 transition duration-150 ease-in-out" href="#0">{{ site.posts.first.author }}</a>
+                        <a class="font-medium text-neutral-900 hover:text-neutral-700 dark:text-neutral-500 transition duration-150 ease-in-out" href="#0">{{ site.posts.first.author }}</a>
                         <br>
-                        <span class="text-neutral-700 dark:text-neutral-400">{{ site.posts.first.date | date: "%b %-d, %Y" }} · {% capture firstpostcontent %}{{ site.posts.first.content }}{% endcapture %} {% assign wordcount = firstpostcontent | number_of_words %} {% if wordcount < 360 %} 1 MINUTE READ {% else %} {{ wordcount | divided_by:180 }} MINUTE READ {% endif %}</span>
+                        <span class="text-neutral-500 dark:text-neutral-400">{{ site.posts.first.date | date: "%b %-d, %Y" }} · {% capture firstpostcontent %}{{ site.posts.first.content }}{% endcapture %} {% assign wordcount = firstpostcontent | number_of_words %} {% if wordcount < 360 %} 1 MINUTE READ {% else %} {{ wordcount | divided_by:180 }} MINUTE READ {% endif %}</span>
                     </div>
                 </footer>
             </div>
