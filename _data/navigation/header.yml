@@ -8,8 +8,9 @@
 - title: Pricing
   url: /pricing/
 
-- title: About
+- title: Company
   url: /about/
+  dropdown: true
 
 #- title: FAQ
 #  url: /faq/

@@ -9,9 +9,44 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Darkmode fixes for blog posts */
+/* requires tailwindcss/nesting */
+article {
+  & h1 {
+    @apply dark:text-neutral-200 border-b;
+  }
+  & h2 {
+    @apply dark:text-neutral-300
+  }
+  & h3 {
+    @apply dark:text-neutral-400
+  }
+  & h4 {
+    @apply dark:text-neutral-400
+  }
+  & code.highlighter-rouge {
+    @apply dark:text-neutral-400 italic font-mono	;
+  }
+  & strong {
+    @apply dark:text-neutral-200
+  }
+  & blockquote {
+    & p {
+      @apply dark:text-neutral-300
+    }
+  }
+  & th {
+      @apply dark:text-neutral-200 font-semibold
+  }
+}
+
+/* Alpine.js */
+
 [x-cloak] {
   display: none !important;
 }
+
+/* Homepage typing animation */
 
 .showAnim.typeText::after {
   animation: blink 1s step-end infinite;
@@ -21,6 +56,8 @@ html {
   0%, 100% {opacity: 1;}
   50% {opacity: 0;}
 }
+
+/* Fonts */
 
 @font-face {
   font-family: "Inter";
