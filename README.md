@@ -30,18 +30,11 @@ Publish any committed changes to github pages. This pushes the code to `main` an
 npm run publish
 ```
 
-## Publishing to Github Pages
+## CloudFlare Pages
 
-This private repository includes a github workflow to automatically build and publish the website to the [gh-pages](https://github.com/GlitchSecure/website/tree/gh-pages) branch as well as the public [GlitchSecure/public-website](https://github.com/GlitchSecure/public-website/) repository. The public repository hosts the live [glitchsecure.com](https://glitchsecure.com/) website.
+This private repository is setup to work with CloudFlare pages for both production and preview deployments. CloudFlare Pages will automatically build and publish the website to `glitchsecure.com` using the `main` branch as well as create preview sites for any non production branch.
 
-### Initial Setup
-
-- Step 1. Clone this _private_ repository.
-- Step 2. Run `bundle install && npm install`.
-- Step 3. Make any modications needed, preview them locally with `npm start`.
-- Step 4. Add [PAT](https://github.com/settings/tokens) with `repo` permissions to the [repo secrets](https://github.com/GlitchSecure/website/settings/secrets/actions) as `PRIVATE_REPO_ACCESS_TOKEN` if not already done.
-- Step 5. Update `GITHUB_REPOSITORY_PUBLIC` in the `jekyll-ghpages.yml` file to the _public_ repo used for github pages if not already done.
-- Step 6. Push changes to [GlitchSecure/website](https://github.com/GlitchSecure/website/). Any changes on the `main` branch will be compiled into the `gh-pages` branch and also moved to the public repository.
+Preview branches are generated on `*.website-57s.pages.dev` subdomains and are behind our [CloudFlare access policy](https://handbook.glitchsecure.com/infrastructure/internal-tools/). These preview branches are made available automatically within a few minutes via PR comments and should be used for testing, reviewing, and verifying changes.
 
 ## Acknowledgements
 
