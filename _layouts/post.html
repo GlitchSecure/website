@@ -33,49 +33,41 @@ layout: default
       >
         {{ page.title | escape }}
       </h1>
+      <div class="flex items-center mt-4">
+          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.author }} 04">
+          <div>
+              <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.author }}</span>
+              <br>
+              <span datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="text-neutral-500 dark:text-neutral-400">{{ page.date | date: "%b %-d, %Y" }}</span>
+              <span class="text-neutral-500 dark:text-neutral-400"> · {% assign words = content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
+          </div>
+      </div>
     </div>
+
+
     <p class="mx-auto mb-2 max-w-prose text-lg uppercase text-gray-500">
-      <span class="font-bold tracking-wide">
+
+      <span class="font-light text-xs">
 
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
         -%}
-        <time
-          class="dt-published text-xs"
-          datetime="{{ page.date | date_to_xmlschema }}"
-          itemprop="datePublished"
-        >
-          {{ page.date | date: date_format }}
-        </time>
-        {%- if page.date-updated -%} ~ {%- assign mdate = page.date-updated |
+
+        {%- if page.date-updated -%} Last Updated: {%- assign mdate = page.date-updated |
         date_to_xmlschema -%}
         <time
-          class="dt-modified text-sm"
+          class="dt-modified text-xs"
           datetime="{{ mdate }}"
           itemprop="dateModified"
         >
           {{ mdate | date: date_format }}
         </time>
-        {%- endif -%} {%- if page.author -%} • {% for author in page.author %}
-        <span
-          itemprop="author text-sm"
-          itemscope
-          itemtype="http://schema.org/Person"
-        >
-          <span class="p-author h-card" itemprop="name"
-            >{{ author }}</span
-          ></span
-        >
-        {%- if forloop.last == false %}, {% endif -%} {% endfor %} {%- endif -%}
+        {%- endif -%}
       </span>
     </p>
-    <div
-      class="soopr-btn soopr-btn-def mx-auto mt-4 mb-8 max-w-prose text-lg"
-      style="min-height: 36px"
-    ></div>
   </header>
 
   <div
-    class="prose prose-lg mx-auto px-4 text-neutral-700 dark:text-neutral-200 md:px-0"
+    class="prose prose-lg mx-auto px-4 pt-4 text-neutral-700 dark:text-neutral-200 md:px-0"
     itemprop="articleBody"
   >
     {{ content }}
@@ -86,3 +78,5 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{%- include divider-secondary.html -%}
+{% include cta.html %}
