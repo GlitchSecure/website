@@ -1,15 +1,24 @@
 <div class="relative pt-16 pb-32 dark:bg-glitchsecure-purple-medium">
-  <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-    <p class="text-3xl font-bold text-neutral-700 dark:text-neutral-200 sm:text-4xl">
-      {{ page.client-list-title}}
-    </p>
-    <div class="mt-6 grid grid-cols-2 gap-0.5 text-white md:grid-cols-4 lg:mt-8 lg:grid-cols-8">
-      {% for item in site.data.home.clients %}
-      <div class="col-span-1 flex justify-center p-8">
-        <img class="max-h-12 opacity-75 dark:hidden" src="/assets/img/clients/{{ item.name}}.svg" alt="{{ item.alt}}" />
-        <img class="max-h-12 opacity-75 dark:block hidden" src="/assets/img/clients/{{ item.name}}-dark.svg" alt="{{ item.alt}}" />
+
+
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
+      <div class="mx-auto w-full max-w-xl lg:mx-0">
+        <h2 class="text-3xl font-bold tracking-tight text-neutral-700 dark:text-neutral-200">{{ page.client-list-title }}</h2>
+        <p class="mt-6 text-lg leading-8 text-neutral-500 dark:text-neutral-400">{{ page.client-list-text }}</p>
+        <div class="mt-8 flex items-center gap-x-6">
+          <p class="relative rounded-sm bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 px-4 py-1.5 text-sm leading-6 ring-1 ring-inset ring-gray-900/5">
+            <span class="hidden md:inline">{{ page.client-list-cta-title }}<br></span>
+            <a href="{{ page.client-list-cta-link }}" target="_blank" class="font-semibold text-glitchsecure-purple dark:text-white"><span class="absolute inset-0" aria-hidden="true"></span> {{ page.client-list-cta }} <span aria-hidden="true">&rarr;</span></a>
+          </p>
+        </div>
       </div>
-      {% endfor %}
+      <div class="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
+        {% for item in site.data.home.clients %}
+        <img class="max-h-10 opacity-75 w-full pr-8 object-contain object-left dark:hidden" src="/assets/img/clients/{{ item.name | slugify }}.svg" alt="{{ item.name }}" />
+        <img class="max-h-10 opacity-75 w-full object-contain object-left dark:block hidden" src="/assets/img/clients/{{ item.name | slugify }}-dark.svg" alt="{{ item.name }}" />
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
