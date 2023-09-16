@@ -16,7 +16,12 @@ hero-button2: "View plans"
 hero-button2-link: "/pricing/"
 
 # client list
-client-list-title: "Built by the team that has helped secure"
+client-list-title: "Securing top software companies"
+client-list-text: "From Fintech to Edutech and everything inbetween. <br> SaaS companies rely on the GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
+client-list-cta-title: "Companies trust us to help identify and remediate vulnerabilities "
+client-list-cta: "Read our customer reviews"
+client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
+
 
 # About stats
 stats-title: "A proven track record"
