@@ -16,7 +16,7 @@
       <div class="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
         {% for item in site.data.home.clients %}
         <img class="max-h-10 opacity-75 w-full pr-8 object-contain object-left dark:hidden" src="/assets/img/clients/{{ item.name | slugify }}.svg" alt="{{ item.name }}" />
-        <img class="max-h-10 opacity-75 w-full object-contain object-left dark:block hidden" src="/assets/img/clients/{{ item.name | slugify }}-dark.svg" alt="{{ item.name }}" />
+        <img class="max-h-10 opacity-75 w-full pr-8 object-contain object-left dark:block hidden" src="/assets/img/clients/{{ item.name | slugify }}-dark.svg" alt="{{ item.name }}" />
         {% endfor %}
       </div>
     </div>
