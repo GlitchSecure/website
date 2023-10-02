@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goodbye GlitchWitch Security, Hello GlitchSecure"
+title: "Goodbye GlitchWitch, Hello GlitchSecure"
 subtitle: "Introducing GlitchSecure, a new cyber security start-up."
 date: 2022-07-01 # Date in YYYY-MM-DD Format
 date-updated: 2023-09-29 # Add this if a change is made after the date above
@@ -22,7 +22,7 @@ I've spent a lot of my time as a penetration tester thinking about ways I can fi
 
 Today I'm excited to share one of those things, GlitchSecure.
 
-GlitchSecure was born out of my desire to expand my freelance pentesting practice and my "GlitchWitch" brand beyond just myself, build better automations around my workflows, and provide a better experience to my customer looking for security testing.
+GlitchSecure was born out of my desire to expand my freelance pentesting practice and my "[GlitchWitch[(https://glitchwitch.io/)]" brand beyond just myself, build better automations around my workflows, and provide a better experience to my customer looking for security testing.
 
 While it's still early and the vision will likely grow as we do, I'm going all in on this dream. With this I leave behind the amazing team at Bishop Fox and jump into the hard world of bootstrapping a security startup.
 
