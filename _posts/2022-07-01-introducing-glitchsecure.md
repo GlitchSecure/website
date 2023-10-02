@@ -1,10 +1,9 @@
 ---
 layout: post
-
-title: "Introducing GlitchSecure"
-subtitle: "A short description that is ideally under 120 characters in length to prevent cut off and ensure it's easily sharable."
+title: "Goodbye GlitchWitch Security, Hello GlitchSecure"
+subtitle: "Introducing GlitchSecure, a new cyber security start-up."
 date: 2022-07-01 # Date in YYYY-MM-DD Format
-date-updated: 2023-09-13 # Add this if a change is made after the date above
+date-updated: 2023-09-29 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor:
 category: Company Updates
@@ -19,73 +18,45 @@ hero-wrapper-padding: "pb-24"
 comments: true
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I've spent a lot of my time as a penetration tester thinking about ways I can find better bugs, spend less time writing reports, and ultimatly be a better hacker to further my life long desire to better secure the web. I'm one of those people who will spend months —and sometimes years— mulling on something before I execute it.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Today I'm excited to share one of those things, GlitchSecure.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+GlitchSecure was born out of my desire to expand my freelance pentesting practice and my "GlitchWitch" brand beyond just myself, build better automations around my workflows, and provide a better experience to my customer looking for security testing.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
----
-
-This is a demo of all styled elements in Jekyll Now.
-
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
-
-# Header 1
-
-Lorem Ipsum
-
-## Header 2
-
-Lorem Ipsum
-
-### Header 3
-
-Lorem Ipsum
-
-#### Header 4
-
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
-
-An image
-
-![an image alt text](/assets/img/about/team/glitchsecure.jpg "an image title")
-
-* A bulletted list
-- alternative syntax 1
-+ alternative syntax 2
-  - an indented list item
-
-1. An
-2. ordered
-3. list
-
-Inline markup styles:
-
-- _italics_
-- **bold**
-- `code()`
-
-> Blockquote
->> Nested Blockquote
-
-Syntax highlighting can be used by wrapping your code in a liquid tag like so:
+While it's still early and the vision will likely grow as we do, I'm going all in on this dream. With this I leave behind the amazing team at Bishop Fox and jump into the hard world of bootstrapping a security startup.
 
 
-{% highlight javascript %}
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
-{% endhighlight %}
+### The Platform
 
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
+Initially as part of my goal I set out to replace my report writing and project management process. I've long kept a google doc template that I'd reuse for every pentest I'd perform, but I knew this wasn't scalable.
 
-Finally, horizontal lines
+As part of my research, I scoured the web for potential platforms that might fit my needs. Initially I catelouged and demoed 14 different open source and commerical "pentest management" tools such as Dradis, Plextrac, Reconmap, Hexway Hive, Cyver Core, and Reporter to name a few. Unfortuanly none of these options fit the bill.
 
-----
-****
+Having a background as a former web developer I decided to embark on building something on my own. I knew that whatever I built to manage pentests would just be the start, and at the end of the day I'd need to build out things within the product that would make us stand out like pentest and remediation automation.
+
+I spent a few weeks putting together an initial MVP before realising my skills had atripheed and I needed help...
+
+### The Team
+
+Going into this I quickly realised I couldn't do it all alone. To start off, I reached out to two developers who's open source projects I had used and modified in the past. The first never responded, but the second ended up spending 3 months working alongside me to get the MVP up and running.
+
+While that relationship was only ever temporarily, it resolified that I needed a team if I am going to make this work. With that I started pinging past trusted contact, some of whom are now a [part of the GlitchSecure team](https://glitchsecure.com/about/).
+
+Going forward I'll continue to grow our talent pool with trusted hackers, developers, writers, and thinkers to help us really stand out in this space.
+
+### The Company
+
+Going into this I knew I wanted GlitchSecure to be more then a boutique pentesting shop. My good friend Travis and I have spent a lot of time bashing "pentest puppy mills" who just slap a logo on a nessus report and call it a day.
+
+GlitchSecure will be something else entirely. While the shape of the company will contiune to unfold over the coming months and years, at the end of the day I want us to build cool technology, push the enevelope for what security testing can be, and meld the gap between companies security needs and hackers resources.
+
+### Capitalism
+
+Those that know me know that I'm fairly anti-capitalistic, so it's ironic that I'm starting a company. With that in mind, I've made an internal pledge to the team to ensure full salary transparency, fair profit sharing, and genourous exit compensation if that were to ever happen. I will always put our team and customers first and think it's only fair that the very people building up this company be equally rewarded for their labour.
+
+### What's next?
+
+As of the initial publication of this blog post, we've secured our first customer and fully incorporated. My friend and former coworker Travis will be joining to help with this in his capacity as an independent security consultant, and I'll start working on fully fleshing out our product, services, offerings, sales process.
+
+Keep an eye on this website and this blog over the coming months and year as things shift and grow.

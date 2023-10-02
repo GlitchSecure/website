@@ -4,7 +4,7 @@ layout: post
 title: "Joining TinySeed's Fall 2022 Accelerator"
 subtitle: "We’re proud to share we're joining 25 other startups in TinySeed's Fall 2022 accelerator programs."
 date: 2022-11-03 # Date in YYYY-MM-DD Format
-date-updated: 2023-09-11 # Add this if a change is made after the date above
+date-updated: 2023-10-02 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor: TinySeed Team
 category: Company Updates
@@ -25,15 +25,11 @@ The community, mentorship, support, and funding provided through their year long
 
 We're still early in this journey, but I believe in what we're building at GlitchSecure. It's going to be an incredible year for the whole team.
 
-You can check out the full batch announcement at the link in the comments below 👇
+You can check out the offical batch announcement over on [TinySeed's blog](https://tinyseed.com/latest/fall-2022-launch).
 
 ## What is TinySeed?
 
-TinySeed is a year-long remote B2B SaaS accelerator for Ambiious founders who want...
-
-## What TinySeed Brings
-
-Thanks to TinySeed, Postpone now has access to additional capital, a network of mentors, and a community of other bootstrapped startup founders. These resources will help Postpone focus on customer needs, grow more quickly, and provide a better experience and product for our customers.
+TinySeed is a year-long remote B2B SaaS accelerator for ambitious bootstrapped founders that allows them to to go full-time on their business, hire employees, or launch paid growth initiatives that were previously unavailable to them.
 
 ## TinySeed Fall 2022
 
