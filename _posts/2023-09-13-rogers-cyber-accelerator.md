@@ -1,91 +1,44 @@
 ---
 layout: post
 
-title: "I'm a draft blog post"
-subtitle: "A short description that is ideally under 120 characters in length to prevent cut off and ensure it's easily sharable."
+title: "Joining the Catalyst Cyber Accelerator"
+subtitle: "GlitchSecure joins Cohort 9 of the Rogers Cybersecure Catalyst Accelerator."
 date: 2023-07-31 # Date in YYYY-MM-DD Format
 date-updated: 2023-09-11 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor:
-category: Company Updates
+category: Updates
 
 image:
-  feature: blog/10/feature.jpg # Upload a 1200x630px image
-  hero: blog/10/header.jpg # Upload a 1920x1008 image
-  credit: cottonbro studio # Include photo authors name
-  creditlink: https://www.pexels.com/photo/green-and-white-lights-5473951/ # Include link to original photo
+  feature: blog/4/feature.jpg # Upload a 1200x630px image
+  hero: blog/4/header.jpg # Upload a 1920x1008 image
+  credit: Connor McCarra # Include photo authors name
+  creditlink: https://www.pexels.com/photo/a-view-of-toronto-at-night-8582241/ # Include link to original photo
 hero-vertical: true
 hero-wrapper-padding: "pb-24"
 comments: true
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I'm excited to announce that GlitchSecure was accepted into Cohort 9 of the [Rogers Cybersecure Catalyst Accelerator](https://cybersecurecatalyst.ca/catalyst-cyber-accelerator/)!
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+The intensive three-and-a-half-month accelerator will provide our team workshops from industry-leading experts in product strategy, marketing, operations, sales growth, legal strategy, access to 1:1 engagement opportunities and mentorship support from leading companies and entrepreneurs, and peer engagement opportunities and access to our growing network of cybersecurity investors.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## What is the Rogers Cybersecure Catalyst Accelerator?
+
+The Catalyst Cyber Accelerator is the Canada's first and foremost cybersecurity-focused business accelerator, designed to help early-stage cybersecurity companies grow into industry leaders.
+
+## Cohort 9
+
+GlitchSecure joins this 9th cohort alongside 6 other emerging Canadian cybersecurity start-ups.
+
+- ️[BB Inventions](https://bbinventions.com/)
+- ️[Defense Station](https://defencestation.com/)
+- ️[EmailVeritas](https://www.linkedin.com/company/emailveritas/)
+- [ENGAIZ](https://www.engaiz.com/)
+- ️[Indominus Managed Security](https://indominus.ms/)
+- ️[Neptune Cyber](https://neptunecyber.com/)
 
 ---
 
-This is a demo of all styled elements in Jekyll Now.
-
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
-
-# Header 1
-
-Lorem Ipsum
-
-## Header 2
-
-Lorem Ipsum
-
-### Header 3
-
-Lorem Ipsum
-
-#### Header 4
-
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
-
-An image
-
-![an image alt text](/assets/img/about/team/glitchsecure.jpg "an image title")
-
-* A bulletted list
-- alternative syntax 1
-+ alternative syntax 2
-  - an indented list item
-
-1. An
-2. ordered
-3. list
-
-Inline markup styles:
-
-- _italics_
-- **bold**
-- `code()`
-
-> Blockquote
->> Nested Blockquote
-
-Syntax highlighting can be used by wrapping your code in a liquid tag like so:
-
-
-{% highlight javascript %}
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
-{% endhighlight %}
-
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
-
-Finally, horizontal lines
-
-----
-****
+As an aside I just wanted to put out a special thanks to Leigh Honeywell of Tall Poppy for making the introduction and for all the support and mentorship since I started down this journey.
