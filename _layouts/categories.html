@@ -1,7 +1,7 @@
 ---
 layout: default
 hero-vertical: true
-hero-wrapper-padding: "mb-48"
+hero-wrapper-padding: "pb-24"
 hero-cta: "Secure your SaaS.<br>Get hackers on your side."
 hero-subtitle: "Identify and remediate vulnerabilities with continuous security testing and real-time penetration testing."
 hero-link-1-text: "Book a demo"
@@ -9,5 +9,8 @@ hero-link-1: "/demo"
 hero-link-2-text: "Learn more"
 hero-link-2: "/platform"
 ---
+{%- include divider-primary.html -%}
 {% include blog/category-hero.html %}
 {% include blog/post-list.html %}
+{% include divider-secondary.html %}
+{% include cta.html %}
