@@ -3,8 +3,8 @@ layout: post
 
 title: "Joining the Catalyst Cyber Accelerator"
 subtitle: "GlitchSecure joins Cohort 9 of the Rogers Cybersecure Catalyst Accelerator."
-date: 2023-07-31 # Date in YYYY-MM-DD Format
-date-updated: 2023-09-11 # Add this if a change is made after the date above
+date: 2023-09-18 # Date in YYYY-MM-DD Format
+date-updated: 2023-10-02 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor:
 category: Updates
