@@ -7,8 +7,7 @@ date: 2023-03-30 # Date in YYYY-MM-DD Format
 date-updated: 2023-09-13 # Add this if a change is made after the date above
 author: GlitchSecure Team # Use "GlitchSecure Team" if no author
 coauthor: TinySeed Team
-category: Press Release
-
+category: Updates
 image:
   feature: blog/3/feature.jpg # Upload a 1200x630px image
   hero: blog/3/header.jpg # Upload a 1920x1008 image

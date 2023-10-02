@@ -7,7 +7,7 @@ date: 2022-11-03 # Date in YYYY-MM-DD Format
 date-updated: 2023-10-02 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor: TinySeed Team
-category: Company Updates
+category: Updates
 
 image:
   feature: blog/2/feature.jpg # Upload a 1200x630px image
