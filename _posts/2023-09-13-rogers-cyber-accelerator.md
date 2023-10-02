@@ -21,7 +21,7 @@ comments: true
 
 I'm excited to announce that GlitchSecure was accepted into Cohort 9 of the [Rogers Cybersecure Catalyst Accelerator](https://cybersecurecatalyst.ca/catalyst-cyber-accelerator/)!
 
-The intensive three-and-a-half-month accelerator will provide our team workshops from industry-leading experts in product strategy, marketing, operations, sales growth, legal strategy, access to 1:1 engagement opportunities and mentorship support from leading companies and entrepreneurs, and peer engagement opportunities and access to our growing network of cybersecurity investors.
+The intensive three-and-a-half-month accelerator will provide our team workshops from industry-leading experts, access to 1:1 mentorship support from leading companies & entrepreneurs, as well as access to a growing network of cybersecurity investors.
 
 
 ## What is the Rogers Cybersecure Catalyst Accelerator?
