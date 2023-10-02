@@ -6,7 +6,7 @@ gem "jekyll-feed", "~> 0.15.0"
 gem "jekyll-postcss"
 gem "jekyll-minifier"
 gem 'jekyll-sitemap'
-gem 'jekyll-paginate'
+gem 'jekyll-paginate-v2'
 gem "rouge"
 gem "thin"
 gem "image_optim"

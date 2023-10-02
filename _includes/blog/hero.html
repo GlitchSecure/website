@@ -16,7 +16,7 @@
                         <ul class="flex flex-wrap text-xs font-medium -m-1">
 
                             <li class="m-1">
-                                <a class="inline-flex text-center text-neutral-200 py-1 px-3 rounded-md bg-glitchsecure-purple" href="{{ site.posts.first.url }}">{{ site.posts.first.category }}</a>
+                                <a class="inline-flex text-center text-neutral-200 py-1 px-3 rounded-md bg-glitchsecure-purple" href="/{{ site.posts.first.category | slugify }}">{{ site.posts.first.category }}</a>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +34,7 @@
                     <div>
                         <a class="font-medium text-neutral-900 hover:text-neutral-700 dark:text-neutral-500 transition duration-150 ease-in-out" href="#0">{{ site.posts.first.author }}</a>
                         <br>
-                        <span class="text-neutral-500 dark:text-neutral-400">{{ site.posts.first.date | date: "%b %-d, %Y" }} · {% capture firstpostcontent %}{{ site.posts.first.content }}{% endcapture %} {% assign wordcount = firstpostcontent | number_of_words %} {% if wordcount < 360 %} 1 MINUTE READ {% else %} {{ wordcount | divided_by:180 }} MINUTE READ {% endif %}</span>
+                        <span class="text-neutral-500 dark:text-neutral-400">{% capture firstpostcontent %}{{ site.posts.first.content }}{% endcapture %} {% assign wordcount = firstpostcontent | number_of_words %} {% if wordcount < 360 %} 1 MINUTE READ {% else %} {{ wordcount | divided_by:180 }} MINUTE READ {% endif %}</span>
                     </div>
                 </footer>
             </div>
