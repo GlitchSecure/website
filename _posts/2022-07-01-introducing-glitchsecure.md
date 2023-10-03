@@ -31,17 +31,17 @@ While it's still early and the vision will likely grow as we do, I'm going all i
 
 Initially as part of my goal I set out to replace my report writing and project management process. I've long kept a google doc template that I'd reuse for every pentest I'd perform, but I knew this wasn't scalable.
 
-As part of my research, I scoured the web for potential platforms that might fit my needs. Initially I catelouged and demoed 14 different open source and commerical "pentest management" tools such as Dradis, Plextrac, Reconmap, Hexway Hive, Cyver Core, and Reporter to name a few. Unfortuanly none of these options fit the bill.
+As part of my research, I scoured the web for potential platforms that might fit my needs. Initially I catalogued and demoed 14 different open source and commerical "pentest management" tools such as Dradis, Plextrac, Reconmap, Hexway Hive, Cyver Core, and Reporter to name a few. Unfortunately none of these options fit the bill.
 
-Having a background as a former web developer I decided to embark on building something on my own. I knew that whatever I built to manage pentests would just be the start, and at the end of the day I'd need to build out things within the product that would make us stand out like pentest and remediation automation.
+Having a background as a former web developer, I decided to embark on building something on my own. I knew that whatever I built to manage pentests would just be the start. At the end of the day, I'd need to incorporate features within the product that would make us stand out, such as pentest and remediation automation.
 
-I spent a few weeks putting together an initial MVP before realising my skills had atripheed and I needed help...
+I spent a few weeks putting together an initial MVP before realising my skills had atrophied and I needed help...
 
 ### The Team
 
-Going into this I quickly realised I couldn't do it all alone. To start off, I reached out to two developers who's open source projects I had used and modified in the past. The first never responded, but the second ended up spending 3 months working alongside me to get the MVP up and running.
+Going into this I quickly realised I couldn't do it all alone. To begin with, I reached out to two developers whose open source projects I had previously used and customised. The first developer never responded, but the second one ended up collaborating with me for three months to bring the MVP to life.
 
-While that relationship was only ever temporarily, it resolified that I needed a team if I am going to make this work. With that I started pinging past trusted contact, some of whom are now a [part of the GlitchSecure team](https://glitchsecure.com/about/).
+While the relationship was intended to be temporary, it reinforced the fact that I needed a team to make it work. With that I started pinging past, trusted contacts--some of whom are now a [part of the GlitchSecure team](https://glitchsecure.com/about/).
 
 Going forward I'll continue to grow our talent pool with trusted hackers, developers, writers, and thinkers to help us really stand out in this space.
 
@@ -59,4 +59,4 @@ Those that know me know that I'm fairly anti-capitalistic, so it's ironic that I
 
 As of the initial publication of this blog post, we've secured our first customer and fully incorporated. My friend and former coworker Travis will be joining to help with this in his capacity as an independent security consultant, and I'll start working on fully fleshing out our product, services, offerings, sales process.
 
-Keep an eye on this website and this blog over the coming months and year as things shift and grow.
+Keep an eye on this website and this blog over the coming months and years as things shift and grow.
