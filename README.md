@@ -20,14 +20,14 @@ When contributing to the site, use the following process:
 
 ## Usage
 
-Clone repo and install dependencies
+Clone the repo and install dependencies
 
 ```
 git clone git@github.com:GlitchSecure/website.git
 bundle install && npm install
 ```
 
-Start a localy hosted development preview.
+Start a locally hosted development preview.
 
 ```
 npm start
@@ -39,13 +39,7 @@ Build a local copy of the production site.
 npm run build
 ```
 
-Publish any committed changes to github pages. This pushes the code to `main` and triggers the build scripts.
-
-```
-npm run publish
-```
-
-## CloudFlare Pages
+## Cloudflare Pages
 
 This private repository is setup to work with CloudFlare pages for both production and preview deployments. CloudFlare Pages will automatically build and publish the website to `glitchsecure.com` using the `main` branch as well as create preview sites for any non production branch.
 
