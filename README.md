@@ -3,16 +3,31 @@
 Company website built using Jekyll, Tailwind, and Alpine.js.
 Includes NPM scripts for running locally with livereload, JS bundling using esbuild, image compression using image_optim, as well as html and css processing and minification.
 
+## Contributing
+
+Contributing to the website content, layouts, and the blog is highly encouraged. All GlitchSecure team members are welcome to join in.
+
+When contributing to the site, use the following process:
+
+1. Follow the [usage](#usage) section to pull and run the website repo locally.
+2. Make any changes as desired in a new branch. If it's a blog post, copy the `2032-10-20-example-post.md` to `_posts/` and follow the commented instructions.
+3. Test the changes locally.
+4. Create a PR and follow the instructions in the PR template.
+5. Take a moment to test the deployed preview site on [Cloudflare Pages](#cloudflare-pages).
+6. Request a review from `GlitchSecure/content-team` and use the #internal-content channel to discuss as needed.
+7. A member of Content Team (likely Brad or Jade) will make any changes directly to the branch.
+8. Once changes are made and reviews are approved, changes can be merged.
+
 ## Usage
 
-Clone repo and install dependencies
+Clone the repo and install dependencies
 
 ```
 git clone git@github.com:GlitchSecure/website.git
 bundle install && npm install
 ```
 
-Start a localy hosted development preview.
+Start a locally hosted development preview.
 
 ```
 npm start
@@ -24,13 +39,7 @@ Build a local copy of the production site.
 npm run build
 ```
 
-Publish any committed changes to github pages. This pushes the code to `main` and triggers the build scripts.
-
-```
-npm run publish
-```
-
-## CloudFlare Pages
+## Cloudflare Pages
 
 This private repository is setup to work with CloudFlare pages for both production and preview deployments. CloudFlare Pages will automatically build and publish the website to `glitchsecure.com` using the `main` branch as well as create preview sites for any non production branch.
 
