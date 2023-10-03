@@ -23,9 +23,9 @@ We're excited to announce that GlitchSecure has been selected to pitch at the St
 
 Startup TNT helps early stage tech companies across the Canadian Prairies connect with angel investors and raise capital.
 
-As a small start up headquartered in Manitoba, we don't have the same opportunities has those on the coast. Getting accepted into the event is our chance to get noticed. While funds like [TinySeed](/updates/joining-tinyseed) exist to help companies get off the ground, there's little out there for follow-up outside of the typical SF venture track.
+As a small start up headquartered in Manitoba, we don't have the same opportunities has those on the coast. Getting accepted into the event is our chance to get noticed. While funds like TinySeed exist to help companies get off the ground, there's little out there for follow-up outside of the typical SF venture track.
 
-While we're at a stage in our companies growth where we don't _need_ additional funding —we're lean and growing steadily— there is no doubt the pre-seed funds we raised from TinySeed made a massive impact on the trajectory of our company, saving us years.
+While we're at a stage in our companies growth where we don't _need_ additional funding —we're lean and growing steadily— there is no doubt the pre-seed funds [we raised from TinySeed](/updates/joining-tinyseed) made a massive impact on the trajectory of our company, saving us years.
 
 We look forward to offering potential investors an opportunity to jump on our train before it's gone and hope you'll be able to join us either in-person or remotely on 12 October 2023. Doors will be opening at 5PM CT with the pitches starting at 6PM.
 
