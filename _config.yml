@@ -3,9 +3,6 @@ description: "Automatically assess your security posture with continuous vulnera
 url: https://glitchsecure.com # where is the production site located?
 companyname: GlitchSecure
 
-paginate: 6
-paginate_path: "/blog/:num/"
-show_drafts: false
 
 # Social media links
 social:
@@ -13,14 +10,12 @@ social:
   linkedin: glitchsecure
   github: glitchsecure
 
-permalink: "/blog/:title/"
-
 plugins:
   - jekyll-feed
   - jekyll-postcss
   - jekyll-sitemap
   - jekyll-minifier
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 postcss:
   cache: false
@@ -32,10 +27,32 @@ highlighter: rouge
 collections:
   posts:
     output: true
-    permalink: "/blog/:title"
+    permalink: "/:slugified_categories/:title"
   pages:
     output: true
     permalink: "/:title"
+
+
+pagination:
+  enabled: true
+  per_page: 6
+  sort_field: 'date'
+  sort_reverse: true
+
+# autopages disabled in favour of custom pages for each category in /blog
+autopages:
+  enabled: true
+  sort_field: 'date'
+  sort_reverse: true
+  categories:
+    layouts:
+        - 'categories.html'
+    permalink: '/:cat'
+    title: 'The latest :cat from GlitchSecure'
+
+show_drafts: false
+
+
 
 jekyll-minifier:
   exclude: "*.txt"

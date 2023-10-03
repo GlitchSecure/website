@@ -50,4 +50,6 @@ feature-subtitle2: "Get an in-depth look at your entire application, API, or net
 feature-button2: "Learn More"
 feature-button2-link: "/pentest/"
 
+pagination:
+  enabled: false
 ---
