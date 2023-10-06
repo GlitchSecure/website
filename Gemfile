@@ -13,3 +13,5 @@ gem "image_optim"
 gem "image_optim_pack"
 gem "webrick"
 gem 'psych', '< 4'
+gem 'wkhtmltoimage-binary', git: 'https://github.com/GlitchSecure/wkhtmltoimage-binary'
+gem 'imgkit', '< 1.6.2'

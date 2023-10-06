@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  zoom: 200%
+}
+
+.full-height {
+}
+</style>
+
+</head>
+<body>
+
+<div class="bg-red-200" style="  height: 100%;>
+
+  <h1>{{ page.title }}</h1>
+
+<img src="{% if page.image.feature %}./_site/assets/img/{{ page.image.feature }}{% else %}./assets/img/blog/default-feature.jpg{% endif %}" alt="Card img" class="object-cover object-center mx-auto rounded-xl" />
+
+{{ page.title | escape }}
+
+
+<div class="flex items-center mt-4">
+    <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.coauthor | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.coauthor }}">
+    <div>
+        <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.coauthor }}<br></span>
+    </div>
+</div>
+
+<div class="flex items-center mt-4">
+    <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.author }}">
+    <div>
+        <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.author }}</span>
+        <br>
+        <span datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="text-neutral-500 dark:text-neutral-400">{{ page.date | date: "%b %-d, %Y" }}</span>
+        <span class="text-neutral-500 dark:text-neutral-400"> · {% assign words = content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

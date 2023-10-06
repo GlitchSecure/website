@@ -6,3 +6,5 @@ assets/js/bundle.js
 node_modules
 _site
 Gemfile.lock
+.idea
+_previews/
