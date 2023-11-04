@@ -5,7 +5,7 @@ title: "SaaS Security Basics on a Shoestring Budget"
 # Keep the title short, does not need to match the filename
 subtitle: "Basic controls, tools, techniques and tips for SaaS and software companies."
 # Subtitles should be 90-120 characters
-date: 2032-11-04
+date: 2023-11-04
 # Date in YYYY-MM-DD Format, should match date used in the filename
 date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
@@ -14,7 +14,7 @@ author: Jade Null
 coauthor:
 # Coauthor or optionally the editors name
 category: resources
-# Use either updates, resources, guides as the category
+
 
 image:
 # Images are stored in the assets/img/ folder.
@@ -25,9 +25,9 @@ image:
   feature: blog/6/header.jpg
   # Upload a 1200x630px image, replace 10 with the post slug or number
   # This is used for the preview of the post
-  #credit: cottonbro studio
+  credit: GltchSecure
   # Include the feature photo authors name
-  #creditlink: https://www.pexels.com/photo/green-and-white-lights-5473951/
+  creditlink: '#'
   # Include link to original photo source
 hero-vertical: true
 # Whether to use a vertical layout. Default is true for blog posts.
@@ -35,16 +35,14 @@ hero-wrapper-padding: "pb-24"
 # This must be set to "pb-24" when using a vertical layout and removed when not.
 comments: true
 # Whether or not comments are enabled. This hasn't been implemented yet, but generally we can leave them enabled for anything that's not an update.
-
-# Prompt:
-# You are a research assistant tasked with helping provide information around various cyber security topics. You will be provided a specific topic. Please provide a brief single paragraph explanation of the topic, a 1-2 bullet list of the benefits of the topic, and a 1-2 bullet list of actionable steps around each topic. Be concise and keep your answers short.
 ---
 
 # Introduction
 
-## Whoami
+This blog post is meant to accompany a talk titled "SaaS Security Basics on a Shoestring Budget."
 
-## Context of the talk
+The talk shares my perspective as a recent founder who has spent a lot of the last year helping other founders with their security. Over that time I've come to realise that there is a lot of mystery and basic knowledge gap when it comes to keeping your product and infrastructure secure that the average technical founder or small team simply doesn't have a grasp on.
+
 
 # Authentication
 
