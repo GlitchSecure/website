@@ -19,7 +19,7 @@ hero-wrapper-padding: "pb-24"
 comments: true
 ---
 
-Hot of the heels of the [Top 20 pitch night last month](https://glitchsecure.com/updates/startup-tnt-top-20-viii), we're excited to announce that GlitchSecure has been selected as one of five finalists for the  Startup TNT Investment Summit VIII Top 5 in Manitoba.
+Hot off the heels of the [Top 20 pitch night last month](https://glitchsecure.com/updates/startup-tnt-top-20-viii), we're excited to announce that GlitchSecure has been selected as one of five finalists for the  Startup TNT Investment Summit VIII Top 5 in Manitoba.
 
 GlitchSecure is joined by the following 4 other exciting Manitoba based tech startups raising fundraising and building innovative technology.
 
