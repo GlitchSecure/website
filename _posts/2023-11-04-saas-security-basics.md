@@ -13,7 +13,7 @@ author: Jade Null
 # Use "GlitchSecure" if no author
 coauthor:
 # Coauthor or optionally the editors name
-category: resources
+category: Resources
 
 
 image:
