@@ -6,13 +6,6 @@ subtitle: "We're more than meets the eye. A passionate collective of security re
 permalink: /about/
 published: true
 
-# About Feature
-about-feature-title1: "People driven. Technology powered."
-about-feature-subtitle1: "We believe the only way to truly deliver high quality security testing is by continually developing new technology and processes through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
-#about-feature-button1: "Get Started"
-about-feature-link1: "javascript:void(0)"
-about-feature-click1: "$dispatch('getstarted', {method: 'About Feature'})"
-about-feature-image1: "/assets/img/about/hero-preview.svg"
 
 # About stats
 stats-title: "A proven track record."
