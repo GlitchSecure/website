@@ -11,6 +11,22 @@ company-title: "About"
 company-title-glitch: "GlitchSecure"
 company-text: "GlitchSecure is a bootstrapped startup founded by an industry expert. We are a passionate team of humans, hackers, developers, and thinkers dedicated to delivering the best results through our craft and software. As a company,  believe the only way to truly deliver high quality security testing is by continually developing new technology and processes through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
 
+# Founder Section
+founders-title: "The"
+founders-title-glitch: "Founders"
+founders-text: "Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui"
+
+jade-title: "Hacker & Developer"
+jade-pronouns: "they/them"
+jade-bio: "Jade, widely known as GlitchWitch, is a highly skilled and passionate hacker with a deep technical background. They are constantly pushing the boundaries to improve web security and develop cutting-edge security automations."
+
+aaron-title: "Operations & Strategy"
+aaron-pronouns: "He/Him"
+aaron-bio: "Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui."
+
+# Team Section
+team-title: "The h̶a̸c̸k̷e̵r̸s̴"
+team-subtitle: "We can't do it alone... Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui."
 # About stats
 stats-title: "A proven track record."
 stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
