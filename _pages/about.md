@@ -12,8 +12,8 @@ company-title-glitch: "GlitchSecure"
 company-text: "GlitchSecure is a bootstrapped startup founded by an industry expert. We are a passionate team of humans, hackers, developers, and thinkers dedicated to delivering the best results through our craft and software. As a company,  believe the only way to truly deliver high quality security testing is by continually developing new technology and processes through a hacker's perspective. We're highly skilled experts in our field and are passionate about delivering the best results through our craft."
 
 # Founder Section
-founders-title: "The"
-founders-title-glitch: "Founders"
+founders-title: "Founded and"
+founders-title-glitch: "lead by"
 founders-text: "Quia illum aut in beatae. Possimus dolores aliquid accusantium aut in ut non assumenda. Enim iusto molestias aut deleniti eos aliquid magnam molestiae. At et non possimus ab. Magni labore molestiae nulla qui"
 
 jade-title: "Hacker & Developer"
