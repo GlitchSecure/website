@@ -42,7 +42,7 @@ stats-title-4: "False Positives Prevented"
 stats-number-3: "50k+"
 
 # Client Logo Section
-clients-title: "Securing top software companies..."
+clients-title: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
 
 # Timeline
 timeline-year-1: "2017"
