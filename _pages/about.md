@@ -47,6 +47,9 @@ stats-number-3: "200+"
 stats-title-4: "False Positives Prevented"
 stats-number-3: "50k+"
 
+# Client Logo Section
+clients-title: "Securing top software companies..."
+
 # Timeline
 timeline-year-1: "2017"
 timeline-month-1: "Fall"
