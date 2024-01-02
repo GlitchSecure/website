@@ -32,6 +32,22 @@ founder-bio: "Jade is an Offensive Security Certified Professional (OSCP) with b
 team-title2: "The h̶a̸c̸k̷e̵r̸s̴"
 #team-subtitle2: "a"
 
+# Timeline
+timeline-year-1: "2017"
+timeline-month-1: "Fall"
+timeline-title-1: "GlitchWitch Security"
+timeline-text-1: "Having already been hacking for over a decade prior, Jade formalised their security research and penetration testing under the GlitchWitch persona."
+timeline-year-2: "2022"
+timeline-month-2: "Summer"
+timeline-title-2: "GlitchSecure Launched"
+timeline-text-2: "Building on the past years of experience in cybersecurity and software development, the GlitchSecure platform is first launched."
+timeline-year-3: "2022"
+timeline-month-3: "Fall"
+timeline-title-3: "Backed By TinySeed"
+timeline-text-3: "Staying true to our origins, we joined hundreds of other ambitious bootstrapped founders as part of the TinySeed accelerator."
+#4-year is current year
+timeline-title-4: "We keep hacking"
+timeline-text-4: "Top software companies have come to rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 
 # Investors
 investors-title: "Backed by"
