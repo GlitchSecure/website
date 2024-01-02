@@ -17,12 +17,6 @@ about-feature-image1: "/assets/img/about/hero-preview.svg"
 # About stats
 stats-title: "A proven track record."
 stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
-stats-stat1-title: "VAPTs Performed"
-stats-stat1-number: "300+"
-stats-stat2-title: "Vulnerabilities Discovered"
-stats-stat2-number: "1500+"
-stats-stat3-title: "Companies Hacked"
-stats-stat3-number: "200+"
 
 # Team Section
 team-title: "Meet the h̷a̶c̸k̴e̶r̷ ̸c̴o̷l̸l̴e̴c̵t̸i̵v̵e̴"
@@ -31,6 +25,14 @@ team-subtitle: "Founded in 2022, and based in Canada, GlitchSecure is a bootstra
 founder-bio: "Jade is an Offensive Security Certified Professional (OSCP) with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web and are dedicated to building a company that puts the very people who help grow it first. <br><br> They can't do it all alone, so they've assembled a hand selected team of experts who are equally passionate and skilled to help further this mission. <br><br> <a class=\"hover:underline \" href=\"https://linkedin.com/in/GlitchWitch\"> Connect on LinkedIn -> </a>"
 team-title2: "The h̶a̸c̸k̷e̵r̸s̴"
 #team-subtitle2: "a"
+stats-title-1: "VAPTs Performed"
+stats-number-1: "300+"
+stats-title-2: "Vulnerabilities Discovered"
+stats-number-2: "1500+"
+stats-title-3: "Companies Hacked"
+stats-number-3: "200+"
+stats-title-4: "False Positives Prevented"
+stats-number-3: "50k+"
 
 # Timeline
 timeline-year-1: "2017"
