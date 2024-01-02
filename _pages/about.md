@@ -24,7 +24,7 @@ timeline-year-3: "2022"
 timeline-month-3: "Fall"
 timeline-title-3: "Backed By TinySeed"
 timeline-text-3: "Staying true to our origins, we joined hundreds of other ambitious bootstrapped founders as part of the TinySeed accelerator."
-#4-year is current year
+#timeline-year-4: "current year"
 timeline-title-4: "We keep hacking"
 timeline-text-4: "Top software companies have come to rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 
@@ -46,18 +46,6 @@ aaron-bio: "Aaron is a seasoned  founder with a proven track record of growing a
 team-title: "Driven by a"
 team-title-glitch: "hacker collective"
 team-text: "We can't do it alone... That's why we've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
-
-# About stats
-stats-title: "A proven track record."
-stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
-stats-title-1: "VAPTs Performed"
-stats-number-1: "300+"
-stats-title-2: "Vulnerabilities Discovered"
-stats-number-2: "1500+"
-stats-title-3: "Companies Hacked"
-stats-number-3: "200+"
-stats-title-4: "False Positives Prevented"
-stats-number-3: "50k+"
 
 # Client Logo Section
 clients-title: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
