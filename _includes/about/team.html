@@ -10,7 +10,7 @@
         <li>
           <img class="mx-auto h-24 w-24 rounded-2xl shadow-lg" src="{{ item.picture }}" alt="">
           <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-neutral-900 dark:text-neutral-100">
-            <glitch class="z-10 layers" data-text="{{ item.name }}"><span>{{ item.name }}</span></glitch>
+            {{ item.name }}
             <span class="text-sm font-light">{% if item.pronouns %} / {{ item.pronouns }}{% endif %}</span>
           </h3>
           <p class="text-sm leading-6 text-neutral-800 dark:text-neutral-200">{{ item.title }}</p>
