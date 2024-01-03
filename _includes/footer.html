@@ -15,14 +15,14 @@
 
         <div class="mt-12 md:mt-0 -ml-40 hidden xl:block">
           <h3
-            class="text-sm font-semibold uppercase tracking-wider text-gray-400"
+            class="text-sm font-semibold uppercase tracking-wider text-neutral-400"
           >
             Contact Us
           </h3>
           <ul role="list" class="mt-4 space-y-1">
             {% for item in site.data.footer.contact %}
             <li>
-              <a href="{{ item.url }}" class="text-base text-gray-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
+              <a href="{{ item.url }}" class="text-base text-neutral-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
             </li>
             {% endfor %}
           </ul>
@@ -32,14 +32,14 @@
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div class="mt-12 md:mt-0">
             <h3
-              class="text-sm font-semibold uppercase tracking-wider text-gray-400"
+              class="text-sm font-semibold uppercase tracking-wider text-neutral-400"
             >
               Learn More
             </h3>
             <ul role="list" class="mt-4 space-y-4">
               {% for item in site.data.footer.services %}
               <li>
-                <a href="{{ item.url }}" class="text-base text-gray-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
+                <a href="{{ item.url }}" class="text-base text-neutral-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
               </li>
               {% endfor %}
             </ul>
@@ -47,7 +47,7 @@
 
           <div class="mt-12 md:mt-0">
             <h3
-              class="text-sm font-semibold uppercase tracking-wider text-gray-400"
+              class="text-sm font-semibold uppercase tracking-wider text-neutral-400"
             >
               Company
             </h3>
@@ -56,7 +56,7 @@
               <li>
                 <a
                   href="{{ item.url }}"
-                  class="border-b-2 border-transparent text-base text-gray-100 hover:border-gray-400 hover:text-white"
+                  class="border-b-2 border-transparent text-base text-neutral-100 hover:border-gray-400 hover:text-white"
                   >{{ item.title }}</a
                 >
               </li>
@@ -68,14 +68,14 @@
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div class="mt-12 md:mt-0">
             <h3
-              class="text-sm font-semibold uppercase tracking-wider text-gray-400"
+              class="text-sm font-semibold uppercase tracking-wider text-neutral-400"
             >
               Support
             </h3>
             <ul role="list" class="mt-4 space-y-4">
               {% for item in site.data.footer.support %}
               <li>
-                <a href="{{ item.url }}" class="text-base text-gray-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
+                <a href="{{ item.url }}" class="text-base text-neutral-100 hover:text-white  border-transparent border-b-2 hover:border-gray-400">{{ item.title }}</a>
               </li>
               {% endfor %}
             </ul>
@@ -83,7 +83,7 @@
 
           <div class="mt-12 md:mt-0">
             <h3
-              class="text-sm font-semibold uppercase tracking-wider text-gray-400"
+              class="text-sm font-semibold uppercase tracking-wider text-neutral-400"
             >
               Legal
             </h3>
@@ -92,7 +92,7 @@
               <li>
                 <a
                   href="{{ item.url }}"
-                  class="border-b-2 border-transparent text-base text-gray-100 hover:border-gray-400 hover:text-white"
+                  class="border-b-2 border-transparent text-base text-neutral-100 hover:border-gray-400 hover:text-white"
                   >{{ item.title }}</a
                 >
               </li>
@@ -108,7 +108,7 @@
       <div class="flex space-x-6 md:order-2">
         <a
           href="https://twitter.com/{{ site.social.twitter }}"
-          class="text-gray-400 hover:text-gray-300"
+          class="text-neutral-400 hover:text-neutral-300"
         >
           <span class="sr-only">Twitter</span>
           <svg
@@ -125,7 +125,7 @@
 
         <a
           href="https://github.com/{{ site.social.github }}"
-          class="text-gray-400 hover:text-gray-300"
+          class="text-neutral-400 hover:text-neutral-300"
         >
           <span class="sr-only">GitHub</span>
           <svg
@@ -144,7 +144,7 @@
 
         <a
           href="https://linkedin.com/company/{{ site.social.linkedin }}"
-          class="text-gray-400 hover:text-gray-300"
+          class="text-neutral-400 hover:text-neutral-300"
         >
           <span class="sr-only">Linkedin</span>
           <svg
@@ -161,7 +161,7 @@
           </svg>
         </a>
       </div>
-      <p class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
+      <p class="mt-8 text-base text-neutral-400 md:order-1 md:mt-0">
         Made with <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mb-0.5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><title>heart</title><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>  | &copy; {{ site.time | date: '%Y' }} GlitchSecure Inc.
       </p>
     </div>
