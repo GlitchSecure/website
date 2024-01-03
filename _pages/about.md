@@ -40,7 +40,7 @@ jade-bio: "Jade, widely known as GlitchWitch, is a highly skilled and passionate
 
 aaron-title: "Operations & Strategy"
 aaron-pronouns: "He/Him"
-aaron-bio: "Aaron is a seasoned  founder with a proven track record of growing and building successful B2B SaaS companies. His relentless drive and unwavering commitment to customer success has made him a trusted leader in the industry."
+aaron-bio: "Aaron is a seasoned founder with a proven track record of growing and building successful B2B SaaS companies. Collaborating with customers on difficult business challenges is what keeps his brain ticking."
 
 # Team Section
 team-title: "Driven by a"
