@@ -7,7 +7,7 @@ date: 2023-10-03 # Date in YYYY-MM-DD Format
 date-updated:  # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor:
-category: updates
+category: Updates
 
 image:
   feature: blog/5/feature.jpg # Upload a 1200x630px image
