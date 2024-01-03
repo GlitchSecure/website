@@ -56,7 +56,7 @@ x-data="
                       <input
                       type="text" name="firstname" id="firstname" autocomplete="given-name"
                       placeholder="First Name" x-data="{ firstname: localStorage.getItem('contact-firstname') }" x-init="$watch('firstname', (val) => localStorage.setItem('contact-firstname', val))" x-model="firstname" required
-                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400">
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400">
                     </div>
                   </div>
                   <div class="col-span-6 sm:col-span-3">
@@ -64,7 +64,7 @@ x-data="
                       <input
                       type="text" name="lastname" id="lastname" autocomplete="family-name"
                       placeholder="Last Name" x-data="{ lastname: localStorage.getItem('contact-lastname') }" x-init="$watch('lastname', (val) => localStorage.setItem('contact-lastname', val))" x-model="lastname" required
-                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
 >
                     </div>
                   </div>
@@ -73,7 +73,7 @@ x-data="
                       <input
                       type="email" name="email" id="email" autocomplete="email"
                       placeholder="Work Email" x-data="{ email: localStorage.getItem('contact-email') }" x-init="$watch('email', (val) => localStorage.setItem('contact-email', val))" x-model="email" required
-                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
 >
                     </div>
                   </div>
@@ -82,7 +82,7 @@ x-data="
                       <input
                       type="text" name="company" id="company" autocomplete="organization"
                       placeholder="Company Name" x-data="{ companyname: localStorage.getItem('contact-companyname') }" x-init="$watch('companyname', (val) => localStorage.setItem('contact-companyname', val))" x-model="companyname" required
-                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
 >
                     </div>
                   </div>
@@ -90,7 +90,7 @@ x-data="
                     <div class="relative rounded-md shadow-sm font-base">
                       <select
                       x-data="{ inquiry: localStorage.getItem('contact-inquiry') }" x-init="$watch('inquiry', (val) => localStorage.setItem('contact-inquiry', val))" x-model="inquiry" required
-                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-gray-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
 >
                         <option value="" selected> How can we hack you today?</option>
                         <option value="VA">Learn more about: Continuous Security Testing</option>
