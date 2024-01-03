@@ -33,6 +33,7 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | Public Mobile | Backup ISP | [https://www.publicmobile.ca/en/mb/privacy-policy](https://www.publicmobile.ca/en/mb/privacy-policy) |
 | SavvyCal | Calendar | [https://savvycal.com/privacy](https://savvycal.com/privacy/?r=glitchsecure) |
 | Shaw | ISP | [https://www.shaw.ca/privacy-policy/](https://www.shaw.ca/privacy-policy/) |
+| Signwell | Electronic Document Signatures | [https://www.signwell.com/privacy/](https://www.signwell.com/privacy/) |
 | Slack | Communication | [https://slack.com/trust/privacy/privacy-policy](https://slack.com/trust/privacy/privacy-policy) |
 | Steinbach Credit Union | Payment Processing | [https://scu.mb.ca/privacy/directory#code](https://scu.mb.ca/privacy/directory#code) |
 | Tailscale | VPN | [https://tailscale.com/privacy-policy/](https://tailscale.com/privacy-policy/) |
