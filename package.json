@@ -14,15 +14,15 @@
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.5",
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.32",
     "postcss-import": "14.0.0",
     "prettier": "2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.12",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.4.0"
   },
   "dependencies": {
-    "alpinejs": "^3.13.1",
+    "alpinejs": "^3.13.3",
     "animated-tailwindcss": "^4.0.0",
-    "esbuild": "^0.19.4"
+    "esbuild": "^0.19.11"
   }
 }
