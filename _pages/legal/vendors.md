@@ -43,6 +43,10 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 
 ## Self-Hosted & Internal Third-Party Tools
 
+The following list of providers and software are used internally by the GlitchSecure team. Any software listed here is hosted on servers owned or controlled by GlitchSecure that physically reside in Canada either through a provider listed above or within our own colo or on-prem infrastructure.
+
+While this software is self-hosted, it may connect to external servers and services.
+
 | Third-Party Tool | Purpose | Privacy Policy / Website |
 | :--- | :--- | :--- |
 | ezXSS | Security Testing Tool | [https://github.com/ssl/ezXSS](https://github.com/ssl/ezXSS) |
