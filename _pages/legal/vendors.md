@@ -21,11 +21,13 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | GitHub | Project Management, Version Control | [https://docs.github.com/en/site-policy/privacy-policies](https://docs.github.com/en/site-policy/privacy-policies) |
 | GoCardless | Payment Processing | [https://gocardless.com/privacy/](https://gocardless.com/privacy/)
 | Google | SSO, Email, Calendar, Storage, Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
+| IDrive | Backup Storage | [https://www.idrive.com/object-storage-e2/privacy_policy](https://www.idrive.com/object-storage-e2/privacy_policy)
 | Invicti | Security Scanning Tool | [https://www.invicti.com/legal/privacy-policy/](https://www.invicti.com/legal/privacy-policy/) |
 | Jetbrains | Code Editor | [https://www.jetbrains.com/legal/docs/privacy/privacy/](https://www.jetbrains.com/legal/docs/privacy/privacy/) |
 | Laravel Forge | Server Management | [https://forge.laravel.com/privacy-policy/](https://forge.laravel.com/privacy-policy/) |
 | NameCheap | Domains, Email, Marketing | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
 | OpenAI API | Internal Tooling | [https://openai.com/api-data-privacy](https://openai.com/api-data-privacy) |
+| OVHcloud | Server Provider, Backup Storage | [https://www.ovhcloud.com/en-ca/terms-and-conditions/privacy-policy/](https://www.ovhcloud.com/en-ca/terms-and-conditions/privacy-policy/) |
 | PipeCertain | Email, Marketing | [https://pipecertain.com/#faq](https://pipecertain.com/#faq) |
 | Pipedrive | Customer Relationship Management | [https://www.pipedrive.com/en/privacy](https://www.pipedrive.com/en/privacy) |
 | SavvyCal | Calendar | [https://savvycal.com/privacy](https://savvycal.com/privacy/?r=glitchsecure) |
@@ -36,6 +38,7 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | Ubiquiti | Network Appliance | [https://www.ui.com/legal/privacypolicy/](https://www.ui.com/legal/privacypolicy/) |
 | Vault | Payment Processing | [https://www.tryvault.com/legal/privacy-policy](https://www.tryvault.com/legal/privacy-policy) |
 | Vultr | Server Provider | [https://www.vultr.com/legal/privacy/](https://www.vultr.com/legal/privacy/) |
+| Wasabi | Backup Storage | [https://wasabi.com/legal/privacy-policy/](https://wasabi.com/legal/privacy-policy/) |
 
 ## Self-Hosted & Internal Third-Party Tools
 
