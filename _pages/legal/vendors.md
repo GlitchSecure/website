@@ -14,7 +14,6 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | :--- | :--- | :--- |
 | Agrello | Electronic Document Signatures | [https://www.agrello.io/legal/privacy-policy](https://www.agrello.io/legal/privacy-policy) |
 | Amazon SES | Email | [https://aws.amazon.com/privacy/](https://aws.amazon.com/privacy/) |
-| BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
 | Chargebee | Subscription Management | [https://www.chargebee.com/privacy/](https://www.chargebee.com/privacy/)
 | CloudFlare | CDN, Firewall | [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/) |
 | DigitalOcean | Server Provider | [https://www.digitalocean.com/legal/privacy-policy](https://www.digitalocean.com/legal/privacy-policy) |
@@ -46,6 +45,7 @@ While this software is self-hosted, it may connect to external servers and servi
 
 | Third-Party Tool | Purpose | Privacy Policy / Website |
 | :--- | :--- | :--- |
+| BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
 | ezXSS | Security Testing Tool | [https://github.com/ssl/ezXSS](https://github.com/ssl/ezXSS) |
 | n8n | Automation | [https://docs.n8n.io/privacy-security/privacy/](https://docs.n8n.io/privacy-security/privacy/) |
 | OpenCanary | Security Tool | [https://canary.tools/privacy](https://canary.tools/privacy) |
