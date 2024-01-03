@@ -21,7 +21,7 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | GitHub | Project Management, Version Control | [https://docs.github.com/en/site-policy/privacy-policies](https://docs.github.com/en/site-policy/privacy-policies) |
 | GoCardless | Payment Processing | [https://gocardless.com/privacy/](https://gocardless.com/privacy/)
 | Google | SSO, Email, Calendar, Storage, Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
-| IDrive | Backup Storage | [https://www.idrive.com/object-storage-e2/privacy_policy](https://www.idrive.com/object-storage-e2/privacy_policy)
+| IDrive | Backup Storage | [https://www.idrive.com/object-storage-e2/privacy_policy](https://www.idrive.com/object-storage-e2/privacy_policy) |
 | Invicti | Security Scanning Tool | [https://www.invicti.com/legal/privacy-policy/](https://www.invicti.com/legal/privacy-policy/) |
 | Jetbrains | Code Editor | [https://www.jetbrains.com/legal/docs/privacy/privacy/](https://www.jetbrains.com/legal/docs/privacy/privacy/) |
 | Laravel Forge | Server Management | [https://forge.laravel.com/privacy-policy/](https://forge.laravel.com/privacy-policy/) |
