@@ -1,9 +1,9 @@
 ---
 ---
-@import "assets/css/imports/glitch.css";
 @import "assets/css/imports/fonts.css";
 @import "assets/css/imports/typing.css";
 @import "assets/css/imports/alpine.css";
+@import "assets/css/imports/glitch.css";
 @import "assets/css/imports/custom.css";
 @import "tailwindcss/base";
 @import "tailwindcss/components";
