@@ -14,7 +14,6 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | :--- | :--- | :--- |
 | Agrello | Electronic Document Signatures | [https://www.agrello.io/legal/privacy-policy](https://www.agrello.io/legal/privacy-policy) |
 | Amazon SES | Email | [https://aws.amazon.com/privacy/](https://aws.amazon.com/privacy/) |
-| Backblaze | Encrypted Backup Storage | [https://www.backblaze.com/company/privacy.html](https://www.backblaze.com/company/privacy.html) |
 | BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
 | Chargebee | Subscription Management | [https://www.chargebee.com/privacy/](https://www.chargebee.com/privacy/)
 | CloudFlare | CDN, Firewall | [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/) |
@@ -23,12 +22,10 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | GitHub | Project Management, Version Control | [https://docs.github.com/en/site-policy/privacy-policies](https://docs.github.com/en/site-policy/privacy-policies) |
 | GoCardless | Payment Processing | [https://gocardless.com/privacy/](https://gocardless.com/privacy/)
 | Google | SSO, Email, Calendar, Storage, Video Meetings | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
-| Hunter.io | Email, Marketing | [https://hunter.io/privacy-policy](https://hunter.io/privacy-policy) |
 | Invicti | Security Scanning Tool | [https://www.invicti.com/legal/privacy-policy/](https://www.invicti.com/legal/privacy-policy/) |
 | Jetbrains | Code Editor | [https://www.jetbrains.com/legal/docs/privacy/privacy/](https://www.jetbrains.com/legal/docs/privacy/privacy/) |
 | Laravel Forge | Server Management | [https://forge.laravel.com/privacy-policy/](https://forge.laravel.com/privacy-policy/) |
 | NameCheap | Domains, Email, Marketing | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
-| Notanobo | Bookkeeping | [https://notanobo.com/privacy](https://notanobo.com/privacy) |
 | OpenAI API | Internal Tooling | [https://openai.com/api-data-privacy](https://openai.com/api-data-privacy) |
 | PipeCertain | Email, Marketing | [https://pipecertain.com/#faq](https://pipecertain.com/#faq) |
 | Pipedrive | Customer Relationship Management | [https://www.pipedrive.com/en/privacy](https://www.pipedrive.com/en/privacy) |
@@ -53,12 +50,10 @@ While this software is self-hosted, it may connect to external servers and servi
 | n8n | Automation | [https://docs.n8n.io/privacy-security/privacy/](https://docs.n8n.io/privacy-security/privacy/) |
 | OpenCanary | Security Tool | [https://canary.tools/privacy](https://canary.tools/privacy) |
 | PfSense | Networking Software | [https://www.pfsense.org/privacy.html](https://www.pfsense.org/privacy.html) |
-| PiHole | DNS Management | [https://pi-hole.net/privacy/](https://pi-hole.net/privacy/) |
 | Planka | Task Management | [https://github.com/plankanban/planka](https://github.com/plankanban/planka) |
 | Plausible Analytics | Website Analytics | [https://plausible.io/privacy](https://plausible.io/privacy) |
 | PortSwigger | Security Scanning Tool | [https://portswigger.net/privacy](https://portswigger.net/privacy) |
 | Proxmox | Virtualisation & Backups | [https://www.proxmox.com/en/privacy-policy](https://www.proxmox.com/en/privacy-policy) |
 | reNgine | Security Scanning Tool | [https://rengine.wiki/](https://rengine.wiki/) |
-| SysWard | Patch Management Tool | [https://sysward.com/](https://sysward.com/) |
 | Tenable | Security Scanning Tool | [https://www.tenable.com/privacy-policy](https://www.tenable.com/privacy-policy) |
 | Uptime Kuma | Status Page and Uptime Monitoring | [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) |
