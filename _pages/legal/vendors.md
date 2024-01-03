@@ -48,6 +48,7 @@ While this software is self-hosted, it may connect to external servers and servi
 | BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
 | ezXSS | Security Testing Tool | [https://github.com/ssl/ezXSS](https://github.com/ssl/ezXSS) |
 | n8n | Automation | [https://docs.n8n.io/privacy-security/privacy/](https://docs.n8n.io/privacy-security/privacy/) |
+| Outline | Documentation | [https://www.getoutline.com/privacy](https://www.getoutline.com/privacy) |
 | OpenCanary | Security Tool | [https://canary.tools/privacy](https://canary.tools/privacy) |
 | PfSense | Networking Software | [https://www.pfsense.org/privacy.html](https://www.pfsense.org/privacy.html) |
 | Planka | Task Management | [https://github.com/plankanban/planka](https://github.com/plankanban/planka) |
