@@ -1,27 +1,26 @@
-
-- name: Br̶̥͙̤̘̅́̎̃̏̎a̸̢̧͉̮͕͓̦̝̻̝͇̳̋̅̒̄͜d̵̠̗̙̹͉͚̜͊̇̎̈́
+- name: Brad
   pronouns: He/Him
   country: United States
   picture: /assets/img/about/team/brad.jpg
   title: Technical Writer
 
-- name: Mä̶̛̲̠͍̮͙̟͙̰̰́͆̒̃̆̃̚͘̚̕͜͝ţ̴̨̭̭͚̥̙̙̘͈͇̯̺̻̲͔̓̒̾̎͠ͅt̵̢̢̰̞̥͓͖͖̮̹͙͌̑̇̚͜
+- name: Matt
   pronouns: He/Him
   country: Canada
   picture: /assets/img/about/team/matt.jpg
   title: Developer
 
-- name: Di̴̡̨͓͚̞̰̗̯̝͈͉̊̒̃̓̈́͆̅̌͘͘͘͠͠͠ͅȑ̶̟̘̾͑̇́k̸̳̼̩̟̦̲̜͕̩̖͙̤̈̂̾̇̀͠
+- name: Dirk
   pronouns: He/They
   country: Canada
   picture: /assets/img/about/team/dirk.jpg
-  title: Security Researcher
+  title: Hacker
 
-- name: Mä̵̢̨̰̜͕̟̪̤ṛ̶̛̥͎̻̠̗̝̱͖̺̜̥̠̝͇͔̞̎͒̑̽͂̊͛̈́̀͒͒̀̍̓̂̓͊͠ķ̵̭̺̅͑͋̿̔̃͂́̓̎̾́̈̚̕ᵒ̶̧̧̢͈͇̩͙̤̠̞͓͍͕̻̪̒
+- name: Marko
   pronouns: He/Him
   country: Europe
   picture: /assets/img/about/team/marko.jpg
-  title: Security Researcher
+  title: Hacker
 
 - name: We're hiring!
   country: Remote

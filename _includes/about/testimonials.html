@@ -1,0 +1,20 @@
+<section class="bg-transparent px-6 pb-24 sm:pb-32 lg:px-8">
+  <div class="mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 items-center gap-x-8 gap-y-10 max-w-7xl">
+    {% for item in site.data.about.testimonials %}
+    <div class="col-span-1 flex justify-center py-4 px-8 md:py-8">
+      <figure class="mx-auto max-w-3xl">
+        <blockquote class="text-xl font-normal leading-8 tracking-tight text-neutral-900 dark:text-neutral-200 sm:text-2xl sm:leading-9 italic">
+          <p>“{{ item.content }}”</p>
+        </blockquote>
+        <figcaption class="mt-4 md:mt-10 flex items-center gap-x-6">
+          <img class="h-12 w-12 rounded-full bg-neutral-50 border-2" src="/assets/img/about/testimonials/{{ item.image }}" alt="{{ item.name }}">
+          <div class="text-sm leading-6">
+            <div class="font-semibold text-neutral-900 dark:text-neutral-200">{{ item.name }}</div>
+            <div class="mt-0.5 text-neutral-600 dark:text-neutral-400">{{ item.title }}{% if item.company %}, {{ item.company }}{% endif %}</div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+</section>
