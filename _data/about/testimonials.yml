@@ -1,0 +1,23 @@
+- company: "Sketchy"
+  name: "Josh Nisenson"
+  title: "CTO"
+  image: "josh.jpg"
+  content: "I'm <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">incredibly happy with the team and how responsive they are.</span> They guided us whenever we got stuck and were helpful with suggested approaches to remediation."
+
+- company: "Proctorio"
+  name: "Milan Dordevic"
+  title: "VP"
+  image: "milan.jpg"
+  content: "What I appreciated most is GlitchSecure’s human-powered, comprehensive testing approach which <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">ensures no vulnerabilities go unnoticed</span>, paired with their remarkable agility and responsiveness."
+
+- company: "Reftab"
+  name: "Michael Caslowitz"
+  title: "Co-Founder"
+  image: "michael.jpg"
+  content: "The GlitchSecure team was very <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">thorough and deeply knowledgable about security</span>. They were wonderful to work with and really went above and beyond for us."
+
+- company: "CoverageBook"
+  name: "Andy Croll"
+  title: "CTO"
+  image: "andy.jpg"
+  content: "Jade and team were clear, helpful, and competent. The <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">tool to track remediation is a feature that is wildly better</span> than the typical badly formatted PDF we've seen in the past."

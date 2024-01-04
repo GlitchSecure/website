@@ -26,12 +26,12 @@ client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#rev
 # About stats
 stats-title: "A proven track record"
 stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
-stats-stat1-title: "VAPTs Performed"
-stats-stat1-number: "300+"
-stats-stat2-title: "Vulnerabilities Discovered"
-stats-stat2-number: "1500+"
-stats-stat3-title: "Companies Hacked"
-stats-stat3-number: "200+"
+stats-title-1: "VAPTs Performed"
+stats-number-1: "300+"
+stats-title-2: "Vulnerabilities Discovered"
+stats-number-2: "1500+"
+stats-title-3: "Companies Hacked"
+stats-number-3: "200+"
 
 # Features
 process-title-small: ""
