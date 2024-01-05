@@ -43,7 +43,8 @@ npm run build
 
 This private repository is setup to work with CloudFlare pages for both production and preview deployments. CloudFlare Pages will automatically build and publish the website to `glitchsecure.com` using the `main` branch as well as create preview sites for any non production branch.
 
-Preview branches are generated on `*.website-57s.pages.dev` subdomains and are behind our [CloudFlare access policy](https://handbook.glitchsecure.com/infrastructure/internal-tools/). These preview branches are made available automatically within a few minutes via PR comments and should be used for testing, reviewing, and verifying changes.
+Preview branches are generated on `*.glitchsecure.pages.dev` subdomains and are behind our [CloudFlare access policy](https://handbook.glitchsecure.com/infrastructure/internal-tools/). 
+These preview branches are made available automatically within a few minutes via PR comments and should be used for testing, reviewing, and verifying changes.
 
 ## Acknowledgements
 
