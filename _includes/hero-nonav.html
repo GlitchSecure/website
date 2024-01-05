@@ -45,7 +45,7 @@
     <div class="{% if page.hero-vertical %}flex flex-col text-center {% else %}flex flex-wrap lg:flex-nowrap md:text-left {% endif %}items-center pt-12 pb-12">
       <div class="w-full px-4 lg:w-1/2">
         <div class="animate-fadeIn">
-          <h1 class="mb-4 text-4xl font-extrabold leading-snug tracking-tight text-gray-200 md:mb-12 md:text-6xl">
+          <h1 class="mb-4 text-4xl font-extrabold leading-snug tracking-tight text-neutral-200 md:mb-12 md:text-6xl">
             {% if page.hero-title %}
             {{ page.hero-title }}
             {% else %}
@@ -57,7 +57,7 @@
       <div class="w-full px-4 lg:w-1/2 {% if page.hero-vertical != true %}lg:pl-16{% endif %}">
         <div class="animate-fadeIn">
           <p
-            class="text-sm text-gray-200 mb-4 md:mb-8 lg:mb-16 md:text-xl"
+            class="text-sm text-neutral-200 mb-4 md:mb-8 lg:mb-16 md:text-xl"
           >
             {{ page.subtitle }}
           </p>
