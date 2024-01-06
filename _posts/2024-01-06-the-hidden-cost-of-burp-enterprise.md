@@ -13,7 +13,7 @@ author: Jade Null
 # Use "GlitchSecure" if no author
 coauthor:
 # Coauthor or optionally the editors name
-category: resources
+category: Resources
 # Use either updates, resources, guides as the category
 
 image:
@@ -43,7 +43,7 @@ In this article we'll explore how you can calculate the actual cost of setting u
 
 Throughout the article we will use an example scenario of a mid-sized startup looking to test two distinct web applications, an internal admin dashboard and their primary SaaS application, both with separate login credentials and subdomains.
 
-## Cost per hour scanned
+## Cost Per Hour Scanned
 
 The key differentiator of Burp Enterprise's new pay as you scan pricing model is the additional cost of $9 USD per hour scanned. While this pricing sounds great on the surface, it can be hard to calculate the total number of hours a scan will take without having used the software yourself.
 
@@ -79,9 +79,9 @@ While you could conceivably reduce this cost through something like a dedicated 
 
 The human cost is one that is extremely difficult to calculate. When you think about it, utilising a DAST tool requires a level of technical skill and understanding of security fundamentals that's typically only found within security professionals. While a typical developer may be able to install, manage, deploy, and configure the tool, a common trend we hear is that there is a lot of time and energy spent on iterating the results and identify both what's important, and also what's simply a false positive.
 
-Tools like Burp Enterprise are designed to be wielded by Security Professionals, with many findings simply being irrelevant to your typical dev team. Typical informational level findings like a published robots.txt file, Base64-encoded data in parameter, and External service interaction are useful insights that can help a security professional know where to look for potential vulnerabilities. They are not however vulnerabilities on their own.
+Tools like Burp Enterprise are designed to be wielded by security professionals, with many findings simply being irrelevant to your typical dev team. Typical informational level findings like a published robots.txt file, Base64-encoded data in parameter, and External service interaction are useful insights that can help a security professional know where to look for potential vulnerabilities. They are not however vulnerabilities on their own.
 
-While there is a lot of nuance required here, for the purpose of this article and for the purposes of providing a quick estimate we'll assume an average of 30 minutes per issue to review. We typically see around 14 unique issues per app reported with anywhere from 5-50 permutations of each. Ignoring potential rabbit holes a specific permutation might lead you down, that's an average of 7 hours per app to triage and validate or 14 hours for our example scenario. If we take a typical security consultants hourly rate of $200/hr, that's $2,800 per month.
+While there is a lot of nuance required here, for the purpose of this article and for the purposes of providing a quick estimate we'll assume an average of 30 minutes per issue to review. We typically see around 14 unique issues per app reported with anywhere from 5-50 permutations of each. Ignoring potential rabbit holes a specific permutation might lead you down, that's an average of 7 hours per app to triage and validate or 14 hours for our example scenario. If we take a typical security consultants hourly rate of $200/hr, that's $2,800 per month, or $33,600 per year.
 
 ```
 14 issues * 30 minutes = 7 hours
@@ -95,7 +95,7 @@ Even with these conservative triage and review times, we can see that once again
 
 ## The Total
 
-As demonstrated, the cost of a single DAST tool is more than what might first appear. Totalling our numbers in our example scenario takes us from what appeared to be $1,999 a year to $13,986 a year across several areas for _just two targets_ and one DAST tool.
+As demonstrated, the cost of a single DAST tool is more than what might first appear. Totalling our numbers in our example scenario takes us from what appeared to be $1,999 per year to over $40,000 per year across several areas for _just two targets_ and one DAST tool.
 
 | Cost Source | Amount |
 | :--- | ---: |
