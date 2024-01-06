@@ -1,3 +1,9 @@
+- name: Adam
+  pronouns: He/Him
+  country: United States
+  picture: /assets/img/about/team/adam.jpg
+  title: Hacker
+
 - name: Brad
   pronouns: He/Him
   country: United States
