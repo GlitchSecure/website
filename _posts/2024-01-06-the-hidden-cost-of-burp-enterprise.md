@@ -1,7 +1,7 @@
 ---
 layout: post
 # The filename will be used for URL slug generation, try to keep it to 1-3 words
-title: "The hidden cost of Burp Enterprise Pay as you scan"
+title: "The hidden cost of self-managed DAST"
 # Keep the title short, does not need to match the filename
 subtitle: "A look at calculating the true cost of a popular DAST tool."
 # Subtitles should be 90-120 characters
@@ -37,11 +37,11 @@ comments: true
 # Whether or not comments are enabled. This hasn't been implemented yet, but generally we can leave them enabled for anything that's not an update.
 ---
 
-In April of 2023 PortSwigger —the company that makes the popular security testing tool Burp— [announced a new pricing model](https://portswigger.net/blog/new-burp-suite-enterprise-edition-pay-as-you-scan-pricing) for their Enterprise scanning offering. This model called "Pay as you scan" lowers the financial barrier of entry by reducing the upfront cost of the software and instead charging using a usage based billing model based on number of hours scanned.
+In April of 2023 PortSwigger —the company that makes the popular security testing tool Burp— [announced a new pricing model](https://portswigger.net/blog/new-burp-suite-enterprise-edition-pay-as-you-scan-pricing) for their Enterprise scanning offering. This model called "Pay as you scan" lowers the financial barrier of entry by reducing the upfront cost of the software and instead charging using a usage based billing model based on number of hours scanned. While the $1,999 price tag may seem appealing, there are a number of other factors to consider that contribute to the final price tag.
 
 In this article we'll explore how you can calculate the actual cost of setting up and using a product like this, both from the software pricing perspective, but also from the human and infrastructure resource perspective.
 
-Throughout the article we will use an example scenario of a mid-sized startup looking to test two distinct web applications, an internal admin dashboard and their primary SaaS application, both with separate login credentials and subdomains.
+Throughout the article we will use an example scenario of a mid-sized startup looking to use Burp Enterprise to test two distinct web applications, an internal admin dashboard and their primary SaaS application, both with separate login credentials and subdomains.
 
 ## Cost Per Hour Scanned
 
@@ -54,11 +54,13 @@ With these numbers in mind, we'll assume an average of 24 hours per application.
 ```
 24 hours * 2 web applications = 48 hours per month
 48 hours * $9/hr = $432 per month
-$432 * 12 months = $5,184 per year
-$5,184 + $1,999 = $7,259
+$432 * 12 months = $5,184
+$5,184 + $1,999 = $7,259 per year
 ```
 
-As we can see, while the $1,999 entry tag can seem appealing, the cost of a scan can quickly balloon. Incidentally if we look to Burp classic's "concurrent scan" pricing model we'll find the pricing to be similar. With the base price of $6,600 for 1 concurrent scan or $7,259 for 2 concurrent scans we land in a similar price range for our example scenario.
+As we can see, while the $1,999 entry tag can seem appealing, the cost of a scan can quickly balloon. Incidentally if we look to Burp classic's "concurrent scan" pricing model we'll find the pricing to be similar with the base price of $6,600 for 1 concurrent scan or $7,259 for 2 concurrent scans. Using these numbers for our example scenario, we'll assume the lowest cost going forward.
+
+**Subtotal: $6,600 per year**
 
 ## Infrastructure Cost
 
@@ -74,6 +76,8 @@ $323.85 per month * 12 = $3,886.20 per year
 ```
 
 While you could conceivably reduce this cost through something like a dedicated server rental, it's likely this route would only increase the human cost due to increased management requirements.
+
+**Subtotal: $3,886 per year**
 
 ## Human Cost
 
@@ -91,6 +95,8 @@ $3,500 * 12 = $33,600 per year
 ```
 
 Even with these conservative triage and review times, we can see that once again the cost adds up quickly. While a smaller organisation may farm this out to a less experienced internal developer with a lower hourly wage, we've heard time and time again that this results in days or even weeks of time spent instead of hours.
+
+**Subtotal: $33,600 per year**
 
 
 ## The Total
