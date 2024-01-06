@@ -45,7 +45,7 @@ Throughout the article we will use an example scenario of a mid-sized startup lo
 
 ## Cost Per Hour Scanned
 
-The key differentiator of Burp Enterprise's new pay as you scan pricing model is the additional cost of $9 USD per hour scanned. While this pricing sounds great on the surface, it can be hard to calculate the total number of hours a scan will take without having used the software yourself.
+The key differentiator of Burp Enterprise's new pay as you scan pricing model is the lowered base cost of $1,999 and the additional cost of $9 USD per hour scanned. While this pricing sounds great on the surface, it can be hard to calculate the total number of hours a scan will take without having used the software yourself.
 
 At GlitchSecure, we utilise Burp Suite Pro and Burp Suite Enterprise alongside a suite of other Dynamic Application Security Testing (DAST) tools to help us identify vulnerabilities in our customer's web applications and APIs. Using data we've collected, we typically see a Burp Enterprise scan configured with "Deep" coverage for both the crawl and audit take anywhere from 4 hours to 48 hours depending on the size of the application and number of parallel scans. We've also seen poorly configured scans run for several days if gone unchecked.
 
