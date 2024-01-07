@@ -11,7 +11,7 @@ date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
 author: Jade Null
 # Use "GlitchSecure" if no author
-coauthor:
+coauthor: Brad Bahls
 # Coauthor or optionally the editors name
 category: Resources
 # Use either updates, resources, guides as the category
@@ -112,7 +112,7 @@ As demonstrated, the cost of a single DAST tool is more than what might first ap
 
 ## Another Way
 
-While we believe tools like Burp Enterprise are a critical piece of the puzzle when it comes to identifying vulnerabilities in web applications and APIs, they can be costly for non-security teams to run and maintain. This may sound like a shameless plug, but it precisely addresses the gap in the market. Our [continuous security testing](/vulnerability-assessment/) solution can not only decrease the total spending on dynamic application security testing for teams without dedicated offensive security staff, but it also brings additional tooling to the table and enhances the security expertise within your team.
+While we believe tools like Burp Enterprise are a critical piece of the puzzle when it comes to identifying vulnerabilities in web applications and APIs, they can be costly for non-security teams to run and maintain. This may sound like a shameless plug, but it precisely addresses the gap in the market we fill. Our [continuous security testing](/vulnerability-assessment/) solution can not only decrease the total spending on dynamic application security testing for teams without dedicated offensive security staff, but it also brings additional tooling to the table and enhances the security expertise within your team by putting hackers on your side.
 
 We make it easy for you to implement regular security testing by _doing it all for you_. By combining the best DAST tools on the market (and not just Burp), our team of security experts, and a single pane of glass dashboard, we're able to deliver you better results and identify vulnerabilities others miss. We ensure each tool is configured and tailored for your unique environment, act as the human element to filter out false positives, explore additional attack vectors, and help you prioritise what's important.
 
