@@ -55,7 +55,7 @@ With these numbers in mind, we'll assume an average of 24 hours per application.
 24 hours * 2 web applications = 48 hours per month
 48 hours * $9/hr = $432 per month
 $432 * 12 months = $5,184
-$5,184 + $1,999 = $7,259 per year
+$5,184 + $1,999 = $7,183 per year
 ```
 
 As we can see, while the $1,999 entry tag can seem appealing, the cost of a scan can quickly balloon. Incidentally, if we examine Burp Classic's "concurrent scan" pricing model, we find that the pricing is similar, with a base price of $6,600 for 1 concurrent scan or $7,259 for 2 concurrent scans. Using these numbers for our example scenario, we will assume the lowest cost going forward.
@@ -91,7 +91,7 @@ While there is a lot of nuance required here, for the purpose of this article an
 14 issues * 30 minutes = 7 hours
 7 hours * 2 applications = 14 hours
 14 hours * $200/hr = $2,800 per month
-$3,500 * 12 = $33,600 per year
+$2,800 * 12 = $33,600 per year
 ```
 
 Even with these conservative triage and review times, we can see that once again the cost adds up quickly. While a smaller organisation may farm this out to a less experienced internal developer with a lower hourly wage, we've heard time and time again that this results in days or even weeks of time spent instead of hours.
