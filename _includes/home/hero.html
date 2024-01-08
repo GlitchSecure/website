@@ -2,16 +2,7 @@
 
 <div
   x-data
-  class="relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right pb-12 lg:pb-32 dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
->
-  <img
-    class="absolute block h-full w-full object-cover object-center opacity-[0.2] dark:hidden"
-    src="/assets/img/home/herobg-light.png"
-  />
-  <img
-    class="absolute hidden h-full w-full object-cover object-center opacity-[0.2] dark:block"
-    src="/assets/img/home/herobg-dark.png"
-  />
+  class="relative pb-12 lg:pb-32 dark:bg-[url('/assets/img/home/herobg-dark.png')] bg-[url('/assets/img/home/herobg-light.png')] bg-cover bg-no-repeat bg-center before:content-[''] before:absolute before:inset-0 before:block before:bg-gradient-to-br before:from-hero-gradient-left before:via-glitchsecure-purple before:to-hero-gradient-right dark:before:from-glitchsecure-purple-dark dark:before:via-hero-gradient-middle-dark dark:before:to-hero-gradient-right-dark before:z-[-5]">
   {%- include nav.html -%}
 
   <div class="w-full mx-auto px-4 max-w-7xl pt-12 lg:pt-32">
@@ -42,7 +33,7 @@
           >
             {{ page.subtitle }}
           </p>
-          <div class="mb-10 lg:mb-7 flex-wrap md:flex">
+          <div class="mb-10 lg:mb-7 flex-wrap md:flex z-50">
             <a
               href="{{ page.hero-button-link }}"
               @click="{{ page.hero-button-click }}"
