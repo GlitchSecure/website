@@ -2,7 +2,7 @@
 layout: page
 title: GlitchSecure's Security Details
 subtitle: "A look at our security policies, practices, and procedures as a cybersecurity company."
-permalink: /legal/security/
+permalink: /security/
 published: true
 ---
 
