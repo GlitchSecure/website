@@ -93,9 +93,3 @@ We try to go above and beyond with encryption, often implementing multiple layer
 ## Vulnerability Disclosure Policy
 
 - We welcome all security reports in accordance with our published here: [https://handbook.glitchsecure.com/s/vdp](https://handbook.glitchsecure.com/s/vdp)
-
-# Data retention/logging
-
-- As of January 2024 we are in the process of setting up centralized logging across all systems to a dedicate graylog instance.
-
-# FAQs
