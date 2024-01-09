@@ -3,6 +3,7 @@
   class="{% if page.hero-wrapper-padding %} {{ page.hero-wrapper-padding }} {% else %} pb-12 {% endif %} relative bg-gradient-to-br from-hero-gradient-left via-glitchsecure-purple to-hero-gradient-right dark:bg-gradient-to-br dark:from-glitchsecure-purple-dark dark:via-hero-gradient-middle-dark dark:to-hero-gradient-right-dark"
 >
   {% if page.image.hero %}
+  <!-- Todo: Implement better background css here from lessons learned on the homepage-->
   <img
     class="absolute block h-full w-full object-cover object-center opacity-[0.35]"
     src="/assets/img/{{ page.image.hero }}"
