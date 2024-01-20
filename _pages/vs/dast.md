@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: vs-page
 title: "How GlitchSecure improves DAST"
 subtitle: "With so many Dynamic Application Security Testing tools to choose from, it can be difficult to find the right one for you. GlitchSecure can help by not only providing you access to all the best-in-class DAST tools, but a team of experts to reliably configure and review them"
 permalink: /vs-dast/

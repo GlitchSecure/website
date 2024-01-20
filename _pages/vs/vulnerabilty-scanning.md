@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "How GlitchSecure improves DAST"
-subtitle: "With so many Dynamic Application Security Testing tools to choose from, it can be difficult to find the right one for you. GlitchSecure can help by not only providing you access to all the best-in-class DAST tools, but a team of experts to reliably configure and review them"
+layout: vs-page
+title: "More Than a Simple Vulnerability Scan"
+subtitle: "GlitchSecure combines hacker-powered security testing and best in class DAST tools to help you identify complex vulnerabilities in your Web Applications and APIs."
 permalink: /vs-vulnerability-scanning/
 
 #image:
@@ -16,27 +16,27 @@ published: true
 
 ---
 
-## DAST is expensive and complex, requiring infrastructure and specialisation.
+## Vulnerability Scanners Find Vulnerable Software
 
-Lorem Ipsum
+Vulnerability scanners are great for finding what they are designed to find, that is out-dated and known vulnerable software. They fall short when dealing with complex web-applications that require dynamic testing across various inputs and roles.
 
 ---
 
 
-## DAST often reporting false-positives and noise
+## DAST vs a Vulnerability Scan
 
 Words
 
 ---
 
-## GlitchSecure provides multiple DAST tools in one
+## Penetration Testing vs Vulnerability Scanning
 
-GlitchSecure's Continuous Security Testing service provides you the best results by not just relying on a single tool. Our offering combines the top open source and commercial DAST tooling along with expert security professionals who ensure those tools are tailored to your specific environment.
+Lorem Ipsum
 
 ---
 
-## GlitchSecure is easier and faster
+## Title
 
-By introducing a robust quality assurance process, we ensure that results delivered to you are verified and priortised. A typical DAST tool might produce hundreds of potential findings,
+Lorem Ipsum
 
 ---

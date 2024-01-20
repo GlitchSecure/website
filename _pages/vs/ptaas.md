@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "Why GlitchSecure is better than typical PTaaS"
-subtitle: "Penetration Testing as a Service companies rely heavily on crowdsourcing to pools of freelancers who already have full-time jobs elsewhere. GlitchSecure is a better solution for teams who want a personalised touch."
+layout: vs-page
+title: "Why GlitchSecure is better than crowd-sourced pentesting"
+subtitle: "Penetration Testing as a Service companies rely heavily on crowd-sourcing to pools of freelancers who already have full-time jobs elsewhere. GlitchSecure is a better solution for teams who want a personalised touch."
 permalink: /vs-ptaas/
 
 #image:
