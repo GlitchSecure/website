@@ -16,13 +16,13 @@ published: false
 
 ---
 
-# DAST does X.
+## DAST does X.
 
 Lorem Ipsum
 
 ---
 
-# SAST does Y.
+## SAST does Y.
 
 Lorem Ipsum
 

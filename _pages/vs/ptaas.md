@@ -16,19 +16,19 @@ published: true
 
 ---
 
-# GlitchSecure guarentees quality, PTaaS cannot
+## GlitchSecure guarentees quality, PTaaS cannot
 
 Crowd-sourced models that inherintly rely on pools of gig-workers simply cannot deliver the same quality and focus provided by a dedicated security team.
 
 ---
 
-# PTaaS is large, VC funded
+## PTaaS is large, VC funded
 
 Words
 
 ---
 
-# Title
+## Title
 
 Words
 

@@ -16,25 +16,26 @@ published: true
 
 ---
 
-# DAST is expensive and complex, requiring infrastructure and specialisation.
+## DAST is expensive and complex, requiring infrastructure and specialisation.
 
 Lorem Ipsum
+
 ---
 
 
-# DAST quality is variable, often reporting false-positives and noise
+## DAST quality is variable, often reporting false-positives and noise
 
 Words
 
 ---
 
-# GlitchSecure provides you multiple DAST tools in one
+## GlitchSecure provides you multiple DAST tools in one
 
 GlitchSecure's Continuous Security Testing service provides you the best results by not just relying on a single tool. Our offering combines the top open source and commercial DAST tooling along with expert security professionals who ensure those tools are tailored to your specific environment.
 
 ---
 
-# GlitchSecure cuts through the noise
+## GlitchSecure cuts through the noise
 
 By introducing a robust quality assurance process, we ensure that results delivered to you are verified and priortised. A typical DAST tool might produce hundreds of potential findings,
 
