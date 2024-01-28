@@ -93,29 +93,32 @@ As a small bootstrapped team, we knew that there would be limits to what we coul
 
 So why settle on one? By ingesting data from not just our own automation or a single tool, but as many as we could get our hands on, we started to see some really cool results and begin to infer things we couldn't without all the data. From this we were able to build our product offering to not only deliver more results that a single tool on it's own, but also better identify one-off false-positives from real and exploitable vulnerabilities.
 
+
 # The Human Touch
 
 Orchestrating a half a dozen automated security testing tools and ingesting the data is cool and all. However, sifting through dozens or even hundreds of results can be overwhelming. It's hard to find the signal through the noise.
 
 That's where our team comes back in. While we could have just called it a day and started marketing this as a point and click SaaS, because we have less pressure we decided to bring the human element back in.
 
-Each and every result that our platform ingests from those tools is manually reviewed by our team. We take a 3 step approach when doing this.
+![A diagram of our process](/assets/img/blog/9/ct-process-diagram.png)
+
+Each and every result that our platform ingests from those tools is manually reviewed by our team. We take a 5 step approach when doing this.
 
 - 1) Consolidate the results
-
   - We take the large amount of data collected and consolidate it into a logical set of potential vulnerabilities.
 
 - 2) Prove exploitablity
+  - We manually validate each potential vulnerability to demonstrate its impact and ensure its validity.
 
-- We manually validate each potential vulnerability to demonstrate its impact and ensure its validity.
-
-- 3) Explore additional attacks
-
-  - Once we've proven a vulnerability is real and exploitable, we'll often spend some additional time manually testing permutations.
-
-- 4) Provide tailored advice
-
+- 3) Provide tailored advice
   - We don't just copy and paste the information from the tools. Instead, we've built up a library of findings, PoCs, and remediation advice. We tailor them to each framework and environment's unique attributes.
+
+- 4) Validate remediation efforts
+  - Once a vulnerability is fixed, we work closely with development teams to test permutations of the issue and ensure it's fully remediated.
+
+- 5) Improve testing
+
+  - On each iteration we look at the results, fine-tune our tools, and continue learning from the data.
 
 This approach isn't as scalable or profitable as simply spitting out the results. However, we believe it's the only way to truly ensure quality findings.
 
