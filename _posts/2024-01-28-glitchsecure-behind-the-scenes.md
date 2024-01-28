@@ -13,7 +13,7 @@ author: Jade Null
 # Use "GlitchSecure" if no author
 coauthor:
 # Coauthor or optionally the editors name
-category: updates
+category: Updates
 # Use either updates, resources, guides as the category
 
 image:
