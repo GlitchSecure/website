@@ -1,7 +1,7 @@
 ---
 layout: post
 # The filename will be used for URL slug generation, try to keep it to 1-3 words
-title: "Building a security testing company without VC."
+title: "Building a security testing company without VC"
 # Keep the title short, does not need to match the filename
 subtitle: "How we continually help companies identify and remediate vulnerabilities without millions in venture capital."
 # Subtitles should be 90-120 characters
