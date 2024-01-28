@@ -97,13 +97,13 @@ That's where our team comes back in. While we could have just called it a day an
 
 Each and every result that our platform ingests from those tools is manually reviewed by our team. We take a 3 step approach when doing this.
 
-- 1. Consolidate the results
+- 1) Consolidate the results
   - We take the large amount of data collected and consolidate it into a logical set of potential vulnerabilities.
-- 2. Prove exploitablity
+- 2) Prove exploitablity
   - We take those potential vulnerabilities and manually validate each one, demonstrating impact and ensuring validitity.
-- 3. Explore additional attacks
+- 3) Explore additional attacks
   - Once we've proven a vulnerability is real and exploitable, we'll often spend some additional time manually testing permutations.
-- 4. Provide tailored advice
+- 4) Provide tailored advice
   - We don't just copy and paste the information from the tools, but instead build up a library of findings, PoCs, and remediation advice while tailoring them to each framework and environments unique attributes.
 
 While this approach isn't as scalable —or profitable— as simply spitting out the results we get, we believe it's the only way to truly ensure quality findings.
