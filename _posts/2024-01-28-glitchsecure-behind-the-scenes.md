@@ -59,7 +59,7 @@ We're also able to do that since human driven penetration testing isn't our prim
 
 # Building a Platform
 
-When I started writing the code for the GlitchSecure platform, I set out to streamline my existing security consulting, automate the collaboration and reporting process, and give my customers a better experience than a one and done PDF with remediation tracking handled in a spreedsheet. The reality is I could have done this with off the shelf commercial or opensource software like Plextrac or Dradis, but I wanted something that fit my specific needs.
+[When I started](/updates/introducing-glitchsecure) writing the code for the GlitchSecure platform, I set out to streamline my existing security consulting, automate the collaboration and reporting process, and give my customers a better experience than a one and done PDF with remediation tracking handled in a spreedsheet. The reality is I could have done this with off the shelf commercial or opensource software like Plextrac or Dradis, but I wanted something that fit my specific needs.
 
 After only a few short months of writing code in 2022 I had an MVP and was able to work with my first customer to provide penetration testing through it. The experience from both sides was great and the platform did a few things really well:
 
