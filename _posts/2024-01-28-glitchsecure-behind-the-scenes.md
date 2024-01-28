@@ -110,4 +110,10 @@ While this approach isn't as scalable —or profitable— as simply spitting out
 
 # Conclusion
 
-???
+As a team of hackers, we're passionate about security first and foremost. Bootstrapping has forced us to remain humble, work harder, and stay true to our roots as hackers. It forces us to go against the grain and find creative angles others missed instead of relying on throwing money at problems.
+
+And it's worked! By remaining a bootstrapped company we've been able to build something unique within our industry that's not easily repeatable by our VC backed counterparts. Because we priortise quality over quantity, ensure highly skilled professionals are in the loop, and aren't trying to chase automations and profit at all costs we've been able to successfully provide industry leading security testing to our customers and continually identify high impact vulnerabilities. 
+
+---
+
+This article was written by humans for humans. Interested in learning how we can help you identify and remediate vulnerabilities? [Book a call with the founders of GlitchSecure](/demo/).
