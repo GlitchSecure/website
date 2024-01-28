@@ -132,4 +132,6 @@ As a result, we've been able to provided industry-leading security testing to ou
 
 ---
 
-This article was written by humans for humans. Interested in learning how we can help you identify and remediate vulnerabilities? [Book a call with the founders of GlitchSecure](/demo/).
+This article was written by humans for humans.
+
+Interested in learning how we can help you identify and remediate vulnerabilities? [Book a call with the founders of GlitchSecure](/demo/).
