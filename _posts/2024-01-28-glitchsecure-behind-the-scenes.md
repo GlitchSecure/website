@@ -117,7 +117,7 @@ Each and every result that our platform ingests from those tools is manually rev
 
 This approach isn't as scalable or profitable as simply spitting out the results. However, we believe it's the only way to truly ensure quality findings.
 
-# Conclusion
+# Hackers At Heart
 
 As a team of hackers, we're passionate about security first and foremost. Bootstrapping has forced us to remain humble, work harder, and stay true to our roots as hackers. It forces us to go against the grain and find creative angles others missed instead of relying on throwing money at problems.
 
