@@ -1,3 +1,40 @@
+---
+layout: post
+# The filename will be used for URL slug generation, try to keep it to 1-3 words
+title: "Building a security testing company without VC."
+# Keep the title short, does not need to match the filename
+subtitle: "How we continually help companies identify and remediate vulnerabilities without millions in VC"
+# Subtitles should be 90-120 characters
+date: 2024-01-28
+# Date in YYYY-MM-DD Format, should match date used in the filename
+date-updated:
+# Date in YYYY-MM-DD Format. Add this if a change is made after the date above
+author: Jade Null
+# Use "GlitchSecure" if no author
+coauthor:
+# Coauthor or optionally the editors name
+category: updates
+# Use either updates, resources, guides as the category
+
+image:
+# Images are stored in the assets/img/ folder.
+# Create a new subfolder within assets/img/blog/ for each post new.
+  hero: blog/9/hero.jpg
+  # Upload a 1920x1008 image, replace 10 with the post slug or number
+  # This is used for the background on the post
+  feature: blog/9/feature.jpg
+  # Upload a 1200x630px image, replace 10 with the post slug or number
+  # This is used for the preview of the post
+  credit: Tima Miroshnichenko
+  # Include the feature photo authors name
+  creditlink: https://www.pexels.com/photo/piles-on-money-on-the-table-6266639/
+  # Include link to original photo source
+hero-vertical: true
+# Whether to use a vertical layout. Default is true for blog posts.
+hero-wrapper-padding: "pb-24"
+# This must be set to "pb-24" when using a vertical layout and removed when not.
+---
+
 As a small bootstrapped company in the security testing space, you can imagine we're up against some pretty big players. Incumbent PTaaS providers have pools of hundreds of gig-workers or "crowd-sourced" hackers. SaaS-based security tools claim to automate the pentest.
 
 At GlitchSecure, we're neither of those things, and we won't ever be. But that may leave you wondering, what are we and how do we stack up against these providers? Let's dive in...
