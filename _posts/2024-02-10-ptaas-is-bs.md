@@ -3,9 +3,9 @@ layout: post
 # The filename will be used for URL slug generation, try to keep it to 1-3 words
 title: "PTaaS is BS"
 # Keep the title short, does not need to match the filename
-subtitle: "Why Penetration Testing as a Service is bullshit."
+subtitle: "Why (we think) Penetration Testing as a Service is bullshit."
 # Subtitles should be 90-120 characters
-date: 2024-02-09
+date: 2024-02-10
 # Date in YYYY-MM-DD Format, should match date used in the filename
 date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
@@ -19,15 +19,15 @@ category: updates
 image:
 # Images are stored in the assets/img/ folder.
 # Create a new subfolder within assets/img/blog/ for each post new.
-  hero: blog/10/hero.jpg
+  hero: blog/10/header.jpg
   # Upload a 1920x1008 image, replace 10 with the post slug or number
   # This is used for the background on the post
   feature: blog/10/feature.jpg
   # Upload a 1200x630px image, replace 10 with the post slug or number
   # This is used for the preview of the post
-  credit: cottonbro studio
+  credit: Vladimir Srajber
   # Include the feature photo authors name
-  creditlink: https://www.pexels.com/photo/green-and-white-lights-5473951/
+  creditlink: https://www.pexels.com/photo/horse-poop-on-ground-15671402/
   # Include link to original photo source
 hero-vertical: true
 # Whether to use a vertical layout. Default is true for blog posts.
@@ -70,7 +70,7 @@ One of the most infamous users of the term, the ~dingleberries~* lovely folks at
 > We define Pentest as a Service (PtaaS) as a service that utilizes a global talent pool of certified
 pentesters and a data-centric platform to deliver pentests.
 
-<small>* Cobalt once spent 6 months trying to bully GlitchSecure and a friend of the company with legal threats, but that's a story for another time!</small>
+<small>* Cobalt once spent 6 months trying to bully GlitchSecure and a friend of the company with legal threats, but that's a story for another time! Don't waste everyones time again Chris ;)</small>
 
 Building on the backs of commerical and open source penetration testing platforms alike,
 
