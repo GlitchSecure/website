@@ -19,7 +19,7 @@ category: updates
 image:
 # Images are stored in the assets/img/ folder.
 # Create a new subfolder within assets/img/blog/ for each post new.
-  hero: blog/9/hero.jpg
+  hero: blog/9/header.jpg
   # Upload a 1920x1008 image, replace 10 with the post slug or number
   # This is used for the background on the post
   feature: blog/9/feature.jpg
@@ -51,9 +51,9 @@ When you go out to look for a human powered penetration test, these days you rea
 
 This new paradigm has created a gap in the market. Software companies that care about security more than a compliance checkbox want to know the work is done right. They want the hackers working on their pentest to be focused, with limited context switching, and to know that they have their backs. They also want this without spending tens of thousands of dollars.
 
-We fill that gap in the market because we are small. Not having VC pressure to grow at all costs allows us to build up our team of highly skilled security professionals. It also lets us work closely with our customers to extend their team. And, we can even turn down projects that may not be a good fit for our unique skill set.
+**We fill that gap** in the market because we are small. Not having VC pressure to grow at all costs allows us to build up our team of highly skilled security professionals. It also lets us work closely with our customers to extend their team. And, we can even turn down projects that may not be a good fit for our unique skill set.
 
-We're also able to do that since human driven penetration testing isn't our primary focus as a company. While it's not as scalable, the services aspect of our business is an important one as it helps us self-fund development of our platform and our continuous security testing offering.
+We're also able to do that since human driven penetration testing isn't our primary focus as a company. While it's not as scalable, the services aspect of our business is an important one as it helps us fund and shape the development of our platform and our continuous security testing offering.
 
 # Building a Platform
 
@@ -63,17 +63,19 @@ After only a few short months of writing code in 2022 I had an MVP and was able 
 
 - It allowed the customer to see findings as I found them
 
-- It provided additional insight and consistency. It did this by mapping what I was doing to an industry standard methodology. Then, it displayed that work to the customer.
+- It provided additional insight and consistency
 
 - It saved me time by automating report delivery which meant more time to hack
 
 - It allowed real-time collaboration
 
-The MVP was a total success. The cost? 3 months of my time and under $10k. I met my goals and learned new tricks in Laravel for a fraction of the price of the existing commercial PTaaS delivery platforms. I built something that could help me deliver my penetration testing services even better than before. As I grew the team and our consulting practice, the platform proved invaluable for maintaining that level of quality and speed of delivery.
+The MVP was a total success. The cost? 3 months of my time and under $10k. I met my goals and learned new tricks in Laravel for a fraction of the price of the existing commercial PTaaS delivery platforms. I built something that could help me deliver my penetration testing services even better than before.
+
+As I grew the team and our consulting practice, the platform proved invaluable for maintaining that level of quality and speed of delivery.
 
 # Exploring Automation
 
-With a pentest delivery platform built and the team growing, we shifted our focus to exploring automated testing. While we strongly believe we are a long way from fully automated web application penetration testing —[some companies are sinking tens of millions just to scratch the surface](https://old.reddit.com/r/cybersecurity/comments/1acpbmi/what_the_hell_is_ptaas/kjwl3h2/?context=1)— we knew there were many tasks we could automate within the OWASP Application Security Verification Standard (ASVS). A wealth of automations already existed as opensource projects like testssl, nuclei, and OWASP ZAP, as well as stand-alone commercial offerings.
+With a pentest delivery platform built and the team growing, we shifted our focus to exploring automated testing. While we strongly believe we are a long way from fully automated web application penetration testing —[some companies are sinking tens of millions just to scratch the surface](https://old.reddit.com/r/cybersecurity/comments/1acpbmi/what_the_hell_is_ptaas/kjwl3h2/?context=1)— we knew there were many tasks we could automate within the OWASP Application Security Verification Standard (ASVS). A wealth of automations already existed, including open-source projects like testssl, nuclei, and OWASP ZAP, as well as stand-alone commercial offerings.
 
 While researching this, we learned more and more from customers about what they were doing and what they wanted. After extensive customer interviews we found that most software companies who pay for security testing fell into one or both of the following categories:
 
@@ -87,13 +89,13 @@ At GlitchSecure, we approached this differently. We learned that while companies
 
 # Continuous Security Testing
 
-As a small bootstrapped team, we knew that try as we may there are limits to what we could automate on our own. We also knew from customer interviews that companies were already paying for and underutilisng DAST tooling. We already had a platform to manage and deliver findings. We started looking for ways to integrate the well-known tools, like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and even Nessus. While evaluating these tools, we found that results can vary widley from tool to tool, and environment to environment.
+As a small bootstrapped team, we knew that there would be limits to what we could automate on our own. We also knew from customer interviews that companies were already paying for and underutilisng DAST tooling. We already had a platform to manage and deliver findings. So we started looking for ways to integrate the well-known tools, like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and even Nessus. While evaluating these tools, we found that results can vary widley from tool to tool, and environment to environment.
 
 So why settle on one? By ingesting data from not just our own automation or a single tool, but as many as we could get our hands on, we started to see some really cool results and begin to infer things we couldn't without all the data. From this we were able to build our product offering to not only deliver more results that a single tool on it's own, but also better identify one-off false-positives from real and exploitable vulnerabilities.
 
 # The Human Touch
 
-Orchestrating a dozen automated security testing tools and ingesting the data is cool and all. However, sifting through dozens or even hundreds of results can be overwhelming. It's hard to find the signal through the noise.
+Orchestrating a half a dozen automated security testing tools and ingesting the data is cool and all. However, sifting through dozens or even hundreds of results can be overwhelming. It's hard to find the signal through the noise.
 
 That's where our team comes back in. While we could have just called it a day and started marketing this as a point and click SaaS, because we have less pressure we decided to bring the human element back in.
 
@@ -121,7 +123,7 @@ This approach isn't as scalable or profitable as simply spitting out the results
 
 As a team of hackers, we're passionate about security first and foremost. Bootstrapping has forced us to remain humble, work harder, and stay true to our roots as hackers. It forces us to go against the grain and find creative angles others missed instead of relying on throwing money at problems.
 
-And it's worked! By remaining a bootstrapped company we've been able to build something unique within our industry that's not easily repeatable by our VC backed counterparts. We prioritize quality over quantity. We ensure highly skilled professionals are in the loop. We avoid chasing automations and profit at all costs.
+And it's working! By remaining a bootstrapped company we've been able to build something unique within our industry that's not easily repeatable by our VC backed counterparts. We prioritize quality over quantity. We ensure highly skilled professionals are in the loop. We avoid chasing automations and profit at all costs.
 
 As a result, we've been able to provided industry-leading security testing to our customers and continually identify high-impact vulnerabilities.
 
