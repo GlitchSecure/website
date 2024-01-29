@@ -49,7 +49,7 @@ When you go out to look for a human-powered penetration test these days, you rea
 
 - A traditional penetration test: costly but often performed by highly experienced and well-paid consultants.
 
-This new paradigm has created a gap in the market. Software companies that prioritize security beyond a mere compliance checkbox want assurance that the work is done right. They want the hackers working on their pentest to be focused, with limited context switching, and to know that they have their backs. They also want this without spending tens of thousands of dollars.
+This new paradigm has created a gap in the market. Software companies that prioritize security beyond a mere compliance checkbox (SOC2 / ISO27001 etc.) want assurance that the work is done right. They want the hackers working on their pentest to be focused, with limited context switching, and to know that they have their backs. They also want this without spending tens of thousands of dollars.
 
 **We fill that gap** in the market because we are small. Not having VC pressure to grow at all costs allows us to build up our team of highly skilled security professionals. This approach also lets us work closely with our customers to extend their team. And, we can even turn down projects that may not be a good fit for our unique skill set.
 
