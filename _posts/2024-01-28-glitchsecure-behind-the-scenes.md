@@ -89,7 +89,7 @@ At GlitchSecure, we approached this differently. We learned that while companies
 
 # Continuous Security Testing
 
-As a small bootstrapped team, we knew that there would be limits to what we could automate on our own. We also knew from customer interviews that companies were already paying for and underutilisng DAST tooling. We already had a platform to manage and deliver findings. So we started looking for ways to integrate the well-known tools, like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and even Nessus. While evaluating these tools, we found that results can vary widley from tool to tool, and environment to environment.
+We knew that there would be limits to what we could automate on our own. We also knew from customer interviews that companies were already paying for and underutilising DAST tooling. We already had a platform to manage and deliver findings. So we started looking for ways to integrate the well-known tools, like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and even Nessus. While evaluating these tools, we found that results can vary wildly from tool to tool, and environment to environment.
 
 So why settle on one? By ingesting data from not just our own automation or a single tool, but as many as we could get our hands on, we started to see some really cool results and begin to infer things we couldn't without all the data. From this, we were able to build our product offering to not only deliver more results than a single tool on its own but also better identify one-off false positives from real and exploitable vulnerabilities.
 
