@@ -126,7 +126,7 @@ This approach isn't as scalable or profitable as simply spitting out the results
 
 As a team of hackers, we're passionate about security first and foremost. Bootstrapping has forced us to remain humble, work harder, and stay true to our roots as hackers. It compels us to go against the grain and find creative angles others may have missed, instead of relying on throwing money at problems.
 
-And it's working! By remaining a bootstrapped company, we've been able to build something unique within our industry that's not easily repeatable by our VC-backed counterparts. We prioritize quality over quantity. We ensure highly skilled professionals are in the loop. We avoid chasing automations and profit at all costs.
+And it's working! We prioritize quality over quantity. We ensure highly skilled professionals are in the loop. We avoid chasing automations and profit at all costs.
 
 As a result, we've been able to provided industry-leading security testing to our customers and continually identify high-impact vulnerabilities.
 
