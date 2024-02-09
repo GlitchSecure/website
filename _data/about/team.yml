@@ -1,3 +1,9 @@
+- name: Gavin
+  pronouns: He/Him
+  country: United States
+  picture: /assets/img/about/team/gavin.jpg
+  title: Hacker
+
 - name: Adam
   pronouns: He/Him
   country: United States
@@ -9,12 +15,6 @@
   country: United States
   picture: /assets/img/about/team/brad.jpg
   title: Technical Writer
-
-- name: Matt
-  pronouns: He/Him
-  country: Canada
-  picture: /assets/img/about/team/matt.jpg
-  title: Developer
 
 - name: Dirk
   pronouns: He/They
