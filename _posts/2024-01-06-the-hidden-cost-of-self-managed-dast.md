@@ -9,6 +9,7 @@ date: 2024-01-06
 # Date in YYYY-MM-DD Format, should match date used in the filename
 date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
+author: Jade Null
 collaborators:
  - name: Jade Null
  - name: Brad Bahls
