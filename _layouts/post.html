@@ -33,22 +33,18 @@ layout: default
       >
         {{ page.title | escape }}
       </h1>
-      {% if page.coauthor %}
-      <div class="flex items-center mt-4">
-          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.coauthor | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.coauthor }}">
-          <div>
-              <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.coauthor }}<br></span>
-          </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 max-w-md">
+        {% for collaborator in page.collaborators %}
+        <div class="flex items-center content-start mt-4">
+            <img class="rounded-full flex-shrink-0" src="/assets/img/about/team/{{ collaborator.name | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ collaborator.name }}">
+            <span class="ml-2 font-medium text-neutral-700 dark:text-neutral-500">{{ collaborator.name }}<br></span>
+        </div>
+        {% endfor %}
       </div>
-      {% endif %}
+
       <div class="flex items-center mt-4">
-          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ page.author | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ page.author }}">
-          <div>
-              <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ page.author }}</span>
-              <br>
-              <span datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="text-neutral-500 dark:text-neutral-400">{{ page.date | date: "%b %-d, %Y" }}</span>
+              <span datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="text-neutral-500 dark:text-neutral-400">Posted on {{ page.date | date: "%b %-d, %Y" }}</span>
               <span class="text-neutral-500 dark:text-neutral-400"> · {% assign words = content | number_of_words %} {% if words < 360 %} 1 MINUTE READ {% else %} {{ words | divided_by:180 }} MINUTE READ {% endif %}</span>
-          </div>
       </div>
     </div>
 
