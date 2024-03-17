@@ -11,8 +11,10 @@ date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
 author: Jade Null
 # Use "GlitchSecure" if no author
-coauthor:
-# Coauthor or optionally the editors name
+collaborators:
+ - name: Brad Bahls
+ - name: Jade Null
+# Provide a list of collaborator names, including the author
 category: updates
 # Use either updates, resources, guides as the category
 
