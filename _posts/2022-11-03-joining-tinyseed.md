@@ -10,7 +10,6 @@ coauthor: TinySeed Team
 collaborators:
  - name: Jade Null
  - name: TinySeed Team
- - name: Brad Bahls
 category: Updates
 
 image:
