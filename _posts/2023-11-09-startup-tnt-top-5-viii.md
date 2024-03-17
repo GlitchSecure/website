@@ -6,7 +6,8 @@ subtitle: "GlitchSecure joins 4 other finalists in the Startup TNT Investment Su
 date: 2023-11-09 # Date in YYYY-MM-DD Format
 date-updated:  # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
-coauthor:
+collaborators:
+ - name: Jade Null
 category: Updates
 
 image:

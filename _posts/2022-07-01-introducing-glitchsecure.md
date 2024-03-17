@@ -5,7 +5,8 @@ subtitle: "Introducing GlitchSecure, a new cyber security start-up."
 date: 2022-07-01 # Date in YYYY-MM-DD Format
 date-updated: 2023-09-29 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
-coauthor:
+collaborators:
+ - name: Jade Null
 category: Updates
 
 image:
