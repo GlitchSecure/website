@@ -9,9 +9,9 @@ date: 2024-01-06
 # Date in YYYY-MM-DD Format, should match date used in the filename
 date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
-author: Jade Null
-# Use "GlitchSecure" if no author
-coauthor: Brad Bahls
+collaborators:
+ - name: Jade Null
+ - name: Brad Bahls
 # Coauthor or optionally the editors name
 category: Resources
 # Use either updates, resources, guides as the category

@@ -33,15 +33,13 @@ layout: default
       >
         {{ page.title | escape }}
       </h1>
-      <div class="grid grid-cols-4 gap-4">
-      {% for collaborator in page.collaborators %}
-      <div class="flex items-center mt-4">
-          <img class="rounded-full flex-shrink-0 mr-4" src="/assets/img/about/team/{{ collaborator.name | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ collaborator.name }}">
-          <div>
-              <span class="font-medium text-neutral-700 dark:text-neutral-500">{{ collaborator.name }}<br></span>
-          </div>
-      </div>
-      {% endfor %}
+      <div class="grid grid-cols-1 lg:grid-cols-2 max-w-md">
+        {% for collaborator in page.collaborators %}
+        <div class="flex items-center content-start mt-4">
+            <img class="rounded-full flex-shrink-0" src="/assets/img/about/team/{{ collaborator.name | truncatewords:1 | slugify}}.jpg" width="40" height="40" alt="{{ collaborator.name }}">
+            <span class="ml-4 font-medium text-neutral-700 dark:text-neutral-500">{{ collaborator.name }}<br></span>
+        </div>
+        {% endfor %}
       </div>
 
       <div class="flex items-center mt-4">
