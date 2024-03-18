@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms of Service
-subtitle: "Last Updated: 07 October 2022"
+subtitle: "Last Updated: 17 March 2024"
 permalink: /legal/terms/
 published: true
 ---
@@ -37,16 +37,31 @@ THIS AGREEMENT GOVERNS YOUR USE OF GLITCHSECURE WEBSITES, SERVICES, AND PRODUCTS
 - 1.10 “__Results__” means the data based on Client Data resulting from Your use of the Service, but does not include any dashboards for displaying results, report templates, or other components of the Service used by GlitchSecure;
 
 - 1.11 “__Services__” means the consulting, testing, automated, or other services described in a Statement of Work or available through GlitchSecure’s website which GlitchSecure provides to You pursuant to Section 2.1 and 2.2 hereof. Services may be Automated Services or Professional Services:
-  - (i) “__Automated Services__” means Services where You engage GlitchSecure software to independently assess your security through the GlitchSecure website;
-  - (ii) “__Professional Services__” means Services where You engage GlitchSecure to perform specific, identified tasks, either at specific dates and times, or on retainer for a period of time in order to perform such tasks as needed.
+  - (i) “__Automated Services__” means Services where You engage GlitchSecure software to independently assess your security through the GlitchSecure platform;
+    - (a) “__Continuous Security Testing__”, with testing performed by our suite of Dynamic Application Security Testing (DAST) and vulnerability scanning tools on at least a monthly cadence, configured and verified by our team of security consultants.
+  - (ii) “__Professional Services__” means Services where You engage GlitchSecure to perform specific, identified tasks, either at specific dates and times, or on retainer for a period of time in order to perform such tasks as needed. Professional Services means one or both of the following:
+- (a) “__Real-Time Penetration Testing__” or “__Pentest__”, where testing is performed by our team of security consultants following industry standard testing methodologies.
+- (b)  “__Remediation Testing__”, where validation of fixes or patches put in place by you are tested and reasonably believed to have resolved the vulnerability based on the information made available.
 
-- 1.12 “__Statement of Work__” or “__SOW__” means:
+- 1.12 “__Penetration Testing Service Level__” or “__PT Service Level__” means the upper limit of user roles, API end-points, dynamic pages, and/or applications to be tested or the maximum number of testing hours, being one of:
+
+  - (a) “PT Standard” includes testing of up to 2 user roles, 32 dynamic pages, 64 unique API end-points, up to a maximum of 40 testing hours;
+  - (b) “PT Plus” includes testing of up to 3 user roles, 48 dynamic pages, 96 unique API end-points, up to a maximum of 50 testing hours;
+  - (c) “PT Advanced” includes testing of up to 4 user roles, 64 dynamic pages, 128 unique API end-points, and 1 desktop or mobile application, up to a maximum of 60 testing hours;
+  - (d) “PT Enterprise” includes testing of up to 5 user roles, 80 dynamic pages, 160 unique API end-points, and 2 desktop or mobile applications, up to a maximum of 70 testing hours;
+     - (1) “PT Enterprise Tier 2” includes up to a maximum of 100 testing hours;
+     - (2) “PT Enterprise Tier 3” includes up to a maximum of 140 testing hours; or
+     - (3) “PT Enterprise Tier 4” includes up to a maximum of 180 testing hours;
+
+as selected by You in the relevant Statement of Work.
+
+- 1.13 “__Statement of Work__” or “__SOW__” means:
   - (i) a mutually agreed upon statement of work, or scope of work, scope of service, or service brief, which sets forth and describes the Services to be provided hereunder, the applicable fees to be paid, and as applicable, any delivery schedules, timelines, specifications, and any other terms agreed upon by the parties; or
   - (ii) a GlitchSecure ordering document which identifies the Services ordered and references this Agreement;
 
   in each case as entered into or referenced by You; and
 
-- 1.13 “__Receiving Party__” shall have the meaning attributed to such term in Section 5.1 herein.
+- 1.14 “__Receiving Party__” shall have the meaning attributed to such term in Section 5.1 herein.
 
 
 ### 2. Services
@@ -55,11 +70,11 @@ THIS AGREEMENT GOVERNS YOUR USE OF GLITCHSECURE WEBSITES, SERVICES, AND PRODUCTS
 
 - 2.2 __Purchase of Automated Services.__ You may order Automated Services or Plans from GlitchSecure through GlitchSecure’s website. Services provided will be dictated by the selected Plan and associated features as listed on the website or billing portal.
 
-- 2.3 __Deliverables.__ You retain all right, title, and interest in and to Client Data and Client Confidential Information. In addition, You shall own all right, title and interest to the Results obtained by You through Your use of the Services. GlitchSecure owns all right, title, and interest in and to GlitchSecure IP.
+- 2.3 __Deliverables.__ You retain all right, title, and interest in and to Client Data and Client Confidential Information. In addition, after completing a transaction You shall own all right, title and interest to the Results obtained by You through Your use of the Services. GlitchSecure owns all right, title, and interest in and to GlitchSecure IP.
 
 - 2.4 __Licence to Use.__ You will have a perpetual, royalty-free, worldwide, non-exclusive, non-transferable licence to use any GlitchSecure IP incorporated into any Deliverable, for Your internal business purposes only, upon Your payment in full of all amounts due hereunder. GlitchSecure may incorporate the GlitchSecure IP in future releases of any of its products or Services, provided that Client Data or Client Confidential Information is not included in any GlitchSecure IP.
 
-- 2.5 __GlitchSecure Personnel.__ You may request the use of specific GlitchSecure personnel in any SOW or at the time You schedule Professional Services. GlitchSecure shall have sole discretion in staffing Professional Services and may assign the performance of any portion of the Professional Services to any subcontractor.
+- 2.5 __GlitchSecure Personnel.__ You may request the use of specific GlitchSecure personnel in any SOW or at the time You schedule Professional Services. GlitchSecure shall have sole discretion in staffing Professional Services and may assign the performance of any portion of the Professional Services to any subcontractor or employee.
 
 - 2.6 __Rescheduling Services.__ To the extent You purchase Professional Services, You may reschedule the said Professional Services one (1) time at no cost upon prior written notice to GlitchSecure no fewer than ten (10) Business Days prior to the start of the originally scheduled Professional Services. Professional Services which are rescheduled more than one (1) time, or on fewer than ten (10) Business Days written notice to GlitchSecure shall be subject to a rescheduling fee equal to fifteen percent (15%) of the cost of the Professional Service, plus all out-of-pocket expenses or additional out-of-pocket expenses incurred by GlitchSecure due to such rescheduling.
 
@@ -79,7 +94,7 @@ THIS AGREEMENT GOVERNS YOUR USE OF GLITCHSECURE WEBSITES, SERVICES, AND PRODUCTS
 
 ### 4. Fees, Expenses, and Payment Terms
 
-- 4.1 You agree to pay the fees, charges, and other amounts in accordance with the applicable SOW or Plan. GlitchSecure will invoice You upon execution of a SOW or engagement of a Plan, unless otherwise agreed by the Parties. Due to the nature of the Services and deliverables, all fees are non-refundable, unless otherwise stated herein.
+- 4.1 You agree to pay the fees, charges, and other amounts in accordance with the applicable SOW or Plan. GlitchSecure will invoice You upon execution of a SOW or engagement of a Plan, unless otherwise agreed by the Parties. Due to the nature of the Services and deliverables, all fees are non-refundable, unless otherwise stated herein. Interest on any invoice which remains unpaid after 14 days is charged at the rate of 5% monthly on the outstanding principal balance.
 
 - 4.2 You agree to reimburse GlitchSecure for all reasonable out-of-pocket expenses incurred by GlitchSecure in connection with delivery of the Services, including but not limited to, software fees, licences, postage and shipping, travel costs,and/or tools.
 
@@ -174,7 +189,7 @@ THIS AGREEMENT GOVERNS YOUR USE OF GLITCHSECURE WEBSITES, SERVICES, AND PRODUCTS
 
 - 10.5 __Assignment.__ You shall not assign Your rights or obligations hereunder without GlitchSecure’s advance written consent.
 
-- 10.6 __Enurement.__ Subject to the foregoing subsection 10.5, this Agreement shall be binding upon and shall ensureenure to the benefit of the Parties hereto and their successors and permitted assignees.
+- 10.6 __Enurement.__ Subject to the foregoing subsection 10.5, this Agreement shall be binding upon and shall enure to the benefit of the Parties hereto and their successors and permitted assignees.
 
 - 10.7 __Waiver.__ No waiver of any right or remedy hereunder with respect to any occurrence or event on one occasion shall be deemed a waiver of such right or remedy with respect to such occurrence or event on any other occasion.
 
