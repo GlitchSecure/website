@@ -7,3 +7,4 @@ Disallow: /legal/security
 Disallow: /security
 Disallow: /intake/
 Disallow: /assets/img/clients/
+Disallow: /calendar-thankyou/
