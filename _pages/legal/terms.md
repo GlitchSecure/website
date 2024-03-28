@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms of Service
-subtitle: "Last Updated: 27 March 2024"
+subtitle: "Last Updated: 28 March 2024"
 permalink: /legal/terms/
 published: true
 ---
