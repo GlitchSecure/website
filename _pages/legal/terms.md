@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms of Service
-subtitle: "Last Updated: 17 March 2024"
+subtitle: "Last Updated: 29 March 2024"
 permalink: /legal/terms/
 published: true
 ---
@@ -45,13 +45,13 @@ THIS AGREEMENT GOVERNS YOUR USE OF GLITCHSECURE WEBSITES, SERVICES, AND PRODUCTS
 
 - 1.12 “__Penetration Testing Service Level__” or “__PT Service Level__” means the upper limit of user roles, API end-points, dynamic pages, and/or applications to be tested or the maximum number of testing hours, being one of:
 
-  - (a) “PT Standard” includes testing of up to 2 user roles, 32 dynamic pages, 64 unique API end-points, up to a maximum of 40 testing hours;
-  - (b) “PT Plus” includes testing of up to 3 user roles, 48 dynamic pages, 96 unique API end-points, up to a maximum of 50 testing hours;
-  - (c) “PT Advanced” includes testing of up to 4 user roles, 64 dynamic pages, 128 unique API end-points, and 1 desktop or mobile application, up to a maximum of 60 testing hours;
-  - (d) “PT Enterprise” includes testing of up to 5 user roles, 80 dynamic pages, 160 unique API end-points, and 2 desktop or mobile applications, up to a maximum of 70 testing hours;
-     - (1) “PT Enterprise Tier 2” includes up to a maximum of 100 testing hours;
-     - (2) “PT Enterprise Tier 3” includes up to a maximum of 140 testing hours; or
-     - (3) “PT Enterprise Tier 4” includes up to a maximum of 180 testing hours;
+  - (a) “PT Starter” includes testing of up to 1 user role, 24 dynamic pages, 48 unique API end-points;
+  - (b) “PT Basic” includes testing of up to 2 user roles, 32 dynamic pages, 64 unique API end-points;
+  - (c) “PT Standard” includes testing of up to 3 user roles, 48 dynamic pages, 96 unique API end-points;
+  - (d) “PT Plus” includes testing of up to 3 user roles, 64 dynamic pages, 128 unique API end-points, and 1 desktop or mobile application;
+  - (e) “PT Enterprise” includes up to a maximum of 132 testing hours;
+     - (1) “PT Enterprise Tier 2” includes up to a maximum of 154 testing hours; or
+     - (2) “PT Enterprise Tier 3” includes up to a maximum of 176 testing hours;
 
 as selected by You in the relevant Statement of Work.
 
