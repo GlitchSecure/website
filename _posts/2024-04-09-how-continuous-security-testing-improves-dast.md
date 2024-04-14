@@ -13,7 +13,7 @@ collaborators:
  - name: Katie Koss
  - name: Brad Bahls
 # Provide a list of collaborator names, including the author
-category: updates
+category: Resources
 # Use either updates, resources, guides as the category
 
 image:
