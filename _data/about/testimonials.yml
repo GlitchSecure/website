@@ -1,6 +1,6 @@
-- company: "Sketchy"
+- company: 
   name: "Josh Nisenson"
-  title: "CTO"
+  title: "Chief Technology Officer"
   image: "josh.jpg"
   content: "I'm <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">incredibly happy with the team and how responsive they are.</span> They guided us whenever we got stuck and were helpful with suggested approaches to remediation."
 
