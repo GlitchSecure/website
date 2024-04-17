@@ -4,6 +4,7 @@ title: Third-Party Providers
 subtitle:
 permalink: /legal/vendors/
 published: true
+sitemap: false
 ---
 
 In addition to internal and self-hosted opensource software and tools, we use a variety of commercial third party providers to help facilitate our business operations. Any data shared with us may be stored, transmitted, or processed by third parties including but not limited to:

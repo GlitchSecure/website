@@ -6,4 +6,5 @@ subtitle: "We recieved your calendar request and will send you an invitation sho
 hero-vertical: true
 permalink: /calendar-thankyou/
 published: true
+sitemap: false
 ---

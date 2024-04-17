@@ -4,6 +4,7 @@ title: Terms of Service
 subtitle: "Last Updated: 29 March 2024"
 permalink: /legal/terms/
 published: true
+sitemap: false
 ---
 GlitchSecure Inc. (“__GlitchSecure__”) is willing to provide certain services to you as the individual, the company, or the legal entity (hereinafter referenced as “__You__” or “__Your__” or the “__Client__”) only on the condition that You accept all of the terms and conditions contained in this Terms of Service Agreement (hereinafter the “__Agreement__”). You and GlitchSecure are each individually referred to as the “__Party__”, or collectively as the “__Parties__”.
 

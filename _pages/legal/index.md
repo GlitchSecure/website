@@ -4,6 +4,7 @@ title: Legal
 subtitle: "Agreements, policies, and terms for our products and services."
 permalink: /legal/
 published: true
+sitemap: false
 ---
 
 Information about the terms for this website as well as how data is collected and shared by GlitchSecure through usage of our products and services can be found in the sections below.
