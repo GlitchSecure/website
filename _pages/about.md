@@ -46,9 +46,11 @@ aaron-bio: "Aaron is a seasoned founder with a proven track record of growing an
 team-title: "Driven by a"
 team-title-glitch: "hacker collective"
 team-text: "We can't do it alone... That's why we've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
+team-text2: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+
 
 # Client Logo Section
-clients-title: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+clients-title: "Trusted by top software companies"
 
 
 ---
