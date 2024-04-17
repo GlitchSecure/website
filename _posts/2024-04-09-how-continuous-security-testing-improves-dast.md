@@ -79,7 +79,7 @@ There’s a lot of pressure to get it right!
 
 ## Solution: GlitchSecure consolidates multiple DAST tools into one platform
 
-GlitchSecure's [Continuous Security Testing](https://glitchsecure.com/vulnerability-assessment/) service delivers the best of all worlds. 
+GlitchSecure's [Continuous Security Testing](https://glitchsecure.com/continuous-security-testing/) service delivers the best of all worlds. 
 
 Far from relying solely on a single tool, our offering combines the top open-source and commercial DAST tooling with expert security professionals who ensure those tools are tailored to your specific environment.
 

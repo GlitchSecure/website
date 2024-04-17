@@ -1,7 +1,7 @@
 - title: Continuous Security Testing
   subtitle: "Automated application security testing, ongoing security advice, and results verified by expert hackers to reduce false positives."
   icon: "M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"
-  url: /vulnerability-assessment/
+  url: /continuous-security-testing/
 
 - title: "Real-time Penetration Testing"
   subtitle: "Work with a dedicated team of security experts, available on-demand for targeted and in-depth penetration testing."
