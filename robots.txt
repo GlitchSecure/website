@@ -1,10 +1,8 @@
 User-agent: *
-Disallow: /get-started/
 Disallow: /legal/
 Disallow: /legal/msa
 Disallow: /legal/terms
 Disallow: /legal/security
 Disallow: /security
-Disallow: /intake/
 Disallow: /assets/img/clients/
 Disallow: /calendar-thankyou/
