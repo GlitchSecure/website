@@ -47,13 +47,13 @@
   content: "They are fast and communicate well. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">The experience was very seamless.</span> In comparison to some of the bigger companies, they feel a lot more like a boutique service."
 
 - company: Fintech Firm
-  name: Scott
+  name: Scott Serron
   title: VP
   image: scott.jpg
   content: "Partnering with GlitchSecure has been a great experience. Their service is top-notch, and their security offering is second to none. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">We feel like they really have our backs</span> and want to improve our security footprint which is a big relief in this industry. We're excited to continue the relationship"
 
 - company: HeySummit
-  name: Benjamin
+  name: Benjamin Dell
   title: Founder
   image: benjamin.jpg
   content: "<span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">An incredible experience from start to finish.</span> Setup was easy, the team were a joy to work with and the findings / output of the report was easy to understand and navigate."
