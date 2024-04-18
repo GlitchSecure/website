@@ -44,10 +44,10 @@ x-data="
           <div class="mx-auto max-w-md sm:max-w-2xl lg:max-w-none lg:px-0 relative">
             <div class="bg-white dark:bg-neutral-900 rounded-xl p-6 shadow-md relative">
               <h2 class="text-3xl font-bold text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-0">
-                Schedule a free 25 minute demo!
+                {{ page.form-title }}
               </h2>
               <h3 class="text-sm font-light text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-8">
-                Meet with Jade and get your personalised demo and scope estimate.
+                {{ page.form-subtitle }}
               <h3>
               <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}}); window.lintrk('track', { conversion_id: 12207428 });" x-show="getstartedFormOpen">
                 <div class="grid grid-cols-6 gap-6">
@@ -93,15 +93,15 @@ x-data="
                       class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
 >
                         <option value="" selected> How can we hack you today?</option>
-                        <option value="VA">Learn more about: Continuous Security Testing</option>
-                        <option value="PT">Learn more about: Real-time Penetration Testing</option>
-                        <option value="VAPT">Learn more about: all of the above</option>
-                        <option value="Other">I need something else</option>
+                        <option value="Continuous Security Testing">Learn more about: Continuous Security Testing</option>
+                        <option value="Real-time Penetration Testing">Learn more about: Real-time Penetration Testing</option>
+                        <option value="All of the above">Learn more about: all of the above</option>
+                        <option value="Something else...">I need something else</option>
                       </select>
                     </div>
                   </div>
                   <button id="seeCalendarButton" type="submit" class="inline-block w-full col-span-6 rounded-md px-4 py-2.5 text-center text-sm font-semibold leading-5 shadow-md bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple-light">
-                    See Jade's Calendar
+                    {{ page.form-button }}
                   </button>
                 </div>
               </form>
@@ -111,7 +111,7 @@ x-data="
 
               {% include demo/calendar.html %}
             </div>
-            <span class="block mt-8 text-xs text-center text-neutral-400 dark:text-neutral-400">By submitting this form, you agree to our <a href="/legal/terms/" class="underline">terms of service</a> and <a href="/legal/privacy/" class="underline">privacy policy.</a> <br> Don't worry, we're a security company so your info is safe with us. </span>
+            <span class="block mt-8 text-xs text-center text-neutral-400 dark:text-neutral-400">{{ page.form-disclaimer }}</span>
           </div>
         </div>
       </div>
