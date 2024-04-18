@@ -4,6 +4,7 @@ title: GlitchSecure's Security Details
 subtitle: "A look at our security policies, practices, and procedures as a cybersecurity company."
 permalink: /security/
 published: true
+sitemap: false
 ---
 
 # Introduction

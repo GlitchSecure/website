@@ -4,6 +4,7 @@ title: Privacy Policy
 subtitle: "Last Updated: 07 October 2022"
 permalink: /legal/privacy/
 published: true
+sitemap: false
 ---
 GlitchSecure Inc. (“__we__”, “__us__”, or “__GlitchSecure__”) endeavours to protect and respect your privacy. If you are a GlitchSecure Client, or just visiting our website, this policy applies to you (a “__user__”, “__you__”, or “__your__”). Please read this Privacy Policy carefully before using our website or engaging in any services. If you do not agree with the terms of this Privacy Policy, do not continue to access or use our website or services.
 

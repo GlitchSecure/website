@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Licenses
-subtitle: 
+subtitle:
 permalink: /legal/licences/
 published: true
+sitemap: false
 ---
 
 | Name | Licence | Homepage |
