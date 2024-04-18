@@ -20,7 +20,8 @@ client-list-title: "Securing top software companies"
 client-list-text: "From Fintech to Edutech and everything in-between. <br> SaaS companies rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 client-list-cta-title: "Companies trust us to help identify and remediate vulnerabilities "
 client-list-cta: "Read our customer reviews"
-client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
+#client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
+client-list-cta-link: "/about#reviews"
 
 
 # About stats
