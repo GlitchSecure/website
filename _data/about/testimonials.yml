@@ -1,12 +1,12 @@
-- company: "Sketchy"
+- company: 
   name: "Josh Nisenson"
-  title: "CTO"
+  title: "Chief Technology Officer"
   image: "josh.jpg"
   content: "I'm <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">incredibly happy with the team and how responsive they are.</span> They guided us whenever we got stuck and were helpful with suggested approaches to remediation."
 
 - company: "Proctorio"
   name: "Milan Dordevic"
-  title: "VP"
+  title: "CSIO"
   image: "milan.jpg"
   content: "What I appreciated most is GlitchSecure’s human-powered, comprehensive testing approach which <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">ensures no vulnerabilities go unnoticed</span>, paired with their remarkable agility and responsiveness."
 
@@ -21,3 +21,39 @@
   title: "CTO"
   image: "andy.jpg"
   content: "Jade and team were clear, helpful, and competent. The <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">tool to track remediation is a feature that is wildly better</span> than the typical badly formatted PDF we've seen in the past."
+
+- company: GymDesk
+  name: "Eran Galperin"
+  title: CEO
+  image: eran.jpg
+  content: "[...] The team is extremely professional and knowledgeable, and helped us get to speed on the various security findings that needed addressing. The GlitchSecure platform is very easy to use and navigate, <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">way ahead of what most security vendors offered.</span>"
+
+- company: Assembly
+  name: Jonathan Fields
+  title: CEO
+  image: jonathan.jpg
+  content: "GlitchSecure went well <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">above and beyond the contractual obligation to make sure we are secure.</span> With any vulnerabilities, they would jump on a call, night, weekend, it doesn't matter. They are truly amazing people and want their customers to feel appreciated."
+
+- company: PatentBots
+  name: Jeff O'Neill
+  title: Founder
+  image: jeff.jpg
+  content: "I hired GlitchSecure to do an annual pentest, and they did a <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">fantastic job</span>.  They are very easy to work with and they really know their stuff!"
+
+- company: Ghost
+  name: Marko Vasiljevic
+  title: VP of Engineering
+  image: marko.jpg
+  content: "They are fast and communicate well. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">The experience was very seamless.</span> In comparison to some of the bigger companies, they feel a lot more like a boutique service."
+
+- company: Fintech Firm
+  name: Scott Serron
+  title: VP
+  image: scott.jpg
+  content: "Partnering with GlitchSecure has been a great experience. Their service is top-notch, and their security offering is second to none. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">We feel like they really have our backs</span> and want to improve our security footprint which is a big relief in this industry. We're excited to continue the relationship"
+
+- company: HeySummit
+  name: Benjamin Dell
+  title: Founder
+  image: benjamin.jpg
+  content: "<span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">An incredible experience from start to finish.</span> Setup was easy, the team were a joy to work with and the findings / output of the report was easy to understand and navigate."

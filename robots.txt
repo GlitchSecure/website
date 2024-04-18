@@ -5,4 +5,6 @@ Disallow: /legal/terms
 Disallow: /legal/security
 Disallow: /security
 Disallow: /assets/img/clients/
+Disallow: /assets/img/about/team/
+Disallow: /assets/img/about/testimonials/
 Disallow: /calendar-thankyou/

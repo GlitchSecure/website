@@ -5,14 +5,11 @@ hero-title: "We're excited to <span class=\"line-through\">hack</span> meet you!
 permalink: /demo/
 published: true
 
-# Team Section
-team-title: "Meet the founder"
-#eam-subtitle: "Founded in 2022, and based in Canada, GlitchSecure is a bootstrapped startup founded by an industry expert who is passionate about delivering the best results through their craft and software."
-founder-bio: "Jade is an Offensive Security Certified Professional (OSCP) with both a strong technical background and a history of technical leadership. They are deeply passionate about securing the web and are dedicated to building a company that puts the very people who help grow it first. <!--<br><br> They can't do it all alone, so they've assembled a hand selected team of experts who are equally passionate and skilled to help further this mission.--><br>  <a class=\"hover:underline text-base\" href=\"https://linkedin.com/in/GlitchWitch\"> Connect on LinkedIn -></a>"
-
-
-# Investors
-investors-title: "Backed by"
+# Demo Form
+form-title: "Schedule a free 25 minute intro!"
+form-subtitle: "Meet with us to get your personalised demo and scope estimate."
+form-button: "See Our Calendar"
+form-disclaimer: "By submitting this form, you agree to our <a href=\"/legal/terms/\" class=\"underline\">terms of service</a> and <a href=\"/legal/privacy/\" class=\"underline\">privacy policy.</a> <br> Don't worry, we're a security company so your info is safe with us. "
 
 # Testimonials
 #testimonial-title: "Don't just take it from us..."

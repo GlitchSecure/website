@@ -20,7 +20,8 @@ client-list-title: "Securing top software companies"
 client-list-text: "From Fintech to Edutech and everything in-between. <br> SaaS companies rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 client-list-cta-title: "Companies trust us to help identify and remediate vulnerabilities "
 client-list-cta: "Read our customer reviews"
-client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
+#client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
+client-list-cta-link: "/about#reviews"
 
 
 # About stats
@@ -43,7 +44,7 @@ process-subtitle: "A unique approach to offensive appsec."
 feature-title1: "Continuous security testing."
 feature-subtitle1: "Malicious hackers are constantly checking your products and infrastructure for flaws, you should too. Go beyond a point in time annual pentest with continuous security testing."
 feature-button1: "Learn More"
-feature-button1-link: "/vulnerability-assessment/"
+feature-button1-link: "/continuous-security-testing/"
 
 feature-title2: "Hacker-powered penetration testing."
 feature-subtitle2: "Get an in-depth look at your entire application, API, or network through a human-powered full-scope penetration test. Our team of experienced hackers work collaboratively with you to identify and exploit vulnerabilities, delivering results in real-time."
