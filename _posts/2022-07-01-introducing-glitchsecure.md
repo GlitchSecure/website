@@ -8,7 +8,7 @@ author: Jade Null # Use "GlitchSecure" if no author
 collaborators:
  - name: Jade Null
 category: Updates
-
+auto_image: true
 image:
   feature: blog/1/feature.jpg # Upload a 1200x630px image
   hero: blog/1/header.jpg # Upload a 1920x1008 image
