@@ -1,0 +1,37 @@
+items:
+
+  - title: "Senior Penetration Tester (Contract)"
+    description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    location: "Remote Global"
+    rate: "$85-$130/hr"
+    link: ""
+
+  - title: "Penetration Tester"
+    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    location: "Remote Canada"
+    rate: "$92k-130k/yr"
+    link: ""
+
+  - title: "Vulnerability Analyst (Contract)"
+    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    location: "Remote Canada"
+    rate: "$45-60/hr"
+    link: ""
+
+  - title: "Junior PHP Developer"
+    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    location: "Remote Canada"
+    rate: "$52-69k/yr"
+    link: ""
+
+  - title: "PHP Developer"
+    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    location: "Remote Canada"
+    rate: "$69-92k/yr"
+    link: ""
+
+  - title: "Senior PHP Developer"
+    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
+    location: "Remote Canada"
+    rate: "$92-130k/yr"
+    link: ""

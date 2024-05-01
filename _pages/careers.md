@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: careers
 title: Careers
 permalink: /careers/
 tagline: catchy tagline
-published: false
+published: true
 ---
 
 Lorem Ipsum
