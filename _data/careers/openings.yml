@@ -1,37 +1,25 @@
 items:
 
   - title: "Senior Penetration Tester (Contract)"
-    description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
-    location: "Remote Global"
-    rate: "$85-$130/hr"
-    link: ""
-
-  - title: "Penetration Tester"
-    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
-    location: "Remote Canada"
-    rate: "$92k-130k/yr"
-    link: ""
+    #description: ""
+    location: "Remote, Global"
+    #rate: "Level 4-6"
+    link: "https://handbook.glitchsecure.com/s/open-roles/doc/senior-penetration-tester-contract-JqbEz05eFg"
 
   - title: "Vulnerability Analyst (Contract)"
-    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
-    location: "Remote Canada"
-    rate: "$45-60/hr"
-    link: ""
+    #description: ""
+    location: "Remote, Global"
+    #rate: "Level 2-4"
+    link: "https://handbook.glitchsecure.com/s/open-roles/doc/vulnerability-analyst-contract-iLxC5OoYan"
 
-  - title: "Junior PHP Developer"
-    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
-    location: "Remote Canada"
-    rate: "$52-69k/yr"
-    link: ""
+  - title: "Full PHP Stack Developer"
+    #description: ""
+    location: "Remote, Canada"
+    #rate: "Level 3-5"
+    link: "https://handbook.glitchsecure.com/s/open-roles/doc/full-stack-developer-php-5vGI9TQOMG"
 
-  - title: "PHP Developer"
-    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
-    location: "Remote Canada"
-    rate: "$69-92k/yr"
-    link: ""
-
-  - title: "Senior PHP Developer"
-    #description: 'Continuous Security Testing is a process for continually identifying vulnerabilities and weaknesses through the use of automated scanning tools and hacker-powered verification, sometimes refered to as a vulnerability assessment. A Penetration Test is an on-demand test that mimics a real-world cyber attack using the same tools and techniques that modern adversaries use.'
-    location: "Remote Canada"
-    rate: "$92-130k/yr"
-    link: ""
+  - title: "Sales Development Representative"
+    #description: ""
+    location: "Remote, Global"
+    #rate: "Level 1-2"
+    link: "https://handbook.glitchsecure.com/s/open-roles/doc/sales-development-representative-SdX4pHGj8E"

@@ -11,11 +11,11 @@ about-founder-quote: "Amet amet eget scelerisque tellus sit neque faucibus non e
 about-subtitle: "Hackers at heart"
 about-title: "Misfits and rebels securing the web"
 about-text-1: "GlitchSecure is an independent cybersecurity startup that helps companies find and remediate software vulnerabilities through a continuous security testing platform."
-about-text-2: "We're not a typical tech startup [insert short blurb about being anti-vc, people first, bootstrapped ethos, pay transparency, 4 day work week, etc]"
+about-text-2: "As a small team, we're passionate about securing the web and putting people first. We believe in transparent, sustainable, and remote first work."
 about-team-count: "7"
 about-country-count: "4"
 
 # Openings Sections
 ---
 
-Open roles (if any) can be found in the list below.
+Open roles (if any) can be found in the list below. We provide full pay transparency across our team, [read more about that here](https://handbook.glitchsecure.com/s/open-roles/doc/compensation-wMU5niz9Xv).
