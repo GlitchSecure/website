@@ -7,7 +7,7 @@ subtitle: "We're more than meets the eye. A passionate collective of security re
 published: true
 
 # About Section
-about-founder-quote: "Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor."
+about-founder-quote: "I’ve made an internal pledge to the team to ensure full salary transparency, fair profit sharing, and genourous exit compensation."
 about-subtitle: "Hackers at heart"
 about-title: "Misfits and rebels securing the web"
 about-text-1: "GlitchSecure is an independent cybersecurity startup that helps companies find and remediate software vulnerabilities through a continuous security testing platform."
