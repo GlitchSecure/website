@@ -23,25 +23,25 @@
       </div>
       <div>
         <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
-          <p class="text-base font-semibold leading-7 text-glitchsecure-purple">Company values</p>
-          <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">On a mission to secure the web</h1>
+          <p class="text-base font-semibold leading-7 text-glitchsecure-purple">{{ page.about-subtitle }}</p>
+          <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ page.about-title }}</h1>
           <div class="max-w-xl">
-            <p class="mt-6">Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
-            <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
+            <p class="mt-6">{{ page.about-text-1 }}</p>
+            <p class="mt-6">{{ page.about-text-1 }}</p>
           </div>
         </div>
-        <dl class="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
+        <dl class="mt-6 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
           <div>
             <dt class="text-sm font-semibold leading-6 text-gray-600">Founded</dt>
             <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">2022</dd>
           </div>
           <div>
             <dt class="text-sm font-semibold leading-6 text-gray-600">Team Members</dt>
-            <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">7+</dd>
+            <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">{{ page.about-team-count }}+</dd>
           </div>
           <div>
             <dt class="text-sm font-semibold leading-6 text-gray-600">Countries</dt>
-            <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">4+</dd>
+            <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">{{ page.about-country-count }}+</dd>
           </div>
         </dl>
         <div class="mt-10 flex">
