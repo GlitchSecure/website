@@ -10,6 +10,8 @@ date: 2023-11-04
 date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
 author: Jade Null
+collaborators:
+ - name: Jade Null
 # Use "GlitchSecure" if no author
 coauthor:
 # Coauthor or optionally the editors name

@@ -7,6 +7,9 @@ date: 2022-11-03 # Date in YYYY-MM-DD Format
 date-updated: 2023-10-02 # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 coauthor: TinySeed Team
+collaborators:
+ - name: Jade Null
+ - name: TinySeed Team
 category: Updates
 
 image:

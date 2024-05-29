@@ -4,6 +4,7 @@ title: Third-Party Providers
 subtitle:
 permalink: /legal/vendors/
 published: true
+sitemap: false
 ---
 
 In addition to internal and self-hosted opensource software and tools, we use a variety of commercial third party providers to help facilitate our business operations. Any data shared with us may be stored, transmitted, or processed by third parties including but not limited to:
@@ -25,6 +26,7 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | Invicti | Security Scanning Tool | [https://www.invicti.com/legal/privacy-policy/](https://www.invicti.com/legal/privacy-policy/) |
 | Jetbrains | Code Editor | [https://www.jetbrains.com/legal/docs/privacy/privacy/](https://www.jetbrains.com/legal/docs/privacy/privacy/) |
 | Laravel Forge | Server Management | [https://forge.laravel.com/privacy-policy/](https://forge.laravel.com/privacy-policy/) |
+| Mailwip | Email | [https://mailwip.com/privacy](https://mailwip.com/privacy) |
 | NameCheap | Domains, Email, Marketing | [https://www.namecheap.com/legal/general/privacy-policy/](https://www.namecheap.com/legal/general/privacy-policy/) |
 | OpenAI API | Internal Tooling | [https://openai.com/api-data-privacy](https://openai.com/api-data-privacy) |
 | OVHcloud | Server Provider, Backup Storage | [https://www.ovhcloud.com/en-ca/terms-and-conditions/privacy-policy/](https://www.ovhcloud.com/en-ca/terms-and-conditions/privacy-policy/) |

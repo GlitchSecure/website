@@ -15,11 +15,11 @@ company-text: "GlitchSecure is a bootstrapped cybersecurity startup that helps c
 timeline-year-1: "2017"
 timeline-month-1: "Fall"
 timeline-title-1: "GlitchWitch Security"
-timeline-text-1: "Having been hacking for over a decade prior, Jade formalised their security research and penetration testing under the GlitchWitch persona."
+timeline-text-1: "Having been hacking for over a decade prior, Jade began publishing their information security research under the GlitchWitch persona."
 timeline-year-2: "2022"
 timeline-month-2: "Summer"
 timeline-title-2: "GlitchSecure Launched"
-timeline-text-2: "Building on the past years of experience in cybersecurity and software development, the GlitchSecure platform was launched."
+timeline-text-2: "Building on the past years of learnings in cybersecurity and software development, the GlitchSecure platform was launched."
 timeline-year-3: "2022"
 timeline-month-3: "Fall"
 timeline-title-3: "Backed By TinySeed"
@@ -46,9 +46,11 @@ aaron-bio: "Aaron is a seasoned founder with a proven track record of growing an
 team-title: "Driven by a"
 team-title-glitch: "hacker collective"
 team-text: "We can't do it alone... That's why we've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
+team-text2: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+
 
 # Client Logo Section
-clients-title: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+clients-title: "Trusted by top software companies"
 
 
 ---
