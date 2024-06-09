@@ -54,7 +54,7 @@ Jekyll::Hooks.register :site, :pre_render do |site|
 		cc = cache_index[relative_path]
 		image_md5 = Digest::MD5.file(static_file.path).hexdigest
 
-		if not cc or not File.exists?(new_path) or cc[:md5] != image_md5 or cc[:options] != image_optim_options
+		if not cc or not File.exist?(new_path) or cc[:md5] != image_md5 or cc[:options] != image_optim_options
 			# Need to compute the optimized image
 			puts "Optimizing image: #{relative_path}"
 			FileUtils.mkdir_p(File.dirname(new_path))
