@@ -1,8 +1,8 @@
-- company: Conquer
-  name: "Ian Skebba"
-  title: "CTO"
-  image: "ian.jpg"
-  content: "The team at GlitchSecure is professional and quick to deliver. [...] Even with the time crunch we imposed on them they still found several issues from the thorough job they delivered. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">I highly recommend them</span> for anyone needing penetration testing or security functions for their business."
+#- company: Conquer
+#  name: "Ian Skebba"
+#  title: "CTO"
+#  image: "ian.jpg"
+#  content: "The team at GlitchSecure is professional and quick to deliver. [...] Even with the time crunch we imposed on them they still found several issues from the thorough job they delivered. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">I highly recommend them</span> for anyone needing penetration testing or security functions for their business."
 
 - company: LiquidTrust
   name: "Brad Ito"
