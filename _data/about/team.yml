@@ -1,30 +1,25 @@
-- name: Katie
-  pronouns: She/Her
-  country: Australia
-  picture: /assets/img/about/team/katie.jpg
-  title: Technical Writer
+- name: Matt
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
+  title: Hacker
 
 - name: Gavin
-  pronouns: He/Him
-  country: United States
+  pronouns:
   picture: /assets/img/about/team/gavin.jpg
   title: Hacker
 
 - name: Brad
-  pronouns: He/Him
-  country: United States
+  pronouns:
   picture: /assets/img/about/team/brad.jpg
   title: Technical QA
 
-- name: Dirk
-  pronouns: He/They
-  country: Canada
-  picture: /assets/img/about/team/dirk.jpg
+- name: Travis
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
   title: Hacker
 
 - name: Marko
-  pronouns: He/Him
-  country: Europe
+  pronouns:
   picture: /assets/img/about/team/marko.jpg
   title: Hacker
 
