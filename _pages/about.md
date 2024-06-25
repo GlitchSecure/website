@@ -39,7 +39,7 @@ jade-bio: "Jade, widely known as GlitchWitch, is a highly skilled and passionate
 # Team Section
 team-title: "Driven by a"
 team-title-glitch: "hacker collective"
-team-text: "We can't do it alone... That's why we've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
+team-text: "Jade can't do it alone... That's why they've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
 team-text2: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
 
 
