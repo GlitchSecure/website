@@ -30,7 +30,7 @@ For this reason, we want to introduce a third choice. Something that captures th
 
 Continuous testing is the ongoing process of evaluating your application for security vulnerabilities. It combines automated assessments with manual testing to provide comprehensive coverage and depth. The best part is that continuous testing is designed to keep up with rapid application development cycles and frequent deployments. 
 
-At GlitchSecure, our continuous testing service combines several commercial and custom tools to identify vulnerabilities and correlate their results. Different tools specialize in different areas, and we want to ensure that we capture the full scope of your application. We then follow this up with manual review to verify findings and eliminate false positives. We like to be proof-positive, which means that we only report on things that our assessment team can actively exploit. This approach allows us to give your team actionable insights and clear guidance on where attackers might be trying to get in. 
+At GlitchSecure, our continuous testing service integrates a variety of commercial and custom tools to identify vulnerabilities and correlate their results. Different tools specialise in different areas, and we aim to ensure that we capture the full scope of your application. We then follow this up with a manual review to verify findings and eliminate false positives. We like to be proof-positive, which means that we only report on things that our assessment team can actively exploit. This approach allows us to provide your team with actionable insights and clear guidance on where attackers might be trying to get in. 
 
 # What Continuous Testing can do for You
 
