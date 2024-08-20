@@ -44,7 +44,7 @@ As we mentioned, continuous testing combines the benefits of penetration testing
 
 4. **Cost-Effectiveness**: By leveraging a managed continuous testing solution, you gain the benefits of multiple commercial application security tools at a fraction of the cost. Additionally, automating the bulk of repetitive testing activities means that continuous testing can be more cost-effective in the long run, while catching vulnerabilities early reduces the risk of costly breaches.
 
-5. **Ease of Use**: What our customers appreciate the most when leveraging our continuous testing solution is the ease of use. Many of them had already bought a tool to use internally, but quickly found out how much of a pain it can be to properly setup. Initial configurations, scan frequency, and finding verification required a full-time engineer just to manage the system. But with our out-of-the-box approach, we take care of that for you. That way you get all of the benefits and insights, without losing a resource in the process.
+5. **Ease of Use**: What our customers appreciate the most when leveraging our continuous testing solution is the ease of use. Many of them had already purchased a tool for internal use but quickly discovered how challenging it can be to set up properly. Initial configurations, scan frequency, and finding verification often required a full-time engineer just to manage the system. With our out-of-the-box approach, we handle that for you. This way, you receive all the benefits and insights without losing valuable resources in the process.
 
 ![Continuous testing, best of both approaches](/assets/img/blog/14/ct-venn-diagram.png)
 
