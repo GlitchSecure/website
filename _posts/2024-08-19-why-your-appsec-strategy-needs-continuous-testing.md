@@ -48,7 +48,7 @@ As we mentioned, continuous testing combines the benefits of penetration testing
 
 ![Continuous testing, best of both approaches](/assets/img/blog/14/ct-venn-diagram.png)
 
-For our solution, we found ways to integrate well-known tools like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and Nessus. If you've worked with any of these tools before, then you already know how wildly the results can vary from tool to tool, and environment to environment. By diligently combining these systems, we've developed a service that not only delivers more results than any single tool on its own but also better identifies real, exploitable vulnerabilities.
+For our solution, we found ways to integrate well-known tools like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and Nessus. If you've worked with any of these tools before, you know how much the results can vary from tool to tool and environment to environment. By diligently combining these systems, we've developed a service that not only delivers more results than any single tool on its own but also better identifies real, exploitable vulnerabilities.
 
 # How Continuous Testing Fits into Your Security Strategy
 
