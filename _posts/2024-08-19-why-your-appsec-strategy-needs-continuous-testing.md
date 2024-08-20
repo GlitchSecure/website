@@ -60,7 +60,7 @@ Use continuous testing and penetration testing together to apply a layered appro
 
 # Taking the Next Step
 
-By incorporating continuous testing into your AppSec strategy, you can keep pace with rapid development cycles, catch vulnerabilities early, and maintain a robust security posture. At GlitchSecure, we've seen firsthand how continuous testing can transform an organization's security approach. It's not just about finding vulnerabilities; it's about building a security-first culture that can adapt to emerging threats.
+By incorporating continuous testing into your AppSec strategy, you can keep pace with rapid development cycles, catch vulnerabilities early, and maintain a robust security posture. At GlitchSecure, we've seen firsthand how continuous testing can transform an organisation's security approach. It's not just about finding vulnerabilities; it's about building a security-first culture that can adapt to emerging threats.
 
 Ready to take your security to the next level? Let's chat about how we can tailor a continuous testing strategy to your specific needs. 
 
