@@ -46,9 +46,13 @@ Now, we mentioned that continuous testing combines the benefits of penetration t
 
 5. **Ease of Use**: What our customers appreciate the most when leveraging our continuous testing solution is the ease of use. Many of them had already bought a tool to use internally, but quickly found out how much of a pain it can be to properly setup. Initial configurations, scan frequency, and finding verification required a full-time engineer just to manage the system. But with our out-of-the-box approach, we take care of that for you. That way you get all of the benefits and insights, without losing a resource in the process.
 
+![Continuous testing, best of both approaches](/assets/img/blog/14/ct-venn-diagram.png)
+
 For our solution, we found ways to integrate well-known tools like Acunetix, Burp Enterprise, OWASP ZAP, Nuclei, and Nessus. If you've worked with any of these tools before, then you already know how wildly the results can vary from tool to tool, and environment to environment. By diligently combining these systems, we've developed a service that not only delivers more results than any single tool on its own but also better identifies real, exploitable vulnerabilities.
 
 # How Continuous Testing Fits into Your Security Strategy
+
+
 
 To understand how continuous testing fits into your broader AppSec strategy, it's best to think of it a bit like going to the dentist: Your annual pentest is like going to the dentist’s office every 6-12 months. During that time, they'll give you that nice deep clean that your teeth need to stay happy and healthy. But you still need to regularly brush and floss every day in between, and that's where continuous testing comes in.
 
