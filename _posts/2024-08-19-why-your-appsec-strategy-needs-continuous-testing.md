@@ -54,7 +54,7 @@ For our solution, we found ways to integrate well-known tools like Acunetix, Bur
 
 
 
-To understand how continuous testing fits into your broader AppSec strategy, it's best to think of it a bit like going to the dentist: Your annual pentest is like going to the dentist’s office every 6-12 months. During that time, they'll give you that nice deep clean that your teeth need to stay happy and healthy. But you still need to regularly brush and floss every day in between, and that's where continuous testing comes in.
+To understand how continuous testing fits into your broader AppSec strategy, think of it like going to the dentist: Your annual pentest is akin to visiting the dentist's office every 6-12 months. During that time, the dentist provides a thorough cleaning to keep your teeth happy and healthy. However, you still need to brush and floss daily, and that's where continuous testing comes in.
 
 Use continuous testing and penetration testing together to apply a layered approach. The combination of continuous and penetration testing provides a more complete risk assessment, balancing frequent, automated checks with in-depth, manual analysis.
 
