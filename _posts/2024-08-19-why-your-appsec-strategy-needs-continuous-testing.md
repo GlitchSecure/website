@@ -36,7 +36,7 @@ At GlitchSecure, our continuous testing service integrates a variety of commerci
 
 As we mentioned, continuous testing combines the benefits of penetration testing and vulnerability assessments, along with some additional advantages. Let’s dive into what those extras are: 
 
-1. **Ongoing Visibility**: Unlike annual penetration testing, continuous testing provides ongoing visibility into your environment. This allows you to catch and fix vulnerabilities as they are introduced into the environment, instead of waiting for next years pentest. This ongoing visibility allows your team to be proactive, instead of reactive, when it comes to detection and remediation.
+1. **Ongoing Visibility**: Unlike annual penetration testing, continuous testing provides ongoing visibility into your environment. This enables you to identify and address vulnerabilities as they arise, rather than waiting for the next annual test. This ongoing visibility allows your team to be proactive, rather than reactive, in detecting and remediating issues.
 
 2. **Reduced False-positives**: Continuous testing tools are tuned to your specific application instead of applying a generalized, "one-size-fits-all" approach. By combining automated tools with manual review, continuous testing significantly reduces the noise of false positives that often plage vulnerability assessments. 
 
