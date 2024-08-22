@@ -34,7 +34,7 @@ At GlitchSecure, our continuous security testing service integrates a variety of
 
 # What Continuous Security Testing can do for You
 
-As we mentioned, continuous security testing combines the benefits of penetration testing and vulnerability assessments, along with some additional advantages. Let’s dive into what those extras are:
+Continuous security testing combines the benefits of penetration testing and vulnerability assessments, along with some additional advantages. Let’s dive into what those extras are:
 
 1. **Ongoing Visibility**: Unlike annual penetration testing, continuous security testing provides ongoing visibility into your environment. This enables you to identify and address vulnerabilities as they arise, rather than waiting for the next annual test. This ongoing visibility allows your team to be proactive, rather than reactive, in detecting and remediating issues.
 
