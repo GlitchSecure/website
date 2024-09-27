@@ -1,3 +1,13 @@
+- name: Dallas
+  pronouns:
+  picture: /assets/img/about/team/dallas.jpg
+  title: Hacker
+
+- name: Noah
+  pronouns:
+  picture: /assets/img/about/team/noah.jpg
+  title: Developer
+
 - name: Matt
   pronouns:
   picture: /assets/img/about/team/default.jpg
@@ -16,11 +26,6 @@
 - name: Travis
   pronouns:
   picture: /assets/img/about/team/default.jpg
-  title: Hacker
-
-- name: Marko
-  pronouns:
-  picture: /assets/img/about/team/marko.jpg
   title: Hacker
 
 - name: We're hiring!
