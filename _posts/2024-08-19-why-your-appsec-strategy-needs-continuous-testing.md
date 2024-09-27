@@ -8,7 +8,7 @@ date-updated:  # Add this if a change is made after the date above
 author: Gavin Klondike
 collaborators:
  - name: Gavin Klondike
-category: Updates
+category: Resources
 
 image:
   feature: blog/14/feature.jpg # Upload a 1200x630px image
