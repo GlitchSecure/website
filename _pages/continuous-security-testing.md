@@ -34,13 +34,13 @@ platform-feature-subtitle2: "Cut through the noise and get verified vulnerabilit
 platform-feature-button2: "Get Started"
 platform-feature-link2: "/demo/"
 #platform-feature-click2: "$dispatch('getstarted', {method: 'Platform Feature'})"
-platform-feature-image2: "/assets/img/continuous-security-testing/feature2.svg"
+platform-feature-image2: "/assets/img/continuous-security-testing/feature2.png"
 
 platform-feature-title3: "Your dedicated security team."
 platform-feature-subtitle3: "All findings include tailored remediation advice and real-time support. We act as an extension of your existing development and infrastructure teams, saving you time and money."
 platform-feature-button3: "Get Started"
 platform-feature-link3: "/demo/"
 #platform-feature-click3: "$dispatch('getstarted', {method: 'Platform Beta'})"
-platform-feature-image3: "/assets/img/continuous-security-testing/feature3.svg"
+platform-feature-image3: "/assets/img/continuous-security-testing/feature3.png"
 
 ---
