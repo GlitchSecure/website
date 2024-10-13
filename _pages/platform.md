@@ -23,13 +23,13 @@ platform-feature-subtitle2: "Results are delivered to you in a simple dashboard 
 platform-feature-button2: "Get Started"
 platform-feature-link2: "/demo/"
 #platform-feature-click2: "$dispatch('getstarted', {method: 'Platform Feature'})"
-platform-feature-image2: "/assets/img/platform/platform-preview2.svg"
+platform-feature-image2: "/assets/img/platform/platform-preview2.png"
 
 platform-feature-title3: "Get continuous results."
 platform-feature-subtitle3: "Continually ensure your assets are secure with recurring automated vulnerability assessments and agile targeted penetration tests. Get notified instantly of vulnerabilities before attackers find them, and automatically verify applied patches."
 platform-feature-button3: "Get Started"
 platform-feature-link3: "/demo/"
 #platform-feature-click3: "$dispatch('getstarted', {method: 'Platform Beta'})"
-platform-feature-image3: "/assets/img/platform/platform-preview3.svg"
+platform-feature-image3: "/assets/img/platform/platform-preview3.png"
 
 ---
