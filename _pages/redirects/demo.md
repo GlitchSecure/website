@@ -2,7 +2,7 @@
 layout: demo
 title: "Schedule A Demo"
 hero-title: "We're excited to <span class=\"line-through\">hack</span> meet you!</span>"
-permalink: /intro/
+permalink: /demo/
 published: true
 
 # Demo Form
