@@ -56,6 +56,7 @@ While this software is self-hosted, it may connect to external servers and servi
 | BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
 | ezXSS | Security Testing Tool | [https://github.com/ssl/ezXSS](https://github.com/ssl/ezXSS) |
 | Graylog | Log Management | [https://graylog.org/privacy-policy/](https://graylog.org/privacy-policy/) |
+| Mailpit | SMTP Delivery Testing | [https://github.com/axllent/mailpit/blob/develop/SECURITY.md](https://github.com/axllent/mailpit/blob/develop/SECURITY.md)|
 | n8n | Automation | [https://docs.n8n.io/privacy-security/privacy/](https://docs.n8n.io/privacy-security/privacy/) |
 | Outline | Documentation | [https://www.getoutline.com/privacy](https://www.getoutline.com/privacy) |
 | OpenCanary | Security Tool | [https://canary.tools/privacy](https://canary.tools/privacy) |

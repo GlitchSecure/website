@@ -7,5 +7,5 @@ permalink: /contact/
 published: true
 sitemap: false
 ---
-This page has moved. If you are not redirect, please [click here](/demo/).
-<meta http-equiv="refresh" content="3;URL='/demo/'" />   
+This page has moved. If you are not redirect, please [click here](/intro/).
+<meta http-equiv="refresh" content="3;URL='/intro/'" />   
