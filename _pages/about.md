@@ -30,23 +30,17 @@ timeline-text-4: "Top software companies have come to rely on GlitchSecure's off
 
 
 # Founder Section
-founders-title: "Founded and lead by"
-#founders-title-glitch: "lead by"
-#founders-text: "Initially founded by an industry expert hacker with both a strong technical background and a history of technical leadership, GlitchSecure is also lead by an experienced B2B SaaS founder and leader."
+founders-title: "Founded by"
 
 jade-title: "Hacker & Developer"
 jade-pronouns: "They/Them"
-jade-bio: "Jade, widely known as GlitchWitch, is a highly skilled and passionate hacker with a deep technical background. They are constantly pushing the boundaries to improve web security and develop cutting-edge security automations."
-
-aaron-title: "Operations & Strategy"
-aaron-pronouns: "He/Him"
-aaron-bio: "Aaron is a seasoned founder with a proven track record of growing and building successful B2B SaaS companies. Collaborating with customers on difficult business challenges is what keeps his brain ticking."
+jade-bio: "Jade, widely known as GlitchWitch, is a highly skilled and passionate hacker with a deep technical background. They are constantly pushing the boundaries to improve web security through cutting-edge security automations and are dedicated to building a company that puts the very people who help grow it first. <br>"
 
 # Team Section
 team-title: "Driven by a"
 team-title-glitch: "hacker collective"
-team-text: "We can't do it alone... That's why we've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
-team-text2: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+team-text: "Jade can't do it alone... That's why they've assembled a team of highly skilled experts who are passionate about continually developing new technology and processes through a hacker's perspective while delivering the best results through our craft."
+team-text2: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights. <br><p class=\"text-sm\">Interested in joining the team? <a href=\"/careers/\" class=\"hover:underline\">Check out our open roles -></a></p>"
 
 
 # Client Logo Section

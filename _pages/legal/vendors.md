@@ -55,6 +55,8 @@ While this software is self-hosted, it may connect to external servers and servi
 | :--- | :--- | :--- |
 | BitWarden | Secret Management | [https://bitwarden.com/privacy/](https://bitwarden.com/privacy/) |
 | ezXSS | Security Testing Tool | [https://github.com/ssl/ezXSS](https://github.com/ssl/ezXSS) |
+| Graylog | Log Management | [https://graylog.org/privacy-policy/](https://graylog.org/privacy-policy/) |
+| Mailpit | SMTP Delivery Testing | [https://github.com/axllent/mailpit/blob/develop/SECURITY.md](https://github.com/axllent/mailpit/blob/develop/SECURITY.md)|
 | n8n | Automation | [https://docs.n8n.io/privacy-security/privacy/](https://docs.n8n.io/privacy-security/privacy/) |
 | Outline | Documentation | [https://www.getoutline.com/privacy](https://www.getoutline.com/privacy) |
 | OpenCanary | Security Tool | [https://canary.tools/privacy](https://canary.tools/privacy) |
@@ -64,5 +66,7 @@ While this software is self-hosted, it may connect to external servers and servi
 | PortSwigger | Security Scanning Tool | [https://portswigger.net/privacy](https://portswigger.net/privacy) |
 | Proxmox | Virtualisation & Backups | [https://www.proxmox.com/en/privacy-policy](https://www.proxmox.com/en/privacy-policy) |
 | reNgine | Security Scanning Tool | [https://rengine.wiki/](https://rengine.wiki/) |
+| Sandfly Security | EDR | [https://sandflysecurity.com/privacy-policy/](https://sandflysecurity.com/privacy-policy/) |
 | Tenable | Security Scanning Tool | [https://www.tenable.com/privacy-policy](https://www.tenable.com/privacy-policy) |
+| Ubuntu Landscape | Device Management | [https://ubuntu.com/legal/data-privacy](https://ubuntu.com/legal/data-privacy) |
 | Uptime Kuma | Status Page and Uptime Monitoring | [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) |

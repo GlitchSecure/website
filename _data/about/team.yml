@@ -1,34 +1,34 @@
-- name: Katie
-  pronouns: She/Her
-  country: Australia
-  picture: /assets/img/about/team/katie.jpg
-  title: Technical Writer
+- name: Dallas
+  pronouns:
+  picture: /assets/img/about/team/dallas.jpg
+  title: Hacker
+
+- name: Noah
+  pronouns:
+  picture: /assets/img/about/team/noah.jpg
+  title: Developer
+
+- name: Matt
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
+  title: Hacker
 
 - name: Gavin
-  pronouns: He/Him
-  country: United States
+  pronouns:
   picture: /assets/img/about/team/gavin.jpg
   title: Hacker
 
 - name: Brad
-  pronouns: He/Him
-  country: United States
+  pronouns:
   picture: /assets/img/about/team/brad.jpg
   title: Technical QA
 
-- name: Dirk
-  pronouns: He/They
-  country: Canada
-  picture: /assets/img/about/team/dirk.jpg
+- name: Travis
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
   title: Hacker
 
-- name: Marko
-  pronouns: He/Him
-  country: Europe
-  picture: /assets/img/about/team/marko.jpg
-  title: Hacker
-
-- name: We're hiring!
+- name: "<a href=\"/careers/\" class=\"hover:underline\">We're hiring!</a>"
   country: Remote
   picture: /assets/img/about/team/glitchsecure.jpg
   title: This could be you!
