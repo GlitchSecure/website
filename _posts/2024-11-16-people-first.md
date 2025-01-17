@@ -48,7 +48,12 @@ Recogonizing this success has been built by the hard work of many, and that my g
 
 ## Employee Ownership
 
-- ESOP accounts for more than a quarter of the company, equal to investor ownership.
+So many tech companies talk about how they have "genourous equity compensation", and while we're no different we have gone a step further. As of November 2024 our ESOP (Employee Stock Option Pool) is equal to that of all of our investor ownership combined. That means employees will have a chance to not just own a portion of the company, but own just as much as our investors.
+
+While this came at a signifcant dilution cost to myself as a founder, I feel strongly that a rising tide lifts all ships and that this move will only further ensure the very people who ensure our success have a chance to be awarded for that.
+
+> Editors note, insert pie chart here without %
+
 
 ## Radical Transparency
 
