@@ -88,7 +88,7 @@ We try to go above and beyond with encryption, often implementing multiple layer
 
 ## SCA & SAST
 
-- We utilise providers such as Github and Snky to scan our code for vulnerabilities and track dependencies.
+- We utilise providers such as Github and Snyk to scan our code for vulnerabilities and track dependencies.
 - We utilise linting and code styling checks that are enforced through branch rules on all pull requests.
 
 ## Vulnerability Disclosure Policy
