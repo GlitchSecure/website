@@ -9,10 +9,9 @@ date: 2032-07-31
 # Date in YYYY-MM-DD Format, should match date used in the filename
 date-updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
-author: Jade Null
+author: Ashley Wallis
 # Use "GlitchSecure" if no author
 collaborators:
- - name: Brad Bahls
  - name: Jade Null
 # Provide a list of collaborator names, including the author
 category: updates
