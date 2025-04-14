@@ -3,7 +3,7 @@ layout: post
 
 title: "GlitchSecure Raises $2M"
 subtitle: "GlitchSecure Raises $2M for Application Security Testing Revolution"
-date: 2032-04-14
+date: 2025-04-14
 author: Ashley Wallis
 collaborators:
  - name: GlitchSecure
