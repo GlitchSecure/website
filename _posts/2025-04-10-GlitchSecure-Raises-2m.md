@@ -6,7 +6,7 @@ subtitle: "GlitchSecure Raises $2M for Application Security Testing Revolution"
 date: 2032-04-14
 author: Ashley Wallis
 collaborators:
- - name: BDC Team
+ - name: GlitchSecure
 category: updates
 
 image:
@@ -19,7 +19,7 @@ hero-wrapper-padding: "pb-24"
 comments: true
 # Whether or not comments are enabled. This hasn't been implemented yet, but generally we can leave them enabled for anything that's not an update.
 ---
-_This post was orginally published on EIN Presswire_
+_This post was orginally published on [EIN Presswire](https://www.einpresswire.com/article/803094820/glitchsecure-raises-2m-for-application-security-testing-revolution)_
 
 **Winnipeg, Manitoba – April 14, 2025  –  GlitchSecure, a Winnipeg-based security testing company, announces the closing of a $2 million CAD Seed funding round. The round was led by BDC’s Seed Venture Fund, with participation from the TinySeed syndicate. This is the first investment in Manitoba for the BDC Seed Venture Fund and marks an important milestone in GlitchSecure’s journey to reshape how organisations approach cybersecurity by replacing outdated, reactive measures with continuous, proactive testing solutions.**
 
