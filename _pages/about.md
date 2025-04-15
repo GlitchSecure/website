@@ -9,7 +9,7 @@ published: true
 # Company Section
 company-title: "About"
 company-title-glitch: "GlitchSecure"
-company-text: "GlitchSecure is a bootstrapped cybersecurity startup that helps companies find and remediate software vulnerabilities through a continuous security testing platform. We keep SaaS and software companies secure through automated application security testing and hacker driven verification and remediation."
+company-text: "GlitchSecure is a small cybersecurity startup that helps companies find and remediate software vulnerabilities through a continuous security testing platform. We keep SaaS and software companies secure through automated application security testing and hacker driven verification and remediation."
 
 # Timeline
 timeline-year-1: "2017"
@@ -23,7 +23,7 @@ timeline-text-2: "Building on the past years of learnings in cybersecurity and s
 timeline-year-3: "2022"
 timeline-month-3: "Fall"
 timeline-title-3: "Backed By TinySeed"
-timeline-text-3: "Staying true to our origins, we joined hundreds of other ambitious bootstrapped founders as part of the TinySeed accelerator."
+timeline-text-3: "Staying true to our origins, we joined hundreds of other ambitious SaaS founders as part of the TinySeed accelerator."
 #timeline-year-4: "current year"
 timeline-title-4: "We keep hacking"
 timeline-text-4: "Top software companies have come to rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
