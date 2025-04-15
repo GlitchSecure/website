@@ -44,4 +44,4 @@ The funding will be used to fuel GlitchSecure's product development, expand its 
 
 GlitchSecure is a Winnipeg-based cybersecurity company founded in 2022 by Jade Null, now bolstered by a team of ethical hacking experts. The company's mission is to provide organisations with the tools and expertise they need to achieve continuous security and stay ahead of cyber threats. GlitchSecure's innovative platform combines real-time security testing with expert guidance and remediation assistance, empowering businesses to build a culture of security.
 
-Interested in learning how GlitchSecure can help you identify and remediate vulnerabilities? Book a call with the founders by visiting [glitchsecure.com/intro.](/updates/joinihttps://glitchsecure.com/intro/ng-tinyseed)
+Interested in learning how GlitchSecure can help you identify and remediate vulnerabilities? Book a call with the founders by visiting [glitchsecure.com/intro.](https://glitchsecure.com/intro)
