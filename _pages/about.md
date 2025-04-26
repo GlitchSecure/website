@@ -55,7 +55,7 @@ timeline-text-2: "Building on the past years of learnings in cybersecurity and s
 timeline-year-3: "2024"
 timeline-month-3: "2022 to"
 timeline-title-3: "Backed By Investors"
-timeline-text-3: "Staying true to our origins, we joined hundreds of other ambitious bootstrapped founders as part of the TinySeed accelerator, while also securing $2 million in funding from BDC Seed Venture Fund with participation from TinySeed."
+timeline-text-3: "Staying true to our origins, we joined hundreds of other ambitious SaaS founders as part of the TinySeed accelerator, while securing $2 million in funding from BDC Seed Venture Fund with participation from TinySeed."
 #timeline-year-4: "current year"
 timeline-title-4: "We keep hacking"
 timeline-text-4: "Top software companies have come to rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
