@@ -7,7 +7,7 @@ date: 2025-04-14
 author: GlitchSecure
 collaborators:
  - name: GlitchSecure
-category: updates
+category: Updates
 
 image:
   hero: blog/15/hero.jpg
