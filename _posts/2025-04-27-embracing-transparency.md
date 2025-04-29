@@ -44,7 +44,7 @@ We, at GlitchSecure, hold weekly get-togethers where the entire team is invited 
 
 Our commitment to transparency also reflects in our communication practices, particularly in our interactions with customers. We default to recording meetings with clients, allowing us to reference discussions in the future and share insights with team members who may not have been present. Each client is given direct access to our team for questions and support for the entire term of their contract. This allows us to quickly relay information about assessment updates and potential vulnerabilities.
 
-It’s not a secret that managing a fully remote team can be challenging, especially when asynchronous chats may not be read until hours later.But we try to turn this to our advantage and use this approach of continuous and public conversation to keep everyone informed regarding all aspects of the company. This system reduces friction while all employees are welcome to take part in each conversation.
+It’s not a secret that managing a fully remote team can be challenging, especially when asynchronous chats may not be read until hours later. But we try to turn this to our advantage and use this approach of continuous and public conversation to keep everyone informed regarding all aspects of the company. This system reduces friction while all employees are welcome to take part in each conversation.
 
 We maintain a company handbook that outlines our policies, processes, and approaches. It’s a living document, continuously updated and refined, with every employee encouraged to contribute—whether by making corrections, adding missing details, or suggesting improvements.
 
