@@ -3,11 +3,11 @@ layout: post
 
 title: "GlitchSecure Raises $2M"
 subtitle: "GlitchSecure Raises $2M for Application Security Testing Revolution"
-date: 2032-04-14
-author: Ashley Wallis
+date: 2025-04-14
+author: GlitchSecure
 collaborators:
- - name: BDC Team
-category: updates
+ - name: GlitchSecure
+category: Updates
 
 image:
   hero: blog/15/hero.jpg
@@ -19,7 +19,7 @@ hero-wrapper-padding: "pb-24"
 comments: true
 # Whether or not comments are enabled. This hasn't been implemented yet, but generally we can leave them enabled for anything that's not an update.
 ---
-_This post was orginally published on EIN Presswire_
+_This post was orginally published on [EIN Presswire](https://www.einpresswire.com/article/803094820/glitchsecure-raises-2m-for-application-security-testing-revolution)_
 
 **Winnipeg, Manitoba – April 14, 2025  –  GlitchSecure, a Winnipeg-based security testing company, announces the closing of a $2 million CAD Seed funding round. The round was led by BDC’s Seed Venture Fund, with participation from the TinySeed syndicate. This is the first investment in Manitoba for the BDC Seed Venture Fund and marks an important milestone in GlitchSecure’s journey to reshape how organisations approach cybersecurity by replacing outdated, reactive measures with continuous, proactive testing solutions.**
 
@@ -44,7 +44,4 @@ The funding will be used to fuel GlitchSecure's product development, expand its 
 
 GlitchSecure is a Winnipeg-based cybersecurity company founded in 2022 by Jade Null, now bolstered by a team of ethical hacking experts. The company's mission is to provide organisations with the tools and expertise they need to achieve continuous security and stay ahead of cyber threats. GlitchSecure's innovative platform combines real-time security testing with expert guidance and remediation assistance, empowering businesses to build a culture of security.
 
-Interested in learning how GlitchSecure can help you identify and remediate vulnerabilities? Book a call with the founders by visiting [glitchsecure.com/intro.](/updates/joinihttps://glitchsecure.com/intro/ng-tinyseed)
-
-----
-****
+Interested in learning how GlitchSecure can help you identify and remediate vulnerabilities? Book a call with the founders by visiting [glitchsecure.com/intro.](https://glitchsecure.com/intro)
