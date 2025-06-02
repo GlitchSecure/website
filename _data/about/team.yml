@@ -41,7 +41,7 @@
 - name: George
   pronouns:
   picture: /assets/img/about/team/george.jpg
-  title: Account Executive
+  title: Account Manager
 
 - name: "<a href=\"/careers/\" class=\"hover:underline\">We're hiring!</a>"
   country: Remote
