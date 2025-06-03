@@ -117,4 +117,4 @@ While we believe tools like Burp Enterprise are a critical piece of the puzzle w
 
 We make it easy for you to implement regular security testing by _doing it all for you_. By combining the best DAST tools on the market (and not just Burp), our team of security experts, and a single pane of glass dashboard, we're able to deliver you better results and identify vulnerabilities others miss. We ensure each tool is configured and tailored for your unique environment, act as the human element to filter out false positives, explore additional attack vectors, and help you prioritise what's important.
 
-We hope this article will be a helpful resource as you look to implement security testing within your organisation. If you're interested in learning more about what we do, would like some help determining the best solution, or just want to chat, [our calendar is always open](/demo/).
+We hope this article will be a helpful resource as you look to implement security testing within your organisation. If you're interested in learning more about what we do, would like some help determining the best solution, or just want to chat, [our calendar is always open](/intro/).
