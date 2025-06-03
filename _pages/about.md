@@ -22,7 +22,7 @@ testimonial-date-1: "2023-12-19"
 
 # What-we-do
 wwd-title: "We <span class=\"text-glitchsecure-purple\">find the vulnerabilities</span> that other firms miss."
-wwd-text-1: "Hate to break it to you… but just because you pay top dollar for a security project doesn’t mean you’re getting top-quality work."
+wwd-text-1: "Hate to break it to you but… just because you pay top dollar for a security project doesn’t mean you’re getting top-quality work."
 wwd-text-2: "Many customers come to us looking for a true partner after spending $100K or more on security projects. Often, we find embarrassingly enormous holes in their appsec. (The kind of stuff that leaves us speechless.)"
 wwd-text-3: "Want to keep your web apps and data safe? We’ll meet you at the backdoor."
 wwd-knocking: "[Knock Knock]"
