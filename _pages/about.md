@@ -61,7 +61,7 @@ timeline-title-4: "We keep hacking"
 timeline-text-4: "Top software companies have come to rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 
 # Team Section
-team-title: "Our <span class=\"text-glitchsecure-purple\"> benevolent </span>"
+team-title: "Driven by a"
 team-title-glitch: "hacker collective"
 team-subtitle: "AKA THE DORK WEB"
 team-text: "The GlitchSecure team is constantly developing new technology and processes from a hacker's perspective. Let us do our worst — so your SaaS can be its best."
