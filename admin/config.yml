@@ -29,7 +29,7 @@ collections:
           - { label: 'Feature', name: 'feature', widget: 'image', choose_url: 'true' }
           - { label: 'Credit Name', name: 'credit', widget: 'string' }
           - { label: 'Credit Link', name: 'creditlink', widget: 'string' }
-      - { label: 'Hero Is Vertical', name: 'hero-vertical', widget: 'boolean' default: true}
+      - { label: 'Hero Is Vertical', name: 'hero-vertical', widget: 'boolean', default: true}
       - { label: 'Hero Wrapper Padding Class', name: 'hero-wrapper-padding', widget: 'string', default: 'pb-24' }
       - { label: 'Enable Comments', name: 'comments', widget: 'boolean', default: true }
       - { label: 'Body', name: 'body', widget: 'markdown' }
