@@ -38,11 +38,6 @@
   picture: /assets/img/about/team/ashley.jpg
   title: Marketing Manager
 
-- name: George
-  pronouns:
-  picture: /assets/img/about/team/george.jpg
-  title: Account Manager
-
 - name: "<a href=\"/careers/\" class=\"hover:underline\">We're hiring!</a>"
   country: Remote
   picture: /assets/img/about/team/glitchsecure.jpg
