@@ -1,7 +1,7 @@
 ---
 layout: about
 title: "About"
-hero-title: "We'd love to break your stuff (respectfully)."
+hero-title: "We'd love to break your stuff."
 subtitle: "GlitchSecure is a cybersecurity startup made of security researchers, (ethical) hackers, and developers. We help SaaS and software companies cover their apps."
 permalink: /about/
 published: true
