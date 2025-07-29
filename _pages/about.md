@@ -10,7 +10,7 @@ published: true
 company-title: "The <span class=\"text-glitchsecure-purple\"> hallmark </span> of a real hacker."
 # company-title-glitch: "GlitchSecure"
 company-text-1: "What are hackers known for? Hollywood wants you to think of trench coats and tiny sunglasses, but the reality is we're just a bunch of nerds that love cybersecurity. While pop culture gets the aesthetics wrong, it does get one thing right: <b>hackers are creative thinkers.</b> We’re tinkerers and explorers, always looking for unconventional ways to find vulnerabilities."
-company-text-2: "<b>As your cybersecurity partner, we use our creativity for good</b> — combining Acunetix, Burp Enterprise, and other DAST tools with human expertise to identify threats year-round. With more than 1,500 attacks prevented/threats identified for 200+ SaaS businesses, we've got your <s>hack</s> back."
+company-text-2: "<b>As your cybersecurity partner, we use our creativity for good</b> — combining the best Commerical and in-house DAST tools with human expertise to identify threats year-round. With experience identifying thousands of vulnerabilities identified across hundreds of software businesses, we've got your <s>hack</s> back."
 
 # Testimonial 1
 testimonial-company-1: Ghost
