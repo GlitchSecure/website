@@ -64,8 +64,7 @@ timeline-text-4: "Top software companies have come to rely on GlitchSecure's off
 team-title: "Driven by a"
 team-title-glitch: "hacker collective"
 team-subtitle: "AKA THE DORK WEB"
-team-text: "The GlitchSecure team is constantly developing new technology and processes from a hacker's perspective. Let us do our worst — so your SaaS can be its best."
-team-text2: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights. <br><p class=\"text-sm\">Interested in joining the team? <a href=\"/careers/\" class=\"hover:underline\">Check out our open roles -></a></p>"
+team-text: "GlitchSecure is driven by a passionate team that is constantly developing new technology and processes from a hacker's perspective. Let us do our worst — so your SaaS can be its best."
 
 
 # Client Logo Section
