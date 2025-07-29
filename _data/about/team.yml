@@ -1,3 +1,13 @@
+- name: Ashley
+  pronouns:
+  picture: /assets/img/about/team/ashley.jpg
+  title: Marketing
+
+- name: Tasha
+  pronouns:
+  picture: /assets/img/about/team/tasha.jpg
+  title: Operations
+
 - name: Dallas
   pronouns:
   picture: /assets/img/about/team/dallas.jpg
@@ -27,16 +37,6 @@
   pronouns:
   picture: /assets/img/about/team/default.jpg
   title: Hacker
-
-- name: Tasha
-  pronouns:
-  picture: /assets/img/about/team/tasha.jpg
-  title: Operations Manager
-
-- name: Ashley
-  pronouns:
-  picture: /assets/img/about/team/ashley.jpg
-  title: Marketing Manager
 
 - name: "<a href=\"/careers/\" class=\"hover:underline\">We're hiring!</a>"
   country: Remote
