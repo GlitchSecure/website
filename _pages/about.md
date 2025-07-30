@@ -1,7 +1,7 @@
 ---
 layout: about
 title: "About"
-hero-title: "We'd love to break your stuff."
+hero-title: "We'd Love To Break Your Stuff."
 subtitle: "GlitchSecure is a cybersecurity startup made of security researchers, (ethical) hackers, and developers. We help SaaS and software companies cover their apps."
 permalink: /about/
 published: true
@@ -43,7 +43,7 @@ jade-pronouns: "They/Them"
 jade-bio: "Jade is a highly skilled and passionate hacker with a deep technical background. After becoming known for their security research and writings as GlitchWitch, they founded GlitchSecure to help improve web security through cutting-edge automation. They’re proud to run a company that puts its people first. <br>"
 
 # Timeline
-timeline-title: "<span class=\"text-glitchsecure-purple\">Glitch-slapping</span> security vulnerabilities since 2017"
+timeline-title: ""
 timeline-year-1: "2017"
 timeline-month-1: "Fall"
 timeline-title-1: "GlitchWitch Security"
