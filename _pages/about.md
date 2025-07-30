@@ -6,6 +6,11 @@ subtitle: "GlitchSecure is a cybersecurity startup made of security researchers,
 permalink: /about/
 published: true
 
+# Intro Section
+intro-title: "About"
+intro-title-glitch: "GlitchSecure"
+intro-text: "GlitchSecure is a small cybersecurity startup that helps companies find and remediate software vulnerabilities through a continuous security testing platform. We keep SaaS and software companies secure through automated application security testing and hacker driven verification and remediation."
+
 # Company Section
 company-title: "The <span class=\"text-glitchsecure-purple\"> hallmark </span> of a real hacker."
 # company-title-glitch: "GlitchSecure"
@@ -16,8 +21,8 @@ company-text-2: "<b>As your cybersecurity partner, we use our creativity for goo
 testimonial-company-1: Ghost
 testimonial-name-1: Marko Vasiljevic
 testimonial-title-1: VP of Engineering
-testimonial-image-1: marko.jpg
-testimonial-content-1: "They are fast and communicate well. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">The experience was very seamless.</span> In comparison to some of the bigger companies, they feel a lot more like a boutique service."
+testimonial-picture-1: /assets/img/about/testimonials/marko.jpg
+testimonial-quote-1: "They are fast and communicate well. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">The experience was very seamless.</span> In comparison to some of the bigger companies, they feel a lot more like a boutique service."
 testimonial-date-1: "2023-12-19"
 
 # What-we-do
@@ -31,8 +36,8 @@ wwd-knocking: "[Knock Knock]"
 testimonial-company-2: Reftab
 testimonial-name-2: Michael Caslowitz
 testimonial-title-2: Co-Founder
-testimonial-image-2: michael.jpg
-testimonial-content-2: "The GlitchSecure team was very <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">thorough and deeply knowledgable about security</span>. They were wonderful to work with and really went above and beyond for us."
+testimonial-picture-2: /assets/img/about/testimonials/michael.jpg
+testimonial-quote-2: "The GlitchSecure team was very <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">thorough and deeply knowledgable about security</span>. They were wonderful to work with and really went above and beyond for us."
 testimonial-date-2: "2023-12-05"
 
 # Founder Section
