@@ -39,19 +39,19 @@
   content: "I hired GlitchSecure to do an annual pentest, and they did a <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">fantastic job</span>.  They are very easy to work with and they really know their stuff!"
   date: "2023-12-19"
 
-- company: Ghost
-  name: Marko Vasiljevic
-  title: VP of Engineering
-  image: marko.jpg
-  content: "They are fast and communicate well. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">The experience was very seamless.</span> In comparison to some of the bigger companies, they feel a lot more like a boutique service."
-  date: "2023-12-19"
+#- company: Ghost
+#  name: Marko Vasiljevic
+#  title: VP of Engineering
+#  image: marko.jpg
+#  content: "They are fast and communicate well. <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">The experience was very seamless.</span> In comparison to some of the bigger companies, they feel a lot more like a boutique service."
+#  date: "2023-12-19"
 
-- company: "Reftab"
-  name: "Michael Caslowitz"
-  title: "Co-Founder"
-  image: "michael.jpg"
-  content: "The GlitchSecure team was very <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">thorough and deeply knowledgable about security</span>. They were wonderful to work with and really went above and beyond for us."
-  date: "2023-12-05"
+#- company: "Reftab"
+#  name: "Michael Caslowitz"
+#  title: "Co-Founder"
+#  image: "michael.jpg"
+#  content: "The GlitchSecure team was very <span class=\"text-glitchsecure-purple dark:text-neutral-100 font-semibold\">thorough and deeply knowledgable about security</span>. They were wonderful to work with and really went above and beyond for us."
+#  date: "2023-12-05"
 
 - company: "Proctorio"
   name: "Milan Dordevic"

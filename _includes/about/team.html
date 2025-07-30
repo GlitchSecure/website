@@ -1,9 +1,10 @@
 <div class="bg-white dark:bg-glitchsecure-purple-medium pt-16">
   <div class="mx-auto px-4 max-w-7xl sm:px-6 lg:px-8">
-    <div class="space-y-12">
+    <div class="space-y-4">
       <h2 class="text-neutral-900 dark:text-neutral-200 text-3xl font-extrabold tracking-tight sm:text-4xl">
         {{ page.team-title }} <glitch class="z-10 layers" data-text="{{ page.team-title-glitch }}"><span>{{ page.team-title-glitch }}</span></glitch>
       </h2>
+      <div class="italic">{{ page.team-subtitle }}</div>
       <p class="text-neutral-900 dark:text-neutral-200 text-lg tracking-tight sm:text-xl">{{ page.team-text }}</p>
       <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
         {% for item in site.data.about.team %}
@@ -17,7 +18,6 @@
         </li>
         {% endfor %}
       </ul>
-      <p class="text-neutral-900 dark:text-neutral-200 text-lg tracking-tight sm:text-xl">{{ page.team-text2 }}</p>
-    </div>
+      <!-- <p class="text-neutral-900 dark:text-neutral-200 text-lg tracking-tight sm:text-xl">{{ page.team-text2 }}</p> -->
   </div>
 </div>
