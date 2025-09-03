@@ -1,22 +1,26 @@
 items:
 
-  - title: "Senior Penetration Tester"
-    #description: ""
+  - title: "Vulnerability Analyst (Part-time)"
     location: "Remote, Canada"
-    #rate: "Level 4-6"
-    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5"
+    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5#h-open-roles"
 
-  - title: "Developer - Security Integrations"
+#  - title: "Senior Penetration Tester"
     #description: ""
-    location: "Remote, Canada"
+#    location: "Remote, Canada"
     #rate: "Level 4-6"
-    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5"
+#    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5"
 
-  - title: "Developer - Security Automations"
+#  - title: "Developer - Security Integrations"
     #description: ""
-    location: "Remote, Canada"
+#    location: "Remote, Canada"
     #rate: "Level 4-6"
-    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5"
+#    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5"
+
+#  - title: "Developer - Security Automations"
+    #description: ""
+#    location: "Remote, Canada"
+    #rate: "Level 4-6"
+#    link: "https://handbook.glitchsecure.com/s/open-roles/doc/hiring-open-roles-public-EeJrwtqmX5"
 
 #  - title: "Vulnerability Analyst (Contract)"
     #description: ""
