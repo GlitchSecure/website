@@ -1,7 +1,27 @@
-- name: Dallas
+- name: Ana
   pronouns:
-  picture: /assets/img/about/team/dallas.jpg
+  picture: /assets/img/about/team/default.jpg
   title: Hacker
+
+- name: Fernando
+  pronouns:
+  picture: /assets/img/about/team/fernando.jpg
+  title: Developer
+
+- name: Stephanie
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
+  title: Finance
+
+- name: Ashley
+  pronouns:
+  picture: /assets/img/about/team/ashley.jpg
+  title: Marketing
+
+- name: Tasha
+  pronouns:
+  picture: /assets/img/about/team/tasha.jpg
+  title: Operations
 
 - name: Noah
   pronouns:
@@ -27,6 +47,11 @@
   pronouns:
   picture: /assets/img/about/team/default.jpg
   title: Hacker
+
+- name: Jade
+  pronouns:
+  picture: /assets/img/about/team/jade.jpg
+  title: CTO
 
 - name: "<a href=\"/careers/\" class=\"hover:underline\">We're hiring!</a>"
   country: Remote
