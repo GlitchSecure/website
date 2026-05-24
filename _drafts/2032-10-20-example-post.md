@@ -21,10 +21,10 @@ category: updates
 image:
 # Images are stored in the assets/img/ folder.
 # Create a new subfolder within assets/img/blog/ for each post new.
-  hero: blog/10/hero.jpg
+  hero: blog/1/header.jpg
   # Upload a 1920x1008 image, replace 10 with the post slug or number
   # This is used for the background on the post
-  feature: blog/10/feature.jpg
+  feature: blog/1/feature.jpg
   # Upload a 1200x630px image, replace 10 with the post slug or number
   # This is used for the preview of the post
   credit: cottonbro studio
