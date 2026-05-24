@@ -15,6 +15,7 @@ In addition to internal and self-hosted opensource software and tools, we use a 
 | :--- | :--- | :--- |
 | Agrello | Electronic Document Signatures | [https://www.agrello.io/legal/privacy-policy](https://www.agrello.io/legal/privacy-policy) |
 | Amazon SES | Email | [https://aws.amazon.com/privacy/](https://aws.amazon.com/privacy/) |
+| Backstory | Analystics | [https://app.trybackstory.com/privacy](https://app.trybackstory.com/privacy) |
 | Chargebee | Subscription Management | [https://www.chargebee.com/privacy/](https://www.chargebee.com/privacy/)
 | CloudFlare | CDN, Firewall | [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/) |
 | DigitalOcean | Server Provider | [https://www.digitalocean.com/legal/privacy-policy](https://www.digitalocean.com/legal/privacy-policy) |

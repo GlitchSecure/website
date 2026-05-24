@@ -100,6 +100,22 @@ x-data="
                       </select>
                     </div>
                   </div>
+                  <div class="col-span-6">
+                    <div class="relative rounded-md shadow-sm font-base">
+                      <input
+                      type="text" name="hearaboutus" id="hearaboutus"
+                      placeholder="How did you hear about us?" x-data="{ hearaboutus: localStorage.getItem('contact-hearaboutus') }" x-init="$watch('hearaboutus', (val) => localStorage.setItem('contact-hearaboutus', val))" x-model="hearaboutus"
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400">
+                    </div>
+                  </div>
+                  <div class="col-span-6">
+                    <div class="relative rounded-md shadow-sm font-base">
+                      <textarea
+                      name="comments" id="comments" rows="3"
+                      placeholder="Comments" x-data="{ comments: localStorage.getItem('contact-comments') }" x-init="$watch('comments', (val) => localStorage.setItem('contact-comments', val))" x-model="comments"
+                      class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"></textarea>
+                    </div>
+                  </div>
                   <button id="seeCalendarButton" type="submit" class="inline-block w-full col-span-6 rounded-md px-4 py-2.5 text-center text-sm font-semibold leading-5 shadow-md bg-glitchsecure-purple text-white hover:bg-glitchsecure-purple-light">
                     {{ page.form-button }}
                   </button>

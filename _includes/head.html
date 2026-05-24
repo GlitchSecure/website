@@ -26,6 +26,23 @@
   <script src="{{ "/assets/js/bundle.js" | relative_url | append: cacheBust }}" defer></script>
   <script defer data-domain="glitchsecure.com" src="https://metrics.glitchsecure.com/js/script.js"></script>
   <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <!-- Apollo analytics -->
+  <script>
+    function initApollo() {
+        var n = Math.random().toString(36).substring(7),
+            o = document.createElement("script");
+        o.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + n, o.async = !0, o.defer = !0,
+            o.onload = function() {
+                window.trackingFunctions.onLoad({
+                    appId: "688b91f5c7091b0011d359ca"
+                })
+            },
+            document.head.appendChild(o)
+    }
+    
+    initApollo();
+  </script>
+  <!-- End Apollo analytics -->
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7f6e14211079465e8b005bc853c9901e"}'></script>
   <!-- End Cloudflare Web Analytics -->

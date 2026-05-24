@@ -19,7 +19,7 @@
               selector: '#booking-page',
               email: localStorage.getItem('contact-email'),
               displayName: localStorage.getItem('contact-firstname') + ' ' + localStorage.getItem('contact-lastname'),
-              questions: {0: localStorage.getItem('contact-companyname'), 1: localStorage.getItem('contact-inquiry')},
+              questions: {0: localStorage.getItem('contact-companyname'), 1: localStorage.getItem('contact-inquiry'), 2: localStorage.getItem('contact-hearaboutus'), 3: localStorage.getItem('contact-comments')},
               theme: localStorage.getItem('theme')
             });
 
@@ -40,6 +40,8 @@
                      email: localStorage.getItem('contact-email'), // Prefill Email
                      company: localStorage.getItem('contact-companyname'), // Prefill Company name
                      inquiry: localStorage.getItem('contact-inquiry'), // Prefill Inquiry
+                     hearaboutus: localStorage.getItem('contact-hearaboutus'), // How did you hear about us
+                     comments: localStorage.getItem('contact-comments'), // Comments
                     };
 
                     xhr.send(JSON.stringify(data));
