@@ -8,3 +8,5 @@ Disallow: /assets/img/clients/
 Disallow: /assets/img/about/team/
 Disallow: /assets/img/about/testimonials/
 Disallow: /calendar-thankyou/
+
+Sitemap: https://glitchsecure.com/sitemap.xml
