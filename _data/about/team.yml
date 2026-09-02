@@ -1,12 +1,17 @@
+- name: Ahmed
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
+  title: Developer
+
+- name: Aman
+  pronouns:
+  picture: /assets/img/about/team/default.jpg
+  title: Sales
+
 - name: Ana
   pronouns:
   picture: /assets/img/about/team/default.jpg
   title: Hacker
-
-- name: Fernando
-  pronouns:
-  picture: /assets/img/about/team/fernando.jpg
-  title: Developer
 
 - name: Stephanie
   pronouns:
@@ -23,30 +28,15 @@
   picture: /assets/img/about/team/noah.jpg
   title: Developer
 
-- name: Matt
-  pronouns:
-  picture: /assets/img/about/team/default.jpg
-  title: Hacker
-
-- name: Gavin
-  pronouns:
-  picture: /assets/img/about/team/gavin.jpg
-  title: Hacker
-
 - name: Brad
   pronouns:
   picture: /assets/img/about/team/brad.jpg
   title: Technical QA
 
-- name: Travis
-  pronouns:
-  picture: /assets/img/about/team/default.jpg
-  title: Hacker
-
 - name: Jade
   pronouns:
   picture: /assets/img/about/team/jade.jpg
-  title: CTO
+  title: Hacker
 
 - name: "<a href=\"/careers/\" class=\"hover:underline\">We're hiring!</a>"
   country: Remote
