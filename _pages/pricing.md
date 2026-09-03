@@ -1,12 +1,17 @@
 ---
 layout: pricing
 title: Pricing
+seo_title: "Pentest & Managed DAST Pricing"
+description: "Compare transparent starting prices for managed DAST and expert penetration testing, with scoping based on your SaaS application, API, or network."
 hero-title: "Uncomplicated Security Pricing"
 subtitle: "Our simple pricing enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
 permalink: /pricing/
 published: true
+schema_type: Service
+service_type: "Managed DAST and penetration testing"
+faq_schema: true
 
 va-plan-title: 'Security Testing'
 va-plan-shortcode: 'Continuous'

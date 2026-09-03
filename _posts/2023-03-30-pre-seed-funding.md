@@ -4,7 +4,7 @@ layout: post
 title: "GlitchSecure raises pre-seed funding"
 subtitle: "GlitchSecure raises pre-seed funding to expand our real-time security testing tool for apps, APIs"
 date: 2023-03-30 # Date in YYYY-MM-DD Format
-date-updated: 2023-09-13 # Add this if a change is made after the date above
+date_updated: 2023-09-13 # Add this if a change is made after the date above
 author: GlitchSecure Team # Use "GlitchSecure Team" if no author
 coauthor: TinySeed Team
 collaborators:

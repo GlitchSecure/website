@@ -6,15 +6,28 @@
   <img
     class="absolute block h-full w-full object-cover object-center opacity-[0.35]"
     src="/assets/img/{{ page.image.hero }}"
+    alt=""
+    aria-hidden="true"
   />
   {% else %}
   <img
     class="absolute block h-full w-full object-cover object-center dark:hidden"
     src="/assets/img/home/herobg-light.png"
+    width="3840"
+    height="2160"
+    fetchpriority="high"
+    decoding="async"
+    alt=""
+    aria-hidden="true"
   />
   <img
     class="absolute hidden h-full w-full object-cover object-center dark:block"
     src="/assets/img/home/herobg-dark.png"
+    width="3840"
+    height="2160"
+    decoding="async"
+    alt=""
+    aria-hidden="true"
   />
   {% endif %}
   {%- include nav.html -%}
@@ -43,7 +56,7 @@
           <div class="mb-7 flex-wrap md:flex">
             <a
               href="{{ page.hero-button-link }}"
-              @click="{{ page.hero-button-click }}"
+              {% if page.hero-button-method %}data-plausible-event="Get Started Button" data-plausible-method="{{ page.hero-button-method }}"{% endif %}
               class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-neutral-800 transition hover:bg-opacity-90"
             >
               {{ page.hero-button }}

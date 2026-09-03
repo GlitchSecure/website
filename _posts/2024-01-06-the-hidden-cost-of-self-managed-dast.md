@@ -2,12 +2,14 @@
 layout: post
 # The filename will be used for URL slug generation, try to keep it to 1-3 words
 title: "The hidden cost of self-managed DAST"
+seo_title: "Burp Suite DAST Pricing: The Hidden Cost of Self-Managed DAST"
 # Keep the title short, does not need to match the filename
 subtitle: "A look at calculating the true cost of a popular DAST tool."
+description: "A practical breakdown of Burp Suite DAST pricing, hosting, maintenance, and engineering costs using an April 2023 example."
 # Subtitles should be 90-120 characters
 date: 2024-01-06
 # Date in YYYY-MM-DD Format, should match date used in the filename
-date-updated:
+date_updated: 2026-09-03
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
 author: Jade Null
 collaborators:
@@ -38,7 +40,7 @@ comments: true
 # Whether or not comments are enabled. This hasn't been implemented yet, but generally we can leave them enabled for anything that's not an update.
 ---
 
-In April of 2023 PortSwigger —the company that makes the popular security testing tool Burp— [announced a new pricing model](https://portswigger.net/blog/new-burp-suite-enterprise-edition-pay-as-you-scan-pricing) for their Enterprise scanning offering. This model, called "Pay as you scan," lowers the financial barrier of entry by reducing the upfront cost of the software and, instead, charges based on a usage-based billing model that depends on the number of hours scanned. While the $1,999 price tag may seem appealing, there are a number of other factors to consider that contribute to the final price tag.
+In April 2023, PortSwigger — the company behind Burp — [announced a pay-as-you-scan pricing model](https://portswigger.net/blog/new-burp-suite-enterprise-edition-pay-as-you-scan-pricing) for Burp Suite Enterprise Edition. That product is now called [Burp Suite DAST](https://portswigger.net/burp/releases/dast-2025-5-formerly-enterprise-edition). The dollar figures below are a dated example from April 2023, not current pricing; confirm current terms with [PortSwigger](https://portswigger.net/burp/dast/pricing.html) before budgeting.
 
 In this article we'll explore how you can calculate the actual cost of setting up and using a product like this, both from the software pricing perspective, but also from the human and infrastructure resource perspective.
 
@@ -117,4 +119,4 @@ While we believe tools like Burp Enterprise are a critical piece of the puzzle w
 
 We make it easy for you to implement regular security testing by _doing it all for you_. By combining the best DAST tools on the market (and not just Burp), our team of security experts, and a single pane of glass dashboard, we're able to deliver you better results and identify vulnerabilities others miss. We ensure each tool is configured and tailored for your unique environment, act as the human element to filter out false positives, explore additional attack vectors, and help you prioritise what's important.
 
-We hope this article will be a helpful resource as you look to implement security testing within your organisation. If you're interested in learning more about what we do, would like some help determining the best solution, or just want to chat, [our calendar is always open](/demo/).
+We hope this article will be a helpful resource as you look to implement security testing within your organisation. If you're interested in learning more about what we do, would like some help determining the best solution, or just want to chat, [our calendar is always open](/intro/).

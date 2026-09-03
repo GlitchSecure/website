@@ -4,7 +4,7 @@ layout: post
 title: "Embracing Transparency: Open Book, Open Minds"
 subtitle: "How Transparency Builds Stronger Teams and Better Businesses"
 date: 2025-04-27
-date-updated: # Add this if a change is made after the date above
+date_updated: # Add this if a change is made after the date above
 author: Brad Bahls
 collaborators:
  - name: Brad Bahls

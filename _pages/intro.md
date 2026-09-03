@@ -1,7 +1,8 @@
 ---
 layout: demo
 title: "Schedule A Demo"
-hero-title: "We're excited to <span class=\"line-through\">hack</span> meet you!</span>"
+description: "Book a 25-minute consultation to discuss continuous security testing or penetration testing for your SaaS application, API, or network."
+hero-title: "We're excited to <span class=\"line-through\">hack</span> meet you!"
 permalink: /intro/
 published: true
 

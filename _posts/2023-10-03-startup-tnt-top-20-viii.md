@@ -4,7 +4,7 @@ layout: post
 title: "GlitchSecure at StartupTNT Top 20"
 subtitle: "GlitchSecure has been selected to pitch at the Startup TNT Investment Summit VIII Top 20 Pitch Night in Manitoba."
 date: 2023-10-03 # Date in YYYY-MM-DD Format
-date-updated:  # Add this if a change is made after the date above
+date_updated:  # Add this if a change is made after the date above
 author: Jade Null # Use "GlitchSecure" if no author
 collaborators:
  - name: Jade Null

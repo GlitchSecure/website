@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Real-time Continuous Security Testing"
+seo_title: "SaaS Security Testing & Pentesting"
+description: "Find and remediate SaaS, web application, and API vulnerabilities with continuous security testing and expert-verified penetration testing."
 #title: "VAPT / Vulnerability Assessments & Pentesting"
 # Hero
 hero-title: "Real-time Continuous <wbr>Security Testing"
@@ -11,13 +13,13 @@ hero-typed-text3: "With results verified by expert hackers."
 subtitle: "Identify and remediate vulnerabilities with continuous security testing and real-time penetration testing. <br><span class=\"font-semibold\">Hackers don't stop testing. Neither should you.</span>"
 hero-button: "Schedule a demo"
 hero-button-link: "/intro/"
-#hero-button-click: "$dispatch('getstarted', {method: 'Landing Page'})"
+hero-button-method: "Landing Page"
 hero-button2: "View plans"
 hero-button2-link: "/pricing/"
 
 # client list
 client-list-title: "Securing top software companies"
-client-list-text: "From Fintech to Edutech and everything in-between. <br> SaaS companies rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
+client-list-text: "From Fintech to EduTech and everything in-between. <br> SaaS companies rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 client-list-cta-title: "Companies trust us to help identify and remediate vulnerabilities "
 client-list-cta: "Read our customer reviews"
 #client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
@@ -26,7 +28,7 @@ client-list-cta-link: "/about#reviews"
 
 # About stats
 stats-title: "A proven track record"
-stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and peace of mind through offensive security testing, pentest automation, and expert insights."
 stats-title-1: "VAPTs Performed"
 stats-number-1: "300+"
 stats-title-2: "Vulnerabilities Discovered"
