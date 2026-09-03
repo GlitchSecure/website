@@ -5,7 +5,10 @@ subtitle: "Last Updated: 07 October 2022"
 permalink: /legal/msa/
 published: true
 sitemap: false
+noindex: true
+canonical_url: /legal/terms/
+redirect_to: /legal/terms/
+redirect_label: our current terms
 ---
 
-This page has moved. If you are not redirect, please [click here](/legal/terms/).
-<meta http-equiv="refresh" content="3;URL='/legal/terms/'" />    
+This page has moved. If you are not redirected, please [read our current terms](/legal/terms/).

@@ -1,0 +1,368 @@
+<script
+  defer
+  data-domain="glitchsecure.com"
+  src="https://metrics.glitchsecure.com/js/script.js"
+></script>
+
+<script>
+  window.plausible = window.plausible || function() {
+    (window.plausible.q = window.plausible.q || []).push(arguments)
+  }
+
+  (() => {
+    const storageKey = "glitchsecure-acquisition"
+    const bookingKey = "glitchsecure-booking-pending"
+    const version = 2
+    const acquisitionTtl = 90 * 24 * 60 * 60 * 1000
+    const bookingTtl = 24 * 60 * 60 * 1000
+    const utmKeys = ["source", "medium", "campaign", "content", "term"]
+
+    const isSavvyCalHost = hostname =>
+      hostname === "savvycal.com" ||
+      hostname.endsWith(".savvycal.com")
+
+    const normalizeUtm = value => {
+      if (
+        !value ||
+        /@|%40|:\/\//i.test(value) ||
+        (value.match(/\d/g)?.length >= 7)
+      ) {
+        return ""
+      }
+
+      return value
+        .toLowerCase()
+        .trim()
+        .slice(0, 100)
+        .replace(/[^a-z0-9._~-]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+    }
+
+    const campaignFrom = params => {
+      const campaign = {
+        landing_page: location.pathname.slice(0, 200)
+      }
+
+      utmKeys.forEach(key => {
+        const value = normalizeUtm(
+          params.get(`utm_${key}`)
+        )
+
+        if (value) {
+          campaign[key] = value
+        }
+      })
+
+      return campaign
+    }
+
+    const hasCampaignValue = campaign =>
+      utmKeys.some(key => campaign[key])
+
+    const externalReferrer = () => {
+      if (!document.referrer) {
+        return ""
+      }
+
+      try {
+        const hostname =
+          new URL(document.referrer)
+            .hostname
+            .toLowerCase()
+
+        if (
+          hostname === location.hostname ||
+          hostname === "glitchsecure.com" ||
+          hostname.endsWith(".glitchsecure.com") ||
+          isSavvyCalHost(hostname)
+        ) {
+          return ""
+        }
+
+        return normalizeUtm(hostname)
+      } catch {
+        return ""
+      }
+    }
+
+    const readAcquisition = () => {
+      try {
+        const stored = JSON.parse(
+          localStorage.getItem(storageKey)
+        )
+
+        const valid =
+          stored?.version === version &&
+          stored.expires_at > Date.now()
+
+        if (!valid) {
+          localStorage.removeItem(storageKey)
+        }
+
+        return valid ? stored : null
+      } catch {
+        try {
+          localStorage.removeItem(storageKey)
+        } catch {}
+
+        return null
+      }
+    }
+
+    try {
+      const acquisition =
+        readAcquisition() || { version }
+
+      const campaign =
+        campaignFrom(
+          new URLSearchParams(location.search)
+        )
+
+      const referrer =
+        externalReferrer()
+
+      let hasNewAttribution = false
+
+      if (hasCampaignValue(campaign)) {
+        acquisition.latest_campaign =
+          campaign
+
+        acquisition.latest_captured_at =
+          Date.now()
+
+        hasNewAttribution = true
+
+        if (!acquisition.first_touch) {
+          acquisition.first_touch =
+            campaign
+
+          acquisition.first_captured_at =
+            Date.now()
+        }
+      } else if (
+        !acquisition.first_touch &&
+        referrer
+      ) {
+        acquisition.first_touch = {
+          source: referrer,
+          medium: "referral",
+          landing_page:
+            location.pathname.slice(0, 200)
+        }
+
+        acquisition.first_captured_at =
+          Date.now()
+
+        hasNewAttribution = true
+      }
+
+      if (hasNewAttribution) {
+        acquisition.expires_at =
+          Date.now() + acquisitionTtl
+
+        localStorage.setItem(
+          storageKey,
+          JSON.stringify(acquisition)
+        )
+      }
+    } catch {
+      // Analytics must never break the website.
+    }
+
+    window.glitchAcquisitionProps = method => {
+      const acquisition =
+        readAcquisition()
+
+      const props = {
+        method
+      }
+
+      for (const key of [
+        "first_touch",
+        "latest_campaign"
+      ]) {
+        const touch =
+          acquisition?.[key]
+
+        if (!touch) {
+          continue
+        }
+
+        const prefix =
+          key === "first_touch"
+            ? "first_"
+            : "latest_"
+
+        Object.entries(touch)
+          .forEach(([name, value]) => {
+            props[
+              `${prefix}${name}`
+            ] = value
+          })
+      }
+
+      return props
+    }
+
+    window.glitchTrackConversion =
+      (eventName, method) => {
+        window.plausible(
+          eventName,
+          {
+            props:
+              window.glitchAcquisitionProps(
+                method
+              )
+          }
+        )
+      }
+
+    const writeBookingPending = () => {
+      try {
+        localStorage.setItem(
+          bookingKey,
+          JSON.stringify({
+            expires_at:
+              Date.now() + bookingTtl
+          })
+        )
+      } catch {}
+    }
+
+    window.glitchTrackBooking =
+      method => {
+        let pending = null
+
+        try {
+          pending = JSON.parse(
+            localStorage.getItem(
+              bookingKey
+            )
+          )
+        } catch {}
+
+        try {
+          localStorage.removeItem(
+            bookingKey
+          )
+        } catch {}
+
+        if (
+          !pending ||
+          pending.expires_at <= Date.now()
+        ) {
+          return
+        }
+
+        try {
+          const hostname =
+            new URL(document.referrer)
+              .hostname
+              .toLowerCase()
+
+          if (
+            isSavvyCalHost(hostname)
+          ) {
+            window.glitchTrackConversion(
+              "Get Started Booking",
+              method
+            )
+          }
+        } catch {}
+      }
+
+    window.glitchTrack404 = () => {
+      window.plausible(
+        "404",
+        {
+          props: {
+            path:
+              location.pathname.slice(
+                0,
+                200
+              )
+          }
+        }
+      )
+    }
+
+    document.addEventListener(
+      "click",
+      event => {
+        const target =
+          event.target.closest?.(
+            "[data-plausible-event]"
+          )
+
+        if (
+          target?.dataset
+            .plausibleEvent ===
+          "Get Started Button"
+        ) {
+          window.glitchTrackConversion(
+            "Get Started Button",
+            target.dataset
+              .plausibleMethod ||
+              "Website CTA"
+          )
+        }
+      }
+    )
+
+    document.addEventListener(
+      "submit",
+      event => {
+        const target =
+          event.target
+
+        if (
+          target.dataset
+            ?.plausibleEvent ===
+          "Get Started Submission"
+        ) {
+          window.glitchTrackConversion(
+            "Get Started Submission",
+            target.dataset
+              .plausibleMethod ||
+              "Get Started Form"
+          )
+
+          writeBookingPending()
+        }
+      }
+    )
+  })()
+
+  /*
+   * Apollo analytics
+   */
+  (() => {
+    const script =
+      document.createElement("script")
+
+    script.src =
+      "https://assets.apollo.io/micro/website-tracker/tracker.iife.js" +
+      "?nocache=" +
+      Math.random()
+        .toString(36)
+        .substring(7)
+
+    script.async = true
+    script.defer = true
+
+    script.onload = () => {
+      window.trackingFunctions?.onLoad({
+        appId:
+          "688b91f5c7091b0011d359ca"
+      })
+    }
+
+    document.head.appendChild(script)
+  })()
+</script>
+
+<script
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token":"7f6e14211079465e8b005bc853c9901e"}'
+></script>

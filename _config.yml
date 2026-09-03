@@ -2,6 +2,16 @@ title: GlitchSecure
 description: "Automatically assess your security posture with continuous vulnerability assessments and real-time pentesting."
 url: https://glitchsecure.com # where is the production site located?
 companyname: GlitchSecure
+lang: en-CA
+logo: /assets/img/logo-square-whitebg.png
+email: hello@glitchsecure.com
+phone: "+1-647-370-1337"
+address:
+  street: 120 Sherbrook St
+  locality: Winnipeg
+  region: MB
+  postal_code: R3C 2B4
+  country: CA
 
 
 # Social media links
@@ -39,12 +49,16 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-# autopages disabled in favour of custom pages for each category in /blog
 autopages:
   enabled: true
   sort_field: 'date'
   sort_reverse: true
+  tags:
+    enabled: false
+  collections:
+    enabled: false
   categories:
+    enabled: true
     layouts:
         - 'categories.html'
     permalink: '/:cat'
@@ -55,12 +69,13 @@ show_drafts: false
 
 
 jekyll-minifier:
-  exclude: "*.txt"
-  exclude: ".well-known/security.txt"
-  exclude: "publickey.asc"
-  exclude: "feed.xml"
-  exclude: "security.md"
-  exclude: "assets/js/bundle.js"
+  exclude:
+    - "*.txt"
+    - ".well-known/security.txt"
+    - "publickey.asc"
+    - "feed.xml"
+    - "security.md"
+    - "assets/js/bundle.js"
   compress_css: false
   uglifier_args:
     harmony: true
