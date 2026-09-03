@@ -1,4 +1,4 @@
-<div x-data>
+<div>
   <div
     class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
   >
@@ -11,9 +11,9 @@
           class="-mr-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
         >
           <img class="dark:hidden block w-full rounded-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none drop-shadow-2xl"
-            src="{{ page.platform-feature-image1 }}"/>
+            src="{{ page.platform-feature-image1 }}" width="1994" height="1292" loading="lazy" decoding="async" alt="{{ page.title }} platform dashboard"/>
           <img class="hidden dark:block w-full rounded-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none drop-shadow-2xl"
-            src="{{ page.platform-feature-image1-dark }}"/>
+            src="{{ page.platform-feature-image1-dark }}" width="1994" height="1292" loading="lazy" decoding="async" alt="{{ page.title }} platform dashboard in dark mode"/>
         </div>
       </div>
         <div
@@ -31,7 +31,8 @@
               </p>
               <a
                 href="{{ page.platform-feature-link1 }}"
-                @click="{{ page.platform-feature-click1 }}"
+                data-plausible-event="Get Started Button"
+                data-plausible-method="{{ page.title }} Feature 1"
                 class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
               >
                 {{ page.platform-feature-button1 }}
@@ -44,9 +45,9 @@
             class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
           >
             <img class="dark:hidden block w-full rounded-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none drop-shadow-2xl"
-              src="{{ page.platform-feature-image1 }}"/>
+              src="{{ page.platform-feature-image1 }}" width="1994" height="1292" loading="lazy" decoding="async" alt="{{ page.title }} platform dashboard"/>
             <img class="hidden dark:block w-full rounded-xl lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none drop-shadow-2xl"
-              src="{{ page.platform-feature-image1-dark }}"/>
+              src="{{ page.platform-feature-image1-dark }}" width="1994" height="1292" loading="lazy" decoding="async" alt="{{ page.title }} platform dashboard in dark mode"/>
           </div>
         </div>
       </div>
@@ -75,7 +76,11 @@
             <img
               class="hidden w-full rounded-xl lg:absolute lg:left-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
               src="{{ page.platform-feature-image2 }}"
-              alt=""
+              width="{{ page.platform-feature-image2-width }}"
+              height="{{ page.platform-feature-image2-height }}"
+              loading="lazy"
+              decoding="async"
+              alt="{{ page.platform-feature-title2 | escape }}"
             />
           </div>
         </div>
@@ -93,7 +98,9 @@
                 {{ page.platform-feature-subtitle2 }}
               </p>
               <a
-                href="{{ page.platform-feature-link2 }}" @click="{{ page.platform-feature-click2 }}"
+                href="{{ page.platform-feature-link2 }}"
+                data-plausible-event="Get Started Button"
+                data-plausible-method="{{ page.title }} Feature 2"
                 class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-100 text-neutral-800 py-3 px-6 text-base font-medium  transition hover:bg-opacity-90"
               >
                 {{ page.platform-feature-button2 }}
@@ -130,7 +137,9 @@
                 {{ page.platform-feature-subtitle3 }}
               </p>
               <a
-                href="{{ page.platform-feature-link3 }}" @click="{{ page.platform-feature-click3 }}"
+                href="{{ page.platform-feature-link3 }}"
+                data-plausible-event="Get Started Button"
+                data-plausible-method="{{ page.title }} Feature 3"
                 class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
               >
                 {{ page.platform-feature-button3 }}
@@ -145,7 +154,11 @@
             <img
               class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block lg:h-full lg:w-auto lg:max-w-none"
               src="{{ page.platform-feature-image3 }}"
-              alt=""
+              width="{{ page.platform-feature-image3-width }}"
+              height="{{ page.platform-feature-image3-height }}"
+              loading="lazy"
+              decoding="async"
+              alt="{{ page.platform-feature-title3 | escape }}"
             />
           </div>
         </div>

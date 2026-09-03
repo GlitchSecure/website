@@ -48,8 +48,8 @@ x-data="
               </h2>
               <h3 class="text-sm font-light text-center text-neutral-700 dark:text-neutral-200 pt-4 pb-8">
                 {{ page.form-subtitle }}
-              <h3>
-              <form action="javascript:void(0)" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true;getstarted(); plausible('Get Started Submission', {props: {method: 'Get Started Form'}}); window.lintrk('track', { conversion_id: 12207428 });" x-show="getstartedFormOpen">
+              </h3>
+              <form action="javascript:void(0)" data-plausible-event="Get Started Submission" data-plausible-method="Get Started Form" @submit="getstartedFormOpen = false; getstartedCalendarOpen = true; getstarted(); window.lintrk('track', { conversion_id: 12207428 });" x-show="getstartedFormOpen">
                 <div class="grid grid-cols-6 gap-6">
                   <div class="col-span-6 sm:col-span-3">
                     <div class="relative rounded-md shadow-sm font-base">
@@ -88,7 +88,9 @@ x-data="
                   </div>
                   <div class="col-span-6">
                     <div class="relative rounded-md shadow-sm font-base">
+                      <label for="inquiry" class="sr-only">How can we help?</label>
                       <select
+                      name="inquiry" id="inquiry"
                       x-data="{ inquiry: localStorage.getItem('contact-inquiry') }" x-init="$watch('inquiry', (val) => localStorage.setItem('contact-inquiry', val))" x-model="inquiry" required
                       class="py-3 px-4 font-base bg-neutral-100 dark:bg-neutral-800 block w-full sm:text-sm border-neutral-200 rounded-md text-black dark:text-white focus:ring-primary-400 focus:border-primary-400"
 >
@@ -127,7 +129,7 @@ x-data="
 
               {% include demo/calendar.html %}
             </div>
-            <span class="block mt-8 text-xs text-center text-neutral-400 dark:text-neutral-400">{{ page.form-disclaimer }}</span>
+            <span class="block mt-8 text-xs text-center text-neutral-600 dark:text-neutral-300">{{ page.form-disclaimer }}</span>
           </div>
         </div>
       </div>

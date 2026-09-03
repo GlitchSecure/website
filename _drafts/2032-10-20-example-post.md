@@ -7,7 +7,7 @@ subtitle: "A short description that is ideally under 120 characters in length to
 # Subtitles should be 90-120 characters
 date: 2032-07-31
 # Date in YYYY-MM-DD Format, should match date used in the filename
-date-updated:
+date_updated:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
 author: Jade Null
 # Use "GlitchSecure" if no author

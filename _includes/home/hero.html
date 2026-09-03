@@ -36,14 +36,13 @@
           <div class="mb-10 lg:mb-7 flex-wrap md:flex z-50">
             <a
               href="{{ page.hero-button-link }}"
-              @click="{{ page.hero-button-click }}"
+              {% if page.hero-button-method %}data-plausible-event="Get Started Button" data-plausible-method="{{ page.hero-button-method }}"{% endif %}
               class="mb-3 mr-1 inline-flex rounded-sm border-solid border-2 bg-neutral-100 py-3 px-6 text-base font-medium text-neutral-800 transition hover:bg-opacity-90"
             >
               {{ page.hero-button }}
             </a>
             <a
               href="{{ page.hero-button2-link }}"
-              @click="{{ page.hero-button2-click }}"
               class="mb-3 lg:ml-3 inline-flex rounded-sm border-solid border-2 border-neutral-100 py-3 px-6 text-base font-medium text-neutral-100 transition hover:bg-opacity-20 hover:bg-neutral-900"
             >
               {{ page.hero-button2 }}
@@ -54,8 +53,8 @@
       <div class="hidden w-full px-4 lg:block lg:w-1/2">
         <div class="mx-auto text-right">
           <div class="relative z-10 mt-16 inline-block animate-fadeIn lg:mt-0">
-            <img src="/assets/img/home/small-platform-light.png" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-sm dark:hidden"/>
-            <img src="/assets/img/home/small-platform-dark.png" alt="platform screenshot" class="mx-auto max-w-full self-start rounded-sm hidden dark:block"/>
+            <img src="/assets/img/home/small-platform-light.png" alt="GlitchSecure security testing dashboard" width="1000" height="648" fetchpriority="high" decoding="async" class="mx-auto max-w-full self-start rounded-sm dark:hidden"/>
+            <img src="/assets/img/home/small-platform-dark.png" alt="GlitchSecure security testing dashboard in dark mode" width="1000" height="648" decoding="async" class="mx-auto max-w-full self-start rounded-sm hidden dark:block"/>
           </div>
         </div>
       </div>
@@ -64,7 +63,6 @@
 </div>
 <script>
 var typeText = document.querySelector(".typeText")
-var textToBeTyped = "{{ page.hero-typed-text3 }}"
 var textToBeTypedArr = ["{{ page.hero-typed-text3 }}"]
 var index = 0, isAdding = true, textToBeTypedIndex = 0
 

@@ -4,11 +4,11 @@
     <div>
 
       <div class="relative lg:text-center pb-10">
-        <h1 class="font-bold text-neutral-700 dark:text-neutral-200 text-2xl sm:text-[2.8rem]">
+        <h2 class="font-bold text-neutral-700 dark:text-neutral-200 text-2xl sm:text-[2.8rem]">
           <span class="block lg:inline">
             {{ site.data.pricing.faqs.heading }}
           </span>
-        </h1>
+        </h2>
         <p class="mt-4 text-sm text-neutral-500 dark:text-neutral-400">
           {{ site.data.pricing.faqs.subheading }}
         </p>
@@ -24,7 +24,8 @@
                 type="button"
                 @click="open = !open"
                 class="flex w-full items-start justify-between text-left text-neutral-400 py-6"
-                aria-expanded="false"
+                :aria-expanded="open.toString()"
+                aria-controls="faq-{{ forloop.index }}"
               >
                 <span class="font-medium text-neutral-900 dark:text-neutral-200">
                   {{ faq.question }}
@@ -36,7 +37,7 @@
                 </span>
               </button>
             </dt>
-            <dd class="pr-12" id="faq-0" x-show="open" x-transition.size>
+            <dd class="pr-12" id="faq-{{ forloop.index }}" x-show="open" x-transition.size>
               <div class="text-base text-neutral-500 dark:text-neutral-400 pb-6">
                 {{ faq.answer }}
               </div>
