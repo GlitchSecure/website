@@ -43,7 +43,7 @@
           <div class="mb-7 flex-wrap md:flex">
             <a
               href="{{ page.hero-button-link }}"
-              @click="{{ page.hero-button-click }}"
+              {% if page.hero-button-method %}data-plausible-event="Get Started Button" data-plausible-method="{{ page.hero-button-method }}"{% endif %}
               class="mb-3 mr-1 inline-flex rounded-lg bg-neutral-100 py-3 px-6 text-base font-medium text-neutral-800 transition hover:bg-opacity-90"
             >
               {{ page.hero-button }}

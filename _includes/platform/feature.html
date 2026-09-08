@@ -1,4 +1,4 @@
-<div x-data>
+<div>
   <div
     class="relative overflow-hidden bg-white pb-32 dark:bg-glitchsecure-purple-medium"
   >
@@ -31,7 +31,8 @@
               </p>
               <a
                 href="{{ page.platform-feature-link1 }}"
-                @click="{{ page.platform-feature-click1 }}"
+                data-plausible-event="Get Started Button"
+                data-plausible-method="{{ page.title }} Feature 1"
                 class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
               >
                 {{ page.platform-feature-button1 }}
@@ -93,7 +94,9 @@
                 {{ page.platform-feature-subtitle2 }}
               </p>
               <a
-                href="{{ page.platform-feature-link2 }}" @click="{{ page.platform-feature-click2 }}"
+                href="{{ page.platform-feature-link2 }}"
+                data-plausible-event="Get Started Button"
+                data-plausible-method="{{ page.title }} Feature 2"
                 class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-100 text-neutral-800 py-3 px-6 text-base font-medium  transition hover:bg-opacity-90"
               >
                 {{ page.platform-feature-button2 }}
@@ -130,7 +133,9 @@
                 {{ page.platform-feature-subtitle3 }}
               </p>
               <a
-                href="{{ page.platform-feature-link3 }}" @click="{{ page.platform-feature-click3 }}"
+                href="{{ page.platform-feature-link3 }}"
+                data-plausible-event="Get Started Button"
+                data-plausible-method="{{ page.title }} Feature 3"
                 class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
               >
                 {{ page.platform-feature-button3 }}
