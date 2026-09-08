@@ -2,13 +2,14 @@
 layout: page
 title: "Security by Design"
 hero-title: "Security"
-subtitle:
+description: "While GlitchSecure is a young company, this isn’t our first startup. Our team understands not only how to secure data, but why it matters."
 permalink: /legal/security/
 published: true
-description: |
-  While GlitchSecure is a young company, <strong>this isn’t our first startup.</strong> Our team has been around the block and understands not only how to secure data, but why it matters. Our success relies on earning and keeping your trust. We take security seriously and have built our platform and procedures with security top of mind.
 sitemap: false
+noindex: true
+canonical_url: /security/
+redirect_to: /security/
+redirect_label: our security practices
 ---
 
-This page has moved. If you are not redirect, please [click here](/security/).
-<meta http-equiv="refresh" content="3;URL='/security/'" />    
+This page has moved. If you are not redirected, please [read our security practices](/security/).
