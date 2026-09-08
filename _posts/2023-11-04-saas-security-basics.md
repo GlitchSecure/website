@@ -7,7 +7,7 @@ subtitle: "Basic controls, tools, techniques and tips for SaaS and software comp
 # Subtitles should be 90-120 characters
 date: 2023-11-04
 # Date in YYYY-MM-DD Format, should match date used in the filename
-date-updated:
+last_modified_at:
 # Date in YYYY-MM-DD Format. Add this if a change is made after the date above
 author: Jade Null
 collaborators:

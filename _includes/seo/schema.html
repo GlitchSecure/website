@@ -66,7 +66,7 @@
       "description": {{ description | strip | jsonify }},
       "image": {{ social_image_url | jsonify }},
       "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-      "dateModified": {{ page.date_updated | default: page['date-updated'] | default: page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
       "author": {
         "@type": {% if page.author contains 'GlitchSecure' %}"Organization"{% else %}"Person"{% endif %},
         "name": {{ page.author | jsonify }}
