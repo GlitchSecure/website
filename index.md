@@ -11,7 +11,7 @@ hero-typed-text3: "With results verified by expert hackers."
 subtitle: "Identify and remediate vulnerabilities with continuous security testing and real-time penetration testing. <br><span class=\"font-semibold\">Hackers don't stop testing. Neither should you.</span>"
 hero-button: "Schedule a demo"
 hero-button-link: "/intro/"
-#hero-button-click: "$dispatch('getstarted', {method: 'Landing Page'})"
+hero-button-method: "Landing Page"
 hero-button2: "View plans"
 hero-button2-link: "/pricing/"
 
