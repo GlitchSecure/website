@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Real-time Continuous Security Testing"
+seo_title: "SaaS Security Testing & Pentesting"
+description: "Find and remediate SaaS, web application, and API vulnerabilities with continuous security testing and expert-verified penetration testing."
 #title: "VAPT / Vulnerability Assessments & Pentesting"
 # Hero
 hero-title: "Real-time Continuous <wbr>Security Testing"
@@ -17,7 +19,7 @@ hero-button2-link: "/pricing/"
 
 # client list
 client-list-title: "Securing top software companies"
-client-list-text: "From Fintech to Edutech and everything in-between. <br> SaaS companies rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
+client-list-text: "From Fintech to EduTech and everything in between. <br> SaaS companies rely on GlitchSecure's offensive security capabilities, ensuring they have hackers on their side."
 client-list-cta-title: "Companies trust us to help identify and remediate vulnerabilities "
 client-list-cta: "Read our customer reviews"
 #client-list-cta-link: "https://www.capterra.ca/software/1048404/glitchsecure#reviews"
@@ -26,7 +28,7 @@ client-list-cta-link: "/about#reviews"
 
 # About stats
 stats-title: "A proven track record"
-stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and piece of mind through offensive security testing, pentest automation, and expert insights."
+stats-subtitle: "With decades of collective experience writing and securing software, we continually deliver our clients confidence and peace of mind through offensive security testing, pentest automation, and expert insights."
 stats-title-1: "VAPTs Performed"
 stats-number-1: "300+"
 stats-title-2: "Vulnerabilities Discovered"
@@ -42,7 +44,7 @@ process-subtitle: "A unique approach to offensive appsec."
 
 # Platform Feature
 feature-title1: "Continuous security testing."
-feature-subtitle1: "Malicious hackers are constantly checking your products and infrastructure for flaws, you should too. Go beyond a point in time annual pentest with continuous security testing."
+feature-subtitle1: "Malicious hackers are constantly checking your products and infrastructure for flaws; you should, too. Go beyond a point-in-time annual pentest with continuous security testing."
 feature-button1: "Learn More"
 feature-button1-link: "/continuous-security-testing/"
 

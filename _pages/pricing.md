@@ -1,12 +1,17 @@
 ---
 layout: pricing
 title: Pricing
+seo_title: "Pentest & Managed DAST Pricing"
+description: "Compare transparent starting prices for managed DAST and expert penetration testing, with scoping based on your SaaS application, API, or network."
 hero-title: "Uncomplicated Security Pricing"
 subtitle: "Our simple pricing enables you to plan and launch security testing that is tailored to your exact scope and coverage needs throughout the year."
 hero-vertical: false
 hero-wrapper-padding: "pb-40"
 permalink: /pricing/
 published: true
+schema_type: Service
+service_type: "Managed DAST and penetration testing"
+faq_schema: true
 
 va-plan-title: 'Security Testing'
 va-plan-shortcode: 'Continuous'
@@ -21,13 +26,13 @@ pt-plan-shortcode: 'Real-time'
 pt-plan-price-prefix: 'Starting at'
 pt-plan-price: '$19,800'
 pt-plan-price-frequency: 'yr'
-pt-plan-description: 'Get an in-depth and targeted look at your security posture through a <span class="font-semibold">hacker-powered</span> full scope penetration test.'
+pt-plan-description: 'Get an in-depth and targeted look at your security posture through a <span class="font-semibold">hacker-powered</span> full-scope penetration test.'
 pt-plan-cta-button-title: 'Schedule a demo'
 
 # About stats
 stats-title: "A proven track record."
-stats-subtitle: "With decades of collective experience writing and securing software, we have proven we have what it takes and continually deliver high quality results through offensive security testing, pentest automation, and expert driven insights."
-stats-stat1-title: "VAPT's Performed"
+stats-subtitle: "With decades of collective experience writing and securing software, we have proven we have what it takes and continually deliver high-quality results through offensive security testing, pentest automation, and expert-driven insights."
+stats-stat1-title: "VAPTs Performed"
 stats-stat1-number: "300+"
 stats-stat2-title: "Vulnerabilities Discovered"
 stats-stat2-number: "1500+"
