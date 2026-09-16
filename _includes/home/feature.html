@@ -16,7 +16,11 @@
           <img
             class="hidden w-full lg:absolute lg:right-0 lg:block mt-24 lg:h-3/4 lg:w-auto lg:max-w-none"
             src="/assets/img/home/feature1.png"
-            alt=""
+            width="729"
+            height="708"
+            loading="lazy"
+            decoding="async"
+            alt="Continuous security testing workflow"
           />
         </div>
       </div>
@@ -33,6 +37,7 @@
             <p class="my-4 text-lg text-neutral-100">
               {{ page.feature-subtitle1 }}
             </p>
+            <dl>
             {% for item in site.data.home.va-features %}
             <div class="relative pl-9 mt-4">
               <dt class="inline font-bold text-neutral-200">
@@ -44,6 +49,7 @@
               <dd class="inline font-light text-neutral-100"><br>{{ item.description }}</dd>
             </div>
             {% endfor %}
+            </dl>
             <a
               href="{{ page.feature-button1-link }}"
               class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-100 text-neutral-800 py-3 px-6 text-base font-medium  transition hover:bg-opacity-90"
@@ -78,6 +84,7 @@
             <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
               {{ page.feature-subtitle2 }}
             </p>
+            <dl>
             {% for item in site.data.home.pt-features %}
             <div class="relative pl-9 mt-4">
               <dt class="inline font-bold text-neutral-700 dark:text-neutral-200">
@@ -89,6 +96,7 @@
               <dd class="inline font-light text-neutral-600 dark:text-neutral-300"><br>{{ item.description }}</dd>
             </div>
             {% endfor %}
+            </dl>
             <a
               href="{{ page.feature-button2-link }}"
               class="mt-6 mb-3 mr-1 inline-flex rounded-sm bg-neutral-800 py-3 px-6 text-base font-medium text-neutral-200 transition hover:bg-neutral-900 dark:bg-neutral-200 dark:text-neutral-700 dark:hover:bg-neutral-300"
@@ -96,7 +104,7 @@
               {{ page.feature-button2 }}
             </a>
           </div>
-        </div>
+   </div>
       </div>
       <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
         <div
@@ -105,7 +113,11 @@
           <img
             class="hidden w-full rounded-xl lg:absolute lg:right-0 lg:block mt-24 lg:h-3/4 lg:w-auto lg:max-w-none"
             src="/assets/img/home/feature2.png"
-            alt=""
+            width="705"
+            height="686"
+            loading="lazy"
+            decoding="async"
+            alt="Penetration testing findings dashboard"
           />
         </div>
       </div>

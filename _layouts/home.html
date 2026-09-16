@@ -6,13 +6,15 @@
 <body class="h-full">
 
   {% include home/hero.html %}
-  {% include divider-primary.html %}
-  {% include home/client-list.html %}
-  {% include divider-neutral.html %}
-  {% include home/process.html %}
-  {% include home/feature.html %}
-  {% include divider-secondary.html %}
-  {% include cta.html %}
+  <main id="main-content">
+    {% include divider-primary.html %}
+    {% include home/client-list.html %}
+    {% include divider-neutral.html %}
+    {% include home/process.html %}
+    {% include home/feature.html %}
+    {% include divider-secondary.html %}
+    {% include cta.html %}
+  </main>
   {% include footer.html %}
   {{ content }}
 </body>
